@@ -1,0 +1,152 @@
+{
+  "berserker-rage": {
+    "pct": 25,
+    "slot": "Extra Damage Amount",
+    "note": "+25% damage (passive)"
+  },
+  "no-escape": {
+    "pct": 30,
+    "slot": "Damage Increase",
+    "note": "+30% damage (passive)"
+  },
+  "ruthless": {
+    "pct": 40,
+    "slot": "Bonus Damage",
+    "note": "+40% damage (passive)"
+  },
+  "archery": {
+    "pct": 8,
+    "slot": "Bow Damage Increase",
+    "note": "+8% damage (passive)"
+  },
+  "ballistics": {
+    "pct": 100,
+    "slot": "Rockets damage increase",
+    "note": "+100% damage (passive)"
+  },
+  "cull-the-weak": {
+    "pct": 20,
+    "slot": "Damage increase",
+    "note": "+20% damage (passive)"
+  },
+  "grenadier": {
+    "pct": 110,
+    "slot": "Grenade Damage Increase Multiplier",
+    "note": "+110% damage (passive)"
+  },
+  "steady-aim": {
+    "pct": 20,
+    "slot": "Damage Increase Amount",
+    "note": "+20% damage (passive)"
+  },
+  "combination-strike": {
+    "pct": 100,
+    "slot": "Damage Increase Amount Per Skill",
+    "note": "+100% damage (passive)"
+  },
+  "relentless-assault": {
+    "pct": 20,
+    "slot": "Damage Increase if CCed",
+    "note": "+20% damage (passive)"
+  },
+  "serration": {
+    "pct": 1,
+    "slot": "Damage Increase Per Increment",
+    "note": "+1% damage (passive)"
+  },
+  "midnight-feast": {
+    "pct": 50,
+    "slot": "Damage Increase",
+    "note": "+50% damage (passive)"
+  },
+  "pierce-the-veil": {
+    "pct": 20,
+    "slot": "Damage Increase",
+    "note": "+20% damage (passive)"
+  },
+  "arcane-dynamo": {
+    "pct": 60,
+    "slot": "Damage Bonus",
+    "note": "+60% damage (passive)"
+  },
+  "cold-blooded": {
+    "pct": 10,
+    "slot": "Damage Bonus",
+    "note": "+10% damage (passive)"
+  },
+  "glass-cannon": {
+    "pct": 15,
+    "slot": "Damage Increase",
+    "note": "+15% damage (passive)"
+  },
+  "power-hungry": {
+    "pct": 30,
+    "slot": "Bonus Damage",
+    "note": "+30% damage (passive)"
+  },
+  "blunt": {
+    "pct": 20,
+    "slot": "Blessed Hammer & Justice Weapon Damage Modifier",
+    "note": "+20% damage (passive)"
+  },
+  "holy-cause": {
+    "pct": 10,
+    "slot": "Weapon Holy Damage Increase %",
+    "note": "+10% damage (passive)"
+  },
+  "indestructible": {
+    "pct": 35,
+    "slot": "Damage Bonus",
+    "note": "+35% damage (passive)"
+  },
+  "lord-commander": {
+    "pct": 20,
+    "slot": "Damage bonus",
+    "note": "+20% damage (passive)"
+  },
+  "towering-shield": {
+    "pct": 20,
+    "slot": "Shield Ability Damage Bonus",
+    "note": "+20% damage (passive)"
+  },
+  "ambush": {
+    "pct": 40,
+    "slot": "Bonus Damage",
+    "note": "+40% damage (passive)"
+  },
+  "momentum": {
+    "pct": 20,
+    "slot": "Bonus Damage",
+    "note": "+20% damage (passive)"
+  },
+  "mythic-rhythm": {
+    "pct": 40,
+    "slot": "Spirit Spender Damage Increase Per Stack",
+    "note": "+40% damage (passive)"
+  },
+  "unity": {
+    "pct": 5,
+    "slot": "Damage Increase For Allies",
+    "note": "+5% damage (passive)"
+  },
+  "confidence-ritual": {
+    "pct": 25,
+    "slot": "Bonus Damage",
+    "note": "+25% damage (passive)"
+  },
+  "audacity": {
+    "pct": 30,
+    "slot": "Bonus Damage",
+    "note": "+30% damage (passive)"
+  },
+  "elemental-exposure": {
+    "pct": 5,
+    "slot": "Damage Bonus per stack",
+    "note": "+5% damage (passive)"
+  },
+  "unwavering-will": {
+    "pct": 10,
+    "slot": "damage bonus per stack",
+    "note": "+10% damage (passive)"
+  }
+}

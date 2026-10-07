@@ -1,0 +1,247 @@
+{
+  "id": "wizard-lod-meteor",
+  "name": "LoD \"Bazooka\" Meteor",
+  "klass": "wizard",
+  "category": "solo-push",
+  "tier": "S",
+  "gender": "male",
+  "source": "https://maxroll.gg/d3/guides/lod-meteor-wizard-guide",
+  "season": "Rites of Sanctuary",
+  "tagline": "Meteor · LoD · Solo Push",
+  "paragonLevel": 800,
+  "paragon": {
+    "core": {
+      "movement": 50,
+      "resource": 50,
+      "mainstat": 50,
+      "vit": 50
+    },
+    "offense": {
+      "cdr": 50,
+      "chc": 50,
+      "chd": 50,
+      "ias": 50
+    },
+    "defense": {
+      "armor": 50,
+      "resall": 50,
+      "ldr": 50,
+      "life": 50
+    },
+    "utility": {
+      "rcr": 50,
+      "laek": 50,
+      "gf": 50,
+      "area": 50
+    }
+  },
+  "equipped": {
+    "head": {
+      "itemId": "P3_Unique_WizardHat_003",
+      "affixes": [
+        "chc",
+        "vit"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "topaz"
+        }
+      ]
+    },
+    "shoulders": {
+      "itemId": "Unique_Shoulder_001_x1",
+      "affixes": [
+        "cdr",
+        "area",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": []
+    },
+    "neck": {
+      "itemId": "P66_Unique_Amulet_010",
+      "affixes": [
+        "chd",
+        "elemental",
+        "chc"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "zei",
+          "legendary": true
+        }
+      ]
+    },
+    "torso": {
+      "itemId": "Unique_Chest_006_x1",
+      "affixes": [
+        "vit",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "topaz"
+        },
+        {
+          "gem": "topaz"
+        },
+        {
+          "gem": "topaz"
+        }
+      ]
+    },
+    "hands": {
+      "itemId": "P41_Unique_Gloves_014",
+      "affixes": [
+        "chc",
+        "chd",
+        "cdr"
+      ],
+      "augment": 750,
+      "gems": []
+    },
+    "wrists": {
+      "itemId": "P4_Unique_Bracer_004",
+      "affixes": [
+        "elemental",
+        "chc",
+        "vit"
+      ],
+      "augment": 750,
+      "gems": []
+    },
+    "waist": {
+      "itemId": "Unique_Belt_009_x1",
+      "affixes": [
+        "vit",
+        "life",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": []
+    },
+    "leftfinger": {
+      "itemId": "P2_Unique_Ring_04",
+      "affixes": [
+        "chc",
+        "chd",
+        "cdr"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "trapped",
+          "legendary": true
+        }
+      ]
+    },
+    "rightfinger": {
+      "itemId": "P69_Unique_Ring_019",
+      "affixes": [
+        "chc",
+        "chd",
+        "cdr"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "legacyofdreams",
+          "legendary": true
+        }
+      ]
+    },
+    "legs": {
+      "itemId": "Unique_Pants_013_x1",
+      "affixes": [
+        "vit",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "topaz"
+        },
+        {
+          "gem": "topaz"
+        }
+      ]
+    },
+    "feet": {
+      "itemId": "P61_Unique_Boots_01",
+      "affixes": [
+        "vit",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": []
+    },
+    "mainhand": {
+      "itemId": "P71_Ethereal_04",
+      "affixes": [
+        "cdr",
+        "area"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "emerald"
+        }
+      ]
+    },
+    "offhand": {
+      "itemId": "P61_Unique_Orb_004",
+      "affixes": [
+        "chc",
+        "cdr"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "diamond"
+        }
+      ]
+    }
+  },
+  "kanai": {
+    "weapon": "leg_thesmolderingcore_p74",
+    "armor": "leg_mempooftwilight",
+    "jewelry": "leg_haloofkarini_p6"
+  },
+  "skills": {
+    "active": [
+      {
+        "skill": "meteor",
+        "rune": "d"
+      },
+      {
+        "skill": "archon",
+        "rune": "c"
+      },
+      {
+        "skill": "storm-armor",
+        "rune": "e"
+      },
+      {
+        "skill": "magic-weapon",
+        "rune": "e"
+      },
+      {
+        "skill": "spectral-blade",
+        "rune": "e"
+      },
+      {
+        "skill": "black-hole",
+        "rune": "d"
+      }
+    ],
+    "passives": [
+      "evocation",
+      "galvanizing-ward",
+      "audacity",
+      "arcane-dynamo"
+    ]
+  }
+}

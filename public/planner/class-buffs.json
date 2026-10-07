@@ -1,0 +1,22 @@
+{
+  "battle-rage": {
+    "pct": 10,
+    "slot": "Total: Damage Bonus",
+    "note": "+10% damage"
+  },
+  "marked-for-death": {
+    "pct": 15,
+    "slot": "Damage Increase",
+    "note": "+15% damage taken"
+  },
+  "mantra-of-conviction": {
+    "pct": 4,
+    "slot": "A: Debuff Bonus Damage",
+    "note": "+4% damage taken"
+  },
+  "big-bad-voodoo": {
+    "pct": 15,
+    "slot": "A: Ally Damage Buff %",
+    "note": "+15% (Slam Dance)"
+  }
+}

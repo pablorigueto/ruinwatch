@@ -1,0 +1,240 @@
+{
+  "id": "barbarian-waste-ww-rend",
+  "name": "Waste Whirlwind Rend",
+  "klass": "barbarian",
+  "category": "solo-push",
+  "tier": "A",
+  "gender": "male",
+  "source": "https://maxroll.gg/d3/guides/waste-set-ww-rend-barbarian-guide",
+  "season": "Rites of Sanctuary",
+  "tagline": "Whirlwind · Rend · Solo Speeds",
+  "equipped": {
+    "head": {
+      "itemId": "Unique_Helm_Set_01_p2",
+      "affixes": [
+        "vit",
+        "chc"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "diamond"
+        }
+      ]
+    },
+    "shoulders": {
+      "itemId": "Unique_Shoulder_Set_01_p2",
+      "affixes": [
+        "resall",
+        "cdr",
+        "area"
+      ],
+      "augment": 750
+    },
+    "neck": {
+      "itemId": "P66_Unique_Amulet_010",
+      "affixes": [
+        "chc",
+        "chd",
+        "wpnphy"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "gizzard",
+          "legendary": true
+        }
+      ]
+    },
+    "torso": {
+      "itemId": "Unique_Chest_Set_01_p2",
+      "affixes": [
+        "resall",
+        "skill_torso"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "diamond"
+        },
+        {
+          "gem": "diamond"
+        },
+        {
+          "gem": "diamond"
+        }
+      ]
+    },
+    "hands": {
+      "itemId": "Unique_Gloves_Set_01_p2",
+      "affixes": [
+        "chc",
+        "chd",
+        "cdr"
+      ],
+      "augment": 750
+    },
+    "wrists": {
+      "itemId": "Unique_Bracer_106_x1",
+      "affixes": [
+        "elemental",
+        "chc",
+        "resall"
+      ],
+      "augment": 750
+    },
+    "waist": {
+      "itemId": "P67_Unique_BarbBelt_005",
+      "affixes": [
+        "resall",
+        "life"
+      ],
+      "augment": 750
+    },
+    "leftfinger": {
+      "itemId": "Unique_Ring_Set_001_x1",
+      "affixes": [
+        "chc",
+        "chd",
+        "cdr"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "trapped",
+          "legendary": true
+        }
+      ]
+    },
+    "rightfinger": {
+      "itemId": "Unique_Ring_Set_002_x1",
+      "affixes": [
+        "chc",
+        "chd",
+        "area"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "taeguk",
+          "legendary": true
+        }
+      ]
+    },
+    "legs": {
+      "itemId": "Unique_Pants_Set_01_p2",
+      "affixes": [
+        "resall",
+        "vit",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "diamond"
+        },
+        {
+          "gem": "diamond"
+        }
+      ]
+    },
+    "feet": {
+      "itemId": "Unique_Boots_Set_01_p2",
+      "affixes": [
+        "resall",
+        "ms"
+      ],
+      "augment": 750
+    },
+    "mainhand": {
+      "itemId": "P71_Ethereal_08",
+      "affixes": [
+        "cdr"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "emerald"
+        }
+      ]
+    },
+    "offhand": {
+      "itemId": "P67_Unique_Mighty_1H_012",
+      "affixes": [
+        "cdr"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "emerald"
+        }
+      ]
+    }
+  },
+  "kanai": {
+    "weapon": "leg_thefurnace",
+    "armor": "leg_mantleofchanneling",
+    "jewelry": "leg_bandofmight_p6"
+  },
+  "paragonLevel": 800,
+  "paragon": {
+    "core": {
+      "movement": 50,
+      "resource": 50,
+      "mainstat": 50,
+      "vit": 50
+    },
+    "offense": {
+      "cdr": 50,
+      "chc": 50,
+      "chd": 50,
+      "ias": 50
+    },
+    "defense": {
+      "armor": 50,
+      "resall": 50,
+      "ldr": 50,
+      "life": 50
+    },
+    "utility": {
+      "rcr": 50,
+      "laek": 50,
+      "gf": 50,
+      "area": 50
+    }
+  },
+  "skills": {
+    "active": [
+      {
+        "skill": "whirlwind",
+        "rune": "d"
+      },
+      {
+        "skill": "rend",
+        "rune": "e"
+      },
+      {
+        "skill": "furious-charge",
+        "rune": "e"
+      },
+      {
+        "skill": "wrath-of-the-berserker",
+        "rune": "a"
+      },
+      {
+        "skill": "ignore-pain",
+        "rune": "c"
+      },
+      {
+        "skill": "sprint",
+        "rune": "a"
+      }
+    ],
+    "passives": [
+      "rampage",
+      "boon-of-bulkathos",
+      "brawler",
+      "nerves-of-steel"
+    ]
+  }
+}

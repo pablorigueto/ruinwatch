@@ -1,0 +1,247 @@
+{
+  "id": "witchdoctor-arachyr-spiders",
+  "name": "Arachyr Spiders",
+  "klass": "witchdoctor",
+  "category": "solo-push",
+  "tier": "C",
+  "gender": "male",
+  "source": "https://maxroll.gg/d3/guides/arachyr-corpse-spiders-witch-doctor-guide",
+  "season": "Rites of Sanctuary",
+  "tagline": "Corpse Spiders · Arachyr",
+  "paragonLevel": 800,
+  "paragon": {
+    "core": {
+      "movement": 50,
+      "resource": 50,
+      "mainstat": 50,
+      "vit": 50
+    },
+    "offense": {
+      "cdr": 50,
+      "chc": 50,
+      "chd": 50,
+      "ias": 50
+    },
+    "defense": {
+      "armor": 50,
+      "resall": 50,
+      "ldr": 50,
+      "life": 50
+    },
+    "utility": {
+      "rcr": 50,
+      "laek": 50,
+      "gf": 50,
+      "area": 50
+    }
+  },
+  "equipped": {
+    "head": {
+      "itemId": "Unique_Helm_Set_02_p3",
+      "affixes": [
+        "chc",
+        "vit"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "diamond"
+        }
+      ]
+    },
+    "shoulders": {
+      "itemId": "Unique_Shoulder_Set_02_p3",
+      "affixes": [
+        "cdr",
+        "area",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": []
+    },
+    "neck": {
+      "itemId": "Unique_Amulet_008_x1",
+      "affixes": [
+        "chd",
+        "elemental",
+        "chc"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "enforcer",
+          "legendary": true
+        }
+      ]
+    },
+    "torso": {
+      "itemId": "Unique_Chest_Set_02_p3",
+      "affixes": [
+        "vit",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "topaz"
+        },
+        {
+          "gem": "topaz"
+        },
+        {
+          "gem": "topaz"
+        }
+      ]
+    },
+    "hands": {
+      "itemId": "Unique_Gloves_Set_02_p3",
+      "affixes": [
+        "chc",
+        "chd",
+        "cdr"
+      ],
+      "augment": 750,
+      "gems": []
+    },
+    "wrists": {
+      "itemId": "P72_Unique_Bracer_102",
+      "affixes": [
+        "elemental",
+        "chc",
+        "vit"
+      ],
+      "augment": 750,
+      "gems": []
+    },
+    "waist": {
+      "itemId": "P72_Unique_Belt_007",
+      "affixes": [
+        "vit",
+        "life",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": []
+    },
+    "leftfinger": {
+      "itemId": "Unique_Ring_013_x1",
+      "affixes": [
+        "chc",
+        "chd",
+        "cdr"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "trapped",
+          "legendary": true
+        }
+      ]
+    },
+    "rightfinger": {
+      "itemId": "P42_Unique_Ring_Haunt",
+      "affixes": [
+        "chc",
+        "chd",
+        "cdr"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "simplicity",
+          "legendary": true
+        }
+      ]
+    },
+    "legs": {
+      "itemId": "Unique_Pants_006_p1",
+      "affixes": [
+        "vit",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "topaz"
+        },
+        {
+          "gem": "topaz"
+        }
+      ]
+    },
+    "feet": {
+      "itemId": "Unique_Boots_Set_02_p3",
+      "affixes": [
+        "vit",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": []
+    },
+    "mainhand": {
+      "itemId": "P71_Ethereal_14",
+      "affixes": [
+        "cdr",
+        "area"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "emerald"
+        }
+      ]
+    },
+    "offhand": {
+      "itemId": "P72_Unique_Mojo_102",
+      "affixes": [
+        "chc",
+        "cdr"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "diamond"
+        }
+      ]
+    }
+  },
+  "kanai": {
+    "weapon": "leg_thespiderqueensgrasp_p72",
+    "armor": "leg_maskofjeram_p6",
+    "jewelry": "leg_ringofroyalgrandeur"
+  },
+  "skills": {
+    "active": [
+      {
+        "skill": "corpse-spiders",
+        "rune": "d"
+      },
+      {
+        "skill": "locust-swarm",
+        "rune": "b"
+      },
+      {
+        "skill": "piranhas",
+        "rune": "c"
+      },
+      {
+        "skill": "spirit-walk",
+        "rune": "b"
+      },
+      {
+        "skill": "soul-harvest",
+        "rune": "c"
+      },
+      {
+        "skill": "horrify",
+        "rune": "a"
+      }
+    ],
+    "passives": [
+      "grave-injustice",
+      "pierce-the-veil",
+      "confidence-ritual",
+      "spirit-vessel"
+    ]
+  }
+}

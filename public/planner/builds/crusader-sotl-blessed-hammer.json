@@ -1,0 +1,247 @@
+{
+  "id": "crusader-sotl-blessed-hammer",
+  "name": "SotL Blessed Hammer",
+  "klass": "crusader",
+  "category": "solo-push",
+  "tier": "B",
+  "gender": "male",
+  "source": "https://maxroll.gg/d3/guides/sotl-blessed-hammer-crusader-guide",
+  "season": "Rites of Sanctuary",
+  "tagline": "Blessed Hammer · Seeker of the Light",
+  "paragonLevel": 800,
+  "paragon": {
+    "core": {
+      "movement": 50,
+      "resource": 50,
+      "mainstat": 50,
+      "vit": 50
+    },
+    "offense": {
+      "cdr": 50,
+      "chc": 50,
+      "chd": 50,
+      "ias": 50
+    },
+    "defense": {
+      "armor": 50,
+      "resall": 50,
+      "ldr": 50,
+      "life": 50
+    },
+    "utility": {
+      "rcr": 50,
+      "laek": 50,
+      "gf": 50,
+      "area": 50
+    }
+  },
+  "equipped": {
+    "head": {
+      "itemId": "Unique_Helm_Set_03_p3",
+      "affixes": [
+        "chc",
+        "vit"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "diamond"
+        }
+      ]
+    },
+    "shoulders": {
+      "itemId": "Unique_Shoulder_Set_03_p3",
+      "affixes": [
+        "cdr",
+        "area",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": []
+    },
+    "neck": {
+      "itemId": "Unique_Amulet_008_x1",
+      "affixes": [
+        "chd",
+        "wpnphy",
+        "chc"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "trapped",
+          "legendary": true
+        }
+      ]
+    },
+    "torso": {
+      "itemId": "Unique_Chest_Set_03_p3",
+      "affixes": [
+        "vit",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "diamond"
+        },
+        {
+          "gem": "diamond"
+        },
+        {
+          "gem": "diamond"
+        }
+      ]
+    },
+    "hands": {
+      "itemId": "Unique_Gloves_Set_03_p3",
+      "affixes": [
+        "chc",
+        "chd",
+        "cdr"
+      ],
+      "augment": 750,
+      "gems": []
+    },
+    "wrists": {
+      "itemId": "Unique_Bracer_007_x1",
+      "affixes": [
+        "elemental",
+        "chc",
+        "vit"
+      ],
+      "augment": 750,
+      "gems": []
+    },
+    "waist": {
+      "itemId": "P66_Unique_Belt_012",
+      "affixes": [
+        "vit",
+        "life",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": []
+    },
+    "leftfinger": {
+      "itemId": "P2_Unique_Ring_04",
+      "affixes": [
+        "chc",
+        "chd",
+        "cdr"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "stricken",
+          "legendary": true
+        }
+      ]
+    },
+    "rightfinger": {
+      "itemId": "Unique_Ring_013_x1",
+      "affixes": [
+        "chc",
+        "chd",
+        "cdr"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "gogok",
+          "legendary": true
+        }
+      ]
+    },
+    "legs": {
+      "itemId": "P66_Unique_Pants_012",
+      "affixes": [
+        "vit",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "diamond"
+        },
+        {
+          "gem": "diamond"
+        }
+      ]
+    },
+    "feet": {
+      "itemId": "Unique_Boots_Set_03_p3",
+      "affixes": [
+        "vit",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": []
+    },
+    "mainhand": {
+      "itemId": "P71_Ethereal_13",
+      "affixes": [
+        "cdr",
+        "area"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "emerald"
+        }
+      ]
+    },
+    "offhand": {
+      "itemId": "Unique_Shield_103_x1",
+      "affixes": [
+        "chc",
+        "cdr"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "diamond"
+        }
+      ]
+    }
+  },
+  "kanai": {
+    "weapon": "leg_faithfulmemory_p6",
+    "armor": "leg_hammerjammers",
+    "jewelry": "leg_ringofroyalgrandeur"
+  },
+  "skills": {
+    "active": [
+      {
+        "skill": "blessed-hammer",
+        "rune": "c"
+      },
+      {
+        "skill": "falling-sword",
+        "rune": "d"
+      },
+      {
+        "skill": "provoke",
+        "rune": "c"
+      },
+      {
+        "skill": "akarats-champion",
+        "rune": "d"
+      },
+      {
+        "skill": "laws-of-valor",
+        "rune": "d"
+      },
+      {
+        "skill": "iron-skin",
+        "rune": "b"
+      }
+    ],
+    "passives": [
+      "fervor",
+      "finery",
+      "long-arm-of-the-law",
+      "holy-cause"
+    ]
+  }
+}

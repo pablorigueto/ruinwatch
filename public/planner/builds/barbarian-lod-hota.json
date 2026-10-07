@@ -1,0 +1,234 @@
+{
+  "id": "barbarian-lod-hota",
+  "name": "LoD HotA",
+  "klass": "barbarian",
+  "category": "solo-push",
+  "tier": "A",
+  "gender": "male",
+  "source": "https://maxroll.gg/d3/guides/lod-hota-barbarian-guide",
+  "season": "Rites of Sanctuary",
+  "tagline": "Hammer of the Ancients · LoD",
+  "paragonLevel": 800,
+  "paragon": {
+    "core": {
+      "movement": 50,
+      "resource": 50,
+      "mainstat": 50,
+      "vit": 50
+    },
+    "offense": {
+      "cdr": 50,
+      "chc": 50,
+      "chd": 50,
+      "ias": 50
+    },
+    "defense": {
+      "armor": 50,
+      "resall": 50,
+      "ldr": 50,
+      "life": 50
+    },
+    "utility": {
+      "rcr": 50,
+      "laek": 50,
+      "gf": 50,
+      "area": 50
+    }
+  },
+  "equipped": {
+    "head": {
+      "itemId": "Unique_Helm_002_p1",
+      "affixes": [
+        "chc",
+        "vit"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "diamond"
+        }
+      ]
+    },
+    "shoulders": {
+      "itemId": "P67_Unique_Shoulder_102",
+      "affixes": [
+        "cdr",
+        "area",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": []
+    },
+    "neck": {
+      "itemId": "P66_Unique_Amulet_010",
+      "affixes": [
+        "chd",
+        "wpnphy",
+        "chc"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "stricken",
+          "legendary": true
+        }
+      ]
+    },
+    "torso": {
+      "itemId": "Unique_Chest_006_x1",
+      "affixes": [
+        "vit",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "diamond"
+        },
+        {
+          "gem": "diamond"
+        },
+        {
+          "gem": "diamond"
+        }
+      ]
+    },
+    "hands": {
+      "itemId": "P66_Unique_Gloves_007",
+      "affixes": [
+        "chc",
+        "chd",
+        "cdr"
+      ],
+      "augment": 750,
+      "gems": []
+    },
+    "wrists": {
+      "itemId": "P61_Unique_Bracer_105",
+      "affixes": [
+        "elemental",
+        "chc",
+        "vit"
+      ],
+      "augment": 750,
+      "gems": []
+    },
+    "waist": {
+      "itemId": "Unique_Belt_009_x1",
+      "affixes": [
+        "vit",
+        "life",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": []
+    },
+    "leftfinger": {
+      "itemId": "P2_Unique_Ring_04",
+      "affixes": [
+        "chc",
+        "chd",
+        "cdr"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "trapped",
+          "legendary": true
+        }
+      ]
+    },
+    "rightfinger": {
+      "itemId": "P61_Unique_Ring_05",
+      "affixes": [
+        "chc",
+        "chd",
+        "cdr"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "legacyofdreams",
+          "legendary": true
+        }
+      ]
+    },
+    "legs": {
+      "itemId": "Unique_Pants_013_x1",
+      "affixes": [
+        "vit",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "diamond"
+        },
+        {
+          "gem": "diamond"
+        }
+      ]
+    },
+    "feet": {
+      "itemId": "Unique_Boots_008_x1",
+      "affixes": [
+        "vit",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": []
+    },
+    "mainhand": {
+      "itemId": "P71_Ethereal_01",
+      "affixes": [
+        "cdr",
+        "area"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "emerald"
+        }
+      ]
+    }
+  },
+  "kanai": {
+    "weapon": "leg_gavelofjudgment_p6",
+    "armor": "leg_morticksbrace",
+    "jewelry": "leg_obsidianringofthezodiac"
+  },
+  "skills": {
+    "active": [
+      {
+        "skill": "hammer-of-the-ancients",
+        "rune": "a"
+      },
+      {
+        "skill": "call-of-the-ancients",
+        "rune": "e"
+      },
+      {
+        "skill": "ground-stomp",
+        "rune": "b"
+      },
+      {
+        "skill": "wrath-of-the-berserker",
+        "rune": "a"
+      },
+      {
+        "skill": "battle-rage",
+        "rune": "e"
+      },
+      {
+        "skill": "war-cry",
+        "rune": "b"
+      }
+    ],
+    "passives": [
+      "rampage",
+      "boon-of-bulkathos",
+      "berserker-rage",
+      "brawler"
+    ]
+  }
+}

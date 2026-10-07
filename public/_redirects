@@ -1,0 +1,5 @@
+# SPA fallback — serve index.html for any route the static host can't find,
+# so client-side routes (/builds, /planner, /items/<slug>, etc.) work on
+# direct access and refresh instead of 404'ing.
+# Works on Netlify and Cloudflare Pages. The 200 keeps the URL intact.
+/*    /index.html   200

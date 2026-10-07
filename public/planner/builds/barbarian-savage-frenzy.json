@@ -1,0 +1,247 @@
+{
+  "id": "barbarian-savage-frenzy",
+  "name": "Savage Frenzy",
+  "klass": "barbarian",
+  "category": "solo-push",
+  "tier": "A",
+  "gender": "male",
+  "source": "https://maxroll.gg/d3/guides/savage-frenzy-barbarian-guide",
+  "season": "Rites of Sanctuary",
+  "tagline": "Frenzy · Horde of the Ninety Savages",
+  "paragonLevel": 800,
+  "paragon": {
+    "core": {
+      "movement": 50,
+      "resource": 50,
+      "mainstat": 50,
+      "vit": 50
+    },
+    "offense": {
+      "cdr": 50,
+      "chc": 50,
+      "chd": 50,
+      "ias": 50
+    },
+    "defense": {
+      "armor": 50,
+      "resall": 50,
+      "ldr": 50,
+      "life": 50
+    },
+    "utility": {
+      "rcr": 50,
+      "laek": 50,
+      "gf": 50,
+      "area": 50
+    }
+  },
+  "equipped": {
+    "head": {
+      "itemId": "P68_Unique_Helm_Set_05",
+      "affixes": [
+        "chc",
+        "vit"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "diamond"
+        }
+      ]
+    },
+    "shoulders": {
+      "itemId": "P68_Unique_Shoulder_Set_05",
+      "affixes": [
+        "cdr",
+        "area",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": []
+    },
+    "neck": {
+      "itemId": "P66_Unique_Amulet_010",
+      "affixes": [
+        "chd",
+        "wpnphy",
+        "chc"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "trapped",
+          "legendary": true
+        }
+      ]
+    },
+    "torso": {
+      "itemId": "P66_Unique_Chest_026",
+      "affixes": [
+        "vit",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "diamond"
+        },
+        {
+          "gem": "diamond"
+        },
+        {
+          "gem": "diamond"
+        }
+      ]
+    },
+    "hands": {
+      "itemId": "P68_Unique_Gloves_Set_05",
+      "affixes": [
+        "chc",
+        "chd",
+        "cdr"
+      ],
+      "augment": 750,
+      "gems": []
+    },
+    "wrists": {
+      "itemId": "P66_Unique_Bracer_009",
+      "affixes": [
+        "elemental",
+        "chc",
+        "vit"
+      ],
+      "augment": 750,
+      "gems": []
+    },
+    "waist": {
+      "itemId": "P68_Unique_BarbBelt_006",
+      "affixes": [
+        "vit",
+        "life",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": []
+    },
+    "leftfinger": {
+      "itemId": "P2_Unique_Ring_04",
+      "affixes": [
+        "chc",
+        "chd",
+        "cdr"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "gizzard",
+          "legendary": true
+        }
+      ]
+    },
+    "rightfinger": {
+      "itemId": "P61_Unique_Ring_05",
+      "affixes": [
+        "chc",
+        "chd",
+        "cdr"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "simplicity",
+          "legendary": true
+        }
+      ]
+    },
+    "legs": {
+      "itemId": "P68_Unique_Pants_Set_05",
+      "affixes": [
+        "vit",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "diamond"
+        },
+        {
+          "gem": "diamond"
+        }
+      ]
+    },
+    "feet": {
+      "itemId": "P68_Unique_Boots_Set_05",
+      "affixes": [
+        "vit",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": []
+    },
+    "mainhand": {
+      "itemId": "P71_Ethereal_08",
+      "affixes": [
+        "cdr",
+        "area"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "emerald"
+        }
+      ]
+    },
+    "offhand": {
+      "itemId": "P4_Unique_Mighty_1H_104",
+      "affixes": [
+        "chc",
+        "cdr"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "emerald"
+        }
+      ]
+    }
+  },
+  "kanai": {
+    "weapon": "leg_bastionsrevered_p68",
+    "armor": "leg_depthdiggers",
+    "jewelry": "leg_ringofroyalgrandeur"
+  },
+  "skills": {
+    "active": [
+      {
+        "skill": "frenzy",
+        "rune": "a"
+      },
+      {
+        "skill": "battle-rage",
+        "rune": "e"
+      },
+      {
+        "skill": "threatening-shout",
+        "rune": "d"
+      },
+      {
+        "skill": "war-cry",
+        "rune": "b"
+      },
+      {
+        "skill": "wrath-of-the-berserker",
+        "rune": "a"
+      },
+      {
+        "skill": "furious-charge",
+        "rune": "c"
+      }
+    ],
+    "passives": [
+      "rampage",
+      "berserker-rage",
+      "boon-of-bulkathos",
+      "nerves-of-steel"
+    ]
+  }
+}

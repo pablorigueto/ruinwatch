@@ -1,0 +1,62 @@
+{
+  "superstition": {
+    "kind": "dr",
+    "pct": 20,
+    "slot": "Damage Reduction",
+    "note": "Damage Reduction +20%"
+  },
+  "tough-as-nails": {
+    "kind": "armor",
+    "pct": 25,
+    "slot": "Armor Increase",
+    "note": "Armor Increase +25%"
+  },
+  "numbing-traps": {
+    "kind": "dr",
+    "pct": 25,
+    "slot": "Damage Reduction",
+    "note": "Damage Reduction +25%"
+  },
+  "perfectionist": {
+    "kind": "armor",
+    "pct": 10,
+    "slot": "Increased Armor",
+    "note": "Increased Armor +10%"
+  },
+  "resolve": {
+    "kind": "dr",
+    "pct": 20,
+    "slot": "Damage Reduction",
+    "note": "Damage Reduction +20%"
+  },
+  "sixth-sense": {
+    "kind": "dr",
+    "pct": 25,
+    "slot": "Non-Physical Damage Reduction",
+    "note": "Non-Physical Damage Reduction +25%"
+  },
+  "harmony": {
+    "kind": "resall",
+    "pct": 40,
+    "slot": "Percentage To All Resist",
+    "note": "Percentage To All Resist +40%"
+  },
+  "bad-medicine": {
+    "kind": "dr",
+    "pct": 25,
+    "slot": "Damage Reduction",
+    "note": "Damage Reduction +25%"
+  },
+  "sword-and-board": {
+    "kind": "dr",
+    "pct": 30,
+    "slot": "Damage Reduction",
+    "note": "Damage Reduction +30%"
+  },
+  "vigilant": {
+    "kind": "dr",
+    "pct": 20,
+    "slot": "Damage Reduction",
+    "note": "Damage Reduction +20%"
+  }
+}

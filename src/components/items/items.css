@@ -1,0 +1,75 @@
+/* Restyle Blizzard inline classes embedded in mirrored item HTML.
+ * The crawler keeps `<span class="d3-color-*">` and tooltip-icon spans intact;
+ * we color them against the Ruinwatch palette so they read like the live page. */
+
+.d3-rich p {
+  margin: 0;
+}
+.d3-rich p + p {
+  margin-top: 2px;
+}
+.d3-rich ul {
+  list-style: none;
+  padding: 0;
+  margin: 2px 0 0;
+}
+
+/* Tooltip glyphs Blizzard uses inline before a stat line. */
+.d3-rich .tooltip-icon-bullet::before {
+  content: "•";
+  margin-right: 4px;
+  color: hsl(var(--muted-foreground));
+}
+.d3-rich .tooltip-icon-utility::before {
+  content: "◆";
+  margin-right: 4px;
+  color: hsl(var(--muted-foreground));
+}
+
+/* d3-color-* classes: the suffix is an ARGB hex (alpha first).
+ * We map the values that actually appear in the mirrored corpus
+ * (grep "d3-color-" public/items/items.json | sort -u). */
+.d3-rich .d3-color-ff6969ff,
+.d3-rich [class~="d3-color-ff6969ff"] {
+  color: #6969ff;
+} /* affix value blue */
+.d3-rich .d3-color-ff7070ff,
+.d3-rich [class~="d3-color-ff7070ff"] {
+  color: #7070ff;
+}
+.d3-rich .d3-color-ffea4a,
+.d3-rich [class~="d3-color-ffea4a"],
+.d3-rich .d3-color-magic {
+  color: #ffea4a;
+} /* gem-effect highlight */
+.d3-rich .d3-color-ffc7b377,
+.d3-rich [class~="d3-color-ffc7b377"] {
+  color: #c7b377;
+} /* flavor text tan */
+.d3-rich .d3-color-FF888888,
+.d3-rich [class~="d3-color-FF888888"] {
+  color: #888;
+} /* weapon damage label grey */
+
+/* Named Blizzard color classes (rarity-coded). */
+.d3-rich .d3-color-orange {
+  color: hsl(var(--ember));
+}
+.d3-rich .d3-color-green {
+  color: hsl(120 55% 55%);
+}
+.d3-rich .d3-color-blue {
+  color: hsl(220 90% 72%);
+}
+.d3-rich .d3-color-yellow {
+  color: hsl(var(--gold));
+}
+.d3-rich .d3-color-white {
+  color: hsl(var(--bone));
+}
+.d3-rich .d3-color-gold {
+  color: hsl(var(--gold));
+}
+.d3-rich .d3-color-brown {
+  color: hsl(36 35% 55%);
+}

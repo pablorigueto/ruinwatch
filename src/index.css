@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* =========================================================
+   RUINWATCH — Design System
+   "We watch, so the ruins may rise."
+   All colors HSL. All tokens semantic.
+   ========================================================= */
+
+@layer base {
+  :root {
+    /* Core surfaces — born from ash and stone */
+    --background: 240 6% 9%;            /* Deep Charcoal #1A1A1D */
+    --foreground: 36 25% 78%;           /* Bone White #D4C9B8 */
+
+    --card: 240 4% 12%;                 /* Ash Grey #1E1E22 */
+    --card-foreground: 36 25% 78%;
+
+    --popover: 240 5% 10%;
+    --popover-foreground: 36 25% 78%;
+
+    /* Ember — the flame that never died */
+    --primary: 19 82% 51%;              /* Ember Orange #E8601C */
+    --primary-foreground: 240 6% 9%;
+    --primary-glow: 33 100% 50%;        /* Smoldering Amber #FF8C00 */
+
+    /* Crimson — blood and sacrifice */
+    --secondary: 0 100% 27%;            /* Crimson Red #8B0000 */
+    --secondary-foreground: 36 25% 78%;
+
+    --muted: 240 4% 14%;
+    --muted-foreground: 36 12% 58%;
+
+    --accent: 43 89% 38%;               /* Faded Gold #B8860B */
+    --accent-foreground: 240 6% 9%;
+
+    --destructive: 0 70% 38%;
+    --destructive-foreground: 36 25% 78%;
+
+    /* Stone & weather */
+    --stone: 36 7% 22%;                 /* Warm Stone #3D3A35 */
+    --ash: 240 4% 18%;                  /* Ash Grey panel #2E2E32 */
+    --bone: 36 25% 78%;
+    --ember: 19 82% 51%;
+    --ember-glow: 33 100% 50%;
+    --crimson: 0 100% 27%;
+    --gold: 43 89% 38%;
+
+    --border: 36 7% 18%;
+    --input: 240 4% 16%;
+    --ring: 19 82% 51%;
+
+    --radius: 0.25rem;
+
+    /* Gradients — ember rising from ruins */
+    --gradient-ember: linear-gradient(135deg, hsl(33 100% 52%) 0%, hsl(19 85% 48%) 55%, hsl(14 80% 38%) 100%);
+    --gradient-ember-cta: linear-gradient(180deg, hsl(28 95% 55%) 0%, hsl(19 88% 48%) 55%, hsl(12 78% 36%) 100%);
+    --gradient-ember-soft: radial-gradient(ellipse at bottom, hsl(19 82% 51% / 0.18), transparent 70%);
+    --gradient-night: linear-gradient(180deg, hsl(240 6% 6%) 0%, hsl(240 6% 9%) 50%, hsl(240 6% 5%) 100%);
+    --gradient-stone: linear-gradient(180deg, hsl(36 7% 14%), hsl(36 7% 9%));
+    --gradient-vignette: radial-gradient(ellipse at center, transparent 40%, hsl(240 6% 4% / 0.85) 100%);
+
+    /* Shadows — depth of stone, glow of ember */
+    --shadow-ember: 0 0 40px hsl(19 82% 51% / 0.35), 0 0 80px hsl(0 100% 27% / 0.15);
+    --shadow-ember-soft: 0 0 24px hsl(19 82% 51% / 0.2);
+    --shadow-stone: 0 8px 32px hsl(240 10% 2% / 0.8), inset 0 1px 0 hsl(36 25% 78% / 0.04);
+    --shadow-inner-warm: inset 0 0 60px hsl(19 82% 51% / 0.06);
+
+    /* Motion */
+    --transition-watch: all 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+    --transition-ember: all 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+
+    /* Sidebar (unused but kept) */
+    --sidebar-background: 240 6% 9%;
+    --sidebar-foreground: 36 25% 78%;
+    --sidebar-primary: 19 82% 51%;
+    --sidebar-primary-foreground: 240 6% 9%;
+    --sidebar-accent: 240 4% 14%;
+    --sidebar-accent-foreground: 36 25% 78%;
+    --sidebar-border: 36 7% 18%;
+    --sidebar-ring: 19 82% 51%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    /* Always render a vertical scrollbar so Radix overlays (Select, Dialog,
+       Popover) can lock body scroll without the scrollbar disappearing and
+       shifting layout horizontally. */
+    overflow-y: scroll;
+    scrollbar-gutter: stable;
+  }
+
+  /* `react-remove-scroll-bar` (used by Radix Select / Dialog / Popover) locks
+     scroll by injecting a runtime <style> with `margin-right: <gap>px
+     !important` on body[data-scroll-locked]. Same specificity as our base
+     rule, but injected later in the cascade, so it wins. We bump specificity
+     with `html` prefix so our zero-out beats it. Keep `overflow: hidden` from
+     the lib intact (so the page can't be scrolled while a popover is open) —
+     the html scrollbar stays visible from our `overflow-y: scroll` above. */
+  html body[data-scroll-locked] {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+
+  body {
+    @apply bg-background text-foreground font-body antialiased;
+    background-image:
+      radial-gradient(ellipse at top, hsl(19 82% 51% / 0.04), transparent 60%),
+      url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0.1 0 0 0 0 0.08 0 0 0 0 0.06 0 0 0 0.5 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    background-attachment: fixed;
+  }
+
+  ::selection {
+    background: hsl(var(--ember) / 0.4);
+    color: hsl(var(--bone));
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display tracking-wider;
+  }
+}
+
+@layer components {
+  .text-ember-glow {
+    text-shadow: 0 0 20px hsl(var(--ember) / 0.6), 0 0 40px hsl(var(--ember) / 0.3);
+  }
+
+  .text-stone-carved {
+    text-shadow:
+      0 1px 0 hsl(240 10% 4%),
+      0 2px 4px hsl(240 10% 2% / 0.8),
+      0 0 20px hsl(var(--ember) / 0.15);
+  }
+
+  .panel-stone {
+    background: var(--gradient-stone);
+    border: 1px solid hsl(var(--stone));
+    box-shadow: var(--shadow-stone);
+    position: relative;
+  }
+
+  .panel-stone::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: var(--shadow-inner-warm);
+    pointer-events: none;
+  }
+
+  .divider-ember {
+    height: 1px;
+    background: linear-gradient(90deg, transparent, hsl(var(--ember) / 0.5), transparent);
+  }
+
+  .divider-rune {
+    position: relative;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, hsl(var(--stone)), transparent);
+  }
+
+  .divider-rune::after {
+    content: '◆';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: hsl(var(--ember));
+    background: hsl(var(--background));
+    padding: 0 1rem;
+    font-size: 0.75rem;
+  }
+
+  .ember-particle {
+    position: absolute;
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background: hsl(var(--ember));
+    box-shadow: 0 0 8px hsl(var(--ember-glow)), 0 0 16px hsl(var(--ember) / 0.6);
+    pointer-events: none;
+    will-change: transform, opacity;
+  }
+
+  /* Primary CTA — high-contrast ember button */
+  .btn-ember {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    padding: 1rem 2.25rem;
+    font-family: 'Cinzel', serif;
+    font-weight: 600;
+    font-size: 0.875rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: hsl(36 35% 96%);
+    background: var(--gradient-ember-cta);
+    border: 1px solid hsl(28 95% 62% / 0.75);
+    box-shadow:
+      inset 0 1px 0 hsl(36 100% 85% / 0.4),
+      inset 0 -1px 0 hsl(0 60% 12% / 0.5),
+      0 2px 0 hsl(0 60% 10% / 0.6),
+      0 8px 24px hsl(19 82% 35% / 0.45),
+      0 0 32px hsl(var(--ember) / 0.25);
+    text-shadow: 0 1px 2px hsl(0 70% 10% / 0.9), 0 0 14px hsl(0 0% 0% / 0.45);
+    transition: var(--transition-watch);
+    overflow: hidden;
+    isolation: isolate;
+  }
+
+  .btn-ember::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, hsl(36 100% 80% / 0.22), transparent 50%);
+    pointer-events: none;
+    z-index: -1;
+  }
+
+  .btn-ember:hover {
+    transform: translateY(-2px);
+    border-color: hsl(36 100% 72% / 0.9);
+    box-shadow:
+      inset 0 1px 0 hsl(36 100% 90% / 0.45),
+      inset 0 -1px 0 hsl(0 60% 12% / 0.5),
+      0 4px 0 hsl(0 60% 8% / 0.6),
+      0 12px 36px hsl(19 82% 38% / 0.6),
+      0 0 60px hsl(var(--ember) / 0.55);
+  }
+
+  .btn-ember:active {
+    transform: translateY(0);
+    box-shadow:
+      inset 0 2px 6px hsl(0 60% 8% / 0.55),
+      0 1px 0 hsl(0 60% 10% / 0.6),
+      0 4px 16px hsl(19 82% 38% / 0.4);
+  }
+
+  .btn-ember:focus-visible {
+    outline: 2px solid hsl(36 100% 72%);
+    outline-offset: 3px;
+  }
+}
+
+@layer utilities {
+  .font-display { font-family: 'Cinzel', serif; }
+  .font-serif-elegant { font-family: 'Cormorant Garamond', serif; }
+  .font-body { font-family: 'Inter', system-ui, sans-serif; }
+  .font-mono { font-family: 'JetBrains Mono', monospace; }
+
+  .bg-night { background: var(--gradient-night); }
+  .bg-ember-soft { background: var(--gradient-ember-soft); }
+  .bg-stone-grad { background: var(--gradient-stone); }
+
+  /* Hide native number-input spinners (we render custom steppers). */
+  .no-spinner::-webkit-outer-spin-button,
+  .no-spinner::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  .no-spinner {
+    -moz-appearance: textfield;
+    appearance: textfield;
+  }
+
+  /* Dark, legible native <select> dropdowns. color-scheme makes the popup list
+     render dark in modern browsers; the explicit option colors are the fallback
+     (a gradient bg class can't paint an <option>, so it'd go white otherwise). */
+  .dark-select {
+    color-scheme: dark;
+  }
+  .dark-select option {
+    background-color: hsl(240 6% 11%);
+    color: hsl(var(--bone));
+  }
+  .dark-select option:checked,
+  .dark-select option:hover {
+    background-color: hsl(var(--ember) / 0.25);
+    color: hsl(var(--ember));
+  }
+
+  .vignette::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: var(--gradient-vignette);
+    pointer-events: none;
+  }
+}
+
+/* ============ Animations ============ */
+@keyframes ember-rise {
+  0% { transform: translateY(0) translateX(0); opacity: 0; }
+  10% { opacity: 1; }
+  90% { opacity: 0.6; }
+  100% { transform: translateY(-100vh) translateX(var(--drift, 20px)); opacity: 0; }
+}
+
+@keyframes ember-flicker {
+  0%, 100% { opacity: 1; filter: brightness(1); }
+  50% { opacity: 0.85; filter: brightness(1.15); }
+}
+
+@keyframes fade-up {
+  from { opacity: 0; transform: translateY(24px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fade-in-slow {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes pulse-ember {
+  0%, 100% { box-shadow: 0 0 20px hsl(var(--ember) / 0.3); }
+  50% { box-shadow: 0 0 40px hsl(var(--ember) / 0.6), 0 0 80px hsl(var(--ember) / 0.2); }
+}
+
+@keyframes count-up {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes loader-sweep {
+  0% { transform: translateX(-150%); }
+  100% { transform: translateX(350%); }
+}
+
+.animate-ember-rise { animation: ember-rise linear infinite; }
+.animate-ember-flicker { animation: ember-flicker 2.4s ease-in-out infinite; }
+.animate-fade-up { animation: fade-up 0.9s cubic-bezier(0.22, 1, 0.36, 1) both; }
+.animate-fade-in-slow { animation: fade-in-slow 1.6s ease-out both; }
+.animate-pulse-ember { animation: pulse-ember 3s ease-in-out infinite; }
+.animate-loader-sweep { animation: loader-sweep 1.1s ease-in-out infinite; }

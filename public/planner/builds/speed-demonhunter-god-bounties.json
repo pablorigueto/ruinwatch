@@ -1,0 +1,248 @@
+{
+  "id": "speed-demonhunter-god-bounties",
+  "name": "GoD Speed Farm",
+  "klass": "demonhunter",
+  "category": "speed",
+  "tier": "GR",
+  "noEthereal": true,
+  "gender": "male",
+  "source": "https://www.diablofans.com/builds/109962-god-speed-farm-bounties-gr-100-r",
+  "season": "Season 28 (2.7.5)",
+  "tagline": "Strafe · Dreadlands · Bounties + GR 100+",
+  "paragonLevel": 800,
+  "paragon": {
+    "core": {
+      "movement": 50,
+      "resource": 50,
+      "mainstat": 50,
+      "vit": 50
+    },
+    "offense": {
+      "cdr": 50,
+      "chc": 50,
+      "chd": 50,
+      "ias": 50
+    },
+    "defense": {
+      "armor": 50,
+      "resall": 50,
+      "ldr": 50,
+      "life": 50
+    },
+    "utility": {
+      "rcr": 50,
+      "laek": 50,
+      "gf": 50,
+      "area": 50
+    }
+  },
+  "equipped": {
+    "head": {
+      "itemId": "P69_Unique_Helm_Set_06",
+      "affixes": [
+        "chc",
+        "vit"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "diamond"
+        }
+      ]
+    },
+    "shoulders": {
+      "itemId": "P69_Unique_Shoulder_Set_06",
+      "affixes": [
+        "cdr",
+        "area",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": []
+    },
+    "neck": {
+      "itemId": "P66_Unique_Amulet_010",
+      "affixes": [
+        "chd",
+        "elemental",
+        "chc"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "trapped",
+          "legendary": true
+        }
+      ]
+    },
+    "torso": {
+      "itemId": "P69_Unique_Chest_Set_06",
+      "affixes": [
+        "vit",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "diamond"
+        },
+        {
+          "gem": "diamond"
+        },
+        {
+          "gem": "diamond"
+        }
+      ]
+    },
+    "hands": {
+      "itemId": "P69_Unique_Gloves_Set_06",
+      "affixes": [
+        "chc",
+        "chd",
+        "cdr"
+      ],
+      "augment": 750,
+      "gems": []
+    },
+    "wrists": {
+      "itemId": "P74_Unique_Bracer_010",
+      "affixes": [
+        "elemental",
+        "chc",
+        "vit"
+      ],
+      "augment": 750,
+      "gems": []
+    },
+    "waist": {
+      "itemId": "P74_Unique_Belt_013",
+      "affixes": [
+        "vit",
+        "life",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": []
+    },
+    "legs": {
+      "itemId": "Unique_Pants_006_p1",
+      "affixes": [
+        "vit",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "diamond"
+        },
+        {
+          "gem": "diamond"
+        }
+      ]
+    },
+    "feet": {
+      "itemId": "P69_Unique_Boots_Set_06",
+      "affixes": [
+        "vit",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": []
+    },
+    "leftfinger": {
+      "itemId": "Unique_Ring_Set_001_x1",
+      "affixes": [
+        "chc",
+        "chd",
+        "cdr"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "simplicity",
+          "legendary": true
+        }
+      ]
+    },
+    "rightfinger": {
+      "itemId": "Unique_Ring_Set_002_x1",
+      "affixes": [
+        "chc",
+        "chd",
+        "cdr"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "taeguk",
+          "legendary": true
+        }
+      ]
+    },
+    "mainhand": {
+      "itemId": "P4_Unique_HandXBow_001",
+      "affixes": [
+        "cdr",
+        "area"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "emerald"
+        }
+      ]
+    },
+    "offhand": {
+      "itemId": "P4_Unique_HandXBow_02",
+      "affixes": [
+        "chc",
+        "cdr"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "emerald"
+        }
+      ]
+    }
+  },
+  "kanai": {
+    "weapon": "leg_theninthcirrisatchel_p69",
+    "armor": "leg_hunterswrath_p69",
+    "jewelry": "leg_ringofroyalgrandeur"
+  },
+  "skills": {
+    "active": [
+      {
+        "skill": "hungering-arrow",
+        "rune": "c"
+      },
+      {
+        "skill": "strafe",
+        "rune": "d"
+      },
+      {
+        "skill": "shadow-power",
+        "rune": "b"
+      },
+      {
+        "skill": "preparation",
+        "rune": "c"
+      },
+      {
+        "skill": "vengeance",
+        "rune": "b"
+      },
+      {
+        "skill": "fan-of-knives",
+        "rune": "e"
+      }
+    ],
+    "passives": [
+      "blood-vengeance",
+      "cull-the-weak",
+      "thrill-of-the-hunt",
+      "hot-pursuit"
+    ]
+  }
+}
