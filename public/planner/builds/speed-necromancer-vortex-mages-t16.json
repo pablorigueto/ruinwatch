@@ -1,0 +1,248 @@
+{
+  "id": "speed-necromancer-vortex-mages-t16",
+  "name": "Vortex Mages T16",
+  "klass": "necromancer",
+  "category": "speed",
+  "tier": "T16",
+  "noEthereal": true,
+  "gender": "male",
+  "source": "https://www.diablofans.com/builds/108836-t16-vortex-mages-ultra-speeds-s28-2-7-5",
+  "season": "Season 28 (2.7.5)",
+  "tagline": "Skeletal Mage · Krysbin's · T16 speeds",
+  "paragonLevel": 800,
+  "paragon": {
+    "core": {
+      "movement": 50,
+      "resource": 50,
+      "mainstat": 50,
+      "vit": 50
+    },
+    "offense": {
+      "cdr": 50,
+      "chc": 50,
+      "chd": 50,
+      "ias": 50
+    },
+    "defense": {
+      "armor": 50,
+      "resall": 50,
+      "ldr": 50,
+      "life": 50
+    },
+    "utility": {
+      "rcr": 50,
+      "laek": 50,
+      "gf": 50,
+      "area": 50
+    }
+  },
+  "equipped": {
+    "head": {
+      "itemId": "Unique_Helm_002_p1",
+      "affixes": [
+        "chc",
+        "vit"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "diamond"
+        }
+      ]
+    },
+    "shoulders": {
+      "itemId": "P69_Necro_Unique_Shoulders_22",
+      "affixes": [
+        "cdr",
+        "area",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": []
+    },
+    "neck": {
+      "itemId": "P69_Unique_Amulet_02",
+      "affixes": [
+        "chd",
+        "elemental",
+        "chc"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "hoarder",
+          "legendary": true
+        }
+      ]
+    },
+    "torso": {
+      "itemId": "P6_Necro_Unique_Chest_22",
+      "affixes": [
+        "vit",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "diamond"
+        },
+        {
+          "gem": "diamond"
+        },
+        {
+          "gem": "diamond"
+        }
+      ]
+    },
+    "hands": {
+      "itemId": "Unique_Gloves_003_x1",
+      "affixes": [
+        "chc",
+        "chd",
+        "cdr"
+      ],
+      "augment": 750,
+      "gems": []
+    },
+    "wrists": {
+      "itemId": "Unique_Bracer_101_x1",
+      "affixes": [
+        "elemental",
+        "chc",
+        "vit"
+      ],
+      "augment": 750,
+      "gems": []
+    },
+    "waist": {
+      "itemId": "Unique_Belt_Set_02_x1",
+      "affixes": [
+        "vit",
+        "life",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": []
+    },
+    "legs": {
+      "itemId": "Unique_Pants_101_x1",
+      "affixes": [
+        "vit",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "diamond"
+        },
+        {
+          "gem": "diamond"
+        }
+      ]
+    },
+    "feet": {
+      "itemId": "P61_Necro_Unique_Boots_21",
+      "affixes": [
+        "vit",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": []
+    },
+    "leftfinger": {
+      "itemId": "P6_Unique_Ring_01",
+      "affixes": [
+        "chc",
+        "chd",
+        "cdr"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "zei",
+          "legendary": true
+        }
+      ]
+    },
+    "rightfinger": {
+      "itemId": "P6_Unique_Ring_03",
+      "affixes": [
+        "chc",
+        "chd",
+        "cdr"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "legacyofdreams",
+          "legendary": true
+        }
+      ]
+    },
+    "mainhand": {
+      "itemId": "P61_Unique_Scythe1H_03",
+      "affixes": [
+        "cdr",
+        "area"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "emerald"
+        }
+      ]
+    },
+    "offhand": {
+      "itemId": "P61_Unique_Phylactery_01",
+      "affixes": [
+        "chc",
+        "cdr"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "diamond"
+        }
+      ]
+    }
+  },
+  "kanai": {
+    "weapon": "leg_reilenasshadowhook",
+    "armor": "leg_goldwrap",
+    "jewelry": "leg_briggswrath"
+  },
+  "skills": {
+    "active": [
+      {
+        "skill": "bone-armor",
+        "rune": "e"
+      },
+      {
+        "skill": "skeletal-mage",
+        "rune": "c"
+      },
+      {
+        "skill": "frailty",
+        "rune": "e"
+      },
+      {
+        "skill": "simulacrum",
+        "rune": "a"
+      },
+      {
+        "skill": "blood-rush",
+        "rune": "c"
+      },
+      {
+        "skill": "devour",
+        "rune": "d"
+      }
+    ],
+    "passives": [
+      "fueled-by-death",
+      "overwhelming-essence",
+      "dark-reaping",
+      "extended-servitude"
+    ]
+  }
+}

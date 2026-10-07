@@ -1,0 +1,235 @@
+{
+  "id": "barbarian-ik-charge",
+  "name": "IK Charge",
+  "klass": "barbarian",
+  "category": "solo-push",
+  "tier": "D",
+  "noEthereal": true,
+  "gender": "male",
+  "source": "https://maxroll.gg/d3/guides/ik-charge-barbarian-guide",
+  "season": "Rites of Sanctuary",
+  "tagline": "Furious Charge · Immortal King",
+  "paragonLevel": 800,
+  "paragon": {
+    "core": {
+      "movement": 50,
+      "resource": 50,
+      "mainstat": 50,
+      "vit": 50
+    },
+    "offense": {
+      "cdr": 50,
+      "chc": 50,
+      "chd": 50,
+      "ias": 50
+    },
+    "defense": {
+      "armor": 50,
+      "resall": 50,
+      "ldr": 50,
+      "life": 50
+    },
+    "utility": {
+      "rcr": 50,
+      "laek": 50,
+      "gf": 50,
+      "area": 50
+    }
+  },
+  "equipped": {
+    "head": {
+      "itemId": "Unique_Helm_008_x1",
+      "affixes": [
+        "chc",
+        "vit"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "diamond"
+        }
+      ]
+    },
+    "shoulders": {
+      "itemId": "Unique_Shoulder_Set_05_x1",
+      "affixes": [
+        "cdr",
+        "area",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": []
+    },
+    "neck": {
+      "itemId": "P66_Unique_Amulet_010",
+      "affixes": [
+        "chd",
+        "wpnphy",
+        "chc"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "stricken",
+          "legendary": true
+        }
+      ]
+    },
+    "torso": {
+      "itemId": "Unique_Chest_Set_05_x1",
+      "affixes": [
+        "vit",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "diamond"
+        },
+        {
+          "gem": "diamond"
+        },
+        {
+          "gem": "diamond"
+        }
+      ]
+    },
+    "hands": {
+      "itemId": "Unique_Gloves_008_x1",
+      "affixes": [
+        "chc",
+        "chd",
+        "cdr"
+      ],
+      "augment": 750,
+      "gems": []
+    },
+    "wrists": {
+      "itemId": "P2_Unique_Bracer_003",
+      "affixes": [
+        "elemental",
+        "chc",
+        "vit"
+      ],
+      "augment": 750,
+      "gems": []
+    },
+    "waist": {
+      "itemId": "Unique_BarbBelt_009_x1",
+      "affixes": [
+        "vit",
+        "life",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": []
+    },
+    "leftfinger": {
+      "itemId": "P61_Unique_Ring_05",
+      "affixes": [
+        "chc",
+        "chd",
+        "cdr"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "trapped",
+          "legendary": true
+        }
+      ]
+    },
+    "rightfinger": {
+      "itemId": "P2_Unique_Ring_04",
+      "affixes": [
+        "chc",
+        "chd",
+        "cdr"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "wreath",
+          "legendary": true
+        }
+      ]
+    },
+    "legs": {
+      "itemId": "Unique_Pants_Set_05_x1",
+      "affixes": [
+        "vit",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "diamond"
+        },
+        {
+          "gem": "diamond"
+        }
+      ]
+    },
+    "feet": {
+      "itemId": "Unique_Boots_012_x1",
+      "affixes": [
+        "vit",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": []
+    },
+    "mainhand": {
+      "itemId": "Unique_Mighty_2H_010_x1",
+      "affixes": [
+        "cdr",
+        "area"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "emerald"
+        }
+      ]
+    }
+  },
+  "kanai": {
+    "weapon": "leg_standoff_p6",
+    "armor": "leg_vileward",
+    "jewelry": "leg_ringofroyalgrandeur"
+  },
+  "skills": {
+    "active": [
+      {
+        "skill": "furious-charge",
+        "rune": "a"
+      },
+      {
+        "skill": "seismic-slam",
+        "rune": "b"
+      },
+      {
+        "skill": "wrath-of-the-berserker",
+        "rune": "a"
+      },
+      {
+        "skill": "call-of-the-ancients",
+        "rune": "e"
+      },
+      {
+        "skill": "sprint",
+        "rune": "a"
+      },
+      {
+        "skill": "battle-rage",
+        "rune": "e"
+      }
+    ],
+    "passives": [
+      "rampage",
+      "berserker-rage",
+      "brawler",
+      "pound-of-flesh"
+    ]
+  }
+}

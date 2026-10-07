@@ -1,0 +1,1947 @@
+{
+  "ancient-spear": {
+    "skill": "AncientSpear",
+    "sno": 377453,
+    "pow": "X1_Barbarian_AncientSpear",
+    "slots": [
+      0
+    ],
+    "slotNames": {
+      "0": "Total: Weapon Damage"
+    },
+    "coeffs": {
+      "0": 5
+    },
+    "primarySlot": 0,
+    "coeff": 5
+  },
+  "bash": {
+    "skill": "Bash",
+    "sno": 79242,
+    "pow": "Barbarian_Bash",
+    "slots": [
+      3
+    ],
+    "slotNames": {
+      "3": "Weapon Damage Scalar"
+    },
+    "coeffs": {
+      "3": 3.2
+    },
+    "primarySlot": 3,
+    "coeff": 3.2
+  },
+  "leap-attack": {
+    "skill": "LeapAttack",
+    "sno": 93409,
+    "pow": "Barbarian_Leap",
+    "slots": [
+      30,
+      6
+    ],
+    "slotNames": {
+      "6": "A: Knockback Offset Min",
+      "30": "C: Takeoff Weapon % damage"
+    },
+    "coeffs": {
+      "6": 1,
+      "30": 1.8,
+      "35": 1.8
+    },
+    "primarySlot": 30,
+    "coeff": 1.8
+  },
+  "battle-rage": {
+    "skill": "BattleRage",
+    "sno": 79076,
+    "pow": "Barbarian_BattleRage",
+    "slots": [
+      10
+    ],
+    "slotNames": {
+      "10": "Base: Crit Chance Bonus"
+    },
+    "coeffs": {
+      "10": 0.03
+    },
+    "primarySlot": 10,
+    "coeff": null
+  },
+  "cleave": {
+    "skill": "Cleave",
+    "sno": 80263,
+    "pow": "Barbarian_Cleave",
+    "slots": [
+      16,
+      9
+    ],
+    "slotNames": {
+      "9": "C: Land Weapon Damage Scalar",
+      "16": "Total Weapon Damage % Primary Target "
+    },
+    "coeffs": {
+      "9": 0.8,
+      "16": 4.7
+    },
+    "primarySlot": 16,
+    "coeff": 4.7
+  },
+  "earthquake": {
+    "skill": "Earthquake",
+    "sno": 98878,
+    "pow": "Barbarian_Earthquake",
+    "slots": [
+      17,
+      0,
+      10
+    ],
+    "slotNames": {
+      "0": "Damage Radius",
+      "10": "E: Vortex Offset From Player Min",
+      "17": "Base: Persistant Weapon DPS"
+    },
+    "coeffs": {
+      "0": 18,
+      "10": 1,
+      "17": 6
+    },
+    "primarySlot": 17,
+    "coeff": 6
+  },
+  "frenzy": {
+    "skill": "Frenzy",
+    "sno": 78548,
+    "pow": "Barbarian_Frenzy",
+    "slots": [
+      18
+    ],
+    "slotNames": {
+      "18": "B: Axe Weapon Damage %"
+    },
+    "coeffs": {
+      "14": 2.2,
+      "18": 3
+    },
+    "primarySlot": 18,
+    "coeff": 3
+  },
+  "furious-charge": {
+    "skill": "FuriousCharge",
+    "sno": 97435,
+    "pow": "Barbarian_FuriousCharge",
+    "slots": [
+      16,
+      14
+    ],
+    "slotNames": {
+      "14": "Total: Weapon Damage % (Cone)",
+      "16": "Weapon Damage % (Charge)"
+    },
+    "coeffs": {
+      "14": 10.5,
+      "16": 10.5
+    },
+    "primarySlot": 16,
+    "coeff": 10.5
+  },
+  "hammer-of-the-ancients": {
+    "skill": "HammerOfTheAncients",
+    "sno": 80028,
+    "pow": "Barbarian_HammerOfTheAncients",
+    "slots": [
+      23,
+      4,
+      9
+    ],
+    "slotNames": {
+      "4": "Total Weapon Scalar",
+      "9": "C: AOE  Damage Scalar",
+      "23": "B: Cone Damage Scalar"
+    },
+    "coeffs": {
+      "3": 5.35,
+      "4": 5.35,
+      "9": 0,
+      "23": 5.05
+    },
+    "primarySlot": 23,
+    "coeff": 5.05
+  },
+  "ignore-pain": {
+    "skill": "IgnorePain",
+    "sno": 79528,
+    "pow": "Barbarian_IgnorePain",
+    "slots": [
+      11
+    ],
+    "slotNames": {
+      "11": ""
+    },
+    "coeffs": {},
+    "primarySlot": 11,
+    "coeff": null
+  },
+  "overpower": {
+    "skill": "Overpower",
+    "sno": 159169,
+    "pow": "Barbarian_Overpower",
+    "slots": [
+      6,
+      14
+    ],
+    "slotNames": {
+      "6": "Base: Damage",
+      "14": "B: Projectile Damage"
+    },
+    "coeffs": {
+      "6": 3.8,
+      "14": 3.8
+    },
+    "primarySlot": 6,
+    "coeff": 3.8
+  },
+  "rend": {
+    "skill": "Rend",
+    "sno": 70472,
+    "pow": "Barbarian_Rend",
+    "slots": [
+      20
+    ],
+    "slotNames": {
+      "20": "Damage Scalar Total"
+    },
+    "coeffs": {
+      "0": 2.2,
+      "20": 2.2
+    },
+    "primarySlot": 20,
+    "coeff": 2.2
+  },
+  "siesmic-slam": {
+    "skill": "SiesmicSlam",
+    "sno": 86989,
+    "pow": "Barbarian_SeismicSlam",
+    "slots": [
+      8,
+      3
+    ],
+    "slotNames": {
+      "3": "B: Weapon Damage Per Fury",
+      "8": "Total: Weapon Damage"
+    },
+    "coeffs": {
+      "3": 0.15,
+      "8": 6.2
+    },
+    "primarySlot": 8,
+    "coeff": 6.2
+  },
+  "sprint": {
+    "skill": "Sprint",
+    "sno": 78551,
+    "pow": "Barbarian_Sprint",
+    "slots": [
+      8,
+      16
+    ],
+    "slotNames": {
+      "8": "C: Whirlwind AOE Radius",
+      "16": "E: Knockback Weapon Damage"
+    },
+    "coeffs": {
+      "8": 8,
+      "16": 0.25
+    },
+    "primarySlot": 8,
+    "coeff": null
+  },
+  "weapon-throw": {
+    "skill": "WeaponThrow",
+    "sno": 377452,
+    "pow": "X1_Barbarian_WeaponThrow",
+    "slots": [
+      15,
+      19
+    ],
+    "slotNames": {
+      "15": "Total: Weapon Damage",
+      "19": "D: Extra Fury Gain"
+    },
+    "coeffs": {
+      "15": 2.75,
+      "19": 0
+    },
+    "primarySlot": 15,
+    "coeff": 2.75
+  },
+  "wrath-of-the-berserker": {
+    "skill": "WrathOfTheBerserker",
+    "sno": 79607,
+    "pow": "Barbarian_WrathOfTheBerserker",
+    "slots": [
+      17,
+      11
+    ],
+    "slotNames": {
+      "11": "E: Explode Weapon Damage",
+      "17": "B: Weapon Damage"
+    },
+    "coeffs": {
+      "11": 3,
+      "17": 34
+    },
+    "primarySlot": 17,
+    "coeff": 34
+  },
+  "akarat-champion": {
+    "skill": "AkaratChampion",
+    "sno": 269032,
+    "pow": "X1_Crusader_AkaratsChampion",
+    "slots": [
+      40
+    ],
+    "slotNames": {
+      "40": "A: DoT Application ICD"
+    },
+    "coeffs": {
+      "40": 0
+    },
+    "primarySlot": 40,
+    "coeff": null
+  },
+  "blessed-shield": {
+    "skill": "BlessedShield",
+    "sno": 266951,
+    "pow": "X1_Crusader_BlessedShield",
+    "slots": [
+      3,
+      38,
+      34
+    ],
+    "slotNames": {
+      "3": "Weapon Damage %",
+      "34": "B: Explosion Radius",
+      "38": "D: Shattered Payload Weapon %"
+    },
+    "coeffs": {
+      "3": 4.3,
+      "34": 10,
+      "38": 1.7
+    },
+    "primarySlot": 3,
+    "coeff": 4.3
+  },
+  "bombardment": {
+    "skill": "Bombardment",
+    "sno": 284876,
+    "pow": "X1_Crusader_Bombardment",
+    "slots": [
+      3,
+      26
+    ],
+    "slotNames": {
+      "3": "Total: Explosion Damage Scalar",
+      "26": "C: Mine Radius"
+    },
+    "coeffs": {
+      "3": 5.7,
+      "26": 0,
+      "31": 5.7
+    },
+    "primarySlot": 3,
+    "coeff": 5.7
+  },
+  "condemn": {
+    "skill": "Condemn",
+    "sno": 266627,
+    "pow": "X1_Crusader_Condemn",
+    "slots": [
+      1
+    ],
+    "slotNames": {
+      "1": "Base Scalar Damage Percent"
+    },
+    "coeffs": {
+      "1": 11.6
+    },
+    "primarySlot": 1,
+    "coeff": 11.6
+  },
+  "falling-sword": {
+    "skill": "FallingSword",
+    "sno": 239137,
+    "pow": "X1_Crusader_FallingSword",
+    "slots": [
+      35,
+      16,
+      21,
+      45
+    ],
+    "slotNames": {
+      "16": "A: dot dps scalar",
+      "21": "B: damage scalar",
+      "35": "Leap Base Weapon Damage Scalar",
+      "45": "E: Damage Scalar"
+    },
+    "coeffs": {
+      "16": 3.1,
+      "21": 6.05,
+      "35": 17,
+      "45": 2.3,
+      "50": 1
+    },
+    "primarySlot": 35,
+    "coeff": 17
+  },
+  "fist-of-the-heavens": {
+    "skill": "FistOfTheHeavens",
+    "sno": 239218,
+    "pow": "X1_Crusader_FistOfTheHeavens",
+    "slots": [
+      34,
+      23,
+      33,
+      30,
+      12,
+      19,
+      25,
+      26
+    ],
+    "slotNames": {
+      "12": "A:Weapon damage per second",
+      "19": "C: Weapon damage from tesla arc",
+      "23": "E: Explosion Weapon %",
+      "25": "C: Fissure Pulse Payload ",
+      "26": "D: weapon damage",
+      "30": "Base: Weapon Damage % - Prmary",
+      "33": "E: MiniProjectiles Weapon %",
+      "34": "E: MainProjectile Weapon %"
+    },
+    "coeffs": {
+      "12": 1,
+      "19": 1.35,
+      "23": 4.35,
+      "25": 4.1,
+      "26": 0.4,
+      "30": 5.45,
+      "33": 1.85,
+      "34": 2.7
+    },
+    "primarySlot": 34,
+    "coeff": 2.7
+  },
+  "heaven-fury": {
+    "skill": "HeavenFury",
+    "sno": 316014,
+    "pow": "X1_Crusader_HeavensFury3",
+    "slots": [
+      16,
+      20
+    ],
+    "slotNames": {
+      "16": "E: Damage Scalar",
+      "20": "A: Damage dealt"
+    },
+    "coeffs": {
+      "16": 9.6,
+      "20": 4.61
+    },
+    "primarySlot": 16,
+    "coeff": 9.6
+  },
+  "iron-skin": {
+    "skill": "IronSkin",
+    "sno": 291804,
+    "pow": "X1_Crusader_IronSkin",
+    "slots": [
+      12
+    ],
+    "slotNames": {
+      "12": "C: Explode Damage Scalar"
+    },
+    "coeffs": {
+      "12": 14
+    },
+    "primarySlot": 12,
+    "coeff": 14
+  },
+  "justice": {
+    "skill": "Justice",
+    "sno": 325216,
+    "pow": "X1_Crusader_Justice",
+    "slots": [
+      25,
+      22,
+      16
+    ],
+    "slotNames": {
+      "16": "B: Mini Hammer Weapon Scalar",
+      "22": "Base: Weapon Scalar",
+      "25": "D: Weapon Damage %  Base"
+    },
+    "coeffs": {
+      "16": 2.45,
+      "22": 2.45,
+      "25": 0.6
+    },
+    "primarySlot": 25,
+    "coeff": 0.6
+  },
+  "phalanx": {
+    "skill": "Phalanx",
+    "sno": 330729,
+    "pow": "x1_Crusader_Phalanx3",
+    "slots": [
+      18,
+      20
+    ],
+    "slotNames": {
+      "18": "Base: Damage Scalar",
+      "20": "B: Bash Damage Scalar"
+    },
+    "coeffs": {
+      "18": 4.9,
+      "20": 1.8
+    },
+    "primarySlot": 18,
+    "coeff": 4.9
+  },
+  "punish": {
+    "skill": "Punish",
+    "sno": 285903,
+    "pow": "X1_Crusader_Punish",
+    "slots": [
+      0,
+      6,
+      14
+    ],
+    "slotNames": {
+      "0": "Base Damage Scalar",
+      "6": "Weapon Damage %",
+      "14": "Explode Radius"
+    },
+    "coeffs": {
+      "0": 3.35,
+      "6": 1.4,
+      "14": 15
+    },
+    "primarySlot": 0,
+    "coeff": 3.35
+  },
+  "shield-bash": {
+    "skill": "ShieldBash",
+    "sno": 353492,
+    "pow": "X1_Crusader_ShieldBash2",
+    "slots": [
+      27
+    ],
+    "slotNames": {
+      "27": "A: Weapon damage %"
+    },
+    "coeffs": {
+      "27": 6.6
+    },
+    "primarySlot": 27,
+    "coeff": 6.6
+  },
+  "shield-glare": {
+    "skill": "ShieldGlare",
+    "sno": 268530,
+    "pow": "X1_Crusader_ShieldGlare",
+    "slots": [
+      21
+    ],
+    "slotNames": {
+      "21": "C: explosion damage scalar"
+    },
+    "coeffs": {
+      "21": 0.6
+    },
+    "primarySlot": 21,
+    "coeff": 0.6
+  },
+  "smite": {
+    "skill": "Smite",
+    "sno": 286510,
+    "pow": "X1_Crusader_Smite",
+    "slots": [
+      0,
+      9,
+      6
+    ],
+    "slotNames": {
+      "0": "Base Damage Scalar",
+      "6": "C: Expiration Damage Scalar",
+      "9": "Secondary damage Scalar"
+    },
+    "coeffs": {
+      "0": 1.75,
+      "6": 0.6,
+      "9": 1.5
+    },
+    "primarySlot": 0,
+    "coeff": 1.75
+  },
+  "sweep-attack": {
+    "skill": "SweepAttack",
+    "sno": 239042,
+    "pow": "X1_Crusader_SweepAttack",
+    "slots": [
+      16
+    ],
+    "slotNames": {
+      "16": "Total Weapon Damage % Primary Target "
+    },
+    "coeffs": {
+      "16": 4.8
+    },
+    "primarySlot": 16,
+    "coeff": 4.8
+  },
+  "caltrops": {
+    "skill": "Caltrops",
+    "sno": 129216,
+    "pow": "DemonHunter_Caltrops",
+    "slots": [
+      20
+    ],
+    "slotNames": {
+      "20": "A: Damage Per Second (Weapon %)"
+    },
+    "coeffs": {
+      "20": 0.45
+    },
+    "primarySlot": 20,
+    "coeff": 0.45
+  },
+  "chakram": {
+    "skill": "Chakram",
+    "sno": 129213,
+    "pow": "DemonHunter_Chakram",
+    "slots": [
+      13,
+      0
+    ],
+    "slotNames": {
+      "0": "Damage Scalar",
+      "13": "E: Damage Min"
+    },
+    "coeffs": {
+      "0": 3.8,
+      "13": 2
+    },
+    "primarySlot": 0,
+    "coeff": 3.8
+  },
+  "cluster-arrow": {
+    "skill": "ClusterArrow",
+    "sno": 129214,
+    "pow": "DemonHunter_ClusterArrow",
+    "slots": [
+      5,
+      1
+    ],
+    "slotNames": {
+      "1": "Base Expl Radius",
+      "5": "Baby Bomb Weap Dam Scalar"
+    },
+    "coeffs": {
+      "1": 15,
+      "5": 2.5,
+      "36": 6.5
+    },
+    "primarySlot": 36,
+    "coeff": 6.5
+  },
+  "bola-shot": {
+    "skill": "BolaShot",
+    "sno": 77552,
+    "pow": "DemonHunter_Bolas",
+    "slots": [
+      6,
+      9
+    ],
+    "slotNames": {
+      "6": "Total: AOE Weapon Damage",
+      "9": "Total:  Weapon Damage"
+    },
+    "coeffs": {
+      "6": 1.1,
+      "9": 1.6
+    },
+    "primarySlot": 9,
+    "coeff": 1.6
+  },
+  "fan-of-knives": {
+    "skill": "FanOfKnives",
+    "sno": 77546,
+    "pow": "DemonHunter_FanOfKnives",
+    "slots": [
+      0,
+      16
+    ],
+    "slotNames": {
+      "0": "Total: Weapon Damage",
+      "16": "B: Projectile % Weapon Damage"
+    },
+    "coeffs": {
+      "0": 6.2,
+      "16": 6.2
+    },
+    "primarySlot": 0,
+    "coeff": 6.2
+  },
+  "grenades": {
+    "skill": "Grenades",
+    "sno": 86610,
+    "pow": "DemonHunter_Grenades",
+    "slots": [
+      0,
+      5,
+      4
+    ],
+    "slotNames": {
+      "0": "Final: Damage Scalar",
+      "4": "Total: Explosion Radius",
+      "5": "A: Cloud Radius"
+    },
+    "coeffs": {
+      "0": 1.6,
+      "4": 6,
+      "5": 6,
+      "13": 1.6
+    },
+    "primarySlot": 0,
+    "coeff": 1.6
+  },
+  "rain-of-vengeance": {
+    "skill": "RainOfVengeance",
+    "sno": 130831,
+    "pow": "DemonHunter_RainOfVengeance",
+    "slots": [
+      12,
+      11,
+      0,
+      32
+    ],
+    "slotNames": {
+      "0": "Weapon Damage Scalar",
+      "11": "RuneE: Damage Scalar",
+      "12": "RuneD: Damage Scalar Total",
+      "32": "RuneC: Grenade Explosion Radius"
+    },
+    "coeffs": {
+      "0": 15,
+      "1": 15,
+      "9": 58,
+      "11": 46,
+      "12": 38,
+      "32": 0
+    },
+    "primarySlot": 12,
+    "coeff": 38
+  },
+  "vault": {
+    "skill": "Vault",
+    "sno": 111215,
+    "pow": "DemonHunter_Vault",
+    "slots": [
+      4
+    ],
+    "slotNames": {
+      "4": "C: Weapon Damage"
+    },
+    "coeffs": {
+      "4": 0.75
+    },
+    "primarySlot": 4,
+    "coeff": 0.75
+  },
+  "elemental-arrow": {
+    "skill": "ElementalArrow",
+    "sno": 131325,
+    "pow": "DemonHunter_ElementalArrow",
+    "slots": [
+      32,
+      12
+    ],
+    "slotNames": {
+      "12": "RuneA: Conal Freeze Damage Scalar",
+      "32": "RuneD: Tentacles Damage Scalar"
+    },
+    "coeffs": {
+      "0": 3,
+      "12": 3.3,
+      "32": 3
+    },
+    "primarySlot": 32,
+    "coeff": 3
+  },
+  "entangling-shot": {
+    "skill": "EntanglingShot",
+    "sno": 361936,
+    "pow": "X1_DemonHunter_EntanglingShot",
+    "slots": [
+      5,
+      8
+    ],
+    "slotNames": {
+      "5": "Weapon damage",
+      "8": "C: Electrical Damage Scalar"
+    },
+    "coeffs": {
+      "5": 2,
+      "8": 0
+    },
+    "primarySlot": 5,
+    "coeff": 2
+  },
+  "evasive-fire": {
+    "skill": "EvasiveFire",
+    "sno": 377450,
+    "pow": "X1_DemonHunter_EvasiveFire",
+    "slots": [
+      21,
+      3,
+      29
+    ],
+    "slotNames": {
+      "3": "Total: Projectile Weapon Damage",
+      "21": "",
+      "29": "C: Poison Cloud Radius"
+    },
+    "coeffs": {
+      "3": 2,
+      "29": 12
+    },
+    "primarySlot": 3,
+    "coeff": 2
+  },
+  "hungering-arrow": {
+    "skill": "HungeringArrow",
+    "sno": 129215,
+    "pow": "DemonHunter_HungeringArrow",
+    "slots": [
+      0,
+      11
+    ],
+    "slotNames": {
+      "0": "Wep Damage Scalar",
+      "11": "E: OnCrit Explosion Dam Perc"
+    },
+    "coeffs": {
+      "0": 1.55,
+      "11": 0.6
+    },
+    "primarySlot": 0,
+    "coeff": 1.55
+  },
+  "impale": {
+    "skill": "Impale",
+    "sno": 131366,
+    "pow": "DemonHunter_Impale",
+    "slots": [
+      0,
+      9,
+      11
+    ],
+    "slotNames": {
+      "0": "Total: Damage (% of weapon)",
+      "9": "C: DOT Damage (% of weapon)",
+      "11": "D: Num Bounces"
+    },
+    "coeffs": {
+      "0": 7.5,
+      "9": 5,
+      "11": 2
+    },
+    "primarySlot": 0,
+    "coeff": 7.5
+  },
+  "multishot": {
+    "skill": "Multishot",
+    "sno": 77649,
+    "pow": "DemonHunter_Multishot",
+    "slots": [
+      0,
+      2,
+      6
+    ],
+    "slotNames": {
+      "0": "Total Damage Scalar",
+      "2": "B: Duration",
+      "6": "C: Rocket Damage Scalar Total"
+    },
+    "coeffs": {
+      "0": 3.6,
+      "2": 3,
+      "6": 0,
+      "12": 3.6,
+      "18": 0
+    },
+    "primarySlot": 0,
+    "coeff": 3.6
+  },
+  "rapid-fire": {
+    "skill": "RapidFire",
+    "sno": 131192,
+    "pow": "DemonHunter_RapidFire",
+    "slots": [
+      5,
+      0,
+      23
+    ],
+    "slotNames": {
+      "0": "Damage",
+      "5": "A: AOE Radius",
+      "23": "C: Weapon Damage Base"
+    },
+    "coeffs": {
+      "0": 1.1417,
+      "5": 8,
+      "23": 1.45
+    },
+    "primarySlot": 23,
+    "coeff": 1.45
+  },
+  "sentry": {
+    "skill": "Sentry",
+    "sno": 129217,
+    "pow": "DemonHunter_Sentry",
+    "slots": [
+      2,
+      19,
+      6
+    ],
+    "slotNames": {
+      "2": "REF: Turret Weapon Damage % ( in turret power)",
+      "6": "A:  Weapon Damage %",
+      "19": "C: Weapon Damage Base"
+    },
+    "coeffs": {
+      "2": 2.8,
+      "6": 3,
+      "19": 1.2
+    },
+    "primarySlot": 2,
+    "coeff": 2.8
+  },
+  "smoke-screen": {
+    "skill": "SmokeScreen",
+    "sno": 130695,
+    "pow": "DemonHunter_SmokeScreen",
+    "slots": [
+      5
+    ],
+    "slotNames": {
+      "5": "Proxy Actor Duration"
+    },
+    "coeffs": {
+      "5": 5
+    },
+    "primarySlot": 5,
+    "coeff": null
+  },
+  "spike-trap": {
+    "skill": "SpikeTrap",
+    "sno": 75301,
+    "pow": "DemonHunter_SpikeTrap",
+    "slots": [
+      0,
+      6
+    ],
+    "slotNames": {
+      "0": "Total: Damage",
+      "6": "Total: Damage Radius"
+    },
+    "coeffs": {
+      "0": 0,
+      "6": 8,
+      "17": 11.6
+    },
+    "primarySlot": 17,
+    "coeff": 11.6
+  },
+  "strafe": {
+    "skill": "Strafe",
+    "sno": 134030,
+    "pow": "DemonHunter_Strafe",
+    "slots": [
+      0,
+      25,
+      31
+    ],
+    "slotNames": {
+      "0": "Base Attack Speed Multiplier",
+      "25": "RuneA: Grenade Damage Radius",
+      "31": "RuneC: Missile Damage Total"
+    },
+    "coeffs": {
+      "0": 4,
+      "9": 1.6875,
+      "25": 0,
+      "31": 0.65
+    },
+    "primarySlot": 9,
+    "coeff": 1.6875
+  },
+  "breath-of-heaven": {
+    "skill": "BreathOfHeaven",
+    "sno": 69130,
+    "pow": "Monk_BreathOfHeaven",
+    "slots": [
+      4
+    ],
+    "slotNames": {
+      "4": "Radius"
+    },
+    "coeffs": {
+      "4": 12
+    },
+    "primarySlot": 4,
+    "coeff": null
+  },
+  "cyclone-strike": {
+    "skill": "CycloneStrike",
+    "sno": 223473,
+    "pow": "Monk_CycloneStrike",
+    "slots": [
+      10
+    ],
+    "slotNames": {
+      "10": "AOE Damage Scalar Total"
+    },
+    "coeffs": {
+      "4": 2.61,
+      "10": 2.61
+    },
+    "primarySlot": 4,
+    "coeff": 2.61
+  },
+  "epiphany": {
+    "skill": "Epiphany",
+    "sno": 312307,
+    "pow": "X1_Monk_Epiphany",
+    "slots": [
+      36
+    ],
+    "slotNames": {
+      "36": "D: Fireball Weapon Damage Scalar"
+    },
+    "coeffs": {
+      "36": 3.53
+    },
+    "primarySlot": 36,
+    "coeff": 3.53
+  },
+  "lashing-tail-kick": {
+    "skill": "LashingTailKick",
+    "sno": 111676,
+    "pow": "Monk_LashingTailKick",
+    "slots": [
+      0
+    ],
+    "slotNames": {
+      "0": "Weapon Damage %"
+    },
+    "coeffs": {
+      "0": 7.55
+    },
+    "primarySlot": 0,
+    "coeff": 7.55
+  },
+  "mantra-of-retribution": {
+    "skill": "MantraOfRetribution",
+    "sno": 375082,
+    "pow": "X1_Monk_MantraOfRetribution_v2",
+    "slots": [
+      14
+    ],
+    "slotNames": {
+      "14": "E: Detonation Damage Scalar"
+    },
+    "coeffs": {
+      "14": 1.01,
+      "15": 1.01
+    },
+    "primarySlot": 14,
+    "coeff": 1.01
+  },
+  "dashing-strike": {
+    "skill": "DashingStrike",
+    "sno": 312736,
+    "pow": "X1_Monk_DashingStrike",
+    "slots": [
+      13,
+      8
+    ],
+    "slotNames": {
+      "8": "A: Weapon Damage Per Second",
+      "13": "Base: Damage Scalar"
+    },
+    "coeffs": {
+      "8": 4.875,
+      "13": 3.7
+    },
+    "primarySlot": 13,
+    "coeff": 3.7
+  },
+  "fists-of-thunder": {
+    "skill": "FistsOfThunder",
+    "sno": 95940,
+    "pow": "Monk_FistsofThunder",
+    "slots": [
+      7,
+      6,
+      11
+    ],
+    "slotNames": {
+      "6": "3rd stage Target Radius",
+      "7": "A: Stage 1 Weapon Damage Scalar",
+      "11": "B: Lightning Weapon Damage Scalar"
+    },
+    "coeffs": {
+      "6": 6,
+      "7": 1.2,
+      "11": 2.4
+    },
+    "primarySlot": 7,
+    "coeff": 1.2
+  },
+  "seven-sided-strike": {
+    "skill": "SevenSidedStrike",
+    "sno": 96694,
+    "pow": "Monk_SevenSidedStrike",
+    "slots": [
+      0
+    ],
+    "slotNames": {
+      "0": "Total Damage Scalar"
+    },
+    "coeffs": {
+      "0": 8.11
+    },
+    "primarySlot": 0,
+    "coeff": 8.11
+  },
+  "sweeping-wind": {
+    "skill": "SweepingWind",
+    "sno": 96090,
+    "pow": "Monk_SweepingWind",
+    "slots": [
+      29,
+      6
+    ],
+    "slotNames": {
+      "6": "Vortex Weapon Damage Per Stack Total",
+      "29": "C: Lightning Damage Scalar"
+    },
+    "coeffs": {
+      "6": 1.05,
+      "29": 0.95
+    },
+    "primarySlot": 29,
+    "coeff": 0.95
+  },
+  "way-of-the-hundred-fists": {
+    "skill": "WayOfTheHundredFists",
+    "sno": 97110,
+    "pow": "Monk_WayOfTheHundredFists",
+    "slots": [
+      0,
+      1,
+      2
+    ],
+    "slotNames": {
+      "0": "stage 1 damage scalar",
+      "1": "stage 2 damage scalar base",
+      "2": "stage 3 damage scalar"
+    },
+    "coeffs": {
+      "0": 1.9,
+      "1": 0.2714,
+      "2": 1.9
+    },
+    "primarySlot": 0,
+    "coeff": 1.9
+  },
+  "serenity": {
+    "skill": "Serenity",
+    "sno": 96215,
+    "pow": "Monk_Serenity",
+    "slots": [
+      5
+    ],
+    "slotNames": {
+      "5": "E: Explode Radius"
+    },
+    "coeffs": {
+      "5": 20
+    },
+    "primarySlot": 5,
+    "coeff": null
+  },
+  "wave-of-light": {
+    "skill": "WaveOfLight",
+    "sno": 96033,
+    "pow": "Monk_WaveOfLight",
+    "slots": [
+      23,
+      31,
+      17,
+      3,
+      14
+    ],
+    "slotNames": {
+      "3": "Wave Projectile Damage Scalar",
+      "14": "Bell Pulsing Damage Scalar",
+      "17": "C: Drop Damage Scalar",
+      "23": "B: Mini Holy Damage Scalar",
+      "31": "C: Temple Pillar Damage Scalar"
+    },
+    "coeffs": {
+      "3": 8.2,
+      "14": 8.35,
+      "17": 6.35,
+      "23": 8.3,
+      "29": 8.35,
+      "31": 7.85
+    },
+    "primarySlot": 23,
+    "coeff": 8.3
+  },
+  "bone-spear": {
+    "skill": "BoneSpear",
+    "sno": 451490,
+    "pow": "P6_Necro_BoneSpear",
+    "slots": [
+      6
+    ],
+    "slotNames": {
+      "6": "RUNEA: Buff + Debuff Duration"
+    },
+    "coeffs": {
+      "0": 5,
+      "6": 3
+    },
+    "primarySlot": 0,
+    "coeff": 5
+  },
+  "grim-scythe": {
+    "skill": "GrimScythe",
+    "sno": 462198,
+    "pow": "P6_Necro_GrimScythe",
+    "slots": [
+      2
+    ],
+    "slotNames": {
+      "2": "BASE: Weapon Damage"
+    },
+    "coeffs": {
+      "2": 1.5
+    },
+    "primarySlot": 2,
+    "coeff": 1.5
+  },
+  "acid-cloud": {
+    "skill": "AcidCloud",
+    "sno": 70455,
+    "pow": "Witchdoctor_AcidCloud",
+    "slots": [
+      31,
+      1,
+      4,
+      8
+    ],
+    "slotNames": {
+      "1": "Total: Impact Damage Radius",
+      "4": "Pool Max Radius",
+      "8": "Total: DOT Weapon Scalar",
+      "31": "E: Barf Angle"
+    },
+    "coeffs": {
+      "1": 12,
+      "4": 7,
+      "8": 1.2,
+      "11": 3,
+      "31": 55,
+      "34": 1.2
+    },
+    "primarySlot": 8,
+    "coeff": 1.2
+  },
+  "corpse-spiders": {
+    "skill": "CorpseSpiders",
+    "sno": 69866,
+    "pow": "Witchdoctor_CorpseSpider",
+    "slots": [
+      14
+    ],
+    "slotNames": {
+      "14": "B: Mom Spider Weapon Scalar"
+    },
+    "coeffs": {
+      "9": 0.44,
+      "14": 1.75,
+      "18": 0.08
+    },
+    "primarySlot": 14,
+    "coeff": 1.75
+  },
+  "fetish-army": {
+    "skill": "FetishArmy",
+    "sno": 72785,
+    "pow": "Witchdoctor_FetishArmy",
+    "slots": [
+      5
+    ],
+    "slotNames": {
+      "5": "A: Damage Min"
+    },
+    "coeffs": {
+      "5": 6.8
+    },
+    "primarySlot": 5,
+    "coeff": 6.8
+  },
+  "firebats": {
+    "skill": "Firebats",
+    "sno": 105963,
+    "pow": "Witchdoctor_Firebats",
+    "slots": [
+      15,
+      18,
+      12,
+      1,
+      21
+    ],
+    "slotNames": {
+      "1": "Total:  Weapon Scalar",
+      "12": "C: DOT DPS",
+      "15": "A: Weapon Scalar",
+      "18": "B: DPS Weapon Scalar",
+      "21": "E: Aoe Area"
+    },
+    "coeffs": {
+      "1": 4.75,
+      "12": 0,
+      "13": 4.75,
+      "15": 5,
+      "18": 7.5,
+      "21": 15
+    },
+    "primarySlot": 15,
+    "coeff": 5
+  },
+  "firebomb": {
+    "skill": "Firebomb",
+    "sno": 67567,
+    "pow": "Witchdoctor_Firebomb",
+    "slots": [
+      0,
+      11,
+      10,
+      13,
+      5
+    ],
+    "slotNames": {
+      "0": "Total: Damage Scalar",
+      "5": "A: Secondary Target Radius",
+      "10": "C: Pool Weapon Scalar",
+      "11": "C: Pool Radius",
+      "13": "D: Weapon Scalar"
+    },
+    "coeffs": {
+      "0": 1.55,
+      "5": 28,
+      "10": 0.2,
+      "11": 8,
+      "13": 0.44,
+      "19": 1.55
+    },
+    "primarySlot": 0,
+    "coeff": 1.55
+  },
+  "gargantuan": {
+    "skill": "Gargantuan",
+    "sno": 30624,
+    "pow": "Witchdoctor_Gargantuan",
+    "slots": [
+      5
+    ],
+    "slotNames": {
+      "5": "C: Poison Cloud DOT"
+    },
+    "coeffs": {
+      "5": 1.35,
+      "24": 4.5
+    },
+    "primarySlot": 24,
+    "coeff": 4.5
+  },
+  "grasp-of-the-dead": {
+    "skill": "GraspOfTheDead",
+    "sno": 69182,
+    "pow": "Witchdoctor_GraspOfTheDead",
+    "slots": [
+      0,
+      15
+    ],
+    "slotNames": {
+      "0": "Total: DOT Damage",
+      "15": "B: Corpse Attack Radius"
+    },
+    "coeffs": {
+      "0": 0.95,
+      "15": 10
+    },
+    "primarySlot": 0,
+    "coeff": 0.95
+  },
+  "hex": {
+    "skill": "Hex",
+    "sno": 30631,
+    "pow": "Witchdoctor_Hex",
+    "slots": [
+      13
+    ],
+    "slotNames": {
+      "13": "B: Damage Salar"
+    },
+    "coeffs": {
+      "13": 13.5
+    },
+    "primarySlot": 13,
+    "coeff": 13.5
+  },
+  "locust-swarm": {
+    "skill": "LocustSwarm",
+    "sno": 69867,
+    "pow": "Witchdoctor_Locust_Swarm",
+    "slots": [
+      0,
+      1,
+      12
+    ],
+    "slotNames": {
+      "0": "Total: DOT Damage Scalar",
+      "1": "Total: DOT Duration",
+      "12": "E: Cloud Damage Scalar"
+    },
+    "coeffs": {
+      "0": 1.3,
+      "1": 8,
+      "9": 1.3,
+      "12": 2.5
+    },
+    "primarySlot": 0,
+    "coeff": 1.3
+  },
+  "mass-confusion": {
+    "skill": "MassConfusion",
+    "sno": 67600,
+    "pow": "Witchdoctor_MassConfusion",
+    "slots": [
+      1,
+      11
+    ],
+    "slotNames": {
+      "1": "Confusion Radius",
+      "11": "C: Mononoke Weapon Scalar"
+    },
+    "coeffs": {
+      "1": 30,
+      "11": 4
+    },
+    "primarySlot": 11,
+    "coeff": 4
+  },
+  "soul-harvest": {
+    "skill": "SoulHarvest",
+    "sno": 67616,
+    "pow": "Witchdoctor_SoulHarvest",
+    "slots": [
+      0
+    ],
+    "slotNames": {
+      "0": "E: Weapon Scalar"
+    },
+    "coeffs": {
+      "0": 6.4
+    },
+    "primarySlot": 0,
+    "coeff": 6.4
+  },
+  "spirit-barrage": {
+    "skill": "SpiritBarrage",
+    "sno": 108506,
+    "pow": "Witchdoctor_SpiritBarrage",
+    "slots": [
+      14,
+      0,
+      8,
+      20
+    ],
+    "slotNames": {
+      "0": "Base: Damage Scalar",
+      "8": "B: Missile Damage Scalar",
+      "14": "AOE  DPS",
+      "20": "E: Damage Scalar"
+    },
+    "coeffs": {
+      "0": 1.5,
+      "8": 0.65,
+      "14": 1.5,
+      "20": 3.5
+    },
+    "primarySlot": 0,
+    "coeff": 1.5
+  },
+  "spirit-walk": {
+    "skill": "SpiritWalk",
+    "sno": 106237,
+    "pow": "Witchdoctor_SpiritWalk",
+    "slots": [
+      6,
+      1
+    ],
+    "slotNames": {
+      "1": "A: Movement speed",
+      "6": "C: Damage Min"
+    },
+    "coeffs": {
+      "1": 1,
+      "6": 7.5
+    },
+    "primarySlot": 6,
+    "coeff": 7.5
+  },
+  "wall-of-zombies": {
+    "skill": "WallOfZombies",
+    "sno": 134837,
+    "pow": "Witchdoctor_WallOfZombies",
+    "slots": [
+      4,
+      14
+    ],
+    "slotNames": {
+      "4": "Capsule Radius",
+      "14": "Base: Total Damage"
+    },
+    "coeffs": {
+      "4": 6,
+      "14": 12
+    },
+    "primarySlot": 14,
+    "coeff": 12
+  },
+  "plague-of-toads": {
+    "skill": "PlagueOfToads",
+    "sno": 106465,
+    "pow": "Witchdoctor_PlagueOfToads",
+    "slots": [
+      8,
+      17
+    ],
+    "slotNames": {
+      "8": "B: Rain Damage Total Scalar",
+      "17": "A: Fire Damage Scalar"
+    },
+    "coeffs": {
+      "0": 1.9,
+      "8": 1.3,
+      "17": 2.45
+    },
+    "primarySlot": 17,
+    "coeff": 2.45
+  },
+  "poison-dart": {
+    "skill": "PoisonDart",
+    "sno": 103181,
+    "pow": "Witchdoctor_PoisonDart",
+    "slots": [
+      2,
+      0
+    ],
+    "slotNames": {
+      "0": "Total: Damage Scalar",
+      "2": "A: Damage "
+    },
+    "coeffs": {
+      "0": 1.85,
+      "2": 5.65,
+      "14": 1.85,
+      "16": 0.4
+    },
+    "primarySlot": 0,
+    "coeff": 1.85
+  },
+  "zombie-charger": {
+    "skill": "ZombieCharger",
+    "sno": 74003,
+    "pow": "Witchdoctor_ZombieCharger",
+    "slots": [
+      6,
+      4,
+      24,
+      11
+    ],
+    "slotNames": {
+      "4": "Total: Damage Scalar",
+      "6": "C: Damage Scalar",
+      "11": "E: Explode Radius",
+      "24": "D: Max New Zombie Per Projectile"
+    },
+    "coeffs": {
+      "4": 5.6,
+      "6": 8.8,
+      "9": 5.6,
+      "11": 12,
+      "24": 2
+    },
+    "primarySlot": 6,
+    "coeff": 8.8
+  },
+  "arcane-orb": {
+    "skill": "ArcaneOrb",
+    "sno": 30668,
+    "pow": "Wizard_ArcaneOrb",
+    "slots": [
+      3
+    ],
+    "slotNames": {
+      "3": "Total: AOE Damage Min"
+    },
+    "coeffs": {
+      "3": 4.35,
+      "7": 4.35
+    },
+    "primarySlot": 7,
+    "coeff": 4.35
+  },
+  "archon": {
+    "skill": "Archon",
+    "sno": 134872,
+    "pow": "Wizard_Archon_ArcaneStrike",
+    "slots": [
+      7
+    ],
+    "slotNames": {
+      "7": "DISPLAY: weapon scalar"
+    },
+    "coeffs": {
+      "0": 7.9,
+      "7": 7.9
+    },
+    "primarySlot": 0,
+    "coeff": 7.9
+  },
+  "diamond-skin": {
+    "skill": "DiamondSkin",
+    "sno": 75599,
+    "pow": "Wizard_DiamondSkin",
+    "slots": [
+      6
+    ],
+    "slotNames": {
+      "6": "E: Explode Radius"
+    },
+    "coeffs": {
+      "6": 15
+    },
+    "primarySlot": 6,
+    "coeff": null
+  },
+  "explosive-blast": {
+    "skill": "ExplosiveBlast",
+    "sno": 87525,
+    "pow": "Wizard_ExplosiveBlast",
+    "slots": [
+      0
+    ],
+    "slotNames": {
+      "0": "Total: Weapon Scalar"
+    },
+    "coeffs": {
+      "0": 9.45,
+      "4": 9.45
+    },
+    "primarySlot": 0,
+    "coeff": 9.45
+  },
+  "familiar": {
+    "skill": "Familiar",
+    "sno": 99120,
+    "pow": "Wizard_Familiar",
+    "slots": [
+      24,
+      2
+    ],
+    "slotNames": {
+      "2": "Total: Pet Weapon Scalar",
+      "24": "RuneB: Damage Area Radius"
+    },
+    "coeffs": {
+      "2": 2.4,
+      "8": 2.4,
+      "24": 6
+    },
+    "primarySlot": 2,
+    "coeff": 2.4
+  },
+  "ice-armor": {
+    "skill": "IceArmor",
+    "sno": 73223,
+    "pow": "Wizard_IceArmor",
+    "slots": [
+      13,
+      9,
+      0
+    ],
+    "slotNames": {
+      "0": "Total: Weapon Scalar",
+      "9": "C: Frost Ring Weapon Scalar",
+      "13": "E: Frost Nova Damage"
+    },
+    "coeffs": {
+      "0": 0,
+      "9": 0.8,
+      "13": 0.75
+    },
+    "primarySlot": 9,
+    "coeff": 0.8
+  },
+  "mirror-image": {
+    "skill": "MirrorImage",
+    "sno": 98027,
+    "pow": "Wizard_MirrorImage",
+    "slots": [
+      5
+    ],
+    "slotNames": {
+      "5": "E - Death Explode Weapon Scalar"
+    },
+    "coeffs": {
+      "5": 3.09
+    },
+    "primarySlot": 5,
+    "coeff": 3.09
+  },
+  "storm-armor": {
+    "skill": "StormArmor",
+    "sno": 74499,
+    "pow": "Wizard_StormArmor",
+    "slots": [
+      1,
+      15,
+      9
+    ],
+    "slotNames": {
+      "1": "Total: Weapon Scalar",
+      "9": "C: Weapon Scalar",
+      "15": "E: Extra Charge Bolt Scalar"
+    },
+    "coeffs": {
+      "1": 1.75,
+      "9": 1.89,
+      "11": 1.75,
+      "15": 4.25
+    },
+    "primarySlot": 1,
+    "coeff": 1.75
+  },
+  "arcane-torrent": {
+    "skill": "ArcaneTorrent",
+    "sno": 134456,
+    "pow": "Wizard_ArcaneTorrent",
+    "slots": [
+      29,
+      17,
+      13
+    ],
+    "slotNames": {
+      "13": "B: OnKill Missile Weapon Scalar",
+      "17": "E: Single Explosion Weapon Scalar",
+      "29": "C: Mine Weapon Scalar"
+    },
+    "coeffs": {
+      "0": 4,
+      "13": 5.82,
+      "17": 12.15,
+      "29": 8.25,
+      "41": 3.05
+    },
+    "primarySlot": 29,
+    "coeff": 8.25
+  },
+  "black-hole": {
+    "skill": "BlackHole",
+    "sno": 243141,
+    "pow": "X1_Wizard_Wormhole",
+    "slots": [
+      2,
+      1
+    ],
+    "slotNames": {
+      "1": "radius",
+      "2": "weapon damage"
+    },
+    "coeffs": {
+      "1": 15,
+      "2": 7
+    },
+    "primarySlot": 2,
+    "coeff": 7
+  },
+  "disintegrate": {
+    "skill": "Disintegrate",
+    "sno": 91549,
+    "pow": "Wizard_Disintegrate",
+    "slots": [
+      0,
+      1,
+      25
+    ],
+    "slotNames": {
+      "0": "Base: Weapon Damage Scalar",
+      "1": "Total: Weapon Damage Scalar",
+      "25": "E: Explosion Radius"
+    },
+    "coeffs": {
+      "0": 3.9,
+      "1": 3.9,
+      "23": 2.5,
+      "25": 8
+    },
+    "primarySlot": 0,
+    "coeff": 3.9
+  },
+  "electrocute": {
+    "skill": "Electrocute",
+    "sno": 1765,
+    "pow": "Wizard_Electrocute",
+    "slots": [
+      0,
+      2,
+      12
+    ],
+    "slotNames": {
+      "0": "Total: Weapon Scalar",
+      "2": "Target Search Radius",
+      "12": "E: Explode Weapon Scalar"
+    },
+    "coeffs": {
+      "0": 0.69,
+      "2": 15,
+      "11": 0.69,
+      "12": 0.44
+    },
+    "primarySlot": 0,
+    "coeff": 0.69
+  },
+  "hydra": {
+    "skill": "Hydra",
+    "sno": 30725,
+    "pow": "Wizard_Hydra",
+    "slots": [
+      20,
+      21
+    ],
+    "slotNames": {
+      "20": "Total: Average Weapon Scalar (TOOLTIP ONLY)",
+      "21": "Base: Average Weapon Scalar (TOOLTIP ONLY)"
+    },
+    "coeffs": {
+      "13": 1.65,
+      "14": 0,
+      "20": 1.65,
+      "21": 1.65
+    },
+    "primarySlot": 20,
+    "coeff": 1.65
+  },
+  "magic-missile": {
+    "skill": "MagicMissile",
+    "sno": 30744,
+    "pow": "Wizard_MagicMissile",
+    "slots": [
+      2,
+      1
+    ],
+    "slotNames": {
+      "1": "Total: Weapon Scalar",
+      "2": "D: Weapon Scalar"
+    },
+    "coeffs": {
+      "1": 2.3,
+      "2": 1.75,
+      "14": 2.3
+    },
+    "primarySlot": 2,
+    "coeff": 1.75
+  },
+  "meteor": {
+    "skill": "Meteor",
+    "sno": 69190,
+    "pow": "Wizard_Meteor",
+    "slots": [
+      0,
+      2
+    ],
+    "slotNames": {
+      "0": "Total: Impact Weapon Scalar",
+      "2": "Total: Ground DoT Weapon Scalar"
+    },
+    "coeffs": {
+      "0": 7.4,
+      "2": 2.35,
+      "10": 7.4,
+      "12": 2.35
+    },
+    "primarySlot": 0,
+    "coeff": 7.4
+  },
+  "ray-of-frost": {
+    "skill": "RayOfFrost",
+    "sno": 93395,
+    "pow": "Wizard_RayOfFrost",
+    "slots": [
+      6,
+      0,
+      3
+    ],
+    "slotNames": {
+      "0": "Base: Weapon Scalar",
+      "3": "E: Ground Ice DPS",
+      "6": "B: DPS"
+    },
+    "coeffs": {
+      "0": 4.3,
+      "3": 5.4167,
+      "6": 3,
+      "39": 4.05
+    },
+    "primarySlot": 0,
+    "coeff": 4.3
+  },
+  "shock-pulse": {
+    "skill": "ShockPulse",
+    "sno": 30783,
+    "pow": "Wizard_ShockPulse",
+    "slots": [
+      4,
+      8
+    ],
+    "slotNames": {
+      "4": "Total: Weapon Scalar",
+      "8": "E: Explosion Radius"
+    },
+    "coeffs": {
+      "4": 1.94,
+      "8": 10,
+      "11": 1.94
+    },
+    "primarySlot": 4,
+    "coeff": 1.94
+  }
+}

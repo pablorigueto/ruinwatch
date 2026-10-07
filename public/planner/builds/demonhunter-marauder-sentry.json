@@ -1,0 +1,247 @@
+{
+  "id": "demonhunter-marauder-sentry",
+  "name": "Marauder Sentry",
+  "klass": "demonhunter",
+  "category": "solo-push",
+  "tier": "A",
+  "gender": "male",
+  "source": "https://maxroll.gg/d3/guides/marauder-sentry-demon-hunter-guide",
+  "season": "Rites of Sanctuary",
+  "tagline": "Sentry · Marauder",
+  "paragonLevel": 800,
+  "paragon": {
+    "core": {
+      "movement": 50,
+      "resource": 50,
+      "mainstat": 50,
+      "vit": 50
+    },
+    "offense": {
+      "cdr": 50,
+      "chc": 50,
+      "chd": 50,
+      "ias": 50
+    },
+    "defense": {
+      "armor": 50,
+      "resall": 50,
+      "ldr": 50,
+      "life": 50
+    },
+    "utility": {
+      "rcr": 50,
+      "laek": 50,
+      "gf": 50,
+      "area": 50
+    }
+  },
+  "equipped": {
+    "head": {
+      "itemId": "Unique_Helm_Set_07_x1",
+      "affixes": [
+        "chc",
+        "vit"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "diamond"
+        }
+      ]
+    },
+    "shoulders": {
+      "itemId": "Unique_Shoulder_Set_07_x1",
+      "affixes": [
+        "cdr",
+        "area",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": []
+    },
+    "neck": {
+      "itemId": "P66_Unique_Amulet_010",
+      "affixes": [
+        "chd",
+        "wpnphy",
+        "chc"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "zei",
+          "legendary": true
+        }
+      ]
+    },
+    "torso": {
+      "itemId": "Unique_Chest_Set_07_x1",
+      "affixes": [
+        "vit",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "diamond"
+        },
+        {
+          "gem": "diamond"
+        },
+        {
+          "gem": "diamond"
+        }
+      ]
+    },
+    "hands": {
+      "itemId": "Unique_Gloves_Set_07_x1",
+      "affixes": [
+        "chc",
+        "chd",
+        "cdr"
+      ],
+      "augment": 750,
+      "gems": []
+    },
+    "wrists": {
+      "itemId": "P61_Unique_Bracer_103",
+      "affixes": [
+        "elemental",
+        "chc",
+        "vit"
+      ],
+      "augment": 750,
+      "gems": []
+    },
+    "waist": {
+      "itemId": "P66_Unique_Belt_012",
+      "affixes": [
+        "vit",
+        "life",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": []
+    },
+    "leftfinger": {
+      "itemId": "Unique_Ring_Set_001_x1",
+      "affixes": [
+        "chc",
+        "chd",
+        "cdr"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "trapped",
+          "legendary": true
+        }
+      ]
+    },
+    "rightfinger": {
+      "itemId": "Unique_Ring_Set_002_x1",
+      "affixes": [
+        "chc",
+        "chd",
+        "cdr"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "enforcer",
+          "legendary": true
+        }
+      ]
+    },
+    "legs": {
+      "itemId": "P66_Unique_Pants_012",
+      "affixes": [
+        "vit",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "diamond"
+        },
+        {
+          "gem": "diamond"
+        }
+      ]
+    },
+    "feet": {
+      "itemId": "Unique_Boots_Set_07_x1",
+      "affixes": [
+        "vit",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": []
+    },
+    "mainhand": {
+      "itemId": "P71_Ethereal_02",
+      "affixes": [
+        "cdr",
+        "area"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "emerald"
+        }
+      ]
+    },
+    "offhand": {
+      "itemId": "P72_Unique_Quiver_102",
+      "affixes": [
+        "chc",
+        "cdr"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "diamond"
+        }
+      ]
+    }
+  },
+  "kanai": {
+    "weapon": "leg_manticore_p6",
+    "armor": "leg_zoeyssecret",
+    "jewelry": "leg_ringofroyalgrandeur"
+  },
+  "skills": {
+    "active": [
+      {
+        "skill": "cluster-arrow",
+        "rune": "a"
+      },
+      {
+        "skill": "sentry",
+        "rune": "d"
+      },
+      {
+        "skill": "vengeance",
+        "rune": "b"
+      },
+      {
+        "skill": "evasive-fire",
+        "rune": "a"
+      },
+      {
+        "skill": "companion",
+        "rune": "b"
+      },
+      {
+        "skill": "smoke-screen",
+        "rune": "d"
+      }
+    ],
+    "passives": [
+      "custom-engineering",
+      "grenadier",
+      "cull-the-weak",
+      "ambush"
+    ]
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "id": "wizard-firebird-explosive-blast",
+  "name": "Firebird Explosive Blast",
+  "klass": "wizard",
+  "category": "solo-push",
+  "tier": "A",
+  "gender": "male",
+  "source": "https://maxroll.gg/d3/guides/firebird-explosive-blast-wizard-guide",
+  "season": "Rites of Sanctuary",
+  "tagline": "Explosive Blast · Firebird",
+  "paragonLevel": 800,
+  "paragon": {
+    "core": {
+      "movement": 50,
+      "resource": 50,
+      "mainstat": 50,
+      "vit": 50
+    },
+    "offense": {
+      "cdr": 50,
+      "chc": 50,
+      "chd": 50,
+      "ias": 50
+    },
+    "defense": {
+      "armor": 50,
+      "resall": 50,
+      "ldr": 50,
+      "life": 50
+    },
+    "utility": {
+      "rcr": 50,
+      "laek": 50,
+      "gf": 50,
+      "area": 50
+    }
+  },
+  "equipped": {
+    "head": {
+      "itemId": "Unique_Helm_Set_06_x1",
+      "affixes": [
+        "chc",
+        "vit"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "diamond"
+        }
+      ]
+    },
+    "shoulders": {
+      "itemId": "Unique_Shoulder_Set_06_x1",
+      "affixes": [
+        "cdr",
+        "area",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": []
+    },
+    "neck": {
+      "itemId": "P66_Unique_Amulet_010",
+      "affixes": [
+        "chd",
+        "elemental",
+        "chc"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "trapped",
+          "legendary": true
+        }
+      ]
+    },
+    "torso": {
+      "itemId": "Unique_Chest_Set_06_x1",
+      "affixes": [
+        "vit",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "ruby"
+        },
+        {
+          "gem": "ruby"
+        },
+        {
+          "gem": "ruby"
+        }
+      ]
+    },
+    "hands": {
+      "itemId": "Unique_Gloves_Set_06_x1",
+      "affixes": [
+        "chc",
+        "chd",
+        "cdr"
+      ],
+      "augment": 750,
+      "gems": []
+    },
+    "wrists": {
+      "itemId": "P4_Unique_Bracer_004",
+      "affixes": [
+        "elemental",
+        "chc",
+        "vit"
+      ],
+      "augment": 750,
+      "gems": []
+    },
+    "waist": {
+      "itemId": "P66_Unique_Belt_012",
+      "affixes": [
+        "vit",
+        "life",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": []
+    },
+    "leftfinger": {
+      "itemId": "P2_Unique_Ring_04",
+      "affixes": [
+        "chc",
+        "chd",
+        "cdr"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "stricken",
+          "legendary": true
+        }
+      ]
+    },
+    "rightfinger": {
+      "itemId": "Unique_Ring_023_p2",
+      "affixes": [
+        "chc",
+        "chd",
+        "cdr"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "taeguk",
+          "legendary": true
+        }
+      ]
+    },
+    "legs": {
+      "itemId": "Unique_Pants_Set_06_x1",
+      "affixes": [
+        "vit",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "ruby"
+        },
+        {
+          "gem": "ruby"
+        }
+      ]
+    },
+    "feet": {
+      "itemId": "P66_Unique_Boots_017",
+      "affixes": [
+        "vit",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": []
+    },
+    "mainhand": {
+      "itemId": "P71_Ethereal_11",
+      "affixes": [
+        "cdr",
+        "area"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "emerald"
+        }
+      ]
+    }
+  },
+  "kanai": {
+    "weapon": "leg_deathwish_p6",
+    "armor": "leg_mantleofchanneling",
+    "jewelry": "leg_ringofroyalgrandeur"
+  },
+  "skills": {
+    "active": [
+      {
+        "skill": "disintegrate",
+        "rune": "b"
+      },
+      {
+        "skill": "explosive-blast",
+        "rune": "e"
+      },
+      {
+        "skill": "teleport",
+        "rune": "e"
+      },
+      {
+        "skill": "magic-weapon",
+        "rune": "e"
+      },
+      {
+        "skill": "black-hole",
+        "rune": "e"
+      },
+      {
+        "skill": "arcane-torrent",
+        "rune": "d"
+      }
+    ],
+    "passives": [
+      "galvanizing-ward",
+      "elemental-exposure",
+      "audacity",
+      "evocation"
+    ]
+  }
+}

@@ -1,0 +1,248 @@
+{
+  "id": "crusader-aov-fist-of-the-heavens",
+  "name": "Aegis of Valor Fist of the Heavens",
+  "klass": "crusader",
+  "category": "solo-push",
+  "tier": "C",
+  "gender": "male",
+  "source": "https://www.diablofans.com/builds/109974-aegis-of-valor",
+  "season": "Rites of Sanctuary",
+  "tagline": "Fist of the Heavens · Heaven's Fury · Aegis of Valor",
+  "paragonLevel": 800,
+  "paragon": {
+    "core": {
+      "movement": 50,
+      "resource": 50,
+      "mainstat": 50,
+      "vit": 50
+    },
+    "offense": {
+      "cdr": 50,
+      "chc": 50,
+      "chd": 50,
+      "ias": 50
+    },
+    "defense": {
+      "armor": 50,
+      "resall": 50,
+      "ldr": 50,
+      "life": 50
+    },
+    "utility": {
+      "rcr": 50,
+      "laek": 50,
+      "gf": 50,
+      "area": 50
+    }
+  },
+  "equipped": {
+    "head": {
+      "itemId": "P67_Unique_Helm_Set_01",
+      "affixes": [
+        "chc",
+        "vit"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "diamond"
+        }
+      ]
+    },
+    "shoulders": {
+      "itemId": "P67_Unique_Shoulder_Set_01",
+      "affixes": [
+        "cdr",
+        "area",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": []
+    },
+    "neck": {
+      "itemId": "Unique_Amulet_008_x1",
+      "affixes": [
+        "chd",
+        "wpnphy",
+        "chc"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "wreath",
+          "legendary": true
+        }
+      ]
+    },
+    "torso": {
+      "itemId": "P67_Unique_Chest_Set_01",
+      "affixes": [
+        "vit",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "diamond"
+        },
+        {
+          "gem": "diamond"
+        },
+        {
+          "gem": "diamond"
+        }
+      ]
+    },
+    "hands": {
+      "itemId": "P67_Unique_Gloves_Set_01",
+      "affixes": [
+        "chc",
+        "chd",
+        "cdr"
+      ],
+      "augment": 750,
+      "gems": []
+    },
+    "wrists": {
+      "itemId": "Unique_Bracer_106_x1",
+      "affixes": [
+        "elemental",
+        "chc",
+        "vit"
+      ],
+      "augment": 750,
+      "gems": []
+    },
+    "waist": {
+      "itemId": "P42_Crusader_FoH_Belt",
+      "affixes": [
+        "vit",
+        "life",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": []
+    },
+    "legs": {
+      "itemId": "P67_Unique_Pants_Set_01",
+      "affixes": [
+        "vit",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "diamond"
+        },
+        {
+          "gem": "diamond"
+        }
+      ]
+    },
+    "feet": {
+      "itemId": "P67_Unique_Boots_Set_01",
+      "affixes": [
+        "vit",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": []
+    },
+    "leftfinger": {
+      "itemId": "P74_Unique_Ring_007",
+      "affixes": [
+        "chc",
+        "chd",
+        "cdr"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "stricken",
+          "legendary": true
+        }
+      ]
+    },
+    "rightfinger": {
+      "itemId": "Unique_Ring_013_x1",
+      "affixes": [
+        "chc",
+        "chd",
+        "cdr"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "powerful",
+          "legendary": true
+        }
+      ]
+    },
+    "mainhand": {
+      "itemId": "P61_Unique_Flail_2H_103_x1",
+      "affixes": [
+        "cdr",
+        "area"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "emerald"
+        }
+      ]
+    },
+    "offhand": {
+      "itemId": "P61_Unique_Shield_106_x1",
+      "affixes": [
+        "chc",
+        "cdr"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "diamond"
+        }
+      ]
+    }
+  },
+  "kanai": {
+    "weapon": "leg_darklight_p67",
+    "armor": "leg_braceroffury_p6",
+    "jewelry": "leg_obsidianringofthezodiac"
+  },
+  "skills": {
+    "active": [
+      {
+        "skill": "slash",
+        "rune": "e"
+      },
+      {
+        "skill": "fist-of-the-heavens",
+        "rune": "c"
+      },
+      {
+        "skill": "heavens-fury",
+        "rune": "a"
+      },
+      {
+        "skill": "phalanx",
+        "rune": "e"
+      },
+      {
+        "skill": "akarats-champion",
+        "rune": "d"
+      },
+      {
+        "skill": "laws-of-justice",
+        "rune": "b"
+      }
+    ],
+    "passives": [
+      "indestructible",
+      "wrathful",
+      "holy-cause",
+      "vigilant"
+    ]
+  },
+  "noEthereal": true
+}
