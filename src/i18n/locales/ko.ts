@@ -1,6 +1,17 @@
 // Auto-generated: one file per language so the homepage only ships the
 // active language; the others are fetched on demand by src/i18n/index.ts.
 const translation = {
+  "support": {
+    "nav": "RuinWatch 후원",
+    "eyebrow": "커뮤니티가 지켜 가는 세계",
+    "title": "불꽃을 이어 주세요.",
+    "body": "자신의 서버를 운영할 분들을 위한 RuinWatch 안정 버전 개발을 지원해 주세요. 후원금은 버전 업데이트, 버그 수정, 새 기능 및 간편한 설정을 위한 작업에 쓰입니다.",
+    "voluntary": "지금 후원하면 안정 버전 출시 시 후원 금액의 두 배를 월 구독료에 사용할 크레딧으로 받습니다. 예를 들어 50 USD를 후원하면 100 USD의 구독 크레딧을 받습니다.",
+    "cta": "프로젝트 후원",
+    "payment": "donate.ruinwatch.com에서 Stripe로 안전하게 결제합니다.",
+    "prelaunch": "안정 버전은 개발 중이며 출시일은 아직 정해지지 않았습니다. 두 배의 크레딧은 출시 시 적용됩니다.",
+    "pricing": "월 약 70 USD를 검토하고 있지만 가격은 아직 정해지지 않았습니다. 운영자가 부담할 수 있는 가격으로 정기 업데이트, 지속적인 개선, 안정적이고 신뢰할 수 있는 서버를 유지하는 것이 목표입니다. 오늘의 후원은 USD 일회성 결제이며 구독을 시작하지 않습니다."
+  },
   "nav": {
     "groupVigil": "감시",
     "groupCodex": "코덱스",

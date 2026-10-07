@@ -6,6 +6,7 @@ import Story from "@/components/Story";
 import Features from "@/components/Features";
 import Stats from "@/components/Stats";
 import Join from "@/components/Join";
+import Support from "@/components/Support";
 import SiteFooter from "@/components/SiteFooter";
 
 const Index = () => {
@@ -37,6 +38,7 @@ const Index = () => {
         <Features />
         <Stats />
         <Join />
+        <Support />
       </main>
       <SiteFooter />
     </div>

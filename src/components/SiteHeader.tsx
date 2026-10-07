@@ -38,6 +38,7 @@ const SiteHeader = () => {
   const VIGIL_LINKS: NavLink[] = [
     { href: "/#story", label: t("nav.vigil") },
     { href: "/#features", label: t("nav.features") },
+    { href: "/#support", label: t("support.nav") },
   ];
 
   const CODEX_LINKS: NavLink[] = [

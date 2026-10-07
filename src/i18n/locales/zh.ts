@@ -1,6 +1,17 @@
 // Auto-generated: one file per language so the homepage only ships the
 // active language; the others are fetched on demand by src/i18n/index.ts.
 const translation = {
+  "support": {
+    "nav": "支持 RuinWatch",
+    "eyebrow": "由社区共同守护",
+    "title": "让火焰继续燃烧。",
+    "body": "帮助我们为希望管理自己服务器的人开发 RuinWatch 稳定版。您的支持将用于版本更新、错误修复、新功能和简化配置。",
+    "voluntary": "现在贡献，稳定版发布时即可获得贡献金额两倍的月费抵扣额度。例如，贡献 50 美元可获得 100 美元的订阅抵扣额度。",
+    "cta": "支持项目",
+    "payment": "通过 donate.ruinwatch.com 上的 Stripe 安全支付。",
+    "prelaunch": "稳定版正在开发中，发布日期尚未确定。双倍抵扣额度将在发布时用于月费。",
+    "pricing": "我们正在考虑每月约 70 美元的价格，但尚未确定。目标是让服务器管理员负担得起，同时支持定期更新、持续改进以及稳定可靠的服务器。今天的贡献为一次性美元付款，不会开启订阅。"
+  },
   "nav": {
     "groupVigil": "守望",
     "groupCodex": "典籍",
