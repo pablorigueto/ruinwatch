@@ -45,6 +45,7 @@ Akkhan's Leniency) are shown as they exist in 2.7.5.
 - [Project structure](#project-structure)
 - [Testing and quality](#testing-and-quality)
 - [Credits and disclaimer](#credits-and-disclaimer)
+- [License](#license)
 
 ---
 
@@ -263,3 +264,15 @@ npm run build:codex -- --check             # Item Codex vs. game files
 RuinWatch is a fan project. It is not affiliated with, endorsed by or sponsored by Blizzard
 Entertainment. Diablo and Diablo III are trademarks of Blizzard Entertainment, Inc.; game names,
 item names, icons and artwork belong to their respective owners.
+
+---
+
+## License
+
+Licensed under the [Apache License 2.0](LICENSE). You are free to use, modify and redistribute this
+project, including commercially, as long as you **keep the copyright and the [`NOTICE`](NOTICE) file**
+and credit **RuinWatch by Pablo Rigueto** (https://github.com/pablorigueto/ruinwatch) in anything built
+on it. Modified files must state that they were changed.
+
+The license covers this project's own code, scripts and texts. Diablo III game data, names, icons and
+artwork belong to Blizzard Entertainment and are not licensed here.
