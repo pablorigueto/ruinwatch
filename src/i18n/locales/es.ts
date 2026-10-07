@@ -1,6 +1,17 @@
 // Auto-generated: one file per language so the homepage only ships the
 // active language; the others are fetched on demand by src/i18n/index.ts.
 const translation = {
+  "support": {
+    "nav": "Apoya a RuinWatch",
+    "eyebrow": "MANTENIDO VIVO POR LA COMUNIDAD",
+    "title": "Mantén la llama viva.",
+    "body": "Ayuda a construir la versión estable de RuinWatch para quienes administrarán sus propios servidores. Tu apoyo financia actualizaciones de versiones, correcciones, novedades y una configuración más sencilla.",
+    "voluntary": "Contribuye ahora y recibe el doble del importe en crédito para la suscripción mensual de la versión estable al lanzamiento. Por ejemplo, US$50 aportados se convierten en US$100 de crédito.",
+    "cta": "Apoyar el proyecto",
+    "payment": "Pago seguro con Stripe en donate.ruinwatch.com.",
+    "prelaunch": "La versión estable está en desarrollo y aún no tiene fecha de lanzamiento definida. Tu crédito doble se aplicará al lanzamiento.",
+    "pricing": "Estamos evaluando una mensualidad de unos US$70, pero el precio aún no está definido. La idea es mantener un precio accesible para administradores que permita sostener actualizaciones regulares, mejoras continuas y un servidor estable y fiable. La contribución de hoy es un pago único en USD y no inicia una suscripción."
+  },
   "nav": {
     "groupVigil": "La Vigilia",
     "groupCodex": "Códex",

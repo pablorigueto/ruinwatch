@@ -6,6 +6,9 @@
 /** Community Discord invite — every "join" CTA + the social icon point here. */
 export const DISCORD_URL = "https://discord.gg/hufKAehxT2";
 
+/** Payments are hosted separately; no Stripe credentials belong in this site. */
+export const DONATE_URL = "https://donate.ruinwatch.com";
+
 /** Pre-launch flag. While true, the site frames itself as "Coming Soon" and all
  *  CTAs funnel to Discord (the server isn't open yet). Flip to false on launch
  *  day to switch the copy/CTAs back to "play now". */
