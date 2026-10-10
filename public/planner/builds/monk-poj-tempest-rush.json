@@ -1,13 +1,13 @@
 {
+  "season": "Rites of Sanctuary",
   "id": "monk-poj-tempest-rush",
-  "name": "PoJ Tempest Rush",
+  "name": "Ethereal PoJ Tempest Rush",
   "klass": "monk",
   "category": "solo-push",
-  "tier": "A",
+  "tier": "C",
   "gender": "male",
   "source": "https://maxroll.gg/d3/guides/patterns-of-justice-tempest-rush-monk-guide",
-  "season": "Rites of Sanctuary",
-  "tagline": "Tempest Rush · PoJ",
+  "tagline": "Tempest Rush · Patterns of Justice · Ethereal: Balance + Momentum, Furnace in the cube",
   "paragonLevel": 800,
   "paragon": {
     "core": {
@@ -202,11 +202,13 @@
         {
           "gem": "emerald"
         }
-      ]
+      ],
+      "etherealPower": "P61_Unique_CombatStaff_2H_001",
+      "etherealPassive": "momentum"
     }
   },
   "kanai": {
-    "weapon": "leg_balance_p6",
+    "weapon": "leg_thefurnace",
     "armor": "leg_mantleofchanneling",
     "jewelry": "leg_ringofroyalgrandeur"
   },
@@ -243,5 +245,6 @@
       "harmony",
       "the-guardians-path"
     ]
-  }
+  },
+  "listedTier": "A"
 }

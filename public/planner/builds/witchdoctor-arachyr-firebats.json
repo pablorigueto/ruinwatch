@@ -1,13 +1,13 @@
 {
+  "season": "Rites of Sanctuary",
   "id": "witchdoctor-arachyr-firebats",
-  "name": "Arachyr Firebats",
+  "name": "Ethereal Arachyr Firebats",
   "klass": "witchdoctor",
   "category": "solo-push",
-  "tier": "B",
+  "tier": "D",
   "gender": "male",
   "source": "https://maxroll.gg/d3/guides/arachyr-firebats-witch-doctor-guide",
-  "season": "Rites of Sanctuary",
-  "tagline": "Firebats · Arachyr",
+  "tagline": "Firebats · Ethereal: Staff of Chiroptera + Pierce the Veil, Furnace in the cube",
   "paragonLevel": 800,
   "paragon": {
     "core": {
@@ -189,7 +189,9 @@
         {
           "gem": "emerald"
         }
-      ]
+      ],
+      "etherealPower": "P61_Unique_Staff_001",
+      "etherealPassive": "pierce-the-veil"
     },
     "offhand": {
       "itemId": "P72_Unique_Mojo_102",
@@ -206,7 +208,7 @@
     }
   },
   "kanai": {
-    "weapon": "leg_staffofchiroptera_p6",
+    "weapon": "leg_thefurnace",
     "armor": "leg_bakulijunglewraps_p6",
     "jewelry": "leg_ringofroyalgrandeur"
   },
@@ -243,5 +245,6 @@
       "grave-injustice",
       "swampland-attunement"
     ]
-  }
+  },
+  "listedTier": "B"
 }

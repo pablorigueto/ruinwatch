@@ -3,7 +3,7 @@
   "name": "Vyr Chantodo",
   "klass": "wizard",
   "category": "solo-push",
-  "tier": "C",
+  "tier": "F",
   "noEthereal": true,
   "gender": "male",
   "source": "https://maxroll.gg/d3/guides/vyr-chantodo-archon-wod-wizard-guide",
@@ -244,5 +244,6 @@
       "galvanizing-ward",
       "illusionist"
     ]
-  }
+  },
+  "listedTier": "C"
 }

@@ -1,210 +1,272 @@
 {
   "builds": [
     {
+      "id": "barbarian-lod-hota",
+      "name": "Ethereal LoD HotA",
+      "klass": "barbarian",
+      "category": "solo-push",
+      "tier": "S",
+      "tagline": "Hammer of the Ancients · LoD · Ethereal: Gavel + Ruthless, Remorseless in the cube",
+      "source": "https://maxroll.gg/d3/guides/lod-hota-barbarian-guide"
+    },
+    {
+      "id": "barbarian-waste-ww-rend",
+      "name": "Ethereal WW Rend",
+      "klass": "barbarian",
+      "category": "solo-push",
+      "tier": "C",
+      "tagline": "Whirlwind · Rend · Wastes · Ethereal: Ambo's Pride + Ruthless",
+      "source": "https://maxroll.gg/d3/guides/waste-set-ww-rend-barbarian-guide"
+    },
+    {
+      "id": "barbarian-savage-frenzy",
+      "name": "Full Horde Frenzy",
+      "klass": "barbarian",
+      "category": "solo-push",
+      "tier": "A",
+      "tagline": "Frenzy · 6p Horde + Endless Walk · Ethereal: Bastion's Revered + Brawler"
+    },
+    {
       "id": "crusader-akkhan-condemn",
-      "name": "Akkhan Condemn",
+      "name": "Ethereal Akkhan Condemn",
       "klass": "crusader",
       "category": "solo-push",
       "tier": "S",
-      "tagline": "Condemn · Akkhan · Solo Push",
+      "tagline": "Condemn · Akkhan · Ethereal: Frydehr's Wrath + Holy Cause, Blade of Prophecy in the cube",
       "source": "https://maxroll.gg/d3/guides/akkhan-condemn-crusader-guide"
     },
     {
-      "id": "demonhunter-natalya-spike-trap",
-      "name": "Natalya Spike Trap",
+      "id": "crusader-aov-heavens-fury",
+      "name": "Ethereal AoV Heaven's Fury",
+      "klass": "crusader",
+      "category": "solo-push",
+      "tier": "B",
+      "tagline": "Heaven's Fury · Aegis of Valor · Ethereal: Fate of the Fell + Indestructible, Darklight in the cube",
+      "source": "https://maxroll.gg/d3/guides/aov-heavens-fury-crusader-guide"
+    },
+    {
+      "id": "crusader-lod-blessed-shield",
+      "name": "Ethereal LoD Blessed Shield",
+      "klass": "crusader",
+      "category": "solo-push",
+      "tier": "A",
+      "tagline": "Blessed Shield · LoD · Ethereal: Akkhan's Leniency + Holy Cause, Gyrfalcon's in the cube",
+      "source": "https://maxroll.gg/d3/guides/lod-blessed-shield-crusader-guide"
+    },
+    {
+      "id": "crusader-lon-bombardment",
+      "name": "Ethereal LoN Bombardment",
+      "klass": "crusader",
+      "category": "solo-push",
+      "tier": "B",
+      "tagline": "Bombardment · Legacy of Nightmares · Ethereal: The Mortal Drama + Lord Commander, Furnace in the cube",
+      "source": "https://maxroll.gg/d3/guides/lon-bombardment-crusader-guide"
+    },
+    {
+      "id": "crusader-sotl-blessed-hammer",
+      "name": "Ethereal SotL Blessed Hammer",
+      "klass": "crusader",
+      "category": "solo-push",
+      "tier": "B",
+      "tagline": "Blessed Hammer · Seeker of the Light · Ethereal: Faithful Memory + Blunt, Johanna's Argument in the cube",
+      "source": "https://maxroll.gg/d3/guides/sotl-blessed-hammer-crusader-guide"
+    },
+    {
+      "id": "demonhunter-god-strafe",
+      "name": "Ethereal GoD Strafe",
       "klass": "demonhunter",
       "category": "solo-push",
-      "tier": "S",
-      "tagline": "Spike Trap · Natalya · Solo Push",
+      "tier": "B",
+      "tagline": "Strafe · Gears of Dreadlands · Ethereal: Valla's Bequest + Steady Aim",
+      "source": "https://www.diablofans.com/builds/109969-season-28-dreadlands-120-130-solo-build-altar"
+    },
+    {
+      "id": "demonhunter-natalya-spike-trap",
+      "name": "Ethereal Natalya Spike Trap",
+      "klass": "demonhunter",
+      "category": "solo-push",
+      "tier": "B",
+      "tagline": "Spike Trap · Natalya · Ethereal: Dawn + Steady Aim",
       "source": "https://maxroll.gg/d3/guides/natalya-spike-trap-demon-hunter-guide"
     },
     {
+      "id": "demonhunter-ue-multishot",
+      "name": "Ethereal UE Multishot",
+      "klass": "demonhunter",
+      "category": "solo-push",
+      "tier": "A",
+      "tagline": "Multishot · Unhallowed Essence · Ethereal: Dawn + Steady Aim, Yang's Recurve in the cube",
+      "source": "https://maxroll.gg/d3/guides/ue-multishot-demon-hunter-guide"
+    },
+    {
+      "id": "monk-swk-tempest-rush",
+      "name": "Ethereal SWK Tempest Rush",
+      "klass": "monk",
+      "category": "solo-push",
+      "tier": "B",
+      "tagline": "Tempest Rush · Monkey King · Ethereal: Won Khim Lau + Relentless Assault, Vengeful Wind (13 stacks)",
+      "source": "https://maxroll.gg/d3/guides/sunwuko-tempest-rush-monk-guide"
+    },
+    {
+      "id": "monk-swk-wave-of-light",
+      "name": "Ethereal SWK Wave of Light",
+      "klass": "monk",
+      "category": "solo-push",
+      "tier": "C",
+      "tagline": "Wave of Light · Monkey King · Ethereal: Vengeful Wind + Determination, Kyoshiro's Blade",
+      "source": "https://maxroll.gg/d3/guides/sunwuko-wave-of-light-monk-guide"
+    },
+    {
       "id": "necromancer-inarius-death-nova",
-      "name": "Inarius Death Nova",
+      "name": "Ethereal Inarius Death Nova",
       "klass": "necromancer",
       "category": "solo-push",
-      "tier": "S",
-      "tagline": "Death Nova · Solo Push",
+      "tier": "A",
+      "tagline": "Death Nova · Grace of Inarius · Ethereal: Bloodtide Blade + Blood is Power",
       "source": "https://maxroll.gg/d3/guides/inarius-death-nova-necromancer-guide"
     },
     {
       "id": "necromancer-lod-death-nova",
-      "name": "LoD Death Nova",
+      "name": "Ethereal LoD Death Nova",
       "klass": "necromancer",
       "category": "solo-push",
-      "tier": "S",
-      "tagline": "Death Nova · LoD · Solo Push",
+      "tier": "A",
+      "tagline": "Death Nova · LoD · Ethereal: Bloodtide Blade + Blood is Power",
       "source": "https://maxroll.gg/d3/guides/lod-death-nova-necromancer-guide"
     },
     {
-      "id": "necromancer-masquerade-bone-spear",
-      "name": "Masquerade Bone Spear",
+      "id": "necromancer-lod-poison-scythe",
+      "name": "Ethereal LoD Poison Scythe",
       "klass": "necromancer",
       "category": "solo-push",
-      "tier": "S",
-      "tagline": "Bone Spear · Solo Push",
+      "tier": "B",
+      "tagline": "Grim Scythe · Poison · LoD · Ethereal: Nayr's + Blood is Power, Trag'Oul's Corroded Fang in the cube",
+      "source": "https://maxroll.gg/d3/guides/lod-poison-scythe-necromancer-guide"
+    },
+    {
+      "id": "necromancer-masquerade-bone-spear",
+      "name": "Ethereal Masquerade Bone Spear",
+      "klass": "necromancer",
+      "category": "solo-push",
+      "tier": "A",
+      "tagline": "Bone Spear · Masquerade · Ethereal: Maltorius' + Blood is Power, Scythe of the Cycle in the cube",
       "source": "https://maxroll.gg/d3/guides/masquerade-bone-spear-necromancer-guide"
     },
     {
       "id": "necromancer-rathma-aotd",
-      "name": "Rathma Army of the Dead",
+      "name": "Ethereal Rathma Army of the Dead",
       "klass": "necromancer",
       "category": "solo-push",
-      "tier": "S",
-      "tagline": "Army of the Dead · Solo Push",
+      "tier": "A",
+      "tagline": "Army of the Dead · Bones of Rathma · Ethereal: Trag'Oul's Corroded Fang + Blood is Power",
       "source": "https://maxroll.gg/d3/guides/rathma-army-of-the-dead-necromancer-guide"
     },
     {
       "id": "necromancer-tragoul-death-nova",
-      "name": "Trag'Oul Death Nova",
+      "name": "Ethereal Trag'Oul Death Nova",
       "klass": "necromancer",
       "category": "solo-push",
-      "tier": "S",
-      "tagline": "Death Nova · Trag'Oul · Solo Push",
+      "tier": "A",
+      "tagline": "Death Nova · Trag'Oul's Avatar · Ethereal: Bloodtide Blade + Blood is Power",
       "source": "https://maxroll.gg/d3/guides/tragoul-death-nova-necromancer-guide"
     },
     {
+      "id": "witchdoctor-helltooth-zombie-bears",
+      "name": "Ethereal Helltooth Zombie Bears",
+      "klass": "witchdoctor",
+      "category": "solo-push",
+      "tier": "S",
+      "tagline": "Zombie Charger · Helltooth · Ethereal: Shukrani's + Pierce the Veil, Scrimshaw in the cube",
+      "source": "https://maxroll.gg/d3/guides/helltooth-zombie-bears-witch-doctor-guide"
+    },
+    {
       "id": "wizard-firebird-meteor",
-      "name": "Firebird Meteor",
+      "name": "Ethereal Firebird Meteor",
       "klass": "wizard",
       "category": "solo-push",
       "tier": "S",
-      "tagline": "Meteor · Firebird · Solo Push",
+      "tagline": "Meteor · Firebird · Ethereal: The Grand Vizier + Glass Cannon",
       "source": "https://maxroll.gg/d3/guides/firebird-meteor-wizard-guide"
     },
     {
       "id": "wizard-lod-meteor",
-      "name": "LoD \"Bazooka\" Meteor",
+      "name": "Ethereal LoD \"Bazooka\" Meteor",
       "klass": "wizard",
       "category": "solo-push",
       "tier": "S",
-      "tagline": "Meteor · LoD · Solo Push",
+      "tagline": "Meteor · LoD · Ethereal: Mang Song's Lesson with The Grand Vizier + Glass Cannon",
       "source": "https://maxroll.gg/d3/guides/lod-meteor-wizard-guide"
     },
     {
       "id": "wizard-tal-rasha-meteor",
-      "name": "Tal Rasha Meteor",
+      "name": "Ethereal Tal Rasha Meteor",
       "klass": "wizard",
       "category": "solo-push",
       "tier": "S",
-      "tagline": "Meteor · Tal Rasha · Solo Push",
+      "tagline": "Meteor · Tal Rasha · Ethereal: The Grand Vizier + Glass Cannon",
       "source": "https://maxroll.gg/d3/guides/tal-rasha-meteor-wizard-guide"
     },
     {
-      "id": "barbarian-lod-hota",
-      "name": "LoD HotA",
-      "klass": "barbarian",
+      "id": "wizard-typhon-hydra",
+      "name": "Ethereal Typhon Hydra",
+      "klass": "wizard",
       "category": "solo-push",
-      "tier": "A",
-      "tagline": "Hammer of the Ancients · LoD",
-      "source": "https://maxroll.gg/d3/guides/lod-hota-barbarian-guide"
+      "tier": "B",
+      "tagline": "Hydra · Typhon · Ethereal: Mang Song's Lesson with Winter Flurry + Glass Cannon",
+      "source": "https://maxroll.gg/d3/guides/typhon-hydra-wizard-guide"
+    },
+    {
+      "id": "wizard-vyr-reverse-archon-fo",
+      "name": "Ethereal Vyr Reverse Archon FO",
+      "klass": "wizard",
+      "category": "solo-push",
+      "tier": "B",
+      "tagline": "Arcane Orb · Archon · Vyr · Ethereal: Mang Song's Lesson with Triumvirate + Glass Cannon",
+      "source": "https://maxroll.gg/d3/guides/vyr-reverse-archon-frozen-orb-wizard-guide"
     },
     {
       "id": "barbarian-raekor-boulder-toss",
       "name": "Raekor Boulder Toss",
       "klass": "barbarian",
       "category": "solo-push",
-      "tier": "A",
+      "tier": "C",
       "tagline": "Boulder Toss · Raekor",
       "source": "https://maxroll.gg/d3/guides/raekor-boulder-toss-barbarian-guide"
     },
     {
-      "id": "barbarian-savage-frenzy",
-      "name": "Savage Frenzy",
-      "klass": "barbarian",
+      "id": "demonhunter-marauder-sentry",
+      "name": "Ethereal Marauder Sentry",
+      "klass": "demonhunter",
       "category": "solo-push",
-      "tier": "A",
-      "tagline": "Frenzy · Horde of the Ninety Savages",
-      "source": "https://maxroll.gg/d3/guides/savage-frenzy-barbarian-guide"
-    },
-    {
-      "id": "barbarian-waste-ww-rend",
-      "name": "Waste Whirlwind Rend",
-      "klass": "barbarian",
-      "category": "solo-push",
-      "tier": "A",
-      "tagline": "Whirlwind · Rend · Solo Speeds",
-      "source": "https://maxroll.gg/d3/guides/waste-set-ww-rend-barbarian-guide"
-    },
-    {
-      "id": "crusader-aov-heavens-fury",
-      "name": "AoV Heaven's Fury",
-      "klass": "crusader",
-      "category": "solo-push",
-      "tier": "A",
-      "tagline": "Heaven's Fury · Aegis of Valor",
-      "source": "https://maxroll.gg/d3/guides/aov-heavens-fury-crusader-guide"
-    },
-    {
-      "id": "crusader-lod-blessed-shield",
-      "name": "LoD Blessed Shield",
-      "klass": "crusader",
-      "category": "solo-push",
-      "tier": "A",
-      "tagline": "Blessed Shield · LoD",
-      "source": "https://maxroll.gg/d3/guides/lod-blessed-shield-crusader-guide"
-    },
-    {
-      "id": "crusader-lon-bombardment",
-      "name": "LoN Bombardment",
-      "klass": "crusader",
-      "category": "solo-push",
-      "tier": "A",
-      "tagline": "Bombardment · LoN",
-      "source": "https://maxroll.gg/d3/guides/lon-bombardment-crusader-guide"
+      "tier": "C",
+      "tagline": "Sentry · Cluster Arrow · Marauder · Ethereal: Manticore + Steady Aim, Furnace in the cube",
+      "source": "https://maxroll.gg/d3/guides/marauder-sentry-demon-hunter-guide"
     },
     {
       "id": "demonhunter-god-hungering-arrow",
       "name": "GoD Hungering Arrow",
       "klass": "demonhunter",
       "category": "solo-push",
-      "tier": "A",
+      "tier": "C",
       "tagline": "Hungering Arrow · Gears of Dreadlands",
       "source": "https://maxroll.gg/d3/guides/god-ha-demon-hunter-guide"
-    },
-    {
-      "id": "demonhunter-god-strafe",
-      "name": "GoD Strafe (Valla's)",
-      "klass": "demonhunter",
-      "category": "solo-push",
-      "tier": "A",
-      "tagline": "Strafe · Gears of Dreadlands · GR 120–130",
-      "source": "https://www.diablofans.com/builds/109969-season-28-dreadlands-120-130-solo-build-altar"
-    },
-    {
-      "id": "demonhunter-marauder-sentry",
-      "name": "Marauder Sentry",
-      "klass": "demonhunter",
-      "category": "solo-push",
-      "tier": "A",
-      "tagline": "Sentry · Marauder",
-      "source": "https://maxroll.gg/d3/guides/marauder-sentry-demon-hunter-guide"
     },
     {
       "id": "demonhunter-ue-hungering-arrow",
       "name": "UE Hungering Arrow",
       "klass": "demonhunter",
       "category": "solo-push",
-      "tier": "A",
+      "tier": "C",
       "tagline": "Hungering Arrow · Unhallowed Essence",
       "source": "https://maxroll.gg/d3/guides/ue-hungering-arrow-demon-hunter-guide"
     },
     {
-      "id": "demonhunter-ue-multishot",
-      "name": "UE Multishot",
-      "klass": "demonhunter",
-      "category": "solo-push",
-      "tier": "A",
-      "tagline": "Multishot · Unhallowed Essence",
-      "source": "https://maxroll.gg/d3/guides/ue-multishot-demon-hunter-guide"
-    },
-    {
       "id": "monk-poj-tempest-rush",
-      "name": "PoJ Tempest Rush",
+      "name": "Ethereal PoJ Tempest Rush",
       "klass": "monk",
       "category": "solo-push",
-      "tier": "A",
-      "tagline": "Tempest Rush · PoJ",
+      "tier": "C",
+      "tagline": "Tempest Rush · Patterns of Justice · Ethereal: Balance + Momentum, Furnace in the cube",
       "source": "https://maxroll.gg/d3/guides/patterns-of-justice-tempest-rush-monk-guide"
     },
     {
@@ -212,44 +274,26 @@
       "name": "LoD Corpse Explosion",
       "klass": "necromancer",
       "category": "solo-push",
-      "tier": "A",
+      "tier": "C",
       "tagline": "Corpse Explosion · LoD",
       "source": "https://maxroll.gg/d3/guides/lod-corpse-explosion-necromancer-guide"
     },
     {
-      "id": "necromancer-lod-poison-scythe",
-      "name": "LoD Poison Scythe",
-      "klass": "necromancer",
-      "category": "solo-push",
-      "tier": "A",
-      "tagline": "Grim Scythe · Poison · LoD",
-      "source": "https://maxroll.gg/d3/guides/lod-poison-scythe-necromancer-guide"
-    },
-    {
-      "id": "witchdoctor-helltooth-zombie-bears",
-      "name": "Helltooth Zombie Bears",
-      "klass": "witchdoctor",
-      "category": "solo-push",
-      "tier": "A",
-      "tagline": "Zombie Bears · Helltooth",
-      "source": "https://maxroll.gg/d3/guides/helltooth-zombie-bears-witch-doctor-guide"
-    },
-    {
       "id": "witchdoctor-mundunugu-spirit-barrage",
-      "name": "Mundunugu Spirit Barrage",
+      "name": "Ethereal Mundunugu Spirit Barrage",
       "klass": "witchdoctor",
       "category": "solo-push",
-      "tier": "A",
-      "tagline": "Spirit Barrage · Mundunugu",
+      "tier": "C",
+      "tagline": "Spirit Barrage · Mundunugu · Ethereal: The Barber + Pierce the Veil, Furnace in the cube",
       "source": "https://maxroll.gg/d3/guides/mundunugu-spirit-barrage-witch-doctor-guide"
     },
     {
       "id": "witchdoctor-zunimassa-poison-dart",
-      "name": "Zunimassa Poison Dart",
+      "name": "Ethereal Zunimassa Poison Dart",
       "klass": "witchdoctor",
       "category": "solo-push",
-      "tier": "A",
-      "tagline": "Poison Dart · Zunimassa",
+      "tier": "C",
+      "tagline": "Poison Dart · Fetishes · Zunimassa · Ethereal: Dagger of Darts + Confidence Ritual, Furnace in the cube",
       "source": "https://maxroll.gg/d3/guides/zunimassa-poison-dart-witch-doctor-guide"
     },
     {
@@ -257,7 +301,7 @@
       "name": "Firebird Explosive Blast",
       "klass": "wizard",
       "category": "solo-push",
-      "tier": "A",
+      "tier": "C",
       "tagline": "Explosive Blast · Firebird",
       "source": "https://maxroll.gg/d3/guides/firebird-explosive-blast-wizard-guide"
     },
@@ -266,52 +310,34 @@
       "name": "Firebird Flame Blades",
       "klass": "wizard",
       "category": "solo-push",
-      "tier": "A",
+      "tier": "C",
       "tagline": "Spectral Blade · Firebird",
       "source": "https://maxroll.gg/d3/guides/firebird-flame-blades-wizard-guide"
     },
     {
-      "id": "wizard-typhon-hydra",
-      "name": "Typhon Hydra",
-      "klass": "wizard",
+      "id": "barbarian-mote-leapquake",
+      "name": "Ethereal Leapquake",
+      "klass": "barbarian",
       "category": "solo-push",
-      "tier": "A",
-      "tagline": "Hydra · Typhon",
-      "source": "https://maxroll.gg/d3/guides/typhon-hydra-wizard-guide"
-    },
-    {
-      "id": "wizard-vyr-reverse-archon-fo",
-      "name": "Vyr Reverse Archon FO",
-      "klass": "wizard",
-      "category": "solo-push",
-      "tier": "A",
-      "tagline": "Frozen Orb · Vyr · Archon",
-      "source": "https://maxroll.gg/d3/guides/vyr-reverse-archon-frozen-orb-wizard-guide"
+      "tier": "D",
+      "tagline": "Earthquake · Might of the Earth · Ethereal: Blade of the Tribes + Ruthless, Furnace in the cube",
+      "source": "https://maxroll.gg/d3/guides/mote-earthquake-barbarian-guide"
     },
     {
       "id": "barbarian-ik-hota",
       "name": "IK HotA",
       "klass": "barbarian",
       "category": "solo-push",
-      "tier": "B",
+      "tier": "D",
       "tagline": "Hammer of the Ancients · Immortal King",
       "source": "https://maxroll.gg/d3/guides/ik-hota-barbarian-guide"
-    },
-    {
-      "id": "barbarian-mote-leapquake",
-      "name": "MotE Leapquake",
-      "klass": "barbarian",
-      "category": "solo-push",
-      "tier": "B",
-      "tagline": "Earthquake · Might of the Earth",
-      "source": "https://maxroll.gg/d3/guides/mote-earthquake-barbarian-guide"
     },
     {
       "id": "barbarian-mote-seismic-slam",
       "name": "MotE Seismic Slam",
       "klass": "barbarian",
       "category": "solo-push",
-      "tier": "B",
+      "tier": "D",
       "tagline": "Seismic Slam · Might of the Earth",
       "source": "https://maxroll.gg/d3/guides/mote-slam-barbarian-guide"
     },
@@ -320,7 +346,7 @@
       "name": "Invoker Thorns",
       "klass": "crusader",
       "category": "solo-push",
-      "tier": "B",
+      "tier": "D",
       "tagline": "Thorns · Invoker",
       "source": "https://maxroll.gg/d3/guides/invoker-thorns-crusader-guide"
     },
@@ -329,62 +355,44 @@
       "name": "Roland Sweep",
       "klass": "crusader",
       "category": "solo-push",
-      "tier": "B",
+      "tier": "D",
       "tagline": "Sweep Attack · Roland",
       "source": "https://maxroll.gg/d3/guides/roland-sweep-attack-crusader-guide"
     },
     {
-      "id": "crusader-sotl-blessed-hammer",
-      "name": "SotL Blessed Hammer",
-      "klass": "crusader",
+      "id": "monk-uliana-ep",
+      "name": "Ethereal Uliana EP",
+      "klass": "monk",
       "category": "solo-push",
-      "tier": "B",
-      "tagline": "Blessed Hammer · Seeker of the Light",
-      "source": "https://maxroll.gg/d3/guides/sotl-blessed-hammer-crusader-guide"
+      "tier": "D",
+      "tagline": "Exploding Palm · Seven-Sided Strike · Uliana · Ethereal: Fist of Az'Turrasq + Determination, Lion's Claw",
+      "source": "https://maxroll.gg/d3/guides/uliana-exploding-palm-monk-guide"
     },
     {
       "id": "monk-lod-wave-of-light",
       "name": "LoD WoL",
       "klass": "monk",
       "category": "solo-push",
-      "tier": "B",
+      "tier": "D",
       "tagline": "Wave of Light · LoD",
       "source": "https://maxroll.gg/d3/guides/lod-wave-of-light-monk-guide"
-    },
-    {
-      "id": "monk-swk-tempest-rush",
-      "name": "SWK Tempest Rush",
-      "klass": "monk",
-      "category": "solo-push",
-      "tier": "B",
-      "tagline": "Tempest Rush · Sunwuko",
-      "source": "https://maxroll.gg/d3/guides/sunwuko-tempest-rush-monk-guide"
-    },
-    {
-      "id": "monk-swk-wave-of-light",
-      "name": "SWK WoL",
-      "klass": "monk",
-      "category": "solo-push",
-      "tier": "B",
-      "tagline": "Wave of Light · Sunwuko",
-      "source": "https://maxroll.gg/d3/guides/sunwuko-wave-of-light-monk-guide"
     },
     {
       "id": "necromancer-pestilence-corpse-lance",
       "name": "Pestilence Corpse Lance",
       "klass": "necromancer",
       "category": "solo-push",
-      "tier": "B",
+      "tier": "D",
       "tagline": "Corpse Lance · Pestilence",
       "source": "https://maxroll.gg/d3/guides/pestilence-corpse-lance-necromancer-guide"
     },
     {
       "id": "witchdoctor-arachyr-firebats",
-      "name": "Arachyr Firebats",
+      "name": "Ethereal Arachyr Firebats",
       "klass": "witchdoctor",
       "category": "solo-push",
-      "tier": "B",
-      "tagline": "Firebats · Arachyr",
+      "tier": "D",
+      "tagline": "Firebats · Ethereal: Staff of Chiroptera + Pierce the Veil, Furnace in the cube",
       "source": "https://maxroll.gg/d3/guides/arachyr-firebats-witch-doctor-guide"
     },
     {
@@ -392,7 +400,7 @@
       "name": "Jade Harvester",
       "klass": "witchdoctor",
       "category": "solo-push",
-      "tier": "B",
+      "tier": "D",
       "tagline": "Haunt · Locust · Jade",
       "source": "https://maxroll.gg/d3/guides/jade-harvester-witch-doctor-guide"
     },
@@ -401,7 +409,7 @@
       "name": "LoN Poison Dart",
       "klass": "witchdoctor",
       "category": "solo-push",
-      "tier": "B",
+      "tier": "D",
       "tagline": "Poison Dart · Carnevil · LoD",
       "source": "https://maxroll.gg/d3/guides/lod-dart-carnevil-witch-doctor-guide"
     },
@@ -410,7 +418,7 @@
       "name": "DMO Frozen Orb",
       "klass": "wizard",
       "category": "solo-push",
-      "tier": "B",
+      "tier": "D",
       "tagline": "Frozen Orb · DMO",
       "source": "https://maxroll.gg/d3/guides/dmo-frozen-orb-wizard-guide"
     },
@@ -419,7 +427,7 @@
       "name": "DMO Twister",
       "klass": "wizard",
       "category": "solo-push",
-      "tier": "B",
+      "tier": "D",
       "tagline": "Energy Twister · DMO",
       "source": "https://maxroll.gg/d3/guides/dmo-twister-wizard-guide"
     },
@@ -428,7 +436,7 @@
       "name": "LoD Frozen Orb",
       "klass": "wizard",
       "category": "solo-push",
-      "tier": "B",
+      "tier": "D",
       "tagline": "Frozen Orb · LoD",
       "source": "https://maxroll.gg/d3/guides/lod-frozen-orb-wizard-guide"
     },
@@ -437,7 +445,7 @@
       "name": "LoD Hydra",
       "klass": "wizard",
       "category": "solo-push",
-      "tier": "B",
+      "tier": "D",
       "tagline": "Hydra · LoD",
       "source": "https://maxroll.gg/d3/guides/lod-hydra-wizard-guide"
     },
@@ -446,7 +454,7 @@
       "name": "LoD Twister",
       "klass": "wizard",
       "category": "solo-push",
-      "tier": "B",
+      "tier": "D",
       "tagline": "Energy Twister · LoD",
       "source": "https://maxroll.gg/d3/guides/lod-twister-wizard-guide"
     },
@@ -455,7 +463,7 @@
       "name": "Aegis of Valor Fist of the Heavens",
       "klass": "crusader",
       "category": "solo-push",
-      "tier": "C",
+      "tier": "F",
       "tagline": "Fist of the Heavens · Heaven's Fury · Aegis of Valor",
       "source": "https://www.diablofans.com/builds/109974-aegis-of-valor"
     },
@@ -464,7 +472,7 @@
       "name": "LoD Rapid Fire",
       "klass": "demonhunter",
       "category": "solo-push",
-      "tier": "C",
+      "tier": "F",
       "tagline": "Rapid Fire · LoD",
       "source": "https://maxroll.gg/d3/guides/lod-rapid-fire-demon-hunter-guide"
     },
@@ -473,7 +481,7 @@
       "name": "Shadow Impale",
       "klass": "demonhunter",
       "category": "solo-push",
-      "tier": "C",
+      "tier": "F",
       "tagline": "Impale · The Shadow's Mantle",
       "source": "https://maxroll.gg/d3/guides/shadow-impale-demon-hunter-guide"
     },
@@ -482,7 +490,7 @@
       "name": "Inna Mystic Ally",
       "klass": "monk",
       "category": "solo-push",
-      "tier": "C",
+      "tier": "F",
       "tagline": "Mystic Ally · Inna",
       "source": "https://maxroll.gg/d3/guides/inna-mystic-ally-monk-guide"
     },
@@ -491,25 +499,16 @@
       "name": "Raiment Generator",
       "klass": "monk",
       "category": "solo-push",
-      "tier": "C",
+      "tier": "F",
       "tagline": "Generator · Raiment of a Thousand Storms",
       "source": "https://maxroll.gg/d3/guides/raiment-generator-monk-guide"
-    },
-    {
-      "id": "monk-uliana-ep",
-      "name": "Uliana EP",
-      "klass": "monk",
-      "category": "solo-push",
-      "tier": "C",
-      "tagline": "Exploding Palm · Uliana",
-      "source": "https://maxroll.gg/d3/guides/uliana-exploding-palm-monk-guide"
     },
     {
       "id": "witchdoctor-arachyr-chicken",
       "name": "Arachyr Lazy Locust Chicken",
       "klass": "witchdoctor",
       "category": "solo-push",
-      "tier": "C",
+      "tier": "F",
       "tagline": "Angry Chicken · Locust Swarm · Arachyr",
       "source": "https://www.diablofans.com/builds/109374-t16-lazy-locust-chicken-s28-2-7-5"
     },
@@ -518,7 +517,7 @@
       "name": "Arachyr Spiders",
       "klass": "witchdoctor",
       "category": "solo-push",
-      "tier": "C",
+      "tier": "F",
       "tagline": "Corpse Spiders · Arachyr",
       "source": "https://maxroll.gg/d3/guides/arachyr-corpse-spiders-witch-doctor-guide"
     },
@@ -527,7 +526,7 @@
       "name": "Helltooth Gargs",
       "klass": "witchdoctor",
       "category": "solo-push",
-      "tier": "C",
+      "tier": "F",
       "tagline": "Gargantuan · Helltooth",
       "source": "https://maxroll.gg/d3/guides/helltooth-gargantuan-witch-doctor-guide"
     },
@@ -536,7 +535,7 @@
       "name": "LoD Spirit Barrage",
       "klass": "witchdoctor",
       "category": "solo-push",
-      "tier": "C",
+      "tier": "F",
       "tagline": "Spirit Barrage · LoD",
       "source": "https://maxroll.gg/d3/guides/lod-spirit-barrage-witch-doctor-guide"
     },
@@ -545,7 +544,7 @@
       "name": "Vyr Chantodo",
       "klass": "wizard",
       "category": "solo-push",
-      "tier": "C",
+      "tier": "F",
       "tagline": "Archon · Vyr Chantodo",
       "source": "https://maxroll.gg/d3/guides/vyr-chantodo-archon-wod-wizard-guide"
     },
@@ -554,7 +553,7 @@
       "name": "IK Charge",
       "klass": "barbarian",
       "category": "solo-push",
-      "tier": "D",
+      "tier": "F",
       "tagline": "Furious Charge · Immortal King",
       "source": "https://maxroll.gg/d3/guides/ik-charge-barbarian-guide"
     },
@@ -569,93 +568,251 @@
     },
     {
       "id": "support-zbarb",
-      "name": "Support zBarb",
+      "name": "Ethereal zBarb",
       "klass": "barbarian",
       "category": "support",
       "tier": "S",
-      "tagline": "Group Support · Barbarian",
+      "tagline": "Group Support · Barbarian · Ethereal: In-geom + Unforgiving (shouts and Ignore Pain up more often)",
       "source": "https://maxroll.gg/d3/guides/support-zbarb-guide"
     },
     {
       "id": "support-demon-hunter",
-      "name": "Support Demon Hunter",
+      "name": "Ethereal Support Demon Hunter",
       "klass": "demonhunter",
       "category": "support",
       "tier": "S",
-      "tagline": "Group Support · Demon Hunter",
+      "tagline": "Group Support · Demon Hunter · Ethereal Windforce: Odyssey's End + Thrill of the Hunt",
+      "source": "https://maxroll.gg/d3/guides/support-demon-hunter-guide"
+    },
+    {
+      "id": "support-zbarb-speed",
+      "name": "Ethereal zBarb Speed",
+      "klass": "barbarian",
+      "category": "support",
+      "tier": "A",
+      "tagline": "Speed Support · Barbarian · Chilanik's War Cry + Lut Socks Leap · Ethereal: In-geom + Juggernaut",
+      "source": "https://maxroll.gg/d3/guides/support-zbarb-guide"
+    },
+    {
+      "id": "support-zcrusader",
+      "name": "Ethereal zCrusader",
+      "klass": "crusader",
+      "category": "support",
+      "tier": "A",
+      "tagline": "Group Support · Crusader · Laws of Valor +50% Crit Damage · Ethereal: Akarat's Awakening + Renewal"
+    },
+    {
+      "id": "support-demon-hunter-speed",
+      "name": "Ethereal Support Demon Hunter Speed",
+      "klass": "demonhunter",
+      "category": "support",
+      "tier": "A",
+      "tagline": "Speed Support · Demon Hunter · Vault · Ethereal Windforce: Odyssey's End + Perfectionist",
       "source": "https://maxroll.gg/d3/guides/support-demon-hunter-guide"
     },
     {
       "id": "support-zmonk",
-      "name": "Support zMonk",
+      "name": "Ethereal zMonk",
       "klass": "monk",
       "category": "support",
       "tier": "A",
-      "tagline": "Group Support · Monk",
+      "tagline": "Group Support · Monk · Inna · Ethereal: In-geom + Unity (+5% damage per ally under your Mantra)",
       "source": "https://maxroll.gg/d3/guides/support-zmonk-guide"
     },
     {
       "id": "support-znecromancer",
-      "name": "Support zNecromancer",
+      "name": "Ethereal zNecromancer",
       "klass": "necromancer",
       "category": "support",
       "tier": "A",
-      "tagline": "Group Support · Necromancer",
+      "tagline": "Group Support · Necromancer · Ethereal: In-geom + Rathma's Shield, Messerschmidt's in the cube",
       "source": "https://maxroll.gg/d3/guides/support-znecromancer-guide"
     },
     {
-      "id": "support-zwizard",
-      "name": "Support zWizard",
+      "id": "support-zwitchdoctor",
+      "name": "Ethereal zWitch Doctor",
+      "klass": "witchdoctor",
+      "category": "support",
+      "tier": "A",
+      "tagline": "Group Support · Witch Doctor · Piranhas + Hex Jinx + Mass Confusion · Ethereal: In-geom + Creeping Death"
+    },
+    {
+      "id": "support-zwizard-speed",
+      "name": "Ethereal zWizard Speed",
       "klass": "wizard",
       "category": "support",
-      "tier": "B",
-      "tagline": "Group Support · Wizard",
+      "tier": "A",
+      "tagline": "Speed Support · Wizard · Teleport without cooldown · Ethereal: Aether Walker + Temporal Flux",
       "source": "https://maxroll.gg/d3/guides/support-zwiz-guide"
     },
     {
+      "id": "support-zcrusader-speed",
+      "name": "Ethereal zCrusader Speed",
+      "klass": "crusader",
+      "category": "support",
+      "tier": "B",
+      "tagline": "Speed Support · Crusader · Steed Charge twice as long · Ethereal: Swiftmount + Lord Commander"
+    },
+    {
+      "id": "support-zmonk-speed",
+      "name": "Ethereal zMonk Speed",
+      "klass": "monk",
+      "category": "support",
+      "tier": "B",
+      "tagline": "Speed Support · Monk · Dashing Strike · Ethereal: In-geom + Fleet Footed",
+      "source": "https://maxroll.gg/d3/guides/support-zmonk-guide"
+    },
+    {
+      "id": "support-znecromancer-speed",
+      "name": "Ethereal zNecromancer Speed",
+      "klass": "necromancer",
+      "category": "support",
+      "tier": "B",
+      "tagline": "Speed Support · Necromancer · Steuart's Blood Rush · Ethereal: In-geom + Fueled by Death",
+      "source": "https://maxroll.gg/d3/guides/support-znecromancer-guide"
+    },
+    {
+      "id": "support-zwitchdoctor-speed",
+      "name": "Ethereal zWitch Doctor Speed",
+      "klass": "witchdoctor",
+      "category": "support",
+      "tier": "B",
+      "tagline": "Speed Support · Witch Doctor · Zombie Dogs for Fierce Loyalty · Ethereal: In-geom + Fierce Loyalty"
+    },
+    {
+      "id": "support-zwizard",
+      "name": "Ethereal zWizard",
+      "klass": "wizard",
+      "category": "support",
+      "tier": "B",
+      "tagline": "Group Support · Wizard · Slow Time · Ethereal: In-geom + Temporal Flux",
+      "source": "https://maxroll.gg/d3/guides/support-zwiz-guide"
+    },
+    {
+      "id": "speed-barbarian-leapquake-t16",
+      "name": "Ethereal Leapquake T16",
+      "klass": "barbarian",
+      "category": "speed",
+      "tier": "T16",
+      "tagline": "Leap · Earthquake · Lut Socks triple Leap · Ethereal: Blade of the Tribes + Pound of Flesh",
+      "source": "https://maxroll.gg/d3/guides/mote-earthquake-barbarian-guide"
+    },
+    {
+      "id": "speed-crusader-bombardment-t16",
+      "name": "Ethereal Bombardment T16",
+      "klass": "crusader",
+      "category": "speed",
+      "tier": "T16",
+      "tagline": "Bombardment · LoN · Steed Charge (Lord Commander -25% cooldown)",
+      "source": "https://maxroll.gg/d3/guides/lon-bombardment-crusader-guide"
+    },
+    {
+      "id": "speed-demonhunter-ue-multishot-t16",
+      "name": "Ethereal UE Multishot T16",
+      "klass": "demonhunter",
+      "category": "speed",
+      "tier": "T16",
+      "tagline": "Multishot · Unhallowed Essence · Yang's Recurve · Ethereal: Dawn + Hot Pursuit",
+      "source": "https://maxroll.gg/d3/guides/ue-multishot-demon-hunter-guide"
+    },
+    {
+      "id": "speed-monk-swk-tempest-rush-t16",
+      "name": "Ethereal SWK Tempest Rush T16",
+      "klass": "monk",
+      "category": "speed",
+      "tier": "T16",
+      "tagline": "Tempest Rush · Monkey King · Vengeful Wind · Ethereal: Won Khim Lau + Fleet Footed",
+      "source": "https://maxroll.gg/d3/guides/sunwuko-tempest-rush-monk-guide"
+    },
+    {
       "id": "speed-necromancer-vortex-mages-t16",
-      "name": "Vortex Mages T16",
+      "name": "Ethereal Vortex Mages T16",
       "klass": "necromancer",
       "category": "speed",
       "tier": "T16",
-      "tagline": "Skeletal Mage · Krysbin's · T16 speeds",
+      "tagline": "Skeletal Mage · Krysbin's · Ethereal Soul Harvest (a scythe, for Dark Reaping): Scythe of the Cycle + Blood is Power",
       "source": "https://www.diablofans.com/builds/108836-t16-vortex-mages-ultra-speeds-s28-2-7-5"
     },
     {
       "id": "speed-witchdoctor-mundunugu-t16",
-      "name": "Mundunugu Warp Speed T16",
+      "name": "Ethereal Mundunugu Warp Speed T16",
       "klass": "witchdoctor",
       "category": "speed",
       "tier": "T16",
-      "tagline": "Spirit Barrage · Mundunugu · 440% move speed",
+      "tagline": "Spirit Barrage · Mundunugu · Ethereal Arioc's Needle (Decay +200%): The Barber + Confidence Ritual",
       "source": "https://www.diablofans.com/builds/109817-t16-warp-speed-440-ms-s28-2-7-5"
     },
     {
+      "id": "speed-wizard-teleport-meteor-t16",
+      "name": "Ethereal Teleport Meteor T16",
+      "klass": "wizard",
+      "category": "speed",
+      "tier": "T16",
+      "tagline": "Meteor · Firebird · Ethereal: Aether Walker (Teleport has no cooldown) + Glass Cannon",
+      "source": "https://maxroll.gg/d3/guides/firebird-meteor-wizard-guide"
+    },
+    {
+      "id": "speed-barbarian-lod-hota-gr",
+      "name": "Ethereal LoD HotA GR Speed",
+      "klass": "barbarian",
+      "category": "speed",
+      "tier": "GR",
+      "tagline": "Hammer of the Ancients · LoD · Remorseless · Furious Charge for mobility",
+      "source": "https://maxroll.gg/d3/guides/lod-hota-barbarian-guide"
+    },
+    {
+      "id": "speed-crusader-akkhan-condemn-gr",
+      "name": "Ethereal Akkhan Condemn GR Speed",
+      "klass": "crusader",
+      "category": "speed",
+      "tier": "GR",
+      "tagline": "Condemn · Akkhan · Blade of Prophecy · Steed Charge for mobility",
+      "source": "https://maxroll.gg/d3/guides/akkhan-condemn-crusader-guide"
+    },
+    {
       "id": "speed-demonhunter-god-bounties",
-      "name": "GoD Speed Farm",
+      "name": "Ethereal GoD Speed Farm",
       "klass": "demonhunter",
       "category": "speed",
       "tier": "GR",
-      "tagline": "Strafe · Dreadlands · Bounties + GR 100+",
+      "tagline": "Strafe · Gears of Dreadlands · Bounties + GR · Ethereal: Dawn + Tactical Advantage",
       "source": "https://www.diablofans.com/builds/109962-god-speed-farm-bounties-gr-100-r"
     },
     {
+      "id": "speed-monk-poj-tempest-rush-gr",
+      "name": "Ethereal PoJ Tempest Rush GR Speed",
+      "klass": "monk",
+      "category": "speed",
+      "tier": "GR",
+      "tagline": "Tempest Rush · Patterns of Justice · Dashing Strike for mobility",
+      "source": "https://maxroll.gg/d3/guides/patterns-of-justice-tempest-rush-monk-guide"
+    },
+    {
       "id": "speed-necromancer-blood-nova-gr",
-      "name": "Trag'Oul Blood Nova GR Speed",
+      "name": "Ethereal Trag'Oul Blood Nova GR Speed",
       "klass": "necromancer",
       "category": "speed",
       "tier": "GR",
-      "tagline": "Death Nova · Trag'Oul · GR speeds",
+      "tagline": "Death Nova · Trag'Oul · Ethereal: Bloodtide Blade + Fueled by Death, Funerary Pick in the cube",
       "source": "https://www.diablofans.com/builds/109820-blood-nova-gr-speeds-s28-2-7-5"
     },
     {
       "id": "speed-witchdoctor-mundunugu-gr",
-      "name": "Mundunugu GR Speed",
+      "name": "Ethereal Mundunugu GR Speed",
       "klass": "witchdoctor",
       "category": "speed",
       "tier": "GR",
-      "tagline": "Spirit Barrage · Mundunugu · GR 110 / T16",
+      "tagline": "Spirit Barrage · Mundunugu · Ethereal Arioc's Needle: The Barber + Pierce the Veil",
       "source": "https://www.diablofans.com/builds/109993-season-28-wich-doctor-mundugurunu-speed-110-t16"
+    },
+    {
+      "id": "speed-wizard-firebird-explosive-blast-gr",
+      "name": "Ethereal Firebird Explosive Blast GR Speed",
+      "klass": "wizard",
+      "category": "speed",
+      "tier": "GR",
+      "tagline": "Explosive Blast · Firebird · Ethereal: Wand of Woh (+400%, 3 more blasts) + Glass Cannon",
+      "source": "https://maxroll.gg/d3/guides/firebird-explosive-blast-wizard-guide"
     }
   ]
 }

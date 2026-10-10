@@ -3,7 +3,7 @@
   "name": "LoN Poison Dart",
   "klass": "witchdoctor",
   "category": "solo-push",
-  "tier": "B",
+  "tier": "D",
   "gender": "male",
   "source": "https://maxroll.gg/d3/guides/lod-dart-carnevil-witch-doctor-guide",
   "season": "Rites of Sanctuary",
@@ -243,5 +243,6 @@
       "pierce-the-veil",
       "spirit-vessel"
     ]
-  }
+  },
+  "listedTier": "B"
 }

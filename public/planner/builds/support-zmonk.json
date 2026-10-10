@@ -1,13 +1,13 @@
 {
+  "season": "Rites of Sanctuary",
   "id": "support-zmonk",
-  "name": "Support zMonk",
+  "name": "Ethereal zMonk",
   "klass": "monk",
   "category": "support",
   "tier": "A",
   "gender": "male",
   "source": "https://maxroll.gg/d3/guides/support-zmonk-guide",
-  "season": "Rites of Sanctuary",
-  "tagline": "Group Support · Monk",
+  "tagline": "Group Support · Monk · Inna · Ethereal: In-geom + Unity (+5% damage per ally under your Mantra)",
   "paragonLevel": 800,
   "paragon": {
     "core": {
@@ -190,7 +190,9 @@
         {
           "gem": "amethyst"
         }
-      ]
+      ],
+      "etherealPower": "Unique_Sword_1H_113_x1",
+      "etherealPassive": "unity"
     },
     "offhand": {
       "itemId": "Unique_Shield_009_x1",

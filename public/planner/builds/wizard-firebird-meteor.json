@@ -1,13 +1,13 @@
 {
+  "season": "Rites of Sanctuary",
   "id": "wizard-firebird-meteor",
-  "name": "Firebird Meteor",
+  "name": "Ethereal Firebird Meteor",
   "klass": "wizard",
   "category": "solo-push",
   "tier": "S",
   "gender": "male",
   "source": "https://maxroll.gg/d3/guides/firebird-meteor-wizard-guide",
-  "season": "Rites of Sanctuary",
-  "tagline": "Meteor · Firebird · Solo Push",
+  "tagline": "Meteor · Firebird · Ethereal: The Grand Vizier + Glass Cannon",
   "paragonLevel": 800,
   "paragon": {
     "core": {
@@ -189,7 +189,9 @@
         {
           "gem": "emerald"
         }
-      ]
+      ],
+      "etherealPower": "P61_Unique_Staff_009",
+      "etherealPassive": "glass-cannon"
     }
   },
   "kanai": {
@@ -230,5 +232,6 @@
       "galvanizing-ward",
       "conflagration"
     ]
-  }
+  },
+  "listedTier": "S"
 }

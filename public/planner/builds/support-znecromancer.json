@@ -1,13 +1,13 @@
 {
+  "season": "Rites of Sanctuary",
   "id": "support-znecromancer",
-  "name": "Support zNecromancer",
+  "name": "Ethereal zNecromancer",
   "klass": "necromancer",
   "category": "support",
   "tier": "A",
   "gender": "male",
   "source": "https://maxroll.gg/d3/guides/support-znecromancer-guide",
-  "season": "Rites of Sanctuary",
-  "tagline": "Group Support · Necromancer",
+  "tagline": "Group Support · Necromancer · Ethereal: In-geom + Rathma's Shield, Messerschmidt's in the cube",
   "paragonLevel": 800,
   "paragon": {
     "core": {
@@ -191,7 +191,9 @@
           "gem": "ease",
           "legendary": true
         }
-      ]
+      ],
+      "etherealPower": "Unique_Sword_1H_113_x1",
+      "etherealPassive": "rathmas-shield"
     },
     "offhand": {
       "itemId": "P61_Unique_Phylactery_01",
@@ -208,7 +210,7 @@
     }
   },
   "kanai": {
-    "weapon": "leg_echoingfury",
+    "weapon": "leg_messerschmidtsreaver",
     "armor": "leg_strongarmbracers",
     "jewelry": "leg_briggswrath"
   },

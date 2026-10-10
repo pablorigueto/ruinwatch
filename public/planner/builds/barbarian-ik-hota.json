@@ -3,7 +3,7 @@
   "name": "IK HotA",
   "klass": "barbarian",
   "category": "solo-push",
-  "tier": "B",
+  "tier": "D",
   "gender": "male",
   "source": "https://maxroll.gg/d3/guides/ik-hota-barbarian-guide",
   "season": "Rites of Sanctuary",
@@ -230,5 +230,6 @@
       "brawler",
       "nerves-of-steel"
     ]
-  }
+  },
+  "listedTier": "B"
 }

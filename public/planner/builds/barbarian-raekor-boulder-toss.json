@@ -3,7 +3,7 @@
   "name": "Raekor Boulder Toss",
   "klass": "barbarian",
   "category": "solo-push",
-  "tier": "A",
+  "tier": "C",
   "gender": "male",
   "source": "https://maxroll.gg/d3/guides/raekor-boulder-toss-barbarian-guide",
   "season": "Rites of Sanctuary",
@@ -243,5 +243,6 @@
       "rampage",
       "nerves-of-steel"
     ]
-  }
+  },
+  "listedTier": "A"
 }

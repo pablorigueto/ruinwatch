@@ -1,0 +1,250 @@
+{
+  "season": "Rites of Sanctuary",
+  "id": "support-zwizard-speed",
+  "name": "Ethereal zWizard Speed",
+  "klass": "wizard",
+  "category": "support",
+  "tier": "A",
+  "gender": "male",
+  "source": "https://maxroll.gg/d3/guides/support-zwiz-guide",
+  "tagline": "Speed Support · Wizard · Teleport without cooldown · Ethereal: Aether Walker + Temporal Flux",
+  "paragonLevel": 800,
+  "paragon": {
+    "core": {
+      "movement": 50,
+      "resource": 50,
+      "mainstat": 50,
+      "vit": 50
+    },
+    "offense": {
+      "cdr": 50,
+      "chc": 50,
+      "chd": 50,
+      "ias": 50
+    },
+    "defense": {
+      "armor": 50,
+      "resall": 50,
+      "ldr": 50,
+      "life": 50
+    },
+    "utility": {
+      "rcr": 50,
+      "laek": 50,
+      "gf": 50,
+      "area": 50
+    }
+  },
+  "equipped": {
+    "head": {
+      "itemId": "P74_Unique_WizardHat_104",
+      "affixes": [
+        "chc",
+        "vit",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "topaz"
+        }
+      ]
+    },
+    "shoulders": {
+      "itemId": "Unique_Shoulder_Set_02_p2",
+      "affixes": [
+        "cdr",
+        "rcr",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": []
+    },
+    "neck": {
+      "itemId": "P66_Unique_Amulet_001",
+      "affixes": [
+        "cdr",
+        "rcr",
+        "chc"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "toxin",
+          "legendary": true
+        }
+      ]
+    },
+    "torso": {
+      "itemId": "P4_Unique_Chest_012",
+      "affixes": [
+        "vit",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "diamond"
+        },
+        {
+          "gem": "diamond"
+        },
+        {
+          "gem": "diamond"
+        }
+      ]
+    },
+    "hands": {
+      "itemId": "Unique_Gloves_Set_02_p2",
+      "affixes": [
+        "cdr",
+        "rcr",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": []
+    },
+    "wrists": {
+      "itemId": "P61_Unique_Bracer_108_x1",
+      "affixes": [
+        "elemental",
+        "chc",
+        "vit"
+      ],
+      "augment": 750,
+      "gems": []
+    },
+    "waist": {
+      "itemId": "P66_Unique_Belt_012",
+      "affixes": [
+        "vit",
+        "life",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": []
+    },
+    "leftfinger": {
+      "itemId": "Unique_Ring_023_p2",
+      "affixes": [
+        "cdr",
+        "rcr",
+        "chc"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "gogok",
+          "legendary": true
+        }
+      ]
+    },
+    "rightfinger": {
+      "itemId": "Unique_Ring_017_p4",
+      "affixes": [
+        "cdr",
+        "rcr",
+        "chc"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "iceblink",
+          "legendary": true
+        }
+      ]
+    },
+    "legs": {
+      "itemId": "Unique_Pants_Set_02_p2",
+      "affixes": [
+        "vit",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "diamond"
+        },
+        {
+          "gem": "diamond"
+        }
+      ]
+    },
+    "feet": {
+      "itemId": "P66_Unique_Boots_017",
+      "affixes": [
+        "vit",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": []
+    },
+    "mainhand": {
+      "itemId": "P71_Ethereal_04",
+      "affixes": [
+        "cdr",
+        "rcr"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "amethyst"
+        }
+      ],
+      "etherealPower": "P1_Wand_norm_unique_01",
+      "etherealPassive": "temporal-flux"
+    },
+    "offhand": {
+      "itemId": "P61_Unique_Orb_004",
+      "affixes": [
+        "chc",
+        "cdr"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "diamond"
+        }
+      ]
+    }
+  },
+  "kanai": {
+    "weapon": "leg_messerschmidtsreaver",
+    "armor": "leg_nemesisbracers",
+    "jewelry": "leg_ringofroyalgrandeur"
+  },
+  "skills": {
+    "active": [
+      {
+        "skill": "ice-armor",
+        "rune": "c"
+      },
+      {
+        "skill": "teleport",
+        "rune": "c"
+      },
+      {
+        "skill": "slow-time",
+        "rune": "d"
+      },
+      {
+        "skill": "frost-nova",
+        "rune": "a"
+      },
+      {
+        "skill": "energy-twister",
+        "rune": "a"
+      },
+      {
+        "skill": "explosive-blast",
+        "rune": "e"
+      }
+    ],
+    "passives": [
+      "cold-blooded",
+      "conflagration",
+      "astral-presence",
+      "illusionist"
+    ]
+  }
+}

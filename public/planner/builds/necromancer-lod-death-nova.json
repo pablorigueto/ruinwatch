@@ -1,13 +1,13 @@
 {
+  "season": "Rites of Sanctuary",
   "id": "necromancer-lod-death-nova",
-  "name": "LoD Death Nova",
+  "name": "Ethereal LoD Death Nova",
   "klass": "necromancer",
   "category": "solo-push",
-  "tier": "S",
+  "tier": "A",
   "gender": "male",
   "source": "https://maxroll.gg/d3/guides/lod-death-nova-necromancer-guide",
-  "season": "Rites of Sanctuary",
-  "tagline": "Death Nova · LoD · Solo Push",
+  "tagline": "Death Nova · LoD · Ethereal: Bloodtide Blade + Blood is Power",
   "paragonLevel": 800,
   "paragon": {
     "core": {
@@ -189,7 +189,9 @@
         {
           "gem": "emerald"
         }
-      ]
+      ],
+      "etherealPower": "P65_Unique_Scythe2H_02",
+      "etherealPassive": "blood-is-power"
     },
     "offhand": {
       "itemId": "P74_Unique_Phylactery_04",
@@ -243,5 +245,6 @@
       "spreading-malediction",
       "final-service"
     ]
-  }
+  },
+  "listedTier": "S"
 }

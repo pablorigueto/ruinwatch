@@ -1,14 +1,13 @@
 {
+  "season": "Season 28 (2.7.5)",
   "id": "demonhunter-god-strafe",
-  "name": "GoD Strafe (Valla's)",
+  "name": "Ethereal GoD Strafe",
   "klass": "demonhunter",
   "category": "solo-push",
-  "tier": "A",
-  "noEthereal": true,
+  "tier": "B",
   "gender": "male",
   "source": "https://www.diablofans.com/builds/109969-season-28-dreadlands-120-130-solo-build-altar",
-  "season": "Season 28 (2.7.5)",
-  "tagline": "Strafe · Gears of Dreadlands · GR 120–130",
+  "tagline": "Strafe · Gears of Dreadlands · Ethereal: Valla's Bequest + Steady Aim",
   "paragonLevel": 800,
   "paragon": {
     "core": {
@@ -180,7 +179,7 @@
       ]
     },
     "mainhand": {
-      "itemId": "P43_Unique_HandXBow_005",
+      "itemId": "P71_Ethereal_16",
       "affixes": [
         "cdr",
         "area"
@@ -190,7 +189,9 @@
         {
           "gem": "emerald"
         }
-      ]
+      ],
+      "etherealPower": "P43_Unique_HandXBow_005",
+      "etherealPassive": "steady-aim"
     },
     "offhand": {
       "itemId": "P4_Unique_HandXBow_001",
@@ -244,5 +245,6 @@
       "numbing-traps",
       "ambush"
     ]
-  }
+  },
+  "listedTier": "S"
 }

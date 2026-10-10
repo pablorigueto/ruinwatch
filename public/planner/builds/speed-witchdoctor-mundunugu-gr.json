@@ -1,14 +1,13 @@
 {
+  "season": "Season 28 (2.7.5)",
   "id": "speed-witchdoctor-mundunugu-gr",
-  "name": "Mundunugu GR Speed",
+  "name": "Ethereal Mundunugu GR Speed",
   "klass": "witchdoctor",
   "category": "speed",
   "tier": "GR",
-  "noEthereal": true,
   "gender": "male",
   "source": "https://www.diablofans.com/builds/109993-season-28-wich-doctor-mundugurunu-speed-110-t16",
-  "season": "Season 28 (2.7.5)",
-  "tagline": "Spirit Barrage · Mundunugu · GR 110 / T16",
+  "tagline": "Spirit Barrage · Mundunugu · Ethereal Arioc's Needle: The Barber + Pierce the Veil",
   "paragonLevel": 800,
   "paragon": {
     "core": {
@@ -180,7 +179,7 @@
       ]
     },
     "mainhand": {
-      "itemId": "P68_Unique_Dagger_003",
+      "itemId": "P71_Ethereal_21",
       "affixes": [
         "cdr",
         "area"
@@ -190,7 +189,9 @@
         {
           "gem": "emerald"
         }
-      ]
+      ],
+      "etherealPower": "P68_Unique_Dagger_003",
+      "etherealPassive": "pierce-the-veil"
     },
     "offhand": {
       "itemId": "P68_Unique_Mojo_003",

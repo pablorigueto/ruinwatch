@@ -1,14 +1,13 @@
 {
+  "season": "Season 28 (2.7.5)",
   "id": "speed-necromancer-blood-nova-gr",
-  "name": "Trag'Oul Blood Nova GR Speed",
+  "name": "Ethereal Trag'Oul Blood Nova GR Speed",
   "klass": "necromancer",
   "category": "speed",
   "tier": "GR",
-  "noEthereal": true,
   "gender": "male",
   "source": "https://www.diablofans.com/builds/109820-blood-nova-gr-speeds-s28-2-7-5",
-  "season": "Season 28 (2.7.5)",
-  "tagline": "Death Nova · Trag'Oul · GR speeds",
+  "tagline": "Death Nova · Trag'Oul · Ethereal: Bloodtide Blade + Fueled by Death, Funerary Pick in the cube",
   "paragonLevel": 800,
   "paragon": {
     "core": {
@@ -180,7 +179,7 @@
       ]
     },
     "mainhand": {
-      "itemId": "P74_Unique_Scythe1H_01",
+      "itemId": "P71_Ethereal_17",
       "affixes": [
         "cdr",
         "area"
@@ -190,7 +189,9 @@
         {
           "gem": "emerald"
         }
-      ]
+      ],
+      "etherealPower": "P65_Unique_Scythe2H_02",
+      "etherealPassive": "fueled-by-death"
     },
     "offhand": {
       "itemId": "P74_Unique_Phylactery_04",
@@ -207,7 +208,7 @@
     }
   },
   "kanai": {
-    "weapon": "leg_bloodtideblade_p6",
+    "weapon": "leg_funerarypick_p74",
     "armor": "leg_steuartsgreaves_p6",
     "jewelry": "leg_ringofroyalgrandeur"
   },

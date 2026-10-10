@@ -3,7 +3,7 @@
   "name": "Arachyr Spiders",
   "klass": "witchdoctor",
   "category": "solo-push",
-  "tier": "C",
+  "tier": "F",
   "gender": "male",
   "source": "https://maxroll.gg/d3/guides/arachyr-corpse-spiders-witch-doctor-guide",
   "season": "Rites of Sanctuary",
@@ -243,5 +243,6 @@
       "confidence-ritual",
       "spirit-vessel"
     ]
-  }
+  },
+  "listedTier": "C"
 }

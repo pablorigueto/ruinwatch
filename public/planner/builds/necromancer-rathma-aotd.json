@@ -1,13 +1,13 @@
 {
+  "season": "Rites of Sanctuary",
   "id": "necromancer-rathma-aotd",
-  "name": "Rathma Army of the Dead",
+  "name": "Ethereal Rathma Army of the Dead",
   "klass": "necromancer",
   "category": "solo-push",
-  "tier": "S",
+  "tier": "A",
   "gender": "male",
   "source": "https://maxroll.gg/d3/guides/rathma-army-of-the-dead-necromancer-guide",
-  "season": "Rites of Sanctuary",
-  "tagline": "Army of the Dead · Solo Push",
+  "tagline": "Army of the Dead · Bones of Rathma · Ethereal: Trag'Oul's Corroded Fang + Blood is Power",
   "paragonLevel": 800,
   "paragon": {
     "core": {
@@ -189,7 +189,9 @@
         {
           "gem": "emerald"
         }
-      ]
+      ],
+      "etherealPower": "P6_Unique_Scythe1H_02",
+      "etherealPassive": "blood-is-power"
     },
     "offhand": {
       "itemId": "P61_Unique_Phylactery_01",
@@ -243,5 +245,6 @@
       "spreading-malediction",
       "rigor-mortis"
     ]
-  }
+  },
+  "listedTier": "S"
 }

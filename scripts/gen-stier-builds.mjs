@@ -98,8 +98,6 @@ function build(meta, klass, equipped, kanai, active, passives) {
 
 // 1. Inarius Death Nova
 build(
-  { id: "necromancer-inarius-death-nova", name: "Inarius Death Nova",
-    source: "https://maxroll.gg/d3/guides/inarius-death-nova-necromancer-guide", tagline: "Death Nova · Solo Push" },
   "necromancer",
   {
     head: gear("Inarius's Understanding", ["chc", "vit"], [N("amethyst")]),
@@ -123,8 +121,6 @@ build(
 
 // 2. LoD Death Nova
 build(
-  { id: "necromancer-lod-death-nova", name: "LoD Death Nova",
-    source: "https://maxroll.gg/d3/guides/lod-death-nova-necromancer-guide", tagline: "Death Nova · LoD · Solo Push" },
   "necromancer",
   {
     head: gear("Leoric's Crown", ["chc", "vit"], [N("amethyst")]),
@@ -152,8 +148,6 @@ BUILDS[1].equipped.rightfinger.gems = [L("trapped")];
 
 // 3. Trag'Oul Death Nova
 build(
-  { id: "necromancer-tragoul-death-nova", name: "Trag'Oul Death Nova",
-    source: "https://maxroll.gg/d3/guides/tragoul-death-nova-necromancer-guide", tagline: "Death Nova · Trag'Oul · Solo Push" },
   "necromancer",
   {
     head: gear("Trag'Oul's Guise", ["chc", "vit"], [N("topaz")]),
@@ -177,8 +171,6 @@ build(
 
 // 4. Masquerade Bone Spear
 build(
-  { id: "necromancer-masquerade-bone-spear", name: "Masquerade Bone Spear",
-    source: "https://maxroll.gg/d3/guides/masquerade-bone-spear-necromancer-guide", tagline: "Bone Spear · Solo Push" },
   "necromancer",
   {
     head: gear("Luxurious Bauta", ["chc", "vit"], [N("diamond")]),
@@ -202,8 +194,6 @@ build(
 
 // 5. Firebird Meteor (Wizard)
 build(
-  { id: "wizard-firebird-meteor", name: "Firebird Meteor",
-    source: "https://maxroll.gg/d3/guides/firebird-meteor-wizard-guide", tagline: "Meteor · Firebird · Solo Push" },
   "wizard",
   {
     head: gear("Firebird's Plume", ["chc", "vit"], [N("topaz")]),
@@ -227,8 +217,6 @@ build(
 
 // 6. LoD "Bazooka" Meteor (Wizard)
 build(
-  { id: "wizard-lod-meteor", name: "LoD \"Bazooka\" Meteor",
-    source: "https://maxroll.gg/d3/guides/lod-meteor-wizard-guide", tagline: "Meteor · LoD · Solo Push" },
   "wizard",
   {
     head: gear("The Swami", ["chc", "vit"], [N("ruby")]),
@@ -252,8 +240,6 @@ build(
 
 // 7. Tal Rasha Meteor (Wizard)
 build(
-  { id: "wizard-tal-rasha-meteor", name: "Tal Rasha Meteor",
-    source: "https://maxroll.gg/d3/guides/tal-rasha-meteor-wizard-guide", tagline: "Meteor · Tal Rasha · Solo Push" },
   "wizard",
   {
     head: gear("Mempo of Twilight", ["chc", "vit"], [N("topaz")]),
@@ -275,35 +261,9 @@ build(
   ["Power Hungry", "Elemental Exposure", "Galvanizing Ward", "Arcane Dynamo"],
 );
 
-// 8. Akkhan Condemn (Crusader)
-build(
-  { id: "crusader-akkhan-condemn", name: "Akkhan Condemn",
-    source: "https://maxroll.gg/d3/guides/akkhan-condemn-crusader-guide", tagline: "Condemn · Akkhan · Solo Push" },
-  "crusader",
-  {
-    head: gear("Helm of Akkhan", ["chc", "vit"], [N("diamond")]),
-    shoulders: gear("Pauldrons of Akkhan", ["cdr", "area", "armor"]),
-    neck: gear("Squirt's Necklace", ["chd", "wpnphy", "chc"], [L("trapped")]),
-    torso: gear("Breastplate of Akkhan", ["vit", "armor"], [N("diamond"), N("diamond"), N("diamond")]),
-    hands: gear("Gauntlets of Akkhan", ["chc", "chd", "cdr"]),
-    wrists: gear("Strongarm Bracers", ["elemental", "chc", "vit"]),
-    waist: gear("Captain Crimson's Silk Girdle", ["vit", "life", "armor"]),
-    leftfinger: gear("The Compass Rose", ["chc", "chd", "cdr"], [L("enforcer")]),
-    rightfinger: gear("Rechel's Ring of Larceny", ["chc", "chd", "cdr"], [L("trapped")]),
-    legs: gear("Cuisses of Akkhan", ["vit", "armor"], [N("diamond"), N("diamond")]),
-    feet: gear("Sabatons of Akkhan", ["vit", "armor"]),
-    mainhand: gearE("The Redeemer", ["cdr", "area"], [N("emerald")]),
-    offhand: gear("Unrelenting Phalanx", ["chc", "cdr"], [N("diamond")]),
-  },
-  ["Frydehr's Wrath", "Ring of Royal Grandeur", "Tasker and Theo"],
-  ["Phalanx|Bowmen", "Judgment|Debilitate", "Condemn|Shattering Explosion", "Akarat's Champion|Prophet", "Laws of Valor|Unstoppable Force", "Justice|Sword of Justice"],
-  ["Fervor", "Finery", "Long Arm of the Law", "Lord Commander"],
-);
 
 // 9. Natalya Spike Trap (Demon Hunter)
 build(
-  { id: "demonhunter-natalya-spike-trap", name: "Natalya Spike Trap",
-    source: "https://maxroll.gg/d3/guides/natalya-spike-trap-demon-hunter-guide", tagline: "Spike Trap · Natalya · Solo Push" },
   "demonhunter",
   {
     head: gear("Natalya's Sight", ["chc", "vit"], [N("diamond")]),

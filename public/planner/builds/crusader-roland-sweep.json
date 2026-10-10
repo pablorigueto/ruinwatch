@@ -3,7 +3,7 @@
   "name": "Roland Sweep",
   "klass": "crusader",
   "category": "solo-push",
-  "tier": "B",
+  "tier": "D",
   "gender": "male",
   "source": "https://maxroll.gg/d3/guides/roland-sweep-attack-crusader-guide",
   "season": "Rites of Sanctuary",
@@ -243,5 +243,6 @@
       "indestructible",
       "holy-cause"
     ]
-  }
+  },
+  "listedTier": "B"
 }

@@ -1,13 +1,13 @@
 {
+  "season": "Rites of Sanctuary",
   "id": "barbarian-waste-ww-rend",
-  "name": "Waste Whirlwind Rend",
+  "name": "Ethereal WW Rend",
   "klass": "barbarian",
   "category": "solo-push",
-  "tier": "A",
+  "tier": "C",
   "gender": "male",
   "source": "https://maxroll.gg/d3/guides/waste-set-ww-rend-barbarian-guide",
-  "season": "Rites of Sanctuary",
-  "tagline": "Whirlwind · Rend · Solo Speeds",
+  "tagline": "Whirlwind · Rend · Wastes · Ethereal: Ambo's Pride + Ruthless",
   "equipped": {
     "head": {
       "itemId": "Unique_Helm_Set_01_p2",
@@ -147,7 +147,7 @@
       "augment": 750
     },
     "mainhand": {
-      "itemId": "P71_Ethereal_08",
+      "itemId": "P71_Ethereal_01",
       "affixes": [
         "cdr"
       ],
@@ -156,19 +156,9 @@
         {
           "gem": "emerald"
         }
-      ]
-    },
-    "offhand": {
-      "itemId": "P67_Unique_Mighty_1H_012",
-      "affixes": [
-        "cdr"
       ],
-      "augment": 750,
-      "gems": [
-        {
-          "gem": "emerald"
-        }
-      ]
+      "etherealPower": "P67_Unique_Mighty_1H_012",
+      "etherealPassive": "ruthless"
     }
   },
   "kanai": {
@@ -236,5 +226,6 @@
       "brawler",
       "nerves-of-steel"
     ]
-  }
+  },
+  "listedTier": "S"
 }

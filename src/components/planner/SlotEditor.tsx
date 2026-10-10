@@ -29,6 +29,9 @@ import {
   legendaryGemText,
   normalGemEffect,
   powerDisplay,
+  etherealPassiveName,
+  etherealPowerItem,
+  etherealPowerOptions,
   primaryAffixSlots,
   setBonusText,
   setName,
@@ -362,6 +365,74 @@ const GemSlot = ({
   );
 };
 
+/** The two extra properties an Ethereal rolls: a class weapon legendary power (from the
+ *  item's options) and a class passive. In game they are random; here you pick the roll. */
+const EtherealChoices = ({
+  data,
+  item,
+  klass,
+  state,
+  onChange,
+}: {
+  data: PlannerData;
+  item: PlannerItem;
+  klass: string;
+  state: SlotState;
+  onChange: (s: SlotState) => void;
+}) => {
+  const { t } = useTranslation();
+  const powers = useMemo(() => etherealPowerOptions(data, item), [data, item]);
+  const passives = useMemo(
+    () => Object.values(data.passives?.[klass] ?? {}).sort((a, b) => a.name.localeCompare(b.name)),
+    [data, klass],
+  );
+  const chosen = etherealPowerItem(data, item, state);
+  const selectClass =
+    "dark-select w-full bg-[hsl(240_6%_11%)] border border-stone/60 rounded-none px-2.5 py-1.5 font-body text-sm text-bone focus:outline-none focus:border-ember/60";
+  return (
+    <div className="space-y-4">
+      <div>
+        <p className="font-mono text-[10px] uppercase tracking-[0.3em] text-ember mb-2">
+          {t("planner.etherealPower", "+1 Class Weapon Legendary Power")}
+        </p>
+        <select
+          value={state.etherealPower ?? ""}
+          onChange={(e) => onChange({ ...state, etherealPower: e.target.value || undefined })}
+          className={selectClass}
+        >
+          <option value="">{t("planner.etherealChoose", "Choose…")}</option>
+          {powers.map((p) => (
+            <option key={p.id} value={p.id}>{p.name}</option>
+          ))}
+        </select>
+        {chosen && (
+          <p className="font-body text-sm leading-relaxed mt-2">
+            <Highlighted text={powerDisplay(chosen) ?? ""} base="36 25% 78% / 0.8" hl="33 100% 62%" />
+          </p>
+        )}
+      </div>
+      <div>
+        <p className="font-mono text-[10px] uppercase tracking-[0.3em] text-ember mb-2">
+          {t("planner.etherealPassive", "+1 Class Passive Power")}
+        </p>
+        <select
+          value={state.etherealPassive ?? ""}
+          onChange={(e) => onChange({ ...state, etherealPassive: e.target.value || undefined })}
+          className={selectClass}
+        >
+          <option value="">{t("planner.etherealChoose", "Choose…")}</option>
+          {passives.map((p) => (
+            <option key={p.id} value={p.id}>{p.name}</option>
+          ))}
+        </select>
+      </div>
+      <p className="font-mono text-[10px] text-bone/40">
+        {t("planner.etherealNote", "In game both are rolled at random; pick the roll this build is looking for.")}
+      </p>
+    </div>
+  );
+};
+
 const SlotEditor = ({
   data,
   slot,
@@ -458,7 +529,8 @@ const SlotEditor = ({
     () => choosableAffixes(data, slot, [...presetTargetKeys, ...freeChosen], item),
     [data, slot, item, presetTargetKeys, freeChosen],
   );
-  const intrinsics = useMemo(() => intrinsicLines(data, item), [data, item]);
+  const passiveName = etherealPassiveName(data, klass, state);
+  const intrinsics = useMemo(() => intrinsicLines(data, item, passiveName), [data, item, passiveName]);
 
   return (
     <DialogContent className="max-w-xl bg-background border-stone/70 rounded-none p-0 gap-0 max-h-[88vh] flex flex-col">
@@ -501,8 +573,8 @@ const SlotEditor = ({
           </div>
         </div>
 
-        {/* legendary power */}
-        {power && (
+        {/* legendary power (an Ethereal has none of its own — see below) */}
+        {power?.format && (
           <div>
             <p className="font-mono text-[10px] uppercase tracking-[0.3em] text-ember mb-2">{power.name}</p>
             <p className="font-body text-sm leading-relaxed">
@@ -519,6 +591,11 @@ const SlotEditor = ({
               />
             )}
           </div>
+        )}
+
+        {/* Ethereal: +1 class weapon legendary power and +1 class passive, chosen by the player */}
+        {item.quality === "ethereal" && (
+          <EtherealChoices data={data} item={item} klass={klass} state={state} onChange={onChange} />
         )}
 
         {/* intrinsic affixes — the item's always-present legendary/ethereal

@@ -1,13 +1,13 @@
 {
+  "season": "Rites of Sanctuary",
   "id": "support-zbarb",
-  "name": "Support zBarb",
+  "name": "Ethereal zBarb",
   "klass": "barbarian",
   "category": "support",
   "tier": "S",
   "gender": "male",
   "source": "https://maxroll.gg/d3/guides/support-zbarb-guide",
-  "season": "Rites of Sanctuary",
-  "tagline": "Group Support · Barbarian",
+  "tagline": "Group Support · Barbarian · Ethereal: In-geom + Unforgiving (shouts and Ignore Pain up more often)",
   "paragonLevel": 800,
   "paragon": {
     "core": {
@@ -180,7 +180,7 @@
       "gems": []
     },
     "mainhand": {
-      "itemId": "Unique_Sword_1H_113_x1",
+      "itemId": "P71_Ethereal_01",
       "affixes": [
         "cdr",
         "rcr"
@@ -190,20 +190,9 @@
         {
           "gem": "amethyst"
         }
-      ]
-    },
-    "offhand": {
-      "itemId": "P71_Ethereal_08",
-      "affixes": [
-        "cdr",
-        "rcr"
       ],
-      "augment": 750,
-      "gems": [
-        {
-          "gem": "amethyst"
-        }
-      ]
+      "etherealPower": "Unique_Sword_1H_113_x1",
+      "etherealPassive": "unforgiving"
     }
   },
   "kanai": {

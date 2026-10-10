@@ -81,62 +81,12 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://ruinwatch.com/planner?build=crusader-akkhan-condemn</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ruinwatch.com/planner?build=demonhunter-natalya-spike-trap</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ruinwatch.com/planner?build=necromancer-inarius-death-nova</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ruinwatch.com/planner?build=necromancer-lod-death-nova</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ruinwatch.com/planner?build=necromancer-masquerade-bone-spear</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ruinwatch.com/planner?build=necromancer-rathma-aotd</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ruinwatch.com/planner?build=necromancer-tragoul-death-nova</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ruinwatch.com/planner?build=wizard-firebird-meteor</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ruinwatch.com/planner?build=wizard-lod-meteor</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ruinwatch.com/planner?build=wizard-tal-rasha-meteor</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://ruinwatch.com/planner?build=barbarian-lod-hota</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ruinwatch.com/planner?build=barbarian-raekor-boulder-toss</loc>
+    <loc>https://ruinwatch.com/planner?build=barbarian-waste-ww-rend</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -146,7 +96,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ruinwatch.com/planner?build=barbarian-waste-ww-rend</loc>
+    <loc>https://ruinwatch.com/planner?build=crusader-akkhan-condemn</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -166,7 +116,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ruinwatch.com/planner?build=demonhunter-god-hungering-arrow</loc>
+    <loc>https://ruinwatch.com/planner?build=crusader-sotl-blessed-hammer</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -176,17 +126,102 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ruinwatch.com/planner?build=demonhunter-marauder-sentry</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ruinwatch.com/planner?build=demonhunter-ue-hungering-arrow</loc>
+    <loc>https://ruinwatch.com/planner?build=demonhunter-natalya-spike-trap</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ruinwatch.com/planner?build=demonhunter-ue-multishot</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ruinwatch.com/planner?build=monk-swk-tempest-rush</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ruinwatch.com/planner?build=monk-swk-wave-of-light</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ruinwatch.com/planner?build=necromancer-inarius-death-nova</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ruinwatch.com/planner?build=necromancer-lod-death-nova</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ruinwatch.com/planner?build=necromancer-lod-poison-scythe</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ruinwatch.com/planner?build=necromancer-masquerade-bone-spear</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ruinwatch.com/planner?build=necromancer-rathma-aotd</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ruinwatch.com/planner?build=necromancer-tragoul-death-nova</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ruinwatch.com/planner?build=witchdoctor-helltooth-zombie-bears</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ruinwatch.com/planner?build=wizard-firebird-meteor</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ruinwatch.com/planner?build=wizard-lod-meteor</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ruinwatch.com/planner?build=wizard-tal-rasha-meteor</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ruinwatch.com/planner?build=wizard-typhon-hydra</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ruinwatch.com/planner?build=wizard-vyr-reverse-archon-fo</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ruinwatch.com/planner?build=barbarian-raekor-boulder-toss</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ruinwatch.com/planner?build=demonhunter-marauder-sentry</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ruinwatch.com/planner?build=demonhunter-god-hungering-arrow</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ruinwatch.com/planner?build=demonhunter-ue-hungering-arrow</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -197,16 +232,6 @@
   </url>
   <url>
     <loc>https://ruinwatch.com/planner?build=necromancer-lod-corpse-explosion</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ruinwatch.com/planner?build=necromancer-lod-poison-scythe</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ruinwatch.com/planner?build=witchdoctor-helltooth-zombie-bears</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -231,22 +256,12 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ruinwatch.com/planner?build=wizard-typhon-hydra</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ruinwatch.com/planner?build=wizard-vyr-reverse-archon-fo</loc>
+    <loc>https://ruinwatch.com/planner?build=barbarian-mote-leapquake</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ruinwatch.com/planner?build=barbarian-ik-hota</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ruinwatch.com/planner?build=barbarian-mote-leapquake</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -266,22 +281,12 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ruinwatch.com/planner?build=crusader-sotl-blessed-hammer</loc>
+    <loc>https://ruinwatch.com/planner?build=monk-uliana-ep</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ruinwatch.com/planner?build=monk-lod-wave-of-light</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ruinwatch.com/planner?build=monk-swk-tempest-rush</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ruinwatch.com/planner?build=monk-swk-wave-of-light</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -356,11 +361,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ruinwatch.com/planner?build=monk-uliana-ep</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://ruinwatch.com/planner?build=witchdoctor-arachyr-chicken</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -406,6 +406,21 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://ruinwatch.com/planner?build=support-zbarb-speed</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ruinwatch.com/planner?build=support-zcrusader</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ruinwatch.com/planner?build=support-demon-hunter-speed</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://ruinwatch.com/planner?build=support-zmonk</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -416,7 +431,57 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://ruinwatch.com/planner?build=support-zwitchdoctor</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ruinwatch.com/planner?build=support-zwizard-speed</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ruinwatch.com/planner?build=support-zcrusader-speed</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ruinwatch.com/planner?build=support-zmonk-speed</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ruinwatch.com/planner?build=support-znecromancer-speed</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ruinwatch.com/planner?build=support-zwitchdoctor-speed</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://ruinwatch.com/planner?build=support-zwizard</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ruinwatch.com/planner?build=speed-barbarian-leapquake-t16</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ruinwatch.com/planner?build=speed-crusader-bombardment-t16</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ruinwatch.com/planner?build=speed-demonhunter-ue-multishot-t16</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ruinwatch.com/planner?build=speed-monk-swk-tempest-rush-t16</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -431,7 +496,27 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://ruinwatch.com/planner?build=speed-wizard-teleport-meteor-t16</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ruinwatch.com/planner?build=speed-barbarian-lod-hota-gr</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ruinwatch.com/planner?build=speed-crusader-akkhan-condemn-gr</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://ruinwatch.com/planner?build=speed-demonhunter-god-bounties</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ruinwatch.com/planner?build=speed-monk-poj-tempest-rush-gr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -442,6 +527,11 @@
   </url>
   <url>
     <loc>https://ruinwatch.com/planner?build=speed-witchdoctor-mundunugu-gr</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ruinwatch.com/planner?build=speed-wizard-firebird-explosive-blast-gr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

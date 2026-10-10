@@ -3,7 +3,7 @@
   "name": "LoD WoL",
   "klass": "monk",
   "category": "solo-push",
-  "tier": "B",
+  "tier": "D",
   "gender": "male",
   "source": "https://maxroll.gg/d3/guides/lod-wave-of-light-monk-guide",
   "season": "Rites of Sanctuary",
@@ -243,5 +243,6 @@
       "the-guardians-path",
       "near-death-experience"
     ]
-  }
+  },
+  "listedTier": "B"
 }

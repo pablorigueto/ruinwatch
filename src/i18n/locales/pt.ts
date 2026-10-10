@@ -48,6 +48,10 @@ const translation = {
     "importNotBuild": "Este JSON não é uma build do RuinWatch.",
     "importUnknownClass": "Classe desconhecida nesta build.",
     "importTooBig": "Arquivo grande demais — o JSON de uma build tem poucos KB.",
+    "etherealPower": "+1 Poder Lendário de Arma da Classe",
+    "etherealPassive": "+1 Passiva da Classe",
+    "etherealChoose": "Escolher…",
+    "etherealNote": "No jogo os dois vêm aleatórios; escolha o que esta build procura.",
     "allSets": "Todos os sets",
     "setPieces": "({{count}}) do Conjunto",
     "loading": "Carregando o arsenal…",
@@ -140,6 +144,8 @@ const translation = {
       "totals": "Lista de sacrifícios ({{count}} selos)"
     },
     "summary": {
+      "dpsNote": "DPS = ficha do personagem × a skill principal. Não inclui bônus de set nem poderes lendários — não compare builds por ele.",
+      "burst": "recarga",
       "title": "Resumo",
       "empty": "Equipe itens para ver os totais.",
       "note": "Totais somados de equipamento, gemas e Paragon — não é uma simulação de combate.",

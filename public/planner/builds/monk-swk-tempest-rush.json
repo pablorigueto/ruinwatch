@@ -1,13 +1,13 @@
 {
+  "season": "Rites of Sanctuary",
   "id": "monk-swk-tempest-rush",
-  "name": "SWK Tempest Rush",
+  "name": "Ethereal SWK Tempest Rush",
   "klass": "monk",
   "category": "solo-push",
   "tier": "B",
   "gender": "male",
   "source": "https://maxroll.gg/d3/guides/sunwuko-tempest-rush-monk-guide",
-  "season": "Rites of Sanctuary",
-  "tagline": "Tempest Rush · Sunwuko",
+  "tagline": "Tempest Rush · Monkey King · Ethereal: Won Khim Lau + Relentless Assault, Vengeful Wind (13 stacks)",
   "paragonLevel": 800,
   "paragon": {
     "core": {
@@ -179,7 +179,7 @@
       "gems": []
     },
     "mainhand": {
-      "itemId": "P67_Unique_Fist_006",
+      "itemId": "P67_fistWeapon_norm_unique_02",
       "affixes": [
         "cdr",
         "area"
@@ -202,7 +202,9 @@
         {
           "gem": "emerald"
         }
-      ]
+      ],
+      "etherealPower": "P67_Unique_Fist_006",
+      "etherealPassive": "relentless-assault"
     }
   },
   "kanai": {
@@ -243,5 +245,6 @@
       "harmony",
       "mythic-rhythm"
     ]
-  }
+  },
+  "listedTier": "S"
 }

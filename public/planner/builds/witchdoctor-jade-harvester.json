@@ -3,7 +3,7 @@
   "name": "Jade Harvester",
   "klass": "witchdoctor",
   "category": "solo-push",
-  "tier": "B",
+  "tier": "D",
   "gender": "male",
   "source": "https://maxroll.gg/d3/guides/jade-harvester-witch-doctor-guide",
   "season": "Rites of Sanctuary",
@@ -243,5 +243,6 @@
       "spirit-vessel",
       "confidence-ritual"
     ]
-  }
+  },
+  "listedTier": "B"
 }

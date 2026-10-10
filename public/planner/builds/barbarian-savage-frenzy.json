@@ -1,13 +1,12 @@
 {
+  "season": "Season 28 (2.7.5)",
   "id": "barbarian-savage-frenzy",
-  "name": "Savage Frenzy",
+  "name": "Full Horde Frenzy",
   "klass": "barbarian",
   "category": "solo-push",
   "tier": "A",
   "gender": "male",
-  "source": "https://maxroll.gg/d3/guides/savage-frenzy-barbarian-guide",
-  "season": "Rites of Sanctuary",
-  "tagline": "Frenzy · Horde of the Ninety Savages",
+  "tagline": "Frenzy · 6p Horde + Endless Walk · Ethereal: Bastion's Revered + Brawler",
   "paragonLevel": 800,
   "paragon": {
     "core": {
@@ -60,22 +59,22 @@
       "gems": []
     },
     "neck": {
-      "itemId": "P66_Unique_Amulet_010",
+      "itemId": "Unique_Amulet_008_x1",
       "affixes": [
         "chd",
-        "wpnphy",
+        "elemental",
         "chc"
       ],
       "augment": 750,
       "gems": [
         {
-          "gem": "trapped",
+          "gem": "simplicity",
           "legendary": true
         }
       ]
     },
     "torso": {
-      "itemId": "P66_Unique_Chest_026",
+      "itemId": "P68_Unique_Chest_Set_05",
       "affixes": [
         "vit",
         "armor"
@@ -104,7 +103,7 @@
       "gems": []
     },
     "wrists": {
-      "itemId": "P66_Unique_Bracer_009",
+      "itemId": "Unique_Bracer_007_x1",
       "affixes": [
         "elemental",
         "chc",
@@ -122,36 +121,6 @@
       ],
       "augment": 750,
       "gems": []
-    },
-    "leftfinger": {
-      "itemId": "P2_Unique_Ring_04",
-      "affixes": [
-        "chc",
-        "chd",
-        "cdr"
-      ],
-      "augment": 750,
-      "gems": [
-        {
-          "gem": "gizzard",
-          "legendary": true
-        }
-      ]
-    },
-    "rightfinger": {
-      "itemId": "P61_Unique_Ring_05",
-      "affixes": [
-        "chc",
-        "chd",
-        "cdr"
-      ],
-      "augment": 750,
-      "gems": [
-        {
-          "gem": "simplicity",
-          "legendary": true
-        }
-      ]
     },
     "legs": {
       "itemId": "P68_Unique_Pants_Set_05",
@@ -178,8 +147,38 @@
       "augment": 750,
       "gems": []
     },
+    "leftfinger": {
+      "itemId": "Unique_Ring_013_x1",
+      "affixes": [
+        "chc",
+        "chd",
+        "cdr"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "trapped",
+          "legendary": true
+        }
+      ]
+    },
+    "rightfinger": {
+      "itemId": "P2_Unique_Ring_04",
+      "affixes": [
+        "chc",
+        "chd",
+        "cdr"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "stricken",
+          "legendary": true
+        }
+      ]
+    },
     "mainhand": {
-      "itemId": "P71_Ethereal_08",
+      "itemId": "P71_Ethereal_01",
       "affixes": [
         "cdr",
         "area"
@@ -189,26 +188,15 @@
         {
           "gem": "emerald"
         }
-      ]
-    },
-    "offhand": {
-      "itemId": "P4_Unique_Mighty_1H_104",
-      "affixes": [
-        "chc",
-        "cdr"
       ],
-      "augment": 750,
-      "gems": [
-        {
-          "gem": "emerald"
-        }
-      ]
+      "etherealPower": "P68_Unique_Mighty_2H_004",
+      "etherealPassive": "brawler"
     }
   },
   "kanai": {
-    "weapon": "leg_bastionsrevered_p68",
+    "weapon": "leg_oathkeeper",
     "armor": "leg_depthdiggers",
-    "jewelry": "leg_ringofroyalgrandeur"
+    "jewelry": "leg_squirtsnecklace"
   },
   "skills": {
     "active": [
@@ -217,12 +205,12 @@
         "rune": "a"
       },
       {
-        "skill": "battle-rage",
-        "rune": "e"
-      },
-      {
         "skill": "threatening-shout",
         "rune": "d"
+      },
+      {
+        "skill": "battle-rage",
+        "rune": "a"
       },
       {
         "skill": "war-cry",
@@ -243,5 +231,6 @@
       "boon-of-bulkathos",
       "nerves-of-steel"
     ]
-  }
+  },
+  "listedTier": "S"
 }

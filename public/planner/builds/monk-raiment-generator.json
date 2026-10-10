@@ -3,7 +3,7 @@
   "name": "Raiment Generator",
   "klass": "monk",
   "category": "solo-push",
-  "tier": "C",
+  "tier": "F",
   "gender": "male",
   "source": "https://maxroll.gg/d3/guides/raiment-generator-monk-guide",
   "season": "Rites of Sanctuary",
@@ -244,5 +244,6 @@
       "seize-the-initiative"
     ]
   },
-  "noEthereal": true
+  "noEthereal": true,
+  "listedTier": "C"
 }

@@ -1,13 +1,13 @@
 {
+  "season": "Rites of Sanctuary",
   "id": "wizard-typhon-hydra",
-  "name": "Typhon Hydra",
+  "name": "Ethereal Typhon Hydra",
   "klass": "wizard",
   "category": "solo-push",
-  "tier": "A",
+  "tier": "B",
   "gender": "male",
   "source": "https://maxroll.gg/d3/guides/typhon-hydra-wizard-guide",
-  "season": "Rites of Sanctuary",
-  "tagline": "Hydra · Typhon",
+  "tagline": "Hydra · Typhon · Ethereal: Mang Song's Lesson with Winter Flurry + Glass Cannon",
   "paragonLevel": 800,
   "paragon": {
     "core": {
@@ -179,7 +179,7 @@
       "gems": []
     },
     "mainhand": {
-      "itemId": "P71_Ethereal_18",
+      "itemId": "P71_Ethereal_11",
       "affixes": [
         "cdr",
         "area"
@@ -189,20 +189,9 @@
         {
           "gem": "emerald"
         }
-      ]
-    },
-    "offhand": {
-      "itemId": "P610_Unique_Orb_005",
-      "affixes": [
-        "chc",
-        "cdr"
       ],
-      "augment": 750,
-      "gems": [
-        {
-          "gem": "diamond"
-        }
-      ]
+      "etherealPower": "P610_Unique_Orb_005",
+      "etherealPassive": "glass-cannon"
     }
   },
   "kanai": {
@@ -243,5 +232,6 @@
       "audacity",
       "arcane-dynamo"
     ]
-  }
+  },
+  "listedTier": "S"
 }

@@ -1,13 +1,13 @@
 {
+  "season": "Rites of Sanctuary",
   "id": "crusader-lod-blessed-shield",
-  "name": "LoD Blessed Shield",
+  "name": "Ethereal LoD Blessed Shield",
   "klass": "crusader",
   "category": "solo-push",
   "tier": "A",
   "gender": "male",
   "source": "https://maxroll.gg/d3/guides/lod-blessed-shield-crusader-guide",
-  "season": "Rites of Sanctuary",
-  "tagline": "Blessed Shield · LoD",
+  "tagline": "Blessed Shield · LoD · Ethereal: Akkhan's Leniency + Holy Cause, Gyrfalcon's in the cube",
   "paragonLevel": 800,
   "paragon": {
     "core": {
@@ -179,7 +179,7 @@
       "gems": []
     },
     "mainhand": {
-      "itemId": "P71_Ethereal_06",
+      "itemId": "P71_Ethereal_13",
       "affixes": [
         "cdr",
         "area"
@@ -189,7 +189,9 @@
         {
           "gem": "emerald"
         }
-      ]
+      ],
+      "etherealPower": "P65_flail2H_norm_unique_01",
+      "etherealPassive": "holy-cause"
     },
     "offhand": {
       "itemId": "P65_Unique_CruShield_102_x1",
@@ -206,7 +208,7 @@
     }
   },
   "kanai": {
-    "weapon": "leg_akkhansleniency",
+    "weapon": "leg_gyrfalconsfoote_p6",
     "armor": "leg_strongarmbracers",
     "jewelry": "leg_unity"
   },
@@ -243,5 +245,6 @@
       "towering-shield",
       "hold-your-ground"
     ]
-  }
+  },
+  "listedTier": "S"
 }

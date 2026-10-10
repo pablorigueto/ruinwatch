@@ -1,13 +1,13 @@
 {
+  "season": "Rites of Sanctuary",
   "id": "monk-swk-wave-of-light",
-  "name": "SWK WoL",
+  "name": "Ethereal SWK Wave of Light",
   "klass": "monk",
   "category": "solo-push",
-  "tier": "B",
+  "tier": "C",
   "gender": "male",
   "source": "https://maxroll.gg/d3/guides/sunwuko-wave-of-light-monk-guide",
-  "season": "Rites of Sanctuary",
-  "tagline": "Wave of Light · Sunwuko",
+  "tagline": "Wave of Light · Monkey King · Ethereal: Vengeful Wind + Determination, Kyoshiro's Blade",
   "paragonLevel": 800,
   "paragon": {
     "core": {
@@ -189,10 +189,12 @@
         {
           "gem": "emerald"
         }
-      ]
+      ],
+      "etherealPower": "P67_fistWeapon_norm_unique_02",
+      "etherealPassive": "determination"
     },
     "offhand": {
-      "itemId": "P67_fistWeapon_norm_unique_02",
+      "itemId": "P4_Unique_Fist_102",
       "affixes": [
         "chc",
         "cdr"
@@ -243,5 +245,6 @@
       "seize-the-initiative",
       "near-death-experience"
     ]
-  }
+  },
+  "listedTier": "S"
 }

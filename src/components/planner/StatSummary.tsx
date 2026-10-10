@@ -17,7 +17,7 @@ import {
   useSkillDamage,
 } from "@/lib/planner";
 import { combatDps, computeSheet } from "@/lib/planner-sim";
-import { classSkills, useSkills } from "@/lib/skills";
+import { classSkills, dealsDamage, hasCooldown, useSkills } from "@/lib/skills";
 
 const fmt = (v: number, percent?: boolean) => {
   const n = Number.isInteger(v) ? v : +v.toFixed(2);
@@ -65,23 +65,33 @@ const StatSummary = ({
     onBuildChange({ ...build, buffs: on ? build.buffs.filter((x) => x !== id) : [...build.buffs, id] });
   };
 
-  // canonical per-skill combat DPS (CASC-derived coefficients × active buffs)
+  // canonical per-skill combat DPS (CASC-derived coefficients × active buffs). A skill only
+  // counts when it deals damage with the chosen rune (Wrath of the Berserker - Insanity does
+  // not; Arreat's Wail does); cooldown skills are flagged as bursts.
   const { data: skillDmg } = useSkillDamage();
   const skillDps = useMemo(() => {
     if (!skillDmg) return [];
+    const bySlug = new Map((classSkills(skillDataAll, build.klass as never)?.active ?? []).map((s) => [s.slug, s]));
     return build.skills.active
       .filter((a) => a?.skill && skillDmg[a.skill])
-      .map((a) => ({
-        slug: a.skill,
-        name: skillNames[a.skill] ?? a.skill,
-        dps: combatDps(sheet, skillDmg[a.skill].coeff) * buffMult,
-        coeff: skillDmg[a.skill].coeff,
-      }));
-  }, [skillDmg, skillNames, build.skills.active, sheet, buffMult]);
+      .filter((a) => { const s = bySlug.get(a.skill); return !s || dealsDamage(s, a.rune); })
+      .map((a) => {
+        const s = bySlug.get(a.skill);
+        return {
+          slug: a.skill,
+          name: skillNames[a.skill] ?? a.skill,
+          dps: combatDps(sheet, skillDmg[a.skill].coeff) * buffMult,
+          coeff: skillDmg[a.skill].coeff,
+          burst: !!s && hasCooldown(s),
+        };
+      });
+  }, [skillDmg, skillDataAll, build.klass, skillNames, build.skills.active, sheet, buffMult]);
 
-  // Headline DPS = the strongest equipped skill's combat DPS (× buffs); falls
-  // back to the bare sheet DPS when no damaging skill is on the bar.
-  const bestSkillDps = skillDps.reduce((mx, s) => Math.max(mx, s.dps), 0);
+  // Headline DPS = the strongest sustained (no cooldown) damaging skill; a cooldown skill only
+  // when the bar has nothing else; the bare sheet DPS when no damaging skill is on the bar.
+  // Set bonuses and legendary powers are not included (see the note under the tiles).
+  const best = (list: typeof skillDps) => list.reduce((mx, s) => Math.max(mx, s.dps), 0);
+  const bestSkillDps = best(skillDps.filter((s) => !s.burst)) || best(skillDps);
   const headlineDps = bestSkillDps > 0 ? bestSkillDps : sheet.dps * buffMult;
   const headline = [
     { icon: Swords, label: t("planner.summary.dps"), accent: "30 90% 55%", value: big(headlineDps) },
@@ -108,6 +118,9 @@ const StatSummary = ({
           </div>
         ))}
       </div>
+      <p className="font-mono text-[9px] leading-snug text-bone/40 mb-3">
+        {t("planner.summary.dpsNote", "DPS = character sheet × the main skill. Set bonuses and legendary powers are not included — do not compare builds by it.")}
+      </p>
 
       {/* active sets — equipped piece count + which (2)/(4)/(6) tiers are live */}
       {sets.length > 0 && (
@@ -202,7 +215,14 @@ const StatSummary = ({
           <ul className="space-y-0.5">
             {skillDps.map((s) => (
               <li key={s.slug} className="flex items-center justify-between">
-                <span className="font-body text-[12px] text-bone/75 truncate pr-2">{s.name}</span>
+                <span className="font-body text-[12px] text-bone/75 truncate pr-2">
+                  {s.name}
+                  {s.burst && (
+                    <span className="ml-1.5 font-mono text-[9px] uppercase tracking-wider text-bone/35">
+                      {t("planner.summary.burst", "cooldown")}
+                    </span>
+                  )}
+                </span>
                 <span className="font-mono text-[12px] text-bone tabular-nums whitespace-nowrap">{big(s.dps)}</span>
               </li>
             ))}

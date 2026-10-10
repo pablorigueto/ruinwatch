@@ -1,0 +1,236 @@
+{
+  "season": "Rites of Sanctuary",
+  "id": "speed-wizard-teleport-meteor-t16",
+  "name": "Ethereal Teleport Meteor T16",
+  "klass": "wizard",
+  "category": "speed",
+  "tier": "T16",
+  "gender": "male",
+  "source": "https://maxroll.gg/d3/guides/firebird-meteor-wizard-guide",
+  "tagline": "Meteor · Firebird · Ethereal: Aether Walker (Teleport has no cooldown) + Glass Cannon",
+  "paragonLevel": 800,
+  "paragon": {
+    "core": {
+      "movement": 50,
+      "resource": 50,
+      "mainstat": 50,
+      "vit": 50
+    },
+    "offense": {
+      "cdr": 50,
+      "chc": 50,
+      "chd": 50,
+      "ias": 50
+    },
+    "defense": {
+      "armor": 50,
+      "resall": 50,
+      "ldr": 50,
+      "life": 50
+    },
+    "utility": {
+      "rcr": 50,
+      "laek": 50,
+      "gf": 50,
+      "area": 50
+    }
+  },
+  "equipped": {
+    "head": {
+      "itemId": "Unique_Helm_Set_06_x1",
+      "affixes": [
+        "chc",
+        "vit"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "topaz"
+        }
+      ]
+    },
+    "shoulders": {
+      "itemId": "Unique_Shoulder_Set_06_x1",
+      "affixes": [
+        "cdr",
+        "area",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": []
+    },
+    "neck": {
+      "itemId": "P66_Unique_Amulet_010",
+      "affixes": [
+        "chd",
+        "elemental",
+        "chc"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "stricken",
+          "legendary": true
+        }
+      ]
+    },
+    "torso": {
+      "itemId": "Unique_Chest_Set_06_x1",
+      "affixes": [
+        "vit",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "topaz"
+        },
+        {
+          "gem": "topaz"
+        },
+        {
+          "gem": "topaz"
+        }
+      ]
+    },
+    "hands": {
+      "itemId": "Unique_Gloves_Set_06_x1",
+      "affixes": [
+        "chc",
+        "chd",
+        "area"
+      ],
+      "augment": 750,
+      "gems": []
+    },
+    "wrists": {
+      "itemId": "P74_Unique_Bracer_010",
+      "affixes": [
+        "elemental",
+        "chc",
+        "vit"
+      ],
+      "augment": 750,
+      "gems": []
+    },
+    "waist": {
+      "itemId": "P74_Unique_Belt_013",
+      "affixes": [
+        "vit",
+        "life",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": []
+    },
+    "leftfinger": {
+      "itemId": "P2_Unique_Ring_04",
+      "affixes": [
+        "chc",
+        "chd",
+        "cdr"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "trapped",
+          "legendary": true
+        }
+      ]
+    },
+    "rightfinger": {
+      "itemId": "P61_Unique_Ring_03",
+      "affixes": [
+        "chc",
+        "chd",
+        "cdr"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "zei",
+          "legendary": true
+        }
+      ]
+    },
+    "legs": {
+      "itemId": "Unique_Pants_Set_06_x1",
+      "affixes": [
+        "vit",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "topaz"
+        },
+        {
+          "gem": "topaz"
+        }
+      ]
+    },
+    "feet": {
+      "itemId": "P61_Unique_Boots_01",
+      "affixes": [
+        "vit",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": []
+    },
+    "mainhand": {
+      "itemId": "P71_Ethereal_11",
+      "affixes": [
+        "cdr",
+        "area"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "emerald"
+        }
+      ],
+      "etherealPower": "P1_Wand_norm_unique_01",
+      "etherealPassive": "glass-cannon"
+    }
+  },
+  "kanai": {
+    "weapon": "leg_thesmolderingcore_p74",
+    "armor": "leg_mempooftwilight",
+    "jewelry": "leg_ringofroyalgrandeur"
+  },
+  "skills": {
+    "active": [
+      {
+        "skill": "meteor",
+        "rune": "c"
+      },
+      {
+        "skill": "disintegrate",
+        "rune": "b"
+      },
+      {
+        "skill": "teleport",
+        "rune": "e"
+      },
+      {
+        "skill": "storm-armor",
+        "rune": "d"
+      },
+      {
+        "skill": "diamond-skin",
+        "rune": "d"
+      },
+      {
+        "skill": "black-hole",
+        "rune": "e"
+      }
+    ],
+    "passives": [
+      "elemental-exposure",
+      "power-hungry",
+      "galvanizing-ward",
+      "conflagration"
+    ]
+  }
+}

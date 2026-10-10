@@ -1,13 +1,13 @@
 {
+  "season": "Rites of Sanctuary",
   "id": "crusader-lon-bombardment",
-  "name": "LoN Bombardment",
+  "name": "Ethereal LoN Bombardment",
   "klass": "crusader",
   "category": "solo-push",
-  "tier": "A",
+  "tier": "B",
   "gender": "male",
   "source": "https://maxroll.gg/d3/guides/lon-bombardment-crusader-guide",
-  "season": "Rites of Sanctuary",
-  "tagline": "Bombardment · LoN",
+  "tagline": "Bombardment · Legacy of Nightmares · Ethereal: The Mortal Drama + Lord Commander, Furnace in the cube",
   "paragonLevel": 800,
   "paragon": {
     "core": {
@@ -189,7 +189,9 @@
         {
           "gem": "topaz"
         }
-      ]
+      ],
+      "etherealPower": "P610_Unique_Flail_2H_101",
+      "etherealPassive": "lord-commander"
     },
     "offhand": {
       "itemId": "Unique_Shield_012_x1",
@@ -206,7 +208,7 @@
     }
   },
   "kanai": {
-    "weapon": "leg_themortaldrama_p610",
+    "weapon": "leg_thefurnace",
     "armor": "leg_stonegauntlets",
     "jewelry": "leg_conventionofelements"
   },
@@ -243,5 +245,6 @@
       "finery",
       "hold-your-ground"
     ]
-  }
+  },
+  "listedTier": "S"
 }

@@ -3,7 +3,7 @@
   "name": "Invoker Thorns",
   "klass": "crusader",
   "category": "solo-push",
-  "tier": "B",
+  "tier": "D",
   "gender": "male",
   "source": "https://maxroll.gg/d3/guides/invoker-thorns-crusader-guide",
   "season": "Rites of Sanctuary",
@@ -243,5 +243,6 @@
       "iron-maiden",
       "hold-your-ground"
     ]
-  }
+  },
+  "listedTier": "B"
 }

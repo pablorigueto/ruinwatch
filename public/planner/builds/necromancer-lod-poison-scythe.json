@@ -1,13 +1,13 @@
 {
+  "season": "Rites of Sanctuary",
   "id": "necromancer-lod-poison-scythe",
-  "name": "LoD Poison Scythe",
+  "name": "Ethereal LoD Poison Scythe",
   "klass": "necromancer",
   "category": "solo-push",
-  "tier": "A",
+  "tier": "B",
   "gender": "male",
   "source": "https://maxroll.gg/d3/guides/lod-poison-scythe-necromancer-guide",
-  "season": "Rites of Sanctuary",
-  "tagline": "Grim Scythe · Poison · LoD",
+  "tagline": "Grim Scythe · Poison · LoD · Ethereal: Nayr's + Blood is Power, Trag'Oul's Corroded Fang in the cube",
   "paragonLevel": 800,
   "paragon": {
     "core": {
@@ -189,7 +189,9 @@
         {
           "gem": "emerald"
         }
-      ]
+      ],
+      "etherealPower": "P61_Unique_Scythe2H_04",
+      "etherealPassive": "blood-is-power"
     },
     "offhand": {
       "itemId": "P61_Unique_Phylactery_03",
@@ -206,7 +208,7 @@
     }
   },
   "kanai": {
-    "weapon": "leg_nayrsblackdeath_p6",
+    "weapon": "leg_trangoulscorrodedfang",
     "armor": "leg_depthdiggers",
     "jewelry": "leg_krysbinssentence"
   },
@@ -243,5 +245,6 @@
       "swift-harvesting",
       "stand-alone"
     ]
-  }
+  },
+  "listedTier": "S"
 }

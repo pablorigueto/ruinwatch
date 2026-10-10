@@ -1,13 +1,13 @@
 {
+  "season": "Rites of Sanctuary",
   "id": "barbarian-mote-leapquake",
-  "name": "MotE Leapquake",
+  "name": "Ethereal Leapquake",
   "klass": "barbarian",
   "category": "solo-push",
-  "tier": "B",
+  "tier": "D",
   "gender": "male",
   "source": "https://maxroll.gg/d3/guides/mote-earthquake-barbarian-guide",
-  "season": "Rites of Sanctuary",
-  "tagline": "Earthquake · Might of the Earth",
+  "tagline": "Earthquake · Might of the Earth · Ethereal: Blade of the Tribes + Ruthless, Furnace in the cube",
   "paragonLevel": 800,
   "paragon": {
     "core": {
@@ -189,11 +189,13 @@
         {
           "gem": "emerald"
         }
-      ]
+      ],
+      "etherealPower": "P610_Unique_Mighty_2H_101",
+      "etherealPassive": "ruthless"
     }
   },
   "kanai": {
-    "weapon": "leg_bladeofthetribes_p610",
+    "weapon": "leg_thefurnace",
     "armor": "leg_girdleofgiants_p6",
     "jewelry": "leg_ringofroyalgrandeur"
   },
@@ -230,5 +232,6 @@
       "boon-of-bulkathos",
       "nerves-of-steel"
     ]
-  }
+  },
+  "listedTier": "B"
 }

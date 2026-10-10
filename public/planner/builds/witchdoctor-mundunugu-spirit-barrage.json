@@ -1,13 +1,13 @@
 {
+  "season": "Rites of Sanctuary",
   "id": "witchdoctor-mundunugu-spirit-barrage",
-  "name": "Mundunugu Spirit Barrage",
+  "name": "Ethereal Mundunugu Spirit Barrage",
   "klass": "witchdoctor",
   "category": "solo-push",
-  "tier": "A",
+  "tier": "C",
   "gender": "male",
   "source": "https://maxroll.gg/d3/guides/mundunugu-spirit-barrage-witch-doctor-guide",
-  "season": "Rites of Sanctuary",
-  "tagline": "Spirit Barrage · Mundunugu",
+  "tagline": "Spirit Barrage · Mundunugu · Ethereal: The Barber + Pierce the Veil, Furnace in the cube",
   "paragonLevel": 800,
   "paragon": {
     "core": {
@@ -189,7 +189,9 @@
         {
           "gem": "emerald"
         }
-      ]
+      ],
+      "etherealPower": "P68_Unique_Dagger_003",
+      "etherealPassive": "pierce-the-veil"
     },
     "offhand": {
       "itemId": "P68_Unique_Mojo_003",
@@ -206,7 +208,7 @@
     }
   },
   "kanai": {
-    "weapon": "leg_thebarber",
+    "weapon": "leg_thefurnace",
     "armor": "leg_frostburn_p2",
     "jewelry": "leg_ringofroyalgrandeur"
   },
@@ -243,5 +245,6 @@
       "confidence-ritual",
       "gruesome-feast"
     ]
-  }
+  },
+  "listedTier": "A"
 }

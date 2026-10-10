@@ -3,7 +3,7 @@
   "name": "UE Hungering Arrow",
   "klass": "demonhunter",
   "category": "solo-push",
-  "tier": "A",
+  "tier": "C",
   "gender": "male",
   "source": "https://maxroll.gg/d3/guides/ue-hungering-arrow-demon-hunter-guide",
   "season": "Rites of Sanctuary",
@@ -243,5 +243,6 @@
       "awareness",
       "ambush"
     ]
-  }
+  },
+  "listedTier": "A"
 }

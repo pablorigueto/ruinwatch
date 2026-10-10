@@ -22,6 +22,34 @@ const hl = (text: string) =>
     /^\d/.test(p) ? <span key={i} className="text-[#6fb3ff]">{p}</span> : <span key={i}>{p}</span>,
   );
 
+/** An Ethereal's two extras (its +1 class weapon legendary power and +1 class passive), in
+ *  their own block so they read as separate from the item's fixed properties. */
+const EtherealExtras = ({ ethereal }: { ethereal: NonNullable<ItemTooltip["ethereal"]> }) => {
+  const { t } = useTranslation();
+  return (
+    <span className="block mt-1.5 pt-1.5 border-t border-[#3fd0c4]/35 space-y-1">
+      {ethereal.power && (
+        <span className="block leading-snug">
+          <span className="block font-mono text-[9px] uppercase tracking-wider text-[#5fe0d4]">
+            {t("planner.etherealPower", "+1 Class Weapon Legendary Power")}
+          </span>
+          <span className="block text-[#e8a23a]">
+            <span className="font-semibold">{ethereal.power.name}:</span> {hl(ethereal.power.text)}
+          </span>
+        </span>
+      )}
+      {ethereal.passive && (
+        <span className="block leading-snug">
+          <span className="block font-mono text-[9px] uppercase tracking-wider text-[#5fe0d4]">
+            {t("planner.etherealPassive", "+1 Class Passive Power")}
+          </span>
+          <span className="block text-[#5fe0d4]">{ethereal.passive}</span>
+        </span>
+      )}
+    </span>
+  );
+};
+
 /** Read-only hover card for an equipped item — the in-game style tooltip. */
 const ItemCard = ({ tip, color }: { tip: ItemTooltip; color: string }) => (
   <span
@@ -41,6 +69,7 @@ const ItemCard = ({ tip, color }: { tip: ItemTooltip; color: string }) => (
         {tip.power && (
           <span className="block leading-snug text-[#e8a23a] mt-1.5 pt-1.5 border-t border-[#8a6d2f]/30">{hl(tip.power)}</span>
         )}
+        {tip.ethereal && (tip.ethereal.power || tip.ethereal.passive) && <EtherealExtras ethereal={tip.ethereal} />}
         {tip.setName && (
           <span className="block mt-1.5 pt-1.5 border-t border-[#8a6d2f]/30">
             <span className="block font-display text-[11px] uppercase tracking-wider text-[#5fd35f]">{tip.setName}</span>
