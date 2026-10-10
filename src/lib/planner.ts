@@ -141,14 +141,14 @@ export interface AltarNode {
   name: string;
   desc: string;
   flavor?: string;
-  /** sprite-sheet column index into altar1.webp (minors) / altar2.webp (majors). */
+  /** sprite-sheet column index into seals-minor.webp (minors) / seals-major.webp (majors). */
   icon?: number;
   /** tree position on the 9-col × 11-row seal lattice. */
   row?: number;
   col?: number;
   /** ids of nodes that must be active before this one (the tree edges). */
   requires?: string[];
-  /** a "major" seal (bottom tier) uses the altar2 sprite; `final` is the apex. */
+  /** a "major" seal (bottom tier) uses the seals-major sprite; `final` is the apex. */
   major?: boolean;
   final?: boolean;
 }
