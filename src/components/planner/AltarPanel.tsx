@@ -10,9 +10,9 @@
  * and the panel lists the total sacrifice of the active seals.
  *
  * Assets:
- *   /planner/altar/altar-bg.webp  — background lattice (340×442)
- *   /planner/altar/altar1.webp    — 26 minor seal coins (sprite, 64px cells)
- *   /planner/altar/altar2.webp    — 4 major seals (sprite)
+ *   /planner/altar/board.webp        — background lattice (340×442)
+ *   /planner/altar/seals-minor.webp  — 26 minor seal coins (sprite, 64px cells)
+ *   /planner/altar/seals-major.webp  — 4 major seals (sprite)
  */
 import { useMemo, useState } from "react";
 import { useTranslation } from "react-i18next";
@@ -30,8 +30,8 @@ const PAD_Y = 7;
 const colPct = (col: number) => PAD_X + (col / (COLS - 1)) * (100 - 2 * PAD_X);
 const rowPct = (row: number) => PAD_Y + ((row - ROW_MIN) / (ROW_MAX - ROW_MIN)) * (100 - 2 * PAD_Y);
 
-// Sprite geometry (cells are 64px). altar1 = 26 minor cols × 4 state rows;
-// altar2 scaled to the same 4-row height is 5 cols × 4 rows. Row 2 is the lit
+// Sprite geometry (cells are 64px). seals-minor = 26 minor cols × 4 state rows;
+// seals-major scaled to the same 4-row height is 5 cols × 4 rows. Row 2 is the lit
 // state. Background-position uses the "percent = cell/(count-1)" convention.
 const MINOR_COLS = 26;
 const MAJOR_COLS = 5;
@@ -88,7 +88,7 @@ const SealSacrifice = ({ sc, active }: { sc: SealCost; active: boolean }) => {
   );
 };
 
-/** One seal coin: a sprite slice from altar1 (minors) / altar2 (majors).
+/** One seal coin: a sprite slice from seals-minor / seals-major.
  *  Inactive seals are dimmed; the apex (`final`) sits half a cell over. */
 const Seal = ({
   id,
@@ -106,7 +106,7 @@ const Seal = ({
   onToggle: () => void;
 }) => {
   const major = node.major || node.final;
-  const sheet = major ? "/planner/altar/altar2.webp" : "/planner/altar/altar1.webp";
+  const sheet = major ? "/planner/altar/seals-major.webp" : "/planner/altar/seals-minor.webp";
   const cols = major ? MAJOR_COLS : MINOR_COLS;
   const iconX = (node.icon ?? 0) + (node.final ? 0.5 : 0);
   const posX = (iconX / (cols - 1)) * 100;
@@ -249,7 +249,7 @@ const AltarPanel = ({
             {/* clipped background layer */}
             <div className="absolute inset-0 rounded-sm overflow-hidden border border-stone/50">
               <img
-                src="/planner/altar/altar-bg.webp"
+                src="/planner/altar/board.webp"
                 alt=""
                 className="w-full h-full object-cover select-none pointer-events-none"
                 draggable={false}
