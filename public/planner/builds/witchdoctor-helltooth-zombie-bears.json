@@ -1,13 +1,13 @@
 {
+  "season": "Rites of Sanctuary",
   "id": "witchdoctor-helltooth-zombie-bears",
-  "name": "Helltooth Zombie Bears",
+  "name": "Ethereal Helltooth Zombie Bears",
   "klass": "witchdoctor",
   "category": "solo-push",
-  "tier": "A",
+  "tier": "S",
   "gender": "male",
   "source": "https://maxroll.gg/d3/guides/helltooth-zombie-bears-witch-doctor-guide",
-  "season": "Rites of Sanctuary",
-  "tagline": "Zombie Bears · Helltooth",
+  "tagline": "Zombie Charger · Helltooth · Ethereal: Shukrani's + Pierce the Veil, Scrimshaw in the cube",
   "paragonLevel": 800,
   "paragon": {
     "core": {
@@ -189,7 +189,9 @@
         {
           "gem": "emerald"
         }
-      ]
+      ],
+      "etherealPower": "Unique_Mojo_102_x1",
+      "etherealPassive": "pierce-the-veil"
     },
     "offhand": {
       "itemId": "P610_Unique_Mojo_001",
@@ -206,7 +208,7 @@
     }
   },
   "kanai": {
-    "weapon": "leg_shukranistriumph_p72",
+    "weapon": "leg_scrimshaw_p610",
     "armor": "leg_stonegauntlets",
     "jewelry": "leg_ringofroyalgrandeur"
   },
@@ -243,5 +245,6 @@
       "grave-injustice",
       "blood-ritual"
     ]
-  }
+  },
+  "listedTier": "S"
 }

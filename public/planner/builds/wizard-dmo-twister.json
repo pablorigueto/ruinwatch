@@ -3,7 +3,7 @@
   "name": "DMO Twister",
   "klass": "wizard",
   "category": "solo-push",
-  "tier": "B",
+  "tier": "D",
   "gender": "male",
   "source": "https://maxroll.gg/d3/guides/dmo-twister-wizard-guide",
   "season": "Rites of Sanctuary",
@@ -243,5 +243,6 @@
       "unwavering-will",
       "illusionist"
     ]
-  }
+  },
+  "listedTier": "B"
 }

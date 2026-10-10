@@ -1,0 +1,247 @@
+{
+  "id": "necromancer-tragoul-death-nova",
+  "name": "Trag'Oul Death Nova",
+  "klass": "necromancer",
+  "category": "solo-push",
+  "tier": "S",
+  "gender": "male",
+  "source": "https://maxroll.gg/d3/guides/tragoul-death-nova-necromancer-guide",
+  "season": "Rites of Sanctuary",
+  "tagline": "Death Nova · Trag'Oul · Solo Push",
+  "paragonLevel": 800,
+  "paragon": {
+    "core": {
+      "movement": 50,
+      "resource": 50,
+      "mainstat": 50,
+      "vit": 50
+    },
+    "offense": {
+      "cdr": 50,
+      "chc": 50,
+      "chd": 50,
+      "ias": 50
+    },
+    "defense": {
+      "armor": 50,
+      "resall": 50,
+      "ldr": 50,
+      "life": 50
+    },
+    "utility": {
+      "rcr": 50,
+      "laek": 50,
+      "gf": 50,
+      "area": 50
+    }
+  },
+  "equipped": {
+    "head": {
+      "itemId": "P6_Necro_Set_2_Helm",
+      "affixes": [
+        "chc",
+        "vit"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "diamond"
+        }
+      ]
+    },
+    "shoulders": {
+      "itemId": "P66_Unique_Shoulder_008",
+      "affixes": [
+        "cdr",
+        "area",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": []
+    },
+    "neck": {
+      "itemId": "P69_Unique_Amulet_02",
+      "affixes": [
+        "chd",
+        "wpnphy",
+        "chc"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "stricken",
+          "legendary": true
+        }
+      ]
+    },
+    "torso": {
+      "itemId": "P6_Necro_Set_2_Chest",
+      "affixes": [
+        "vit",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "topaz"
+        },
+        {
+          "gem": "topaz"
+        },
+        {
+          "gem": "topaz"
+        }
+      ]
+    },
+    "hands": {
+      "itemId": "P6_Necro_Set_2_Gloves",
+      "affixes": [
+        "chc",
+        "chd",
+        "cdr"
+      ],
+      "augment": 750,
+      "gems": []
+    },
+    "wrists": {
+      "itemId": "P66_Unique_Bracer_009",
+      "affixes": [
+        "elemental",
+        "chc",
+        "vit"
+      ],
+      "augment": 750,
+      "gems": []
+    },
+    "waist": {
+      "itemId": "P61_Unique_Belt_01",
+      "affixes": [
+        "vit",
+        "life",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": []
+    },
+    "leftfinger": {
+      "itemId": "P6_Unique_Ring_03",
+      "affixes": [
+        "chc",
+        "chd",
+        "cdr"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "trapped",
+          "legendary": true
+        }
+      ]
+    },
+    "rightfinger": {
+      "itemId": "P2_Unique_Ring_04",
+      "affixes": [
+        "chc",
+        "chd",
+        "cdr"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "zei",
+          "legendary": true
+        }
+      ]
+    },
+    "legs": {
+      "itemId": "P6_Necro_Set_2_Pants",
+      "affixes": [
+        "vit",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "topaz"
+        },
+        {
+          "gem": "topaz"
+        }
+      ]
+    },
+    "feet": {
+      "itemId": "P6_Necro_Set_2_Boots",
+      "affixes": [
+        "vit",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": []
+    },
+    "mainhand": {
+      "itemId": "P71_Ethereal_17",
+      "affixes": [
+        "cdr",
+        "area"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "emerald"
+        }
+      ]
+    },
+    "offhand": {
+      "itemId": "P74_Unique_Phylactery_04",
+      "affixes": [
+        "chc",
+        "cdr"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "diamond"
+        }
+      ]
+    }
+  },
+  "kanai": {
+    "weapon": "leg_funerarypick_p74",
+    "armor": "leg_mantleofchanneling",
+    "jewelry": "leg_ringofroyalgrandeur"
+  },
+  "skills": {
+    "active": [
+      {
+        "skill": "death-nova",
+        "rune": "c"
+      },
+      {
+        "skill": "siphon-blood",
+        "rune": "d"
+      },
+      {
+        "skill": "simulacrum",
+        "rune": "d"
+      },
+      {
+        "skill": "bone-armor",
+        "rune": "c"
+      },
+      {
+        "skill": "frailty",
+        "rune": "a"
+      },
+      {
+        "skill": "blood-rush",
+        "rune": "c"
+      }
+    ],
+    "passives": [
+      "swift-harvesting",
+      "stand-alone",
+      "spreading-malediction",
+      "final-service"
+    ]
+  }
+}

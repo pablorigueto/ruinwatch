@@ -168,31 +168,7 @@ build({ id: "monk-lod-wave-of-light", name: "LoD WoL", source: "https://maxroll.
   ["Wave of Light|Explosive Light", "Mystic Ally|Air Ally", "Epiphany|Desert Shroud", "Cyclone Strike|Implosion", "Mantra of Salvation|Agility", "Blinding Flash|Faith in the Light"],
   ["Beacon of Ytar", "Seize the Initiative", "The Guardian's Path", "Near Death Experience"]);
 
-// Sunwuko Tempest Rush (Monk)
-build({ id: "monk-swk-tempest-rush", name: "SWK Tempest Rush", source: "https://maxroll.gg/d3/guides/sunwuko-tempest-rush-monk-guide", tagline: "Tempest Rush · Sunwuko" },
-  "monk", {
-    head: gear("Sunwuko's Crown", A.helmCrit, [N("diamond")]), shoulders: gear("Sunwuko's Balance", A.shoulderCdr),
-    neck: gear("The Flavor of Time", A.amuletEl, [L("trapped")]), torso: gear("Sunwuko's Soul", A.chestVit, D3),
-    hands: gear("Sunwuko's Paws", A.glovesCrit), wrists: gear("Cesar's Memento", A.bracerEl),
-    waist: gear("Captain Crimson's Silk Girdle", A.beltVit), leftfinger: gear("Avarice Band", A.ringCrit, [L("taeguk")]),
-    rightfinger: gear("Obsidian Ring of the Zodiac", A.ringCrit, [L("stricken")]), legs: gear("Sunwuko's Leggings", A.legsVit, D2),
-    feet: gear("Captain Crimson's Waders", A.bootsVit), mainhand: gearE("Jade Talon", A.wpn, [N("emerald")]), offhand: gear("Won Khim Lau", A.off, [N("diamond")]),
-  }, ["Balance", "Stone Gauntlets", "Ring of Royal Grandeur"],
-  ["Tempest Rush|Flurry", "Sweeping Wind|Inner Storm", "Epiphany|Desert Shroud", "Blinding Flash|Faith in the Light", "Way of the Hundred Fists|Blazing Fists", "Mantra of Salvation|Agility"],
-  ["Beacon of Ytar", "Momentum", "Harmony", "Mythic Rhythm"]);
 
-// Sunwuko Wave of Light (Monk)
-build({ id: "monk-swk-wave-of-light", name: "SWK WoL", source: "https://maxroll.gg/d3/guides/sunwuko-wave-of-light-monk-guide", tagline: "Wave of Light · Sunwuko" },
-  "monk", {
-    head: gear("Tzo Krin's Gaze", A.helmCrit, [N("diamond")]), shoulders: gear("Sunwuko's Balance", A.shoulderCdr),
-    neck: gear("Sunwuko's Shines", A.amuletEl, [L("trapped")]), torso: gear("Sunwuko's Soul", A.chestVit, D3),
-    hands: gear("Sunwuko's Paws", A.glovesCrit), wrists: gear("Pinto's Pride", A.bracerEl),
-    waist: gear("Captain Crimson's Silk Girdle", A.beltVit), leftfinger: gear("Avarice Band", A.ringCrit, [L("enforcer")]),
-    rightfinger: gear("Restraint", A.ringCrit, [L("zei")]), legs: gear("Sunwuko's Leggings", A.legsVit, D2),
-    feet: gear("Captain Crimson's Waders", A.bootsVit), mainhand: gearE("Bartuc's Cut-Throat", A.wpn, [N("emerald")]), offhand: gear("Vengeful Wind", A.off, [N("emerald")]),
-  }, ["Incense Torch of the Grand Temple", "The Flavor of Time", "Ring of Royal Grandeur"],
-  ["Wave of Light|Explosive Light", "Sweeping Wind|Inner Storm", "Epiphany|Insight", "Breath of Heaven|Blazing Wrath", "Mantra of Conviction|Annihilation", "Mystic Ally|Air Ally"],
-  ["Beacon of Ytar", "Momentum", "Seize the Initiative", "Near Death Experience"]);
 
 // Jade Harvester (WD)
 build({ id: "witchdoctor-jade-harvester", name: "Jade Harvester", source: "https://maxroll.gg/d3/guides/jade-harvester-witch-doctor-guide", tagline: "Haunt · Locust · Jade" },
@@ -207,18 +183,6 @@ build({ id: "witchdoctor-jade-harvester", name: "Jade Harvester", source: "https
   ["Haunt|Resentful Spirits", "Soul Harvest|Languish", "Piranhas|Piranhado", "Spirit Walk|Jaunt", "Horrify|Frightening Aspect", "Locust Swarm|Pestilence"],
   ["Creeping Death", "Grave Injustice", "Spirit Vessel", "Confidence Ritual"]);
 
-// Arachyr Firebats (WD)
-build({ id: "witchdoctor-arachyr-firebats", name: "Arachyr Firebats", source: "https://maxroll.gg/d3/guides/arachyr-firebats-witch-doctor-guide", tagline: "Firebats · Arachyr" },
-  "witchdoctor", {
-    head: gear("Arachyr's Visage", A.helmCrit, [N("topaz")]), shoulders: gear("Arachyr's Mantle", A.shoulderCdr),
-    neck: gear("The Traveler's Pledge", A.amuletEl, [L("trapped")]), torso: gear("Arachyr's Carapace", A.chestVit, T3),
-    hands: gear("Arachyr's Claws", A.glovesCrit), wrists: gear("Lakumba's Ornament", A.bracerEl),
-    waist: gear("Bakuli Jungle Wraps", A.beltVit), leftfinger: gear("The Compass Rose", A.ringCrit, [L("taeguk")]),
-    rightfinger: gear("Ring of Emptiness", A.ringCrit, [L("stricken")]), legs: gear("Arachyr's Legs", A.legsVit, T2),
-    feet: gear("Arachyr's Stride", A.bootsVit), mainhand: gearE("Ghostflame", A.wpn, [N("emerald")]), offhand: gear("Shukrani's Triumph", A.off, [N("diamond")]),
-  }, ["Staff of Chiroptera", "Ring of Royal Grandeur", "Convention of Elements"],
-  ["Firebats|Cloud of Bats", "Horrify|Frightening Aspect", "Soul Harvest|Languish", "Spirit Walk|Honored Guest", "Locust Swarm|Cloud of Insects", "Piranhas|Piranhado"],
-  ["Creeping Death", "Confidence Ritual", "Grave Injustice", "Swampland Attunement"]);
 
 // LoD Poison Dart Carnevil (WD)
 build({ id: "witchdoctor-lon-poison-dart", name: "LoN Poison Dart", source: "https://maxroll.gg/d3/guides/lod-dart-carnevil-witch-doctor-guide", tagline: "Poison Dart · Carnevil · LoD" },
@@ -272,31 +236,7 @@ build({ id: "crusader-invoker-thorns", name: "Invoker Thorns", source: "https://
   ["Slash|Zeal", "Iron Skin|Reflective Skin", "Akarat's Champion|Prophet", "Laws of Valor|Unstoppable Force", "Bombardment|Annihilate", "Steed Charge|Draw and Quarter"],
   ["Fervor", "Finery", "Iron Maiden", "Hold Your Ground"]);
 
-// SotL Blessed Hammer (Crusader)
-build({ id: "crusader-sotl-blessed-hammer", name: "SotL Blessed Hammer", source: "https://maxroll.gg/d3/guides/sotl-blessed-hammer-crusader-guide", tagline: "Blessed Hammer · Seeker of the Light" },
-  "crusader", {
-    head: gear("Crown of the Light", A.helmCrit, [N("diamond")]), shoulders: gear("Mountain of the Light", A.shoulderCdr),
-    neck: gear("The Traveler's Pledge", A.amuletCc, [L("trapped")]), torso: gear("Heart of the Light", A.chestVit, D3),
-    hands: gear("Will of the Light", A.glovesCrit), wrists: gear("Strongarm Bracers", A.bracerEl),
-    waist: gear("Captain Crimson's Silk Girdle", A.beltVit), leftfinger: gear("Obsidian Ring of the Zodiac", A.ringCrit, [L("gogok")]),
-    rightfinger: gear("Convention of Elements", A.ringCrit, [L("stricken")]), legs: gear("Towers of the Light", A.legsVit, D2),
-    feet: gear("Foundation of the Light", A.bootsVit), mainhand: gearE("The Redeemer", A.wpn, [N("emerald")]), offhand: gear("Guard of Johanna", A.off, [N("diamond")]),
-  }, ["Faithful Memory", "Hammer Jammers", "Ring of Royal Grandeur"],
-  ["Blessed Hammer|Limitless", "Falling Sword|Rapid Descent", "Provoke|Too Scared to Run", "Akarat's Champion|Prophet", "Laws of Valor|Unstoppable Force", "Iron Skin|Steel Skin"],
-  ["Fervor", "Finery", "Long Arm of the Law", "Holy Cause"]);
 
-// MotE Leapquake (Barbarian) — 2H, no offhand
-build({ id: "barbarian-mote-leapquake", name: "MotE Leapquake", source: "https://maxroll.gg/d3/guides/mote-earthquake-barbarian-guide", tagline: "Earthquake · Might of the Earth" },
-  "barbarian", {
-    head: gear("Eyes of the Earth", A.helmCrit, [N("diamond")]), shoulders: gear("Spires of the Earth", A.shoulderCdr),
-    neck: gear("Squirt's Necklace", A.amuletCc, [L("trapped")]), torso: gear("Spirit of the Earth", A.chestVit, D3),
-    hands: gear("Pull of the Earth", A.glovesCrit), wrists: gear("Ancient Parthan Defenders", A.bracerEl),
-    waist: gear("Girdle of Giants", A.beltVit), leftfinger: gear("Focus", A.ringCrit, [L("zei")]),
-    rightfinger: gear("Restraint", A.ringCrit, [L("stricken")]), legs: gear("Weight of the Earth", A.legsVit, D2),
-    feet: gear("Foundation of the Earth", A.bootsVit), mainhand: gearE("The Grandfather", A.wpn, [N("emerald")]),
-  }, ["Blade of the Tribes", "Lut Socks", "Band of Might"],
-  ["Earthquake|Molten Fury", "Leap|Call of Arreat", "Seismic Slam|Rumble", "Wrath of the Berserker|Thrive on Chaos", "Threatening Shout|Falter", "War Cry|Veteran's Warning"],
-  ["Earthen Might", "Rampage", "Boon of Bul-Kathos", "Nerves of Steel"]);
 
 // MotE Seismic Slam (Barbarian)
 build({ id: "barbarian-mote-seismic-slam", name: "MotE Seismic Slam", source: "https://maxroll.gg/d3/guides/mote-slam-barbarian-guide", tagline: "Seismic Slam · Might of the Earth" },

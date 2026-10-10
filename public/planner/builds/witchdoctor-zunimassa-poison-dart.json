@@ -1,13 +1,13 @@
 {
+  "season": "Rites of Sanctuary",
   "id": "witchdoctor-zunimassa-poison-dart",
-  "name": "Zunimassa Poison Dart",
+  "name": "Ethereal Zunimassa Poison Dart",
   "klass": "witchdoctor",
   "category": "solo-push",
-  "tier": "A",
+  "tier": "C",
   "gender": "male",
   "source": "https://maxroll.gg/d3/guides/zunimassa-poison-dart-witch-doctor-guide",
-  "season": "Rites of Sanctuary",
-  "tagline": "Poison Dart · Zunimassa",
+  "tagline": "Poison Dart · Fetishes · Zunimassa · Ethereal: Dagger of Darts + Confidence Ritual, Furnace in the cube",
   "paragonLevel": 800,
   "paragon": {
     "core": {
@@ -189,7 +189,9 @@
         {
           "gem": "emerald"
         }
-      ]
+      ],
+      "etherealPower": "P65_CeremonialDagger_norm_unique_02",
+      "etherealPassive": "confidence-ritual"
     },
     "offhand": {
       "itemId": "Unique_Mojo_011_x1",
@@ -206,7 +208,7 @@
     }
   },
   "kanai": {
-    "weapon": "leg_thedaggerofdarts_p65",
+    "weapon": "leg_thefurnace",
     "armor": "leg_maskofjeram_p6",
     "jewelry": "leg_ringofroyalgrandeur"
   },
@@ -243,5 +245,6 @@
       "spirit-vessel",
       "pierce-the-veil"
     ]
-  }
+  },
+  "listedTier": "A"
 }

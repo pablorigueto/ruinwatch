@@ -48,6 +48,10 @@ const translation = {
     "importNotBuild": "This JSON is not a RuinWatch build.",
     "importUnknownClass": "Unknown class in this build.",
     "importTooBig": "File too large — a build JSON is only a few KB.",
+    "etherealPower": "+1 Class Weapon Legendary Power",
+    "etherealPassive": "+1 Class Passive Power",
+    "etherealChoose": "Choose…",
+    "etherealNote": "In game both are rolled at random; pick the roll this build is looking for.",
     "allSets": "All sets",
     "setPieces": "({{count}}) Set",
     "loading": "Loading the armory…",
@@ -140,6 +144,8 @@ const translation = {
       "totals": "Sacrifice list ({{count}} seals)"
     },
     "summary": {
+      "dpsNote": "DPS = character sheet × the main skill. Set bonuses and legendary powers are not included — do not compare builds by it.",
+      "burst": "cooldown",
       "title": "Summary",
       "empty": "Equip items to see totals.",
       "note": "Totals are summed from gear, gems and Paragon — not a combat simulation.",

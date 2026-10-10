@@ -3,7 +3,7 @@
   "name": "Helltooth Gargs",
   "klass": "witchdoctor",
   "category": "solo-push",
-  "tier": "C",
+  "tier": "F",
   "gender": "male",
   "source": "https://maxroll.gg/d3/guides/helltooth-gargantuan-witch-doctor-guide",
   "season": "Rites of Sanctuary",
@@ -243,5 +243,6 @@
       "pierce-the-veil",
       "spirit-vessel"
     ]
-  }
+  },
+  "listedTier": "C"
 }

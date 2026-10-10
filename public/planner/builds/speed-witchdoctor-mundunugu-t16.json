@@ -1,14 +1,13 @@
 {
+  "season": "Season 28 (2.7.5)",
   "id": "speed-witchdoctor-mundunugu-t16",
-  "name": "Mundunugu Warp Speed T16",
+  "name": "Ethereal Mundunugu Warp Speed T16",
   "klass": "witchdoctor",
   "category": "speed",
   "tier": "T16",
-  "noEthereal": true,
   "gender": "male",
   "source": "https://www.diablofans.com/builds/109817-t16-warp-speed-440-ms-s28-2-7-5",
-  "season": "Season 28 (2.7.5)",
-  "tagline": "Spirit Barrage · Mundunugu · 440% move speed",
+  "tagline": "Spirit Barrage · Mundunugu · Ethereal Arioc's Needle (Decay +200%): The Barber + Confidence Ritual",
   "paragonLevel": 800,
   "paragon": {
     "core": {
@@ -180,7 +179,7 @@
       ]
     },
     "mainhand": {
-      "itemId": "P68_Unique_Dagger_003",
+      "itemId": "P71_Ethereal_21",
       "affixes": [
         "cdr",
         "area"
@@ -190,7 +189,9 @@
         {
           "gem": "emerald"
         }
-      ]
+      ],
+      "etherealPower": "P68_Unique_Dagger_003",
+      "etherealPassive": "confidence-ritual"
     },
     "offhand": {
       "itemId": "P72_Unique_Mojo_102",

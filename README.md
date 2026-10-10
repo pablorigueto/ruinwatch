@@ -60,6 +60,8 @@ Akkhan's Leniency) are shown as they exist in 2.7.5.
   (rare / legendary / ancient / primal), roll every affix inside its real range, socket normal gems
   (by color and rank) or legendary gems (by level), set the legendary power value and Caldesann's
   augment. Items that exist in several patch versions are marked with a **Current** badge.
+- **Ethereal weapons** — choose the extra class weapon legendary power and the extra class passive the
+  Ethereal rolls (both random in game).
 - **Item tooltips** — rolled affixes, legendary power, set bonuses (active pieces highlighted) and
   augment, laid out like the in-game card.
 - **Kanai's Cube** — weapon, armor and jewelry powers, filtered by class and by cube slot.
@@ -80,7 +82,9 @@ Akkhan's Leniency) are shown as they exist in 2.7.5.
 
 `/builds` — a curated build list per class, each opening directly in the planner:
 
-- **Solo Pushing** and **Support**, ranked S to F.
+- **Solo Pushing** and **Support**, ranked S to F. Builds named *Ethereal …* are original builds designed
+  from the 2.7.5 data around the Ethereal weapon's extra class weapon legendary power and extra class
+  passive (in the planner you pick which roll the build is looking for).
 - **Speed Farm** — fast farming templates grouped by goal: **T16 Farm** and **GR Speeds**.
 
 Builds target the 2.7.5 game version: any item whose power was reworked in a later patch was
@@ -206,13 +210,27 @@ powers, skills with rune letters, passives, Paragon), listed in `public/planner/
 They are produced by the generators in `scripts/gen-*-builds.mjs`, which resolve names to ids and
 always pick the current (non-legacy) version of each item and power.
 
+- `gen-theorycraft-builds.mjs` — the *Ethereal* Solo Pushing builds: each existing build reworked
+  around the Ethereal weapon's extra class weapon legendary power and extra class passive, with the
+  estimated gain documented per build. The original versions are kept in `scripts/data/build-bases/`.
+- `gen-speed-support-builds.mjs` — Speed Farm (one T16 and one GR build per class) and Support
+  (a push and a speed support per class).
+- `reclassify-builds.mjs` — re-ranks every Solo Pushing build on one ladder: estimated level in
+  Greater Rift levels (base tier + log(damage multiplier) / log(1.17)), tier by distance to the
+  strongest build.
+- `gen-atier/btier/stier/cdf-support-builds.mjs` — the remaining original builds.
+
 ```bash
-node scripts/gen-s28-builds.mjs            # example: regenerate the Season 28 / Speed Farm builds
-node scripts/validate-build.mjs --all      # validate every build
+node scripts/gen-theorycraft-builds.mjs && node scripts/gen-speed-support-builds.mjs   && node scripts/reclassify-builds.mjs && node scripts/validate-build.mjs --all
 ```
 
 The validator fails on any invalid slot, unknown item, item another class cannot use, invalid affix,
-empty socket, missing rune, Kanai power in the wrong cube slot, unknown passive or wrong Paragon total.
+empty socket, missing rune, Kanai power in the wrong cube slot, unknown passive, wrong Paragon total,
+or an Ethereal whose extra power is not one of its options, repeats a power already in the cube or on
+another item, or whose extra passive is already on the passive bar.
+
+> Build rankings are estimates from the 2.7.5 game data (multiplier ratios), not combat simulations
+> — they are meant to be confirmed in game.
 
 ---
 

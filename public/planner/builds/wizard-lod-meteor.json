@@ -1,13 +1,13 @@
 {
+  "season": "Rites of Sanctuary",
   "id": "wizard-lod-meteor",
-  "name": "LoD \"Bazooka\" Meteor",
+  "name": "Ethereal LoD \"Bazooka\" Meteor",
   "klass": "wizard",
   "category": "solo-push",
   "tier": "S",
   "gender": "male",
   "source": "https://maxroll.gg/d3/guides/lod-meteor-wizard-guide",
-  "season": "Rites of Sanctuary",
-  "tagline": "Meteor · LoD · Solo Push",
+  "tagline": "Meteor · LoD · Ethereal: Mang Song's Lesson with The Grand Vizier + Glass Cannon",
   "paragonLevel": 800,
   "paragon": {
     "core": {
@@ -179,7 +179,7 @@
       "gems": []
     },
     "mainhand": {
-      "itemId": "P71_Ethereal_04",
+      "itemId": "P71_Ethereal_11",
       "affixes": [
         "cdr",
         "area"
@@ -189,20 +189,9 @@
         {
           "gem": "emerald"
         }
-      ]
-    },
-    "offhand": {
-      "itemId": "P61_Unique_Orb_004",
-      "affixes": [
-        "chc",
-        "cdr"
       ],
-      "augment": 750,
-      "gems": [
-        {
-          "gem": "diamond"
-        }
-      ]
+      "etherealPower": "P61_Unique_Staff_009",
+      "etherealPassive": "glass-cannon"
     }
   },
   "kanai": {
@@ -243,5 +232,6 @@
       "audacity",
       "arcane-dynamo"
     ]
-  }
+  },
+  "listedTier": "S"
 }

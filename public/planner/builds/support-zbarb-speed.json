@@ -1,0 +1,237 @@
+{
+  "season": "Rites of Sanctuary",
+  "id": "support-zbarb-speed",
+  "name": "Ethereal zBarb Speed",
+  "klass": "barbarian",
+  "category": "support",
+  "tier": "A",
+  "gender": "male",
+  "source": "https://maxroll.gg/d3/guides/support-zbarb-guide",
+  "tagline": "Speed Support · Barbarian · Chilanik's War Cry + Lut Socks Leap · Ethereal: In-geom + Juggernaut",
+  "paragonLevel": 800,
+  "paragon": {
+    "core": {
+      "movement": 50,
+      "resource": 50,
+      "mainstat": 50,
+      "vit": 50
+    },
+    "offense": {
+      "cdr": 50,
+      "chc": 50,
+      "chd": 50,
+      "ias": 50
+    },
+    "defense": {
+      "armor": 50,
+      "resall": 50,
+      "ldr": 50,
+      "life": 50
+    },
+    "utility": {
+      "rcr": 50,
+      "laek": 50,
+      "gf": 50,
+      "area": 50
+    }
+  },
+  "equipped": {
+    "head": {
+      "itemId": "Unique_Helm_Set_05_x1",
+      "affixes": [
+        "chc",
+        "vit",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "diamond"
+        }
+      ]
+    },
+    "shoulders": {
+      "itemId": "Unique_Shoulder_Set_05_x1",
+      "affixes": [
+        "cdr",
+        "rcr",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": []
+    },
+    "neck": {
+      "itemId": "P66_Unique_Amulet_001",
+      "affixes": [
+        "cdr",
+        "rcr",
+        "chc"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "gogok",
+          "legendary": true
+        }
+      ]
+    },
+    "torso": {
+      "itemId": "Unique_Chest_Set_05_x1",
+      "affixes": [
+        "vit",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "diamond"
+        },
+        {
+          "gem": "diamond"
+        },
+        {
+          "gem": "diamond"
+        }
+      ]
+    },
+    "hands": {
+      "itemId": "Unique_Gloves_Set_05_x1",
+      "affixes": [
+        "cdr",
+        "rcr",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": []
+    },
+    "wrists": {
+      "itemId": "Unique_Bracer_007_x1",
+      "affixes": [
+        "elemental",
+        "chc",
+        "vit"
+      ],
+      "augment": 750,
+      "gems": []
+    },
+    "waist": {
+      "itemId": "Unique_BarbBelt_101_x1",
+      "affixes": [
+        "vit",
+        "life",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": []
+    },
+    "leftfinger": {
+      "itemId": "P61_Unique_Ring_05",
+      "affixes": [
+        "cdr",
+        "rcr",
+        "chc"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "toxin",
+          "legendary": true
+        }
+      ]
+    },
+    "rightfinger": {
+      "itemId": "Unique_Ring_017_p4",
+      "affixes": [
+        "cdr",
+        "rcr",
+        "chc"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "iceblink",
+          "legendary": true
+        }
+      ]
+    },
+    "legs": {
+      "itemId": "Unique_Pants_Set_05_x1",
+      "affixes": [
+        "vit",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "diamond"
+        },
+        {
+          "gem": "diamond"
+        }
+      ]
+    },
+    "feet": {
+      "itemId": "Unique_Boots_009_x1",
+      "affixes": [
+        "vit",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": []
+    },
+    "mainhand": {
+      "itemId": "P71_Ethereal_01",
+      "affixes": [
+        "cdr",
+        "rcr"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "amethyst"
+        }
+      ],
+      "etherealPower": "Unique_Sword_1H_113_x1",
+      "etherealPassive": "juggernaut"
+    }
+  },
+  "kanai": {
+    "weapon": "leg_messerschmidtsreaver",
+    "armor": "leg_nemesisbracers",
+    "jewelry": "leg_dovuenergytrap"
+  },
+  "skills": {
+    "active": [
+      {
+        "skill": "furious-charge",
+        "rune": "d"
+      },
+      {
+        "skill": "ignore-pain",
+        "rune": "c"
+      },
+      {
+        "skill": "war-cry",
+        "rune": "b"
+      },
+      {
+        "skill": "threatening-shout",
+        "rune": "d"
+      },
+      {
+        "skill": "ancient-spear",
+        "rune": "e"
+      },
+      {
+        "skill": "leap",
+        "rune": "d"
+      }
+    ],
+    "passives": [
+      "inspiring-presence",
+      "nerves-of-steel",
+      "relentless",
+      "pound-of-flesh"
+    ]
+  }
+}

@@ -1,14 +1,13 @@
 {
+  "season": "Season 28 (2.7.5)",
   "id": "speed-demonhunter-god-bounties",
-  "name": "GoD Speed Farm",
+  "name": "Ethereal GoD Speed Farm",
   "klass": "demonhunter",
   "category": "speed",
   "tier": "GR",
-  "noEthereal": true,
   "gender": "male",
   "source": "https://www.diablofans.com/builds/109962-god-speed-farm-bounties-gr-100-r",
-  "season": "Season 28 (2.7.5)",
-  "tagline": "Strafe · Dreadlands · Bounties + GR 100+",
+  "tagline": "Strafe · Gears of Dreadlands · Bounties + GR · Ethereal: Dawn + Tactical Advantage",
   "paragonLevel": 800,
   "paragon": {
     "core": {
@@ -180,7 +179,7 @@
       ]
     },
     "mainhand": {
-      "itemId": "P4_Unique_HandXBow_001",
+      "itemId": "P71_Ethereal_16",
       "affixes": [
         "cdr",
         "area"
@@ -190,7 +189,9 @@
         {
           "gem": "emerald"
         }
-      ]
+      ],
+      "etherealPower": "P4_Unique_HandXBow_001",
+      "etherealPassive": "tactical-advantage"
     },
     "offhand": {
       "itemId": "P4_Unique_HandXBow_02",

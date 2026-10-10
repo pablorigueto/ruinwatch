@@ -1,13 +1,13 @@
 {
+  "season": "Rites of Sanctuary",
   "id": "barbarian-lod-hota",
-  "name": "LoD HotA",
+  "name": "Ethereal LoD HotA",
   "klass": "barbarian",
   "category": "solo-push",
-  "tier": "A",
+  "tier": "S",
   "gender": "male",
   "source": "https://maxroll.gg/d3/guides/lod-hota-barbarian-guide",
-  "season": "Rites of Sanctuary",
-  "tagline": "Hammer of the Ancients · LoD",
+  "tagline": "Hammer of the Ancients · LoD · Ethereal: Gavel + Ruthless, Remorseless in the cube",
   "paragonLevel": 800,
   "paragon": {
     "core": {
@@ -189,11 +189,13 @@
         {
           "gem": "emerald"
         }
-      ]
+      ],
+      "etherealPower": "P61_Unique_Mighty_2H_001",
+      "etherealPassive": "ruthless"
     }
   },
   "kanai": {
-    "weapon": "leg_gavelofjudgment_p6",
+    "weapon": "leg_remorseless_p67",
     "armor": "leg_morticksbrace",
     "jewelry": "leg_obsidianringofthezodiac"
   },
@@ -230,5 +232,6 @@
       "berserker-rage",
       "brawler"
     ]
-  }
+  },
+  "listedTier": "S"
 }

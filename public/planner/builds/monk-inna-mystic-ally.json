@@ -3,7 +3,7 @@
   "name": "Inna Mystic Ally",
   "klass": "monk",
   "category": "solo-push",
-  "tier": "C",
+  "tier": "F",
   "gender": "male",
   "source": "https://maxroll.gg/d3/guides/inna-mystic-ally-monk-guide",
   "season": "Rites of Sanctuary",
@@ -244,5 +244,6 @@
       "near-death-experience"
     ]
   },
-  "noEthereal": true
+  "noEthereal": true,
+  "listedTier": "C"
 }

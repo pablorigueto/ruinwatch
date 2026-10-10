@@ -3,7 +3,7 @@
   "name": "LoD Hydra",
   "klass": "wizard",
   "category": "solo-push",
-  "tier": "B",
+  "tier": "D",
   "gender": "male",
   "source": "https://maxroll.gg/d3/guides/lod-hydra-wizard-guide",
   "season": "Rites of Sanctuary",
@@ -243,5 +243,6 @@
       "galvanizing-ward",
       "arcane-dynamo"
     ]
-  }
+  },
+  "listedTier": "B"
 }

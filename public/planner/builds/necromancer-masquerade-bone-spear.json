@@ -1,13 +1,13 @@
 {
+  "season": "Rites of Sanctuary",
   "id": "necromancer-masquerade-bone-spear",
-  "name": "Masquerade Bone Spear",
+  "name": "Ethereal Masquerade Bone Spear",
   "klass": "necromancer",
   "category": "solo-push",
-  "tier": "S",
+  "tier": "A",
   "gender": "male",
   "source": "https://maxroll.gg/d3/guides/masquerade-bone-spear-necromancer-guide",
-  "season": "Rites of Sanctuary",
-  "tagline": "Bone Spear · Solo Push",
+  "tagline": "Bone Spear · Masquerade · Ethereal: Maltorius' + Blood is Power, Scythe of the Cycle in the cube",
   "paragonLevel": 800,
   "paragon": {
     "core": {
@@ -189,7 +189,9 @@
         {
           "gem": "emerald"
         }
-      ]
+      ],
+      "etherealPower": "P61_Unique_Scythe2H_01",
+      "etherealPassive": "blood-is-power"
     },
     "offhand": {
       "itemId": "P61_Unique_Phylactery_01",
@@ -206,7 +208,7 @@
     }
   },
   "kanai": {
-    "weapon": "leg_maltoriuspetrifiedspike_p6",
+    "weapon": "leg_scytheofthecycle_p6",
     "armor": "leg_gelmindorsmarrowguards",
     "jewelry": "leg_ringofroyalgrandeur"
   },
@@ -243,5 +245,6 @@
       "stand-alone",
       "spreading-malediction"
     ]
-  }
+  },
+  "listedTier": "S"
 }

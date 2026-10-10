@@ -1,0 +1,251 @@
+{
+  "season": "Rites of Sanctuary",
+  "id": "support-znecromancer-speed",
+  "name": "Ethereal zNecromancer Speed",
+  "klass": "necromancer",
+  "category": "support",
+  "tier": "B",
+  "gender": "male",
+  "source": "https://maxroll.gg/d3/guides/support-znecromancer-guide",
+  "tagline": "Speed Support · Necromancer · Steuart's Blood Rush · Ethereal: In-geom + Fueled by Death",
+  "paragonLevel": 800,
+  "paragon": {
+    "core": {
+      "movement": 50,
+      "resource": 50,
+      "mainstat": 50,
+      "vit": 50
+    },
+    "offense": {
+      "cdr": 50,
+      "chc": 50,
+      "chd": 50,
+      "ias": 50
+    },
+    "defense": {
+      "armor": 50,
+      "resall": 50,
+      "ldr": 50,
+      "life": 50
+    },
+    "utility": {
+      "rcr": 50,
+      "laek": 50,
+      "gf": 50,
+      "area": 50
+    }
+  },
+  "equipped": {
+    "head": {
+      "itemId": "Unique_Helm_002_p1",
+      "affixes": [
+        "chc",
+        "vit",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "diamond"
+        }
+      ]
+    },
+    "shoulders": {
+      "itemId": "P6_Necro_Set_4_Shoulders",
+      "affixes": [
+        "cdr",
+        "rcr",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": []
+    },
+    "neck": {
+      "itemId": "Unique_Amulet_009_x1",
+      "affixes": [
+        "cdr",
+        "rcr",
+        "chc"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "iceblink",
+          "legendary": true
+        }
+      ]
+    },
+    "torso": {
+      "itemId": "P4_Unique_Chest_012",
+      "affixes": [
+        "vit",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "diamond"
+        },
+        {
+          "gem": "diamond"
+        },
+        {
+          "gem": "diamond"
+        }
+      ]
+    },
+    "hands": {
+      "itemId": "P6_Necro_Set_4_Gloves",
+      "affixes": [
+        "cdr",
+        "rcr",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": []
+    },
+    "wrists": {
+      "itemId": "Unique_Bracer_106_x1",
+      "affixes": [
+        "elemental",
+        "chc",
+        "vit"
+      ],
+      "augment": 750,
+      "gems": []
+    },
+    "waist": {
+      "itemId": "P66_Unique_Belt_012",
+      "affixes": [
+        "vit",
+        "life",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": []
+    },
+    "leftfinger": {
+      "itemId": "Unique_Ring_023_p2",
+      "affixes": [
+        "cdr",
+        "rcr",
+        "chc"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "gogok",
+          "legendary": true
+        }
+      ]
+    },
+    "rightfinger": {
+      "itemId": "Unique_Ring_017_p4",
+      "affixes": [
+        "cdr",
+        "rcr",
+        "chc"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "toxin",
+          "legendary": true
+        }
+      ]
+    },
+    "legs": {
+      "itemId": "P66_Unique_Pants_012",
+      "affixes": [
+        "vit",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "diamond"
+        },
+        {
+          "gem": "diamond"
+        }
+      ]
+    },
+    "feet": {
+      "itemId": "P61_Necro_Unique_Boots_21",
+      "affixes": [
+        "vit",
+        "armor"
+      ],
+      "augment": 750,
+      "gems": []
+    },
+    "mainhand": {
+      "itemId": "P71_Ethereal_17",
+      "affixes": [
+        "cdr",
+        "rcr"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "ease",
+          "legendary": true
+        }
+      ],
+      "etherealPower": "Unique_Sword_1H_113_x1",
+      "etherealPassive": "fueled-by-death"
+    },
+    "offhand": {
+      "itemId": "P61_Unique_Phylactery_01",
+      "affixes": [
+        "chc",
+        "cdr"
+      ],
+      "augment": 750,
+      "gems": [
+        {
+          "gem": "diamond"
+        }
+      ]
+    }
+  },
+  "kanai": {
+    "weapon": "leg_messerschmidtsreaver",
+    "armor": "leg_strongarmbracers",
+    "jewelry": "leg_briggswrath"
+  },
+  "skills": {
+    "active": [
+      {
+        "skill": "land-of-the-dead",
+        "rune": "b"
+      },
+      {
+        "skill": "devour",
+        "rune": "a"
+      },
+      {
+        "skill": "corpse-lance",
+        "rune": "b"
+      },
+      {
+        "skill": "command-skeletons",
+        "rune": "a"
+      },
+      {
+        "skill": "blood-rush",
+        "rune": "c"
+      },
+      {
+        "skill": "frailty",
+        "rune": "e"
+      }
+    ],
+    "passives": [
+      "blood-is-power",
+      "eternal-torment",
+      "life-from-death",
+      "final-service"
+    ]
+  }
+}

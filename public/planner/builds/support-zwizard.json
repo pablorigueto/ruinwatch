@@ -1,13 +1,13 @@
 {
+  "season": "Rites of Sanctuary",
   "id": "support-zwizard",
-  "name": "Support zWizard",
+  "name": "Ethereal zWizard",
   "klass": "wizard",
   "category": "support",
   "tier": "B",
   "gender": "male",
   "source": "https://maxroll.gg/d3/guides/support-zwiz-guide",
-  "season": "Rites of Sanctuary",
-  "tagline": "Group Support · Wizard",
+  "tagline": "Group Support · Wizard · Slow Time · Ethereal: In-geom + Temporal Flux",
   "paragonLevel": 800,
   "paragon": {
     "core": {
@@ -190,7 +190,9 @@
         {
           "gem": "amethyst"
         }
-      ]
+      ],
+      "etherealPower": "Unique_Sword_1H_113_x1",
+      "etherealPassive": "temporal-flux"
     },
     "offhand": {
       "itemId": "P61_Unique_Orb_004",
@@ -207,7 +209,7 @@
     }
   },
   "kanai": {
-    "weapon": "leg_echoingfury",
+    "weapon": "leg_messerschmidtsreaver",
     "armor": "leg_nemesisbracers",
     "jewelry": "leg_ringofroyalgrandeur"
   },

@@ -1,14 +1,13 @@
 {
+  "season": "Season 28 (2.7.5)",
   "id": "speed-necromancer-vortex-mages-t16",
-  "name": "Vortex Mages T16",
+  "name": "Ethereal Vortex Mages T16",
   "klass": "necromancer",
   "category": "speed",
   "tier": "T16",
-  "noEthereal": true,
   "gender": "male",
   "source": "https://www.diablofans.com/builds/108836-t16-vortex-mages-ultra-speeds-s28-2-7-5",
-  "season": "Season 28 (2.7.5)",
-  "tagline": "Skeletal Mage · Krysbin's · T16 speeds",
+  "tagline": "Skeletal Mage · Krysbin's · Ethereal Soul Harvest (a scythe, for Dark Reaping): Scythe of the Cycle + Blood is Power",
   "paragonLevel": 800,
   "paragon": {
     "core": {
@@ -180,7 +179,7 @@
       ]
     },
     "mainhand": {
-      "itemId": "P61_Unique_Scythe1H_03",
+      "itemId": "P71_Ethereal_10",
       "affixes": [
         "cdr",
         "area"
@@ -190,7 +189,9 @@
         {
           "gem": "emerald"
         }
-      ]
+      ],
+      "etherealPower": "P61_Unique_Scythe1H_03",
+      "etherealPassive": "blood-is-power"
     },
     "offhand": {
       "itemId": "P61_Unique_Phylactery_01",

@@ -3,7 +3,7 @@
   "name": "Firebird Flame Blades",
   "klass": "wizard",
   "category": "solo-push",
-  "tier": "A",
+  "tier": "C",
   "gender": "male",
   "source": "https://maxroll.gg/d3/guides/firebird-flame-blades-wizard-guide",
   "season": "Rites of Sanctuary",
@@ -243,5 +243,6 @@
       "evocation",
       "galvanizing-ward"
     ]
-  }
+  },
+  "listedTier": "A"
 }

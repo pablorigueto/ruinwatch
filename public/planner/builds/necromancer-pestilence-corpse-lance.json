@@ -3,7 +3,7 @@
   "name": "Pestilence Corpse Lance",
   "klass": "necromancer",
   "category": "solo-push",
-  "tier": "B",
+  "tier": "D",
   "gender": "male",
   "source": "https://maxroll.gg/d3/guides/pestilence-corpse-lance-necromancer-guide",
   "season": "Rites of Sanctuary",
@@ -243,5 +243,6 @@
       "overwhelming-essence",
       "stand-alone"
     ]
-  }
+  },
+  "listedTier": "B"
 }

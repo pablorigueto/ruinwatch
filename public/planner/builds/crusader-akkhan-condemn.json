@@ -1,13 +1,13 @@
 {
+  "season": "Rites of Sanctuary",
   "id": "crusader-akkhan-condemn",
-  "name": "Akkhan Condemn",
+  "name": "Ethereal Akkhan Condemn",
   "klass": "crusader",
   "category": "solo-push",
   "tier": "S",
   "gender": "male",
   "source": "https://maxroll.gg/d3/guides/akkhan-condemn-crusader-guide",
-  "season": "Rites of Sanctuary",
-  "tagline": "Condemn · Akkhan · Solo Push",
+  "tagline": "Condemn · Akkhan · Ethereal: Frydehr's Wrath + Holy Cause, Blade of Prophecy in the cube",
   "paragonLevel": 800,
   "paragon": {
     "core": {
@@ -189,7 +189,9 @@
         {
           "gem": "emerald"
         }
-      ]
+      ],
+      "etherealPower": "P61_CruShield_norm_unique_01",
+      "etherealPassive": "holy-cause"
     },
     "offhand": {
       "itemId": "P1_CruShield_norm_unique_02",
@@ -206,8 +208,8 @@
     }
   },
   "kanai": {
-    "weapon": "leg_gyrfalconsfoote_p6",
-    "armor": "leg_frydehrswrath_p6",
+    "weapon": "leg_bladeofprophecy_p6",
+    "armor": "leg_warhelmofkassar",
     "jewelry": "leg_ringofroyalgrandeur"
   },
   "skills": {
@@ -243,5 +245,6 @@
       "long-arm-of-the-law",
       "lord-commander"
     ]
-  }
+  },
+  "listedTier": "S"
 }

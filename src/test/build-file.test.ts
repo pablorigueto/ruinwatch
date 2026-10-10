@@ -7,6 +7,7 @@ import {
   PresetBuild,
   buildFileName,
   buildFromPreset,
+  itemTooltip,
   parseBuildFile,
   toBuildFile,
 } from "@/lib/planner";
@@ -53,5 +54,32 @@ describe("build files (export / import JSON)", () => {
 
   it("names the download after class + build name", () => {
     expect(buildFileName(buildFromPreset(data, preset), "Waste WW / Rend!")).toBe("ruinwatch-barbarian-waste-ww-rend.json");
+  });
+});
+
+describe("ethereal choices", () => {
+  const eth = JSON.parse(readFileSync(pub("planner/builds/barbarian-savage-frenzy.json"), "utf8")) as PresetBuild;
+
+  it("loads the Ethereal's extra power and passive from a preset", () => {
+    const b = buildFromPreset(data, eth);
+    expect(b.equipped.mainhand?.etherealPower).toBe("P68_Unique_Mighty_2H_004"); // Bastion's Revered
+    expect(b.equipped.mainhand?.etherealPassive).toBe("brawler");
+  });
+
+  it("shows them in the item tooltip", () => {
+    const b = buildFromPreset(data, eth);
+    const item = data.items.find((i) => i.id === b.equipped.mainhand!.itemId)!;
+    const tip = itemTooltip(data, item, b.equipped.mainhand, "mainhand", "barbarian");
+    expect(tip.ethereal?.power?.name).toBe("Bastion's Revered");
+    expect(tip.ethereal?.power?.text).toMatch(/^Frenzy now stacks up to 10 times/);
+    expect(tip.ethereal?.passive).toBe("Brawler");
+    expect(tip.primary.some((l) => /passive/i.test(l))).toBe(false); // moved to the Ethereal block
+  });
+
+  it("keeps them through an export/import round trip", () => {
+    const b = buildFromPreset(data, eth);
+    const res = parse(JSON.stringify(toBuildFile(b, "eth")));
+    if ("error" in res) throw new Error(res.error);
+    expect(res.build.equipped.mainhand?.etherealPower).toBe("P68_Unique_Mighty_2H_004");
   });
 });

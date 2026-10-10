@@ -1,13 +1,13 @@
 {
+  "season": "Rites of Sanctuary",
   "id": "crusader-aov-heavens-fury",
-  "name": "AoV Heaven's Fury",
+  "name": "Ethereal AoV Heaven's Fury",
   "klass": "crusader",
   "category": "solo-push",
-  "tier": "A",
+  "tier": "B",
   "gender": "male",
   "source": "https://maxroll.gg/d3/guides/aov-heavens-fury-crusader-guide",
-  "season": "Rites of Sanctuary",
-  "tagline": "Heaven's Fury · Aegis of Valor",
+  "tagline": "Heaven's Fury · Aegis of Valor · Ethereal: Fate of the Fell + Indestructible, Darklight in the cube",
   "paragonLevel": 800,
   "paragon": {
     "core": {
@@ -189,7 +189,9 @@
         {
           "gem": "emerald"
         }
-      ]
+      ],
+      "etherealPower": "P61_Unique_Flail_2H_103_x1",
+      "etherealPassive": "indestructible"
     },
     "offhand": {
       "itemId": "P61_Unique_Shield_106_x1",
@@ -206,7 +208,7 @@
     }
   },
   "kanai": {
-    "weapon": "leg_fateofthefell_p6",
+    "weapon": "leg_darklight_p67",
     "armor": "leg_aquilacuirass",
     "jewelry": "leg_ringofroyalgrandeur"
   },
@@ -243,5 +245,6 @@
       "long-arm-of-the-law",
       "finery"
     ]
-  }
+  },
+  "listedTier": "S"
 }

@@ -1,7 +1,7 @@
 /**
- * gen-cdf-support-builds.mjs — emit C/D/F-tier solo-push builds + the Support
- * category builds. Same engine as the prior generators. Support builds use the
- * `support` category and skip augment/ethereal conventions (utility gear).
+ * gen-cdf-support-builds.mjs — emit C/D/F-tier solo-push builds. Same engine as the
+ * prior generators. (The Support builds that lived here moved to
+ * gen-speed-support-builds.mjs, rebuilt around the Ethereal's extra power and passive.)
  *
  *   node scripts/gen-cdf-support-builds.mjs && node scripts/validate-build.mjs --all
  */
@@ -144,18 +144,6 @@ build({ id: "demonhunter-lod-rapid-fire", tier: "C", name: "LoD Rapid Fire", sou
   ["Rapid Fire|Bombardment", "Vengeance|Side Cannons", "Smoke Screen|Displacement", "Companion|Bat Companion", "Preparation|Focused Mind", "Vault|Tumble"],
   ["Cull the Weak", "Grenadier", "Ambush", "Tactical Advantage"]);
 
-// Uliana EP (Monk)
-build({ id: "monk-uliana-ep", tier: "C", name: "Uliana EP", source: "https://maxroll.gg/d3/guides/uliana-exploding-palm-monk-guide", tagline: "Exploding Palm · Uliana" },
-  "monk", {
-    head: gear("Uliana's Spirit", A.helmCrit, [N("diamond")]), shoulders: gear("Uliana's Strength", A.shoulderCdr),
-    neck: gear("The Traveler's Pledge", A.amuletEl, [L("gogok")]), torso: gear("Uliana's Heart", A.chestVit, D3),
-    hands: gear("Uliana's Fury", A.glovesCrit), wrists: gear("Gungdo Gear", A.bracerEl),
-    waist: gear("Captain Crimson's Silk Girdle", A.beltVit), leftfinger: gear("Obsidian Ring of the Zodiac", A.ringCrit, [L("trapped")]),
-    rightfinger: gear("Convention of Elements", A.ringCrit, [L("stricken")]), legs: gear("Captain Crimson's Thrust", A.legsVit, D2),
-    feet: gear("Captain Crimson's Waders", A.bootsVit), mainhand: gearE("Bartuc's Cut-Throat", A.wpn, [N("emerald")]), offhand: gear("Lion's Claw", A.off, [N("emerald")]),
-  }, ["The Flow of Eternity", "Aquila Cuirass", "Ring of Royal Grandeur"],
-  ["Exploding Palm|Impending Doom", "Seven-Sided Strike|Sustained Attack", "Way of the Hundred Fists|Assimilation", "Dashing Strike|Blinding Speed", "Cyclone Strike|Implosion", "Epiphany|Desert Shroud"],
-  ["Beacon of Ytar", "Harmony", "The Guardian's Path", "Mythic Rhythm"]);
 
 // Shadow Impale (DH) — Karlei's Point (dagger) + Holy Point Shot
 build({ id: "demonhunter-shadow-impale", tier: "C", name: "Shadow Impale", noEthereal: true, source: "https://maxroll.gg/d3/guides/shadow-impale-demon-hunter-guide", tagline: "Impale · The Shadow's Mantle" },
@@ -268,70 +256,10 @@ build({ id: "necromancer-lod-rat-mage", tier: "F", name: "LoD \"Rat\" Mage", sou
 
 /* ══════════════ SUPPORT ══════════════ */
 
-// zBarb (S)
-build({ id: "support-zbarb", tier: "S", category: "support", name: "Support zBarb", source: "https://maxroll.gg/d3/guides/support-zbarb-guide", tagline: "Group Support · Barbarian" },
-  "barbarian", {
-    head: gear("Skull of Savages", A.suppHead, [N("diamond")]), shoulders: gear("Raekor's Burden", A.suppGen),
-    neck: gear("The Flavor of Time", A.ringCdr, [L("toxin")]), torso: gear("Raekor's Heart", A.chestVit, D3),
-    hands: gear("Raekor's Wraps", A.suppGen), wrists: gear("Strongarm Bracers", A.bracerEl),
-    waist: gear("Pride of Cassius", A.beltVit), leftfinger: gear("Obsidian Ring of the Zodiac", A.ringCdr, [L("gogok")]),
-    rightfinger: gear("Ring of Royal Grandeur", A.ringCdr, [L("wreath")]), legs: gear("Raekor's Breeches", A.legsVit, D2),
-    feet: gear("Illusory Boots", A.bootsVit), mainhand: gear("Little Rogue", A.suppWpn, [N("diamond")]), offhand: gear("The Slanderer", A.suppWpn, [N("diamond")]),
-  }, ["The Executioner", "Chilanik's Chain", "Oculus Ring"],
-  ["Furious Charge|Stamina", "Ignore Pain|Mob Rule", "War Cry|Veteran's Warning", "Threatening Shout|Falter", "Ancient Spear|Rage Flip", "Ground Stomp|Wrenching Smash"],
-  ["Inspiring Presence", "Nerves of Steel", "Relentless", "Pound of Flesh"]);
 
-// Support DH (S)
-build({ id: "support-demon-hunter", tier: "S", category: "support", name: "Support Demon Hunter", source: "https://maxroll.gg/d3/guides/support-demon-hunter-guide", tagline: "Group Support · Demon Hunter" },
-  "demonhunter", {
-    head: gear("Leoric's Crown", A.suppHead, [N("diamond")]), shoulders: gear("Mechanical Pauldrons", A.suppGen),
-    neck: gear("Rondal's Locket", A.ringCdr, [L("toxin")]), torso: gear("Aquila Cuirass", A.chestVit, D3),
-    hands: gear("Gas Powered Automail Forearm", A.suppGen), wrists: gear("Nemesis Bracers", A.bracerEl),
-    waist: gear("Hunter's Wrath", A.beltVit), leftfinger: gear("Oculus Ring", A.ringCdr, [L("gogok")]),
-    rightfinger: gear("Elusive Ring", A.ringCdr, [L("iceblink")]), legs: gear("Marauder's Encasement", A.legsVit, D2),
-    feet: gear("Marauder's Treads", A.bootsVit), mainhand: gear("Odyssey's End", A.suppWpn, [N("diamond")]), offhand: gear("Bombardier's Rucksack", A.off, [N("diamond")]),
-  }, ["Buriza-Do Kyanon", "Aquila Cuirass", "The Flavor of Time"],
-  ["Entangling Shot|Chain Gang", "Multishot|Wind Chill", "Companion|Wolf Companion", "Strafe|Drifting Shadow", "Smoke Screen|Displacement", "Marked for Death|Contagion"],
-  ["Numbing Traps", "Tactical Advantage", "Awareness", "Hot Pursuit"]);
 
-// zMonk (A)
-build({ id: "support-zmonk", tier: "A", category: "support", name: "Support zMonk", source: "https://maxroll.gg/d3/guides/support-zmonk-guide", tagline: "Group Support · Monk" },
-  "monk", {
-    head: gear("Inna's Radiance", A.suppHead, [N("diamond")]), shoulders: gear("Lefebvre's Soliloquy", A.suppGen),
-    neck: gear("The Flavor of Time", A.ringCdr, [L("toxin")]), torso: gear("Inna's Vast Expanse", A.chestVit, D3),
-    hands: gear("Inna's Hold", A.suppGen), wrists: gear("Nemesis Bracers", A.bracerEl),
-    waist: gear("Captain Crimson's Silk Girdle", A.beltVit), leftfinger: gear("Obsidian Ring of the Zodiac", A.ringCdr, [L("gogok")]),
-    rightfinger: gear("Oculus Ring", A.ringCdr, [L("iceblink")]), legs: gear("Inna's Temperance", A.legsVit, D2),
-    feet: gear("Inna's Sandals", A.bootsVit), mainhand: gearE("Shadow Killer", A.suppWpn, [N("diamond")]), offhand: gear("Stormshield", A.off, [N("diamond")]),
-  }, ["Flying Dragon", "Aquila Cuirass", "Ring of Royal Grandeur"],
-  ["Crippling Wave|Breaking Wave", "Epiphany|Soothing Mist", "Mantra of Healing|Time of Need", "Inner Sanctuary|Temple of Protection", "Serenity|Tranquility", "Breath of Heaven|Zephyr"],
-  ["Beacon of Ytar", "Near Death Experience", "Resolve", "Seize the Initiative"]);
 
-// zNecro (A)
-build({ id: "support-znecromancer", tier: "A", category: "support", name: "Support zNecromancer", source: "https://maxroll.gg/d3/guides/support-znecromancer-guide", tagline: "Group Support · Necromancer" },
-  "necromancer", {
-    head: gear("Leoric's Crown", A.suppHead, [N("diamond")]), shoulders: gear("Pestilence Defense", A.suppGen),
-    neck: gear("Rondal's Locket", A.ringCdr, [L("toxin")]), torso: gear("Aquila Cuirass", A.chestVit, D3),
-    hands: gear("Pestilence Gloves", A.suppGen), wrists: gear("Nemesis Bracers", A.bracerEl),
-    waist: gear("Captain Crimson's Silk Girdle", A.beltVit), leftfinger: gear("Obsidian Ring of the Zodiac", A.ringCdr, [L("gogok")]),
-    rightfinger: gear("Oculus Ring", A.ringCdr, [L("iceblink")]), legs: gear("Captain Crimson's Thrust", A.legsVit, D2),
-    feet: gear("Steuart's Greaves", A.bootsVit), mainhand: gearE("Blackbog's Sharp", A.suppWpn, [N("diamond")]), offhand: gear("Stormshield", A.off, [N("diamond")]),
-  }, ["Messerschmidt's Reaver", "Haunted Visions", "Convention of Elements"],
-  ["Land of the Dead|Frozen Lands", "Devour|Cannibalize", "Corpse Lance|Brittle Touch", "Command Skeletons|Enforcer", "Blood Rush|Metabolism", "Frailty|Aura of Frailty"],
-  ["Blood is Power", "Eternal Torment", "Life from Death", "Final Service"]);
 
-// zWiz (B)
-build({ id: "support-zwizard", tier: "B", category: "support", name: "Support zWizard", source: "https://maxroll.gg/d3/guides/support-zwiz-guide", tagline: "Group Support · Wizard" },
-  "wizard", {
-    head: gear("Crown of the Primus", A.suppHead, [N("diamond")]), shoulders: gear("Dashing Pauldrons of Despair", A.suppGen),
-    neck: gear("The Flavor of Time", A.ringCdr, [L("toxin")]), torso: gear("Harness of Truth", A.chestVit, D3),
-    hands: gear("Fierce Gauntlets", A.suppGen), wrists: gear("Strongarm Bracers", A.bracerEl),
-    waist: gear("Captain Crimson's Silk Girdle", A.beltVit), leftfinger: gear("Obsidian Ring of the Zodiac", A.ringCdr, [L("gogok")]),
-    rightfinger: gear("Oculus Ring", A.ringCdr, [L("iceblink")]), legs: gear("Leg Guards of Mystery", A.legsVit, D2),
-    feet: gear("Captain Crimson's Waders", A.bootsVit), mainhand: gear("Aether Walker", A.suppWpn, [N("diamond")]), offhand: gear("Cosmic Strand", A.off, [N("diamond")]),
-  }, ["Echoing Fury", "Aquila Cuirass", "Ring of Royal Grandeur"],
-  ["Ice Armor|Frozen Storm", "Teleport|Safe Passage", "Slow Time|Exhaustion", "Frost Nova|Bone Chill", "Energy Twister|Gale Force", "Explosive Blast|Chain Reaction"],
-  ["Cold Blooded", "Conflagration", "Astral Presence", "Illusionist"]);
 
 // ── emit ─────────────────────────────────────────────────────────────────────
 const existing = JSON.parse(await readFile(P("public/planner/builds/index.json"), "utf8")).builds;

@@ -110,3 +110,16 @@ export function runsText(paras: Paragraphs): string {
     .replace(/\s+/g, " ")
     .trim();
 }
+
+/** True when the skill has a cooldown (a burst, not sustained damage). */
+export function hasCooldown(skill: ActiveSkill): boolean {
+  return /Cooldown:/.test(runsText(skill.cost));
+}
+
+/** True when the skill deals damage with the chosen rune: either the skill itself does, or
+ *  only that rune adds damage (e.g. Wrath of the Berserker only hits with Arreat's Wail). */
+export function dealsDamage(skill: ActiveSkill, rune: string | null): boolean {
+  if (/weapon damage/i.test(runsText(skill.descRuns))) return true;
+  const r = skill.runes.find((x) => x.letter === rune);
+  return !!r && /weapon damage/i.test(runsText(r.descRuns));
+}

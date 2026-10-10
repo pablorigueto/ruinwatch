@@ -1,13 +1,13 @@
 {
+  "season": "Rites of Sanctuary",
   "id": "wizard-vyr-reverse-archon-fo",
-  "name": "Vyr Reverse Archon FO",
+  "name": "Ethereal Vyr Reverse Archon FO",
   "klass": "wizard",
   "category": "solo-push",
-  "tier": "A",
+  "tier": "B",
   "gender": "male",
   "source": "https://maxroll.gg/d3/guides/vyr-reverse-archon-frozen-orb-wizard-guide",
-  "season": "Rites of Sanctuary",
-  "tagline": "Frozen Orb · Vyr · Archon",
+  "tagline": "Arcane Orb · Archon · Vyr · Ethereal: Mang Song's Lesson with Triumvirate + Glass Cannon",
   "paragonLevel": 800,
   "paragon": {
     "core": {
@@ -179,7 +179,7 @@
       "gems": []
     },
     "mainhand": {
-      "itemId": "P71_Ethereal_18",
+      "itemId": "P71_Ethereal_11",
       "affixes": [
         "cdr",
         "area"
@@ -189,20 +189,9 @@
         {
           "gem": "emerald"
         }
-      ]
-    },
-    "offhand": {
-      "itemId": "P61_Unique_Orb_003",
-      "affixes": [
-        "chc",
-        "cdr"
       ],
-      "augment": 750,
-      "gems": [
-        {
-          "gem": "diamond"
-        }
-      ]
+      "etherealPower": "P61_Unique_Orb_003",
+      "etherealPassive": "glass-cannon"
     }
   },
   "kanai": {
@@ -243,5 +232,6 @@
       "power-hungry",
       "elemental-exposure"
     ]
-  }
+  },
+  "listedTier": "S"
 }

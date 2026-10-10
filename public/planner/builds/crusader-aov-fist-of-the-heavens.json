@@ -3,7 +3,7 @@
   "name": "Aegis of Valor Fist of the Heavens",
   "klass": "crusader",
   "category": "solo-push",
-  "tier": "C",
+  "tier": "F",
   "gender": "male",
   "source": "https://www.diablofans.com/builds/109974-aegis-of-valor",
   "season": "Rites of Sanctuary",
@@ -244,5 +244,6 @@
       "vigilant"
     ]
   },
-  "noEthereal": true
+  "noEthereal": true,
+  "listedTier": "C"
 }

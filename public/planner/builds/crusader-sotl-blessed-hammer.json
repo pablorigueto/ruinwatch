@@ -1,13 +1,13 @@
 {
+  "season": "Rites of Sanctuary",
   "id": "crusader-sotl-blessed-hammer",
-  "name": "SotL Blessed Hammer",
+  "name": "Ethereal SotL Blessed Hammer",
   "klass": "crusader",
   "category": "solo-push",
   "tier": "B",
   "gender": "male",
   "source": "https://maxroll.gg/d3/guides/sotl-blessed-hammer-crusader-guide",
-  "season": "Rites of Sanctuary",
-  "tagline": "Blessed Hammer · Seeker of the Light",
+  "tagline": "Blessed Hammer · Seeker of the Light · Ethereal: Faithful Memory + Blunt, Johanna's Argument in the cube",
   "paragonLevel": 800,
   "paragon": {
     "core": {
@@ -189,7 +189,9 @@
         {
           "gem": "emerald"
         }
-      ]
+      ],
+      "etherealPower": "P61_Unique_Sword_2H_012_x1",
+      "etherealPassive": "blunt"
     },
     "offhand": {
       "itemId": "Unique_Shield_103_x1",
@@ -206,7 +208,7 @@
     }
   },
   "kanai": {
-    "weapon": "leg_faithfulmemory_p6",
+    "weapon": "leg_johannasargument",
     "armor": "leg_hammerjammers",
     "jewelry": "leg_ringofroyalgrandeur"
   },
@@ -243,5 +245,6 @@
       "long-arm-of-the-law",
       "holy-cause"
     ]
-  }
+  },
+  "listedTier": "S"
 }

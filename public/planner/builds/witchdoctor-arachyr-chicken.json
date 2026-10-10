@@ -3,7 +3,7 @@
   "name": "Arachyr Lazy Locust Chicken",
   "klass": "witchdoctor",
   "category": "solo-push",
-  "tier": "C",
+  "tier": "F",
   "gender": "male",
   "source": "https://www.diablofans.com/builds/109374-t16-lazy-locust-chicken-s28-2-7-5",
   "season": "Rites of Sanctuary",
@@ -244,5 +244,6 @@
       "grave-injustice"
     ]
   },
-  "noEthereal": true
+  "noEthereal": true,
+  "listedTier": "C"
 }

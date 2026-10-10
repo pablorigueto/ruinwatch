@@ -1,13 +1,13 @@
 {
+  "season": "Rites of Sanctuary",
   "id": "monk-uliana-ep",
-  "name": "Uliana EP",
+  "name": "Ethereal Uliana EP",
   "klass": "monk",
   "category": "solo-push",
-  "tier": "C",
+  "tier": "D",
   "gender": "male",
   "source": "https://maxroll.gg/d3/guides/uliana-exploding-palm-monk-guide",
-  "season": "Rites of Sanctuary",
-  "tagline": "Exploding Palm · Uliana",
+  "tagline": "Exploding Palm · Seven-Sided Strike · Uliana · Ethereal: Fist of Az'Turrasq + Determination, Lion's Claw",
   "paragonLevel": 800,
   "paragon": {
     "core": {
@@ -179,7 +179,7 @@
       "gems": []
     },
     "mainhand": {
-      "itemId": "P61_Unique_Fist_009_x1",
+      "itemId": "P1_fistWeapon_norm_unique_01",
       "affixes": [
         "cdr",
         "area"
@@ -202,7 +202,9 @@
         {
           "gem": "emerald"
         }
-      ]
+      ],
+      "etherealPower": "P61_Unique_Fist_009_x1",
+      "etherealPassive": "determination"
     }
   },
   "kanai": {
@@ -243,5 +245,6 @@
       "the-guardians-path",
       "mythic-rhythm"
     ]
-  }
+  },
+  "listedTier": "B"
 }

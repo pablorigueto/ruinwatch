@@ -75,6 +75,24 @@ async function validate(id, d, skills, errs) {
     const t = d.itemTypes[item.type];
     if ((t?.class && t.class !== build.klass) || (t?.classes && !t.classes.includes(build.klass)))
       e(`${slot}: ${item.name} (${item.type}) não pode ser usado por ${build.klass}`);
+    // Ethereal: the chosen extra weapon power must be one of its options, the extra
+    // passive a real class passive that is not already on the passive bar
+    if (item.quality === "ethereal") {
+      const options = item.required?.custom?.options ?? [];
+      if (ps.etherealPower && !options.includes(ps.etherealPower)) e(`${slot}: ${item.name} cannot carry power "${ps.etherealPower}"`);
+      // the same legendary power twice does not stack: not also in the cube or on another item
+      const powerId = byId.get(ps.etherealPower)?.required?.custom?.id;
+      if (powerId) {
+        if (Object.values(build.kanai || {}).includes(powerId)) e(`${slot}: ethereal power "${powerId}" is also in Kanai's Cube`);
+        const worn = Object.entries(build.equipped || {}).some(([s, o]) => s !== slot && byId.get(o.itemId)?.required?.custom?.id === powerId);
+        if (worn) e(`${slot}: ethereal power "${powerId}" is also on an equipped item`);
+      }
+      if (ps.etherealPassive) {
+        const known = Object.values(d.passives?.[build.klass] ?? {}).some((p) => p.id === ps.etherealPassive);
+        if (!known) e(`${slot}: ethereal passive "${ps.etherealPassive}" is not a ${build.klass} passive`);
+        if ((build.skills?.passives || []).includes(ps.etherealPassive)) e(`${slot}: ethereal passive "${ps.etherealPassive}" is already on the passive bar`);
+      }
+    }
     // affixes resolve?
     for (const k of ps.affixes || []) {
       if (!resolveAffix(d, slot, item, k)) e(`${slot}: affix "${k}" invalid for ${item.name}`);

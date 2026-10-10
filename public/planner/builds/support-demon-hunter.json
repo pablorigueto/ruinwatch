@@ -1,13 +1,13 @@
 {
+  "season": "Rites of Sanctuary",
   "id": "support-demon-hunter",
-  "name": "Support Demon Hunter",
+  "name": "Ethereal Support Demon Hunter",
   "klass": "demonhunter",
   "category": "support",
   "tier": "S",
   "gender": "male",
   "source": "https://maxroll.gg/d3/guides/support-demon-hunter-guide",
-  "season": "Rites of Sanctuary",
-  "tagline": "Group Support · Demon Hunter",
+  "tagline": "Group Support · Demon Hunter · Ethereal Windforce: Odyssey's End + Thrill of the Hunt",
   "paragonLevel": 800,
   "paragon": {
     "core": {
@@ -180,7 +180,7 @@
       "gems": []
     },
     "mainhand": {
-      "itemId": "P61_Unique_Bow_104_x1",
+      "itemId": "P71_Ethereal_02",
       "affixes": [
         "cdr",
         "rcr"
@@ -190,7 +190,9 @@
         {
           "gem": "amethyst"
         }
-      ]
+      ],
+      "etherealPower": "P69_Unique_Bow_102",
+      "etherealPassive": "thrill-of-the-hunt"
     },
     "offhand": {
       "itemId": "P72_Unique_Quiver_102",
@@ -207,7 +209,7 @@
     }
   },
   "kanai": {
-    "weapon": "leg_odysseysend_p69",
+    "weapon": "leg_yangsrecurve_p6",
     "armor": "leg_wrapsofclarity_p6",
     "jewelry": "leg_ringofroyalgrandeur"
   },

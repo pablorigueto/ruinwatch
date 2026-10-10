@@ -48,6 +48,10 @@ const translation = {
     "importNotBuild": "Ce JSON n'est pas un build RuinWatch.",
     "importUnknownClass": "Classe inconnue dans ce build.",
     "importTooBig": "Fichier trop volumineux — un build JSON ne fait que quelques Ko.",
+    "etherealPower": "+1 Pouvoir légendaire d'arme de classe",
+    "etherealPassive": "+1 Passif de classe",
+    "etherealChoose": "Choisir…",
+    "etherealNote": "En jeu, les deux sont aléatoires ; choisissez le tirage visé par ce build.",
     "allSets": "Tous les sets",
     "setPieces": "({{count}}) Set",
     "loading": "Chargement de l'arsenal…",
@@ -140,6 +144,8 @@ const translation = {
       "totals": "Liste des sacrifices ({{count}} sceaux)"
     },
     "summary": {
+      "dpsNote": "DPS = fiche du personnage × la compétence principale. Bonus de set et pouvoirs légendaires non inclus — ne comparez pas les builds avec.",
+      "burst": "recharge",
       "title": "Résumé",
       "empty": "Équipez des objets pour voir les totaux.",
       "note": "Totaux additionnés depuis l'équipement, les gemmes et le Parangon — pas une simulation de combat.",

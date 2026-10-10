@@ -44,6 +44,8 @@ export interface LegendaryPower {
   min?: number;
   max?: number;
   value?: number | number[];
+  /** Ethereal only: item ids of the class weapon powers it can carry. */
+  options?: string[];
 }
 
 export interface SetDef {
@@ -122,6 +124,8 @@ export interface PlannerData {
   sets: Record<string, SetDef>;
   gems: { normal: Record<string, NormalGemColor>; legendary: Record<string, LegendaryGem> };
   items: PlannerItem[];
+  /** Class passives by class (id = skills.json slug), e.g. for an Ethereal's extra passive. */
+  passives?: Record<string, Record<string, { id: string; name: string; index: number }>>;
   /** Season extras (Altar of Rites, potions). Optional. */
   altar?: Record<string, AltarNode>;
   potions?: unknown[];
@@ -583,7 +587,7 @@ export interface IntrinsicLine { key: string; text: string }
 /** Render an item's intrinsic (`required`) affixes for display, at their max
  *  roll. Skips `custom` (the legendary power, shown separately) and durability.
  *  A damage range (min2/max2) shows as "+min2-max2 <Name>". */
-export function intrinsicLines(data: PlannerData, item: PlannerItem): IntrinsicLine[] {
+export function intrinsicLines(data: PlannerData, item: PlannerItem, passiveName?: string): IntrinsicLine[] {
   const req = item.required as Record<string, unknown> | undefined;
   if (!req) return [];
   const out: IntrinsicLine[] = [];
@@ -594,7 +598,8 @@ export function intrinsicLines(data: PlannerData, item: PlannerItem): IntrinsicL
     // value-less flags (ethereal_damage, extra_passive, ignore-durability) just
     // print their format/name verbatim.
     if (v == null || (v.min == null && v.max == null && v.min2 == null)) {
-      const txt = def?.format ? def.format.replace(/%%/g, "%").replace(/%p/g, "…") : def?.name;
+      // %p = the passive an Ethereal grants ("Gain the %p passive."), once one is chosen
+      const txt = def?.format ? def.format.replace(/%%/g, "%").replace(/%p/g, passiveName ?? "…") : def?.name;
       if (txt) out.push({ key, text: txt });
       continue;
     }
@@ -669,6 +674,10 @@ export interface SlotState {
   /** legendary power rolled value (when the item has a custom power w/ range). */
   powerValue?: number;
   gems: SocketGem[];
+  /** Ethereal only: the "+1 Class Weapon Legendary Power" (item id from the item's options). */
+  etherealPower?: string;
+  /** Ethereal only: the "+1 Class Passive Power" (passive slug). */
+  etherealPassive?: string;
 }
 
 export interface KanaiState {
@@ -688,6 +697,8 @@ export interface ItemTooltip {
   primary: string[];
   /** secondary line (the legendary power text), if any. */
   power?: string;
+  /** Ethereal only: the chosen extra class weapon legendary power and extra class passive. */
+  ethereal?: { power?: { name: string; text: string }; passive?: string };
   /** Caldesann's augment line, if present. */
   augment?: string;
   /** set name + its bonus lines. */
@@ -711,10 +722,20 @@ export function itemTooltip(
       primary.push(formatStat(data, stat, v));
     }
   }
-  // intrinsic legendary/ethereal properties always present on the item
-  for (const line of intrinsicLines(data, item)) primary.push(line.text);
+  // intrinsic legendary/ethereal properties always present on the item (an Ethereal's
+  // "Gain the … passive" line moves to its own block below once a passive is chosen)
+  const passiveName = state ? etherealPassiveName(data, klass, state) : undefined;
+  for (const line of intrinsicLines(data, item, passiveName)) {
+    if (line.key === "extra_passive" && passiveName) continue;
+    primary.push(line.text);
+  }
 
   const power = powerDisplay(item, state?.powerValue) ?? undefined;
+  let ethereal: ItemTooltip["ethereal"];
+  if (item.quality === "ethereal" && state) {
+    const ep = etherealPowerItem(data, item, state);
+    ethereal = { power: ep ? { name: ep.name, text: powerDisplay(ep) ?? "" } : undefined, passive: passiveName };
+  }
   const aug = state?.affixes.augment;
   const augment = aug != null ? `+${aug} ${affixLabel(data, classMainStat(klass))} (Caldesann's Despair)` : undefined;
 
@@ -733,6 +754,7 @@ export function itemTooltip(
     typeLabel: (SLOT_LABELS as Record<string, string>)[slot] ?? slot,
     primary,
     power,
+    ethereal,
     augment,
     setName: sName,
     setBonuses,
@@ -1167,6 +1189,29 @@ export function powerDisplay(item: PlannerItem, value?: number): string | null {
 }
 
 /* ------------------------------------------------------------------ */
+/* Ethereal weapons: +1 class weapon legendary power and +1 class passive */
+/* ------------------------------------------------------------------ */
+
+/** The class weapon powers an Ethereal can carry (its `required.custom.options`). */
+export function etherealPowerOptions(data: PlannerData, item: PlannerItem): PlannerItem[] {
+  if (item.quality !== "ethereal") return [];
+  const ids = item.required?.custom?.options ?? [];
+  const byId = new Map(data.items.map((i) => [i.id, i] as const));
+  return ids.map((id) => byId.get(id)).filter((i): i is PlannerItem => !!i);
+}
+
+/** The weapon power chosen for this Ethereal, if any (and still a valid option). */
+export function etherealPowerItem(data: PlannerData, item: PlannerItem, state: SlotState): PlannerItem | undefined {
+  return state.etherealPower ? etherealPowerOptions(data, item).find((i) => i.id === state.etherealPower) : undefined;
+}
+
+/** Display name of the extra passive chosen for this Ethereal. */
+export function etherealPassiveName(data: PlannerData, klass: string, state: SlotState): string | undefined {
+  if (!state.etherealPassive) return undefined;
+  return Object.values(data.passives?.[klass] ?? {}).find((p) => p.id === state.etherealPassive)?.name;
+}
+
+/* ------------------------------------------------------------------ */
 /* Save / load + stat summary (Phase 6)                               */
 /* ------------------------------------------------------------------ */
 
@@ -1391,7 +1436,11 @@ interface PresetGem { gem: string; legendary?: boolean; rank?: number }
 /** `affixes` are extra rolled stat keys (beyond the item's fixed preset) to add
  *  at their max roll — e.g. ["resall","skill_barbarian"] for +All Res + skill
  *  damage. `augment` is a flat mainstat add (Caldesann's Despair). */
-interface PresetSlot { itemId: string; gems?: PresetGem[]; affixes?: string[]; augment?: number }
+interface PresetSlot {
+  itemId: string; gems?: PresetGem[]; affixes?: string[]; augment?: number;
+  /** Ethereal only: chosen class weapon power (item id) and extra class passive (slug). */
+  etherealPower?: string; etherealPassive?: string;
+}
 
 /** The hand-authored, human-readable shape of a reference build (one JSON file
  *  per guide under /public/planner/builds/). Items are referenced by id, gems
@@ -1490,6 +1539,8 @@ export function buildFromPreset(data: PlannerData, preset: PresetBuild): BuildSt
       if (range) ss.affixes[key] = range.max;
     }
     if (ps.augment) ss.affixes.augment = ps.augment;
+    if (ps.etherealPower) ss.etherealPower = ps.etherealPower;
+    if (ps.etherealPassive) ss.etherealPassive = ps.etherealPassive;
     build.equipped[slot] = ss;
   }
 

@@ -3,7 +3,7 @@
   "name": "LoD Spirit Barrage",
   "klass": "witchdoctor",
   "category": "solo-push",
-  "tier": "C",
+  "tier": "F",
   "gender": "male",
   "source": "https://maxroll.gg/d3/guides/lod-spirit-barrage-witch-doctor-guide",
   "season": "Rites of Sanctuary",
@@ -243,5 +243,6 @@
       "creeping-death",
       "swampland-attunement"
     ]
-  }
+  },
+  "listedTier": "C"
 }

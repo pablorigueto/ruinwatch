@@ -48,6 +48,10 @@ const translation = {
     "importNotBuild": "RuinWatch 빌드 JSON이 아닙니다.",
     "importUnknownClass": "이 빌드의 직업을 알 수 없습니다.",
     "importTooBig": "파일이 너무 큽니다 — 빌드 JSON은 몇 KB입니다.",
+    "etherealPower": "+1 직업 무기 전설 능력",
+    "etherealPassive": "+1 직업 지속 능력",
+    "etherealChoose": "선택…",
+    "etherealNote": "게임에서는 둘 다 무작위입니다. 이 빌드가 노리는 옵션을 고르세요.",
     "allSets": "모든 세트",
     "setPieces": "({{count}}) 세트",
     "loading": "무기고를 불러오는 중…",
@@ -140,6 +144,8 @@ const translation = {
       "totals": "희생 목록 (봉인 {{count}}개)"
     },
     "summary": {
+      "dpsNote": "DPS = 캐릭터 정보 × 주력 기술. 세트 효과와 전설 능력은 포함되지 않으니 빌드 비교에 쓰지 마세요.",
+      "burst": "재사용 대기",
       "title": "요약",
       "empty": "아이템을 장착하면 합계가 표시됩니다.",
       "note": "장비, 보석, 정복자에서 합산된 값이며 전투 시뮬레이션이 아닙니다.",

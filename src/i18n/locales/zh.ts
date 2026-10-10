@@ -48,6 +48,10 @@ const translation = {
     "importNotBuild": "该 JSON 不是 RuinWatch 配装。",
     "importUnknownClass": "配装中的职业未知。",
     "importTooBig": "文件过大——配装 JSON 只有几 KB。",
+    "etherealPower": "+1 职业武器传奇特效",
+    "etherealPassive": "+1 职业被动技能",
+    "etherealChoose": "选择…",
+    "etherealNote": "游戏中两者都是随机的；请选择此配装需要的结果。",
     "allSets": "所有套装",
     "setPieces": "({{count}}) 件套装",
     "loading": "正在加载军械库…",
@@ -140,6 +144,8 @@ const translation = {
       "totals": "献祭清单（{{count}} 个封印）"
     },
     "summary": {
+      "dpsNote": "DPS = 角色面板 × 主技能。不含套装加成和传奇特效——请勿以此比较配装。",
+      "burst": "冷却",
       "title": "概要",
       "empty": "装备物品以查看总计。",
       "note": "总计来自装备、宝石和巅峰的累加，并非战斗模拟。",

@@ -3,7 +3,7 @@
   "name": "LoD Corpse Explosion",
   "klass": "necromancer",
   "category": "solo-push",
-  "tier": "A",
+  "tier": "C",
   "gender": "male",
   "source": "https://maxroll.gg/d3/guides/lod-corpse-explosion-necromancer-guide",
   "season": "Rites of Sanctuary",
@@ -243,5 +243,6 @@
       "stand-alone",
       "eternal-torment"
     ]
-  }
+  },
+  "listedTier": "A"
 }

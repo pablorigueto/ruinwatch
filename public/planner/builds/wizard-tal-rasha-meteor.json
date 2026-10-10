@@ -1,13 +1,13 @@
 {
+  "season": "Rites of Sanctuary",
   "id": "wizard-tal-rasha-meteor",
-  "name": "Tal Rasha Meteor",
+  "name": "Ethereal Tal Rasha Meteor",
   "klass": "wizard",
   "category": "solo-push",
   "tier": "S",
   "gender": "male",
   "source": "https://maxroll.gg/d3/guides/tal-rasha-meteor-wizard-guide",
-  "season": "Rites of Sanctuary",
-  "tagline": "Meteor · Tal Rasha · Solo Push",
+  "tagline": "Meteor · Tal Rasha · Ethereal: The Grand Vizier + Glass Cannon",
   "paragonLevel": 800,
   "paragon": {
     "core": {
@@ -189,7 +189,9 @@
         {
           "gem": "emerald"
         }
-      ]
+      ],
+      "etherealPower": "P61_Unique_Staff_009",
+      "etherealPassive": "glass-cannon"
     }
   },
   "kanai": {
@@ -230,5 +232,6 @@
       "galvanizing-ward",
       "arcane-dynamo"
     ]
-  }
+  },
+  "listedTier": "S"
 }

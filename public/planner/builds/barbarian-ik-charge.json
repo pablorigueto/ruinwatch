@@ -3,7 +3,7 @@
   "name": "IK Charge",
   "klass": "barbarian",
   "category": "solo-push",
-  "tier": "D",
+  "tier": "F",
   "noEthereal": true,
   "gender": "male",
   "source": "https://maxroll.gg/d3/guides/ik-charge-barbarian-guide",
@@ -231,5 +231,6 @@
       "brawler",
       "pound-of-flesh"
     ]
-  }
+  },
+  "listedTier": "D"
 }

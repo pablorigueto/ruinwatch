@@ -3,7 +3,7 @@
   "name": "MotE Seismic Slam",
   "klass": "barbarian",
   "category": "solo-push",
-  "tier": "B",
+  "tier": "D",
   "gender": "male",
   "source": "https://maxroll.gg/d3/guides/mote-slam-barbarian-guide",
   "season": "Rites of Sanctuary",
@@ -230,5 +230,6 @@
       "boon-of-bulkathos",
       "nerves-of-steel"
     ]
-  }
+  },
+  "listedTier": "B"
 }
