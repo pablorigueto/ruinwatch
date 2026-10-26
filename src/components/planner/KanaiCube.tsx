@@ -2,6 +2,7 @@
  * KanaiCube — Phase 3. Three Kanai's Cube slots (weapon / armor / jewelry),
  * each equipping one extractable legendary power, filtered by the chosen class.
  */
+import { NativeItemFrame, NativeItemHover } from "@/components/items/NativeItemFrame";
 import { useMemo, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { Search, X, Box } from "lucide-react";
@@ -32,21 +33,11 @@ const KanaiCard = ({
   powerName: string;
   desc: string | null;
 }) => (
-  <span
-    className="invisible group-hover:visible opacity-0 group-hover:opacity-100 transition-opacity absolute left-1/2 -translate-x-1/2 bottom-[108%] z-30 w-72 text-left pointer-events-none"
-    style={{ filter: "drop-shadow(0 6px 16px rgba(0,0,0,0.85))" }}
-  >
-    <span className="block border-2 border-[#8a6d2f] rounded-md overflow-hidden" style={{ backgroundColor: "#0c0a08" }}>
-      <span className="block text-center px-3 py-2 border-b border-[#8a6d2f]/60" style={{ background: "linear-gradient(#1a140c,#0c0a08)" }}>
-        <span className="font-display text-base text-[#e8c97a] tracking-wide">{itemName}</span>
-      </span>
-      <span className="block px-3 py-2.5 font-body text-[12px]">
-        <span className="block text-[#c9a86a]/70 text-[10px] uppercase tracking-wider mb-1.5">Kanai&apos;s Cube · {cat}</span>
-        <span className="block font-display text-sm text-ember tracking-wide mb-1">{powerName}</span>
-        {desc && <span className="block leading-snug text-bone/80">{desc}</span>}
-      </span>
-    </span>
-  </span>
+  <NativeItemFrame name={itemName} rarity="legendary">
+    <span className="native-item-slot">Kanai&apos;s Cube &middot; {cat}</span>
+    <span className="native-item-kind">{powerName}</span>
+    {desc && <span className="native-item-power">{desc}</span>}
+  </NativeItemFrame>
 );
 
 const PowerPicker = ({
@@ -134,9 +125,8 @@ const KanaiSlot = ({
   const { t } = useTranslation();
   const item = powerId ? itemForPower(data, powerId) : null;
   const power = item?.required?.custom;
-  return (
+  const content = (
     <div className="relative bg-card/60 border border-stone/60 p-3 group">
-      {power && item && <KanaiCard cat={cat} itemName={item.name} powerName={power.name} desc={powerDisplay(item)} />}
       <div className="flex items-center justify-between mb-2">
         <span className="font-mono text-[10px] uppercase tracking-[0.25em] text-bone/45">
           {t(`planner.kanai.${cat}`, cat)}
@@ -164,6 +154,7 @@ const KanaiSlot = ({
       </button>
     </div>
   );
+  return power && item ? <NativeItemHover content={<KanaiCard cat={cat} itemName={item.name} powerName={power.name} desc={powerDisplay(item)} />}>{content}</NativeItemHover> : content;
 };
 
 const KanaiCube = ({

@@ -36,3 +36,4 @@ casc-tools/data/
 casc-tools/pow/
 scripts/cache/
 .env.*
+.deploy_staging/

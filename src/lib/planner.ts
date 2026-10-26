@@ -692,6 +692,8 @@ export interface KanaiState {
 export interface ItemTooltip {
   name: string;
   quality: Quality;
+  tier?: Tier;
+  icon?: string;
   typeLabel: string;
   /** primary stat lines (rolled affixes + intrinsic non-secondary props). */
   primary: string[];
@@ -751,6 +753,8 @@ export function itemTooltip(
   return {
     name: item.name,
     quality: item.quality,
+    tier: state?.tier ?? "primal",
+    icon: item.icon,
     typeLabel: (SLOT_LABELS as Record<string, string>)[slot] ?? slot,
     primary,
     power,

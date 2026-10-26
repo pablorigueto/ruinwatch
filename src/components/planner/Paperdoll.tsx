@@ -6,6 +6,7 @@
  *
  * Background art per class+gender lives in /public/planner/paperdoll/.
  */
+import { NativeItemFrame, NativeItemHover } from "@/components/items/NativeItemFrame";
 import { useTranslation } from "react-i18next";
 import { ItemTooltip, PlannerItem, Quality, SLOT_LABELS, SlotId } from "@/lib/planner";
 
@@ -51,36 +52,25 @@ const EtherealExtras = ({ ethereal }: { ethereal: NonNullable<ItemTooltip["ether
 };
 
 /** Read-only hover card for an equipped item — the in-game style tooltip. */
-const ItemCard = ({ tip, color }: { tip: ItemTooltip; color: string }) => (
-  <span
-    className="invisible group-hover:visible opacity-0 group-hover:opacity-100 transition-opacity absolute left-full top-0 ml-2 z-40 w-72 text-left pointer-events-none"
-    style={{ filter: "drop-shadow(0 6px 18px rgba(0,0,0,0.85))" }}
-  >
-    <span className="block border-2 rounded-md overflow-hidden" style={{ backgroundColor: "#0c0a08", borderColor: `hsl(${color})` }}>
-      <span className="block text-center px-3 py-2 border-b" style={{ background: "linear-gradient(#1a140c,#0c0a08)", borderColor: `hsl(${color} / 0.5)` }}>
-        <span className="font-display text-base tracking-wide" style={{ color: `hsl(${color})` }}>{tip.name}</span>
-        <span className="block font-mono text-[9px] uppercase tracking-widest text-bone/40 mt-0.5">{tip.typeLabel}</span>
-      </span>
-      <span className="block px-3 py-2.5 font-body text-[12px] space-y-0.5">
-        {tip.primary.map((line, i) => (
-          <span key={i} className="block leading-snug text-bone/85">{hl(line)}</span>
-        ))}
-        {tip.augment && <span className="block leading-snug text-[#c08bff] mt-1">{tip.augment}</span>}
-        {tip.power && (
-          <span className="block leading-snug text-[#e8a23a] mt-1.5 pt-1.5 border-t border-[#8a6d2f]/30">{hl(tip.power)}</span>
-        )}
-        {tip.ethereal && (tip.ethereal.power || tip.ethereal.passive) && <EtherealExtras ethereal={tip.ethereal} />}
-        {tip.setName && (
-          <span className="block mt-1.5 pt-1.5 border-t border-[#8a6d2f]/30">
-            <span className="block font-display text-[11px] uppercase tracking-wider text-[#5fd35f]">{tip.setName}</span>
-            {tip.setBonuses?.map((b, i) => (
-              <span key={i} className="block leading-snug text-[#5fd35f]/80 text-[11px] mt-0.5">{hl(b)}</span>
-            ))}
-          </span>
-        )}
+const ItemCard = ({ tip }: { tip: ItemTooltip }) => (
+  <NativeItemFrame name={tip.name} rarity={tip.quality} tier={tip.tier === 'legendary' ? 'normal' : tip.tier ?? 'primal'}>
+    <span className="native-item-summary">
+      {tip.icon && <span className="native-item-art"><img src={tip.icon} alt="" /></span>}
+      <span>
+        {tip.tier !== 'legendary' && <span className="native-item-kind">{tip.tier === 'ancient' ? 'Ancient' : 'Primal Ancient'}</span>}
+        <span className="native-item-kind">{tip.quality === 'set' ? 'Set' : tip.quality === 'ethereal' ? 'Ethereal' : 'Legendary'} {tip.typeLabel}</span>
       </span>
     </span>
-  </span>
+    <span className="native-item-stats">{tip.primary.map((line, i) => <span key={i}>{hl(line)}</span>)}</span>
+    {tip.augment && <span className="native-item-augment">{tip.augment}</span>}
+    {tip.power && <span className="native-item-power">{hl(tip.power)}</span>}
+    {tip.ethereal && (tip.ethereal.power || tip.ethereal.passive) && <EtherealExtras ethereal={tip.ethereal} />}
+    {tip.setName && <span className="native-item-set">
+      <span className="font-display">{tip.setName}</span>
+      {tip.setBonuses?.map((bonus, i) => <span key={i}>{hl(bonus)}</span>)}
+    </span>}
+    <span className="native-item-end"><span className="unique">Unique Equipped</span></span>
+  </NativeItemFrame>
 );
 
 /** Exact slot rectangles over the doll art, taken from the official planner
@@ -121,7 +111,7 @@ const SlotIcon = ({
   const color = item ? QUALITY_COLOR[item.quality] : null;
   const ethereal = item?.quality === "ethereal";
   const [left, top, w, h] = SLOT_RECT[slot];
-  return (
+  const button = (
     <button
       type="button"
       onClick={onClick}
@@ -169,10 +159,10 @@ const SlotIcon = ({
       )}
       </span>{/* end clipped icon layer */}
 
-      {/* read-only hover tooltip (overflows the slot, not clipped) */}
-      {item && tooltip && color && <ItemCard tip={tooltip} color={color} />}
+
     </button>
   );
+  return item && tooltip ? <NativeItemHover content={<ItemCard tip={tooltip} />}>{button}</NativeItemHover> : button;
 };
 
 const Paperdoll = ({

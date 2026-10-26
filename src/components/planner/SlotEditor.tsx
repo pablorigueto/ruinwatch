@@ -7,6 +7,7 @@
  * Writes a SlotState back through onChange.
  */
 import { useMemo, useState } from "react";
+import { NativeItemFrame, NativeItemHover } from "@/components/items/NativeItemFrame";
 import { useTranslation } from "react-i18next";
 import { X, RefreshCw, Trash2, Plus, Lock, ChevronDown } from "lucide-react";
 import { DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
@@ -278,6 +279,7 @@ const GemSlot = ({
   let label = t("planner.emptySocket");
   let effect = "";
   let gemIcon: string | undefined;
+  const legendaryGem = socketGem?.legendary ? data.gems.legendary[socketGem.gem] : undefined;
   if (socketGem) {
     if (socketGem.legendary) {
       const g = data.gems.legendary[socketGem.gem];
@@ -295,9 +297,23 @@ const GemSlot = ({
 
   return (
     <div className="border border-stone/50 bg-night/60 p-2.5">
-      <button type="button" onClick={() => setOpen((o) => !o)} className="w-full flex items-center justify-between gap-2 text-left">
+      <div className="flex items-center gap-2">
+      <button type="button" onClick={() => setOpen((o) => !o)} className="min-w-0 flex-1 flex items-center justify-between gap-2 text-left">
         <span className="min-w-0 flex items-center gap-2">
-          {gemIcon && <img src={gemIcon} alt="" className="flex-none w-7 h-7 object-contain" />}
+          {gemIcon && <NativeItemHover content={
+            <NativeItemFrame name={legendaryGem?.name ?? label} rarity={legendaryGem ? "legendary" : "common"}>
+              <span className="native-item-summary">
+                <span className="native-item-art"><img src={gemIcon} alt="" /></span>
+                <span><span className="native-item-kind">{legendaryGem ? "Legendary Gem" : "Gem"}</span>
+                  {legendaryGem && <span className="native-item-slot">Rank {socketGem?.rank}</span>}
+                </span>
+              </span>
+              {legendaryGem ? legendaryGem.effects.map((gemEffect, i) => <span className="native-item-power" key={i}>
+                <span style={i > 0 && (socketGem?.rank ?? 0) < 25 ? { color: "#888" } : undefined}>{legendaryGemText(gemEffect, socketGem?.rank ?? 0)}</span>
+                {i > 0 && (socketGem?.rank ?? 0) < 25 && <span className="block text-red-500">(Requires Rank 25)</span>}
+              </span>) : <span className="native-item-stats">{effect}</span>}
+            </NativeItemFrame>
+          }><span className="flex-none"><img src={gemIcon} alt={legendaryGem?.name ?? label} className="w-7 h-7 object-contain" /></span></NativeItemHover>}
           <span className="min-w-0">
             <span className="block font-display text-xs tracking-wide text-bone">{label}</span>
             {effect && (
@@ -307,15 +323,10 @@ const GemSlot = ({
             )}
           </span>
         </span>
-        <span className="flex items-center gap-2">
-          {socketGem && (
-            <button type="button" onClick={(e) => { e.stopPropagation(); onClear(); }} className="text-bone/40 hover:text-ember">
-              <X className="w-3.5 h-3.5" />
-            </button>
-          )}
           <Plus className={`w-4 h-4 text-bone/40 transition-transform ${open ? "rotate-45" : ""}`} />
-        </span>
       </button>
+      {socketGem && <button type="button" onClick={onClear} aria-label={t("planner.remove", "Remove")} className="text-bone/40 hover:text-ember"><X className="w-3.5 h-3.5" /></button>}
+      </div>
 
       {open && (
         <div className="mt-2 space-y-2">

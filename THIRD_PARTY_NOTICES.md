@@ -4,6 +4,11 @@ RuinWatch is a fan project. It is not affiliated with, endorsed by or sponsored 
 Entertainment. Diablo and Diablo III are trademarks of Blizzard Entertainment, Inc.; game names,
 item names, icons and artwork shown on the site belong to their respective owners.
 
+The item tooltip frames in `public/ui/item-tooltip/` are original Diablo III
+`2DUITooltip` atlas slices, reused from the local game assets also used by the
+RuinWatch Market. The responsive frame assembly is shared by catalog and planner
+presentations; these game assets are not covered by this project's source license.
+
 ## d3planner — Apache License 2.0
 
 Copyright (c) d07RiV and contributors — https://github.com/d07RiV/d3planner

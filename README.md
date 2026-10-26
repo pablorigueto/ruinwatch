@@ -4,6 +4,7 @@ The official website of **RuinWatch**, a free Diablo III server built on the *Ri
 patch (2.7.5) with the full Altar of Rites and Ethereal Weapons. Live at
 **[ruinwatch.com](https://ruinwatch.com)**.
 
+
 What makes this site different from other Diablo III tools: every piece of game data — items,
 legendary powers, set bonuses, skills, runes, passives, gems, the Altar of Rites — is **generated
 from the game files of the exact client version the server runs**. Retail Diablo III received
@@ -64,6 +65,10 @@ Akkhan's Leniency) are shown as they exist in 2.7.5.
   Ethereal rolls (both random in game).
 - **Item tooltips** — rolled affixes, legendary power, set bonuses (active pieces highlighted) and
   augment, laid out like the in-game card.
+  Original client frame sprites are used for the title, sides and bottom. Equipment
+  uses the selected tier (Primal by default), while legendary gems keep the base
+  legendary frame. The item Codex always uses the base rarity without Ancient or
+  Primal decoration. Hover cards use a portal with viewport collision handling.
 - **Kanai's Cube** — weapon, armor and jewelry powers, filtered by class and by cube slot.
 - **Skills** — 6 active skills with runes and 4 passives, with full tooltips (cost, cooldown,
   damage) generated from the game files.

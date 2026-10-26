@@ -6,45 +6,33 @@
  * let the CSS in items.css color them.
  */
 import { Link } from "react-router-dom";
-import { Item, iconSrc, rarityColorClass } from "@/lib/items";
+import { Item, iconSrc } from "@/lib/items";
+import { NativeItemFrame } from "./NativeItemFrame";
 
 interface Props {
   item: Item;
 }
 
 const ItemTooltip = ({ item }: Props) => {
-  const nameColor = rarityColorClass(item.rarity);
   const icon = iconSrc(item);
 
   return (
-    <div className="d3-tooltip panel-stone bg-card/90 backdrop-blur-sm p-5 max-w-md">
-      <div className="flex items-start gap-4">
+    <NativeItemFrame name={item.name} rarity={item.rarity} className="d3-tooltip max-w-md">
+      <div className="native-item-summary">
         {icon && (
-          <div className="flex-none w-[66px] flex items-start justify-center">
+          <div className="native-item-art">
             <img
               src={icon}
               alt=""
               loading="lazy"
-              className="max-w-[66px] max-h-[130px] w-auto h-auto border border-stone bg-night"
-              style={{ imageRendering: "pixelated" }}
             />
           </div>
         )}
         <div className="min-w-0 flex-1">
-          <h3
-            className={`font-display text-lg leading-tight tracking-wider ${nameColor}`}
-          >
-            {item.name}
-          </h3>
-          <p className="font-mono text-[10px] uppercase tracking-[0.2em] text-muted-foreground mt-1">
+          <p className="native-item-kind">
             {item.item_type}
-            {item.slot ? <> · {item.slot}</> : null}
           </p>
-          {item.required_level != null && (
-            <p className="font-mono text-[10px] uppercase tracking-[0.2em] text-muted-foreground mt-1">
-              Required level <span className="text-bone">{item.required_level}</span>
-            </p>
-          )}
+          {item.slot && <p className="native-item-slot">{item.slot}</p>}
           {item.class_restriction.length > 0 && (
             <p className="font-mono text-[10px] uppercase tracking-[0.2em] text-bone/80 mt-1">
               {item.class_restriction.join(" · ")}
@@ -56,10 +44,10 @@ const ItemTooltip = ({ item }: Props) => {
       {item.armor_or_weapon.map((block, i) => (
         <div key={i} className="mt-2">
           {block.value && (
-            <div className="font-display text-2xl text-bone leading-none">
+            <div className="native-stat-number">
               {block.value}
               {block.label && (
-                <div className="font-mono text-[10px] uppercase tracking-[0.2em] text-muted-foreground mt-1">
+                <div className="native-stat-label">
                   {block.label}
                 </div>
               )}
@@ -111,22 +99,18 @@ const ItemTooltip = ({ item }: Props) => {
 
       {item.item_set && <SetBlock set={item.item_set} />}
 
-      {(item.extras.length > 0 || item.unique_equipped) && (
-        <div className="mt-3 pt-2 border-t border-dashed border-stone/60 font-mono text-[11px] uppercase tracking-[0.15em] text-muted-foreground">
-          {[
-            ...(item.unique_equipped ? ["Unique Equipped"] : []),
-            ...item.extras,
-          ].join(" · ")}
-        </div>
-      )}
-
       {item.flavor && (
         <div
-          className="d3-rich mt-3 pt-2 border-t border-dashed border-stone/60 font-serif-elegant italic text-bone/70 text-sm leading-snug"
+          className="d3-rich native-item-flavor"
           dangerouslySetInnerHTML={{ __html: item.flavor }}
         />
       )}
-    </div>
+      <span className="native-item-end">
+        {item.unique_equipped && <span className="unique">Unique Equipped</span>}
+        {item.required_level != null && <span className="block">Required Level: {item.required_level}</span>}
+        {item.extras.map((line, i) => <span className="block" key={i}>{line}</span>)}
+      </span>
+    </NativeItemFrame>
   );
 };
 
@@ -137,8 +121,8 @@ const Section = ({
   label: string;
   children: React.ReactNode;
 }) => (
-  <div className="mt-3 pt-2 border-t border-dashed border-stone/60">
-    <h4 className="font-mono text-[10px] uppercase tracking-[0.25em] text-muted-foreground mb-1">
+  <div className="native-item-section">
+    <h4>
       {label}
     </h4>
     {children}
