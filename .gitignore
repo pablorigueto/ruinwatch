@@ -37,3 +37,11 @@ casc-tools/pow/
 scripts/cache/
 .env.*
 .deploy_staging/
+
+# Private operational notes and deployment configuration never belong in this public repository.
+DEPLOYMENT.md
+DEPLOYMENT.local.md
+*.private.*
+*.pem
+*.key
+*.pfx
