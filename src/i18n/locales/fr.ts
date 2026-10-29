@@ -13,6 +13,7 @@ const translation = {
     "pricing": "Un tarif d’environ 70 USD par mois est envisagé, mais rien n’est fixé. Notre objectif est un prix abordable pour les administrateurs, permettant des mises à jour régulières, des améliorations continues et un serveur stable et fiable. La contribution d’aujourd’hui est un paiement unique en USD et ne démarre aucun abonnement."
   },
   "nav": {
+    "rates": "Taux et outils",
     "groupVigil": "La Veille",
     "groupCodex": "Codex",
     "groupMerchants": "Marchands",

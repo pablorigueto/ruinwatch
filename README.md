@@ -268,6 +268,27 @@ scripts/            preset-build generators and validator, sitemap, prerender, K
 
 ## Testing and quality
 
+### Public server rates page
+
+`/rates` is a static gameplay guide with shared account rules, inventory tools and event reward tables.
+Its English and Portuguese content uses the public snapshot in `src/data/server-rates.json`.
+Other site languages fall back to English for this page.
+
+Refresh the snapshot locally before publishing gameplay changes:
+
+```bash
+npm run sync:rates -- --config <local-config-file>
+npm run build
+```
+
+The exporter selects only public gameplay fields; it never publishes source paths, operational
+settings or the complete server/launcher configuration. The build uses the checked-in
+snapshot, so hosting needs no backend and cannot read live server configuration.
+Publish the rebuilt static files after each rate change. Keep access details,
+deployment instructions and infrastructure paths outside this public repository.
+
+### Checks
+
 ```bash
 npm test                                   # unit tests (build files, Altar costs, SEO)
 npm run lint                               # ESLint

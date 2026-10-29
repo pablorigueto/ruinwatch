@@ -26,6 +26,11 @@ export function fullTitle(title: string): string {
 /** The shareable, navigationally-important routes worth prerendering. */
 export const ROUTE_META: RouteMeta[] = [
   {
+    path: "/rates",
+    title: "Free to Play · Rates, Features & QoL",
+    description: "Play RuinWatch for free. Every account includes the same rates, custom events, material-based auction and quality-of-life tools. Explore every feature and reward.",
+  },
+  {
     path: "/builds",
     title: "Diablo 3 Build Tier List — Rites of Sanctuary",
     description:

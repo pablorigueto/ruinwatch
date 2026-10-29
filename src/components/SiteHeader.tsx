@@ -36,6 +36,7 @@ const SiteHeader = () => {
   const { t } = useTranslation();
 
   const VIGIL_LINKS: NavLink[] = [
+    { href: "/rates", label: t("nav.rates"), route: true },
     { href: "/#story", label: t("nav.vigil") },
     { href: "/#features", label: t("nav.features") },
     { href: "/#support", label: t("support.nav") },

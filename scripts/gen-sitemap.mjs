@@ -21,6 +21,7 @@ const CLASSES = [
 
 /** Static, high-value routes with crawl priority. */
 const STATIC = [
+  { loc: "/rates", priority: "0.9", changefreq: "weekly" },
   { loc: "/", priority: "1.0", changefreq: "weekly" },
   { loc: "/builds", priority: "0.9", changefreq: "weekly" },
   { loc: "/cosmetics", priority: "0.9", changefreq: "monthly" },

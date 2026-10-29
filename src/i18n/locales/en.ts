@@ -13,6 +13,7 @@ const translation = {
     "pricing": "A monthly price of around US$70 is being considered, but is not yet final. The goal is to keep it affordable for server administrators while sustaining regular updates, ongoing improvements and a stable, reliable server. Today’s contribution is a one-time payment in USD and does not start a subscription."
   },
   "nav": {
+    "rates": "Rates & Tools",
     "groupVigil": "The Vigil",
     "groupCodex": "Codex",
     "groupMerchants": "Merchants",

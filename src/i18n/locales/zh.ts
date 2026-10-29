@@ -13,6 +13,7 @@ const translation = {
     "pricing": "我们正在考虑每月约 70 美元的价格，但尚未确定。目标是让服务器管理员负担得起，同时支持定期更新、持续改进以及稳定可靠的服务器。今天的贡献为一次性美元付款，不会开启订阅。"
   },
   "nav": {
+    "rates": "倍率与工具",
     "groupVigil": "守望",
     "groupCodex": "典籍",
     "groupMerchants": "商人",

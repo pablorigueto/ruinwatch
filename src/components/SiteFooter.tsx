@@ -43,6 +43,7 @@ const SiteFooter = () => {
                 { href: "#story", label: t('nav.vigil') },
                 { href: "#features", label: t('nav.features') },
                 { href: "/builds", label: t('nav.builds') },
+                { href: "/rates", label: t('nav.rates') },
                 { href: "#join", label: t('nav.join') },
                 { href: "/#support", label: t('support.nav') }
               ].map((l, i) => (

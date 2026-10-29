@@ -23,6 +23,7 @@ const Classes = lazy(() => import("./pages/Classes.tsx"));
 const ClassDetail = lazy(() => import("./pages/ClassDetail.tsx"));
 const Planner = lazy(() => import("./pages/Planner.tsx"));
 const Builds = lazy(() => import("./pages/Builds.tsx"));
+const Rates = lazy(() => import("./pages/Rates.tsx"));
 const NotFound = lazy(() => import("./pages/NotFound.tsx"));
 
 const queryClient = new QueryClient();
@@ -49,6 +50,7 @@ const App = () => (
             <Route path="/classes/:slug" element={<ClassDetail />} />
             <Route path="/planner" element={<Planner />} />
             <Route path="/builds" element={<Builds />} />
+            <Route path="/rates" element={<Rates />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>

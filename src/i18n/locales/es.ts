@@ -13,6 +13,7 @@ const translation = {
     "pricing": "Estamos evaluando una mensualidad de unos US$70, pero el precio aún no está definido. La idea es mantener un precio accesible para administradores que permita sostener actualizaciones regulares, mejoras continuas y un servidor estable y fiable. La contribución de hoy es un pago único en USD y no inicia una suscripción."
   },
   "nav": {
+    "rates": "Rates y herramientas",
     "groupVigil": "La Vigilia",
     "groupCodex": "Códex",
     "groupMerchants": "Mercaderes",

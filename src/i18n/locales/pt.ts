@@ -13,6 +13,7 @@ const translation = {
     "pricing": "Estamos avaliando uma mensalidade próxima de US$70, mas o preço ainda não foi definido. A ideia é manter um valor acessível para administradores e que sustente atualizações regulares, melhorias contínuas e um servidor estável e confiável. A contribuição de hoje é avulsa, em USD, e não inicia uma assinatura."
   },
   "nav": {
+    "rates": "Rates e ferramentas",
     "groupVigil": "A Vigília",
     "groupCodex": "Códex",
     "groupMerchants": "Mercadores",
