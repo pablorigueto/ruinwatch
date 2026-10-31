@@ -33,7 +33,7 @@ type NavLink = { href: string; label: string; route?: boolean };
 const SiteHeader = () => {
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
 
   const VIGIL_LINKS: NavLink[] = [
     { href: "/rates", label: t("nav.rates"), route: true },
@@ -50,6 +50,7 @@ const SiteHeader = () => {
   ];
 
   const MERCHANT_LINKS: NavLink[] = [
+    { href: `https://market.ruinwatch.com/?lang=${encodeURIComponent(i18n.resolvedLanguage || "en")}`, label: t("nav.market") },
     { href: "/kadala", label: t("nav.kadala"), route: true },
     { href: "/myriam", label: t("nav.myriam"), route: true },
     { href: "/shen", label: t("nav.shen"), route: true },
