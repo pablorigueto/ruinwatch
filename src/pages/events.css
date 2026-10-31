@@ -21,6 +21,21 @@
 .events-location{font-family:'Cinzel',serif;font-size:14px;color:#bcb29e}
 .events-feature-link{display:flex;justify-content:space-between;align-items:center;text-align:left;margin-top:30px;padding:20px 0;border-top:1px solid #61472d;color:#e2c899;font-size:12px}
 .events-content{max-width:1240px}
+.events-modes{margin-bottom:70px;padding-top:10px}
+.events-modes>h2{font-family:'Cinzel',serif;font-size:clamp(26px,3vw,36px);color:#e7decb;margin:14px 0 28px;line-height:1.4}
+.events-mode-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.events-mode-card{padding:28px 24px;border:1px solid #443b2c;background:linear-gradient(145deg,#211d16,#11130f);display:flex;flex-direction:column;min-width:0}
+.events-mode-number{font-family:'Cinzel',serif;font-size:12px;color:#b58c55;letter-spacing:.15em}
+.events-mode-card h3{font-family:'Cinzel',serif;font-size:21px;color:#dfcda9;margin:16px 0;line-height:1.4}
+.events-mode-card p,.events-mode-card li,.events-mode-notes p{font-size:13px;line-height:1.85;color:#bcbcaf}
+.events-mode-card ul{display:grid;gap:12px;margin-top:24px;padding-top:20px;border-top:1px solid #443b2c}
+.events-mode-card li{display:flex;gap:10px;align-items:flex-start}
+.events-mode-card li svg{flex-shrink:0;margin-top:5px;color:#d4af72}
+.events-mode-notes{display:grid;grid-template-columns:1fr 1fr;gap:30px;padding:24px;border:1px solid #443b2c;border-top:0;background:#171914}
+.events-mode-notes strong{display:block;color:#dfcda9;font-weight:500;margin-bottom:5px}
+.events-directory-top{min-height:40px}
+.events-directory-top img{width:36px;height:40px;object-fit:contain;filter:drop-shadow(0 2px 5px #000)}
+@media(max-width:767px){.events-mode-grid,.events-mode-notes{grid-template-columns:1fr}.events-mode-card{padding:24px 20px}.events-mode-notes{padding:22px 20px;gap:22px}.events-modes{margin-bottom:45px}}
 .events-directory{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px;scroll-margin-top:105px;margin-bottom:88px}
 .events-directory-card{padding:23px 20px;border:1px solid #353128;background:linear-gradient(140deg,#221c15,#10120f);display:flex;flex-direction:column;transition:border-color .2s,background .2s;min-width:0}
 .events-directory-card:hover{border-color:var(--event-accent);background:#241e16}

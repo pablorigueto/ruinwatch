@@ -13,7 +13,7 @@ const entries = [
   { id: 'cow', icon: Swords, color: 'gold', image: '/items/icons/unique_polearm_101_x1_demonhunter_male.png' },
   { id: 'vault', icon: Gem, color: 'gold', image: '/items/icons/unique_ring_004_x1_demonhunter_male.png' },
   { id: 'visions', icon: Compass, color: 'violet' },
-  { id: 'survival', icon: Flame, color: 'crimson' },
+  { id: 'survival', icon: Flame, color: 'crimson', image: '/items/icons/crimson-nightmare.png' },
 ] as const;
 
 export default function Events() {
@@ -42,11 +42,29 @@ export default function Events() {
       </section>
 
       <div className="container events-content">
+        <section className="events-modes" aria-labelledby="game-modes-title">
+          <p className="events-eyebrow">{c.modes.eyebrow}</p>
+          <h2 id="game-modes-title">{c.modes.title}</h2>
+          <div className="events-mode-grid">
+            {c.modes.cards.map((mode, index) => <article className="events-mode-card" key={index}>
+              <span className="events-mode-number">0{index + 1}</span>
+              <h3>{mode.name}</h3><p>{mode.description}</p>
+              <ul>{mode.rules.map((rule, i) => <li key={i}><Check size={15} aria-hidden="true" /><span>{rule}</span></li>)}</ul>
+            </article>)}
+          </div>
+          <div className="events-mode-notes">
+            <p><strong>{c.modes.grTitle}</strong>{c.modes.gr}</p>
+            <p><strong>{c.modes.cubeTitle}</strong>{c.modes.cube}</p>
+          </div>
+        </section>
         <nav className="events-directory" id="adventures" aria-label={c.browse}>
-          {entries.map(({ id, icon: Icon, color }, index) => <a href={`#${id}`} className={`events-directory-card event-${color}`} key={id}>
-            <span className="events-directory-top"><Icon size={25} strokeWidth={1.25} aria-hidden="true" /><span>0{index + 1}</span></span>
-            <h2>{c[id].name}</h2><p>{c[id].players}</p><span className="events-card-link">{c.details}<ArrowDown size={14} /></span>
-          </a>)}
+          {entries.map((entry, index) => {
+            const Icon = entry.icon;
+            return <a href={`#${entry.id}`} className={`events-directory-card event-${entry.color}`} key={entry.id}>
+              <span className="events-directory-top">{'image' in entry ? <img src={entry.image} alt="" /> : <Icon size={25} strokeWidth={1.25} aria-hidden="true" />}<span>0{index + 1}</span></span>
+              <h2>{c[entry.id].name}</h2><p>{c[entry.id].players}</p><span className="events-card-link">{c.details}<ArrowDown size={14} /></span>
+            </a>;
+          })}
         </nav>
 
         {entries.map((entry, index) => {
