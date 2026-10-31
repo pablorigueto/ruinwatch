@@ -44,6 +44,7 @@ const SiteFooter = () => {
                 { href: "#features", label: t('nav.features') },
                 { href: "/builds", label: t('nav.builds') },
                 { href: "/rates", label: t('nav.rates') },
+                { href: "/events", label: t('events.nav') },
                 { href: "#join", label: t('nav.join') },
                 { href: "/#support", label: t('support.nav') }
               ].map((l, i) => (

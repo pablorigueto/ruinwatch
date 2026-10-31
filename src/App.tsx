@@ -23,6 +23,7 @@ const Classes = lazy(() => import("./pages/Classes.tsx"));
 const ClassDetail = lazy(() => import("./pages/ClassDetail.tsx"));
 const Planner = lazy(() => import("./pages/Planner.tsx"));
 const Builds = lazy(() => import("./pages/Builds.tsx"));
+const Events = lazy(() => import("./pages/Events.tsx"));
 const Rates = lazy(() => import("./pages/Rates.tsx"));
 const NotFound = lazy(() => import("./pages/NotFound.tsx"));
 
@@ -51,6 +52,7 @@ const App = () => (
             <Route path="/planner" element={<Planner />} />
             <Route path="/builds" element={<Builds />} />
             <Route path="/rates" element={<Rates />} />
+            <Route path="/events" element={<Events />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>

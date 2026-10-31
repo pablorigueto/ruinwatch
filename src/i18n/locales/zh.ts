@@ -1,6 +1,8 @@
+import events from '../events/zh.json';
 // Auto-generated: one file per language so the homepage only ships the
 // active language; the others are fetched on demand by src/i18n/index.ts.
 const translation = {
+  events,
   "support": {
     "nav": "支持 RuinWatch",
     "eyebrow": "由社区共同守护",

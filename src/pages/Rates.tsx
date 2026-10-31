@@ -22,7 +22,7 @@ function Table({ headers, rows, caption }: { headers: string[]; rows: Row[]; cap
 }
 
 export default function Rates() {
-  const { i18n } = useTranslation();
+  const { i18n, t } = useTranslation();
   const pt = i18n.language.startsWith('pt');
   const c = (en: string, br: string) => pt ? br : en;
   const n = (v: number) => new Intl.NumberFormat(pt ? 'pt-BR' : 'en-US', { maximumFractionDigits: 4 }).format(v);
@@ -155,6 +155,7 @@ export default function Rates() {
 
         <section aria-labelledby="events">
           {sectionTitle('events', '04', c('Choose your next run', 'Escolha sua próxima aventura'), c('Event rules and reward ranges, without the guesswork.', 'Regras dos eventos e faixas de recompensas, de forma direta.'))}
+          <a href="/events" className="inline-flex items-center gap-2 mb-6 text-sm text-ember hover:text-bone">{t('events.nav')} · {t('events.how')}<ArrowUpRight size={15} aria-hidden="true" /></a>
           <div className="rates-event-tabs" role="group" aria-label={c('Choose an event', 'Escolha um evento')}>{eventNames.map(([key, label]) => <button key={key} aria-pressed={event === key} onClick={() => setEvent(key)}>{label}</button>)}</div>
           <div className="rates-event-panel" aria-live="polite">
             <h3><Sparkles size={20} aria-hidden="true" />{eventNames.find(([key]) => key === event)?.[1]}</h3>

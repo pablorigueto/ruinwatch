@@ -26,6 +26,11 @@ export function fullTitle(title: string): string {
 /** The shareable, navigationally-important routes worth prerendering. */
 export const ROUTE_META: RouteMeta[] = [
   {
+    path: "/events",
+    title: "Custom events",
+    description: "Face a shared world boss, turn Ancient items into farming expeditions, or build your strength one survival wave at a time. These adventures are free for every account.",
+  },
+  {
     path: "/rates",
     title: "Free to Play · Rates, Features & QoL",
     description: "Play RuinWatch for free. Every account includes the same rates, custom events, material-based auction and quality-of-life tools. Explore every feature and reward.",

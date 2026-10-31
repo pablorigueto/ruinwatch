@@ -1,6 +1,8 @@
+import events from '../events/fr.json';
 // Auto-generated: one file per language so the homepage only ships the
 // active language; the others are fetched on demand by src/i18n/index.ts.
 const translation = {
+  events,
   "support": {
     "nav": "Soutenir RuinWatch",
     "eyebrow": "PORTÉ PAR LA COMMUNAUTÉ",
