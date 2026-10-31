@@ -151,5 +151,7 @@
     "gr": "Seuls les membres de votre groupe peuvent entrer dans votre faille supérieure, avec un maximum de 4 joueurs. Les limites plus élevées de session et de groupe ne changent pas ce plafond.",
     "cubeTitle": "Les événements du Cube restent disponibles",
     "cube": "Les autres événements ouverts via le Cube de Kanai fonctionnent toujours, selon leurs conditions d’accès. Retrouvez les objets et portails nécessaires dans les guides ci-dessous."
-  }
+  },
+  "launcherDownload": "Télécharger le launcher",
+  "launcherAvailability": "Disponible le 1er novembre au matin."
 }

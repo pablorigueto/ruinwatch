@@ -151,5 +151,7 @@
     "gr": "Only members of your party can enter your Greater Rift, with a maximum of 4 players. The larger session and party limits do not increase this cap.",
     "cubeTitle": "Your Cube events still work",
     "cube": "Other events opened through Kanai’s Cube remain available, following each event’s entry requirements. See the item and portal instructions below."
-  }
+  },
+  "launcherDownload": "Download launcher",
+  "launcherAvailability": "Available November 1, in the morning."
 }

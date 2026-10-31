@@ -11,6 +11,8 @@
  */
 
 /** Canonical production origin — used for absolute canonical/OG URLs + sitemap. */
+import { YOUTUBE_URL } from './site';
+
 export const SITE_URL = "https://ruinwatch.com";
 
 export const SITE_NAME = "RuinWatch";
@@ -59,7 +61,7 @@ export function organizationSchema() {
     logo: absUrl("/favicon.png"),
     sameAs: [
       "https://www.facebook.com/ruinwatch",
-      "https://www.instagram.com/ruinwatch",
+      YOUTUBE_URL,
     ],
   };
 }

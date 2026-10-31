@@ -356,3 +356,8 @@
 .animate-fade-in-slow { animation: fade-in-slow 1.6s ease-out both; }
 .animate-pulse-ember { animation: pulse-ember 3s ease-in-out infinite; }
 .animate-loader-sweep { animation: loader-sweep 1.1s ease-in-out infinite; }
+/* Downloads remain unavailable until the public release link is supplied. */
+.launcher-download{margin:24px auto 0;max-width:420px;text-align:center}
+.launcher-download-button{display:flex;align-items:center;justify-content:center;gap:12px;min-height:52px;width:100%;padding:14px 20px;border:1px solid #655239;background:#211c16;color:#bca47c;font-family:'Cinzel',serif;font-size:13px;line-height:1.6;cursor:not-allowed}
+.launcher-download-button svg{flex-shrink:0}
+.launcher-download p{margin-top:9px;color:#a8a393;font-size:12px;line-height:1.6}

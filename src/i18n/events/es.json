@@ -151,5 +151,7 @@
     "gr": "Solo los miembros de tu grupo pueden entrar en tu falla superior, con un máximo de 4 jugadores. Los límites mayores de sesión y grupo no aumentan este máximo.",
     "cubeTitle": "Los eventos del Cubo siguen disponibles",
     "cube": "Los demás eventos abiertos con el Cubo de Kanai funcionan normalmente, respetando sus requisitos de entrada. Consulta los objetos y portales en las guías siguientes."
-  }
+  },
+  "launcherDownload": "Descargar launcher",
+  "launcherAvailability": "Disponible el 1 de noviembre por la mañana."
 }

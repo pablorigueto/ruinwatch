@@ -5,6 +5,7 @@
 
 /** Community Discord invite — every "join" CTA + the social icon point here. */
 export const DISCORD_URL = "https://discord.gg/hufKAehxT2";
+export const YOUTUBE_URL = "https://www.youtube.com/@RuinWatchServer";
 
 /** Payments are hosted separately; no Stripe credentials belong in this site. */
 export const DONATE_URL = "https://donate.ruinwatch.com";

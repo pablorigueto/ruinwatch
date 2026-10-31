@@ -1,21 +1,20 @@
 /**
- * SocialLinks — Discord / Facebook / Instagram icon buttons.
+ * SocialLinks — Discord / Facebook / YouTube icon buttons.
  *
- * lucide-react ships Facebook & Instagram but dropped brand logos like Discord,
+ * lucide-react ships Facebook & YouTube but dropped brand logos like Discord,
  * so the Discord mark is an inline SVG of the official glyph. All three render
  * as square ghost buttons that glow ember on hover, matching the site chrome.
  */
-import { Facebook, Instagram } from "lucide-react";
-import { DISCORD_URL } from "@/lib/site";
+import { Facebook, Youtube } from "lucide-react";
+import { DISCORD_URL, YOUTUBE_URL } from "@/lib/site";
 import DiscordIcon from "./DiscordIcon";
 
 const FACEBOOK_URL = "https://www.facebook.com/ruinwatch";
-const INSTAGRAM_URL = "https://www.instagram.com/ruinwatch";
 
 const ITEMS = [
   { href: DISCORD_URL, label: "Discord", Icon: DiscordIcon },
   { href: FACEBOOK_URL, label: "Facebook", Icon: Facebook },
-  { href: INSTAGRAM_URL, label: "Instagram", Icon: Instagram },
+  { href: YOUTUBE_URL, label: "YouTube", Icon: Youtube },
 ];
 
 const SocialLinks = ({

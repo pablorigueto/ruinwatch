@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { ArrowDown, ArrowUpRight, Skull, Swords, Flame, Gem, Footprints, Compass, Check } from 'lucide-react';
 import SiteHeader from '@/components/SiteHeader';
 import SiteFooter from '@/components/SiteFooter';
+import LauncherDownload from '@/components/LauncherDownload';
 import Seo from '@/components/Seo';
 import hero from '@/assets/hero-watchtower.webp';
 import type english from '@/i18n/events/en.json';
@@ -98,6 +99,7 @@ export default function Events() {
 
         <section className="events-closing">
           <p className="events-eyebrow">RUINWATCH</p><h2>{c.free}</h2><p>{c.footer}</p>
+          <LauncherDownload />
           <div className="events-actions"><Link className="events-button primary" to="/builds">{c.builds}<ArrowUpRight size={16} /></Link><a className="events-button" href="/#join">{c.join}<ArrowUpRight size={16} /></a></div>
           <p className="events-updated">{c.updated}</p>
         </section>

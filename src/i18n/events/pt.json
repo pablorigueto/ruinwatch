@@ -151,5 +151,7 @@
     "gr": "Somente integrantes da sua party podem entrar na sua Fenda Maior, com limite de 4 jogadores. Os limites maiores de sessão e party não ampliam esse limite.",
     "cubeTitle": "Os eventos do Cubo continuam funcionando",
     "cube": "Os demais eventos abertos pelo Cubo de Kanai continuam disponíveis, respeitando os requisitos de entrada de cada evento. Confira os itens e portais nos guias abaixo."
-  }
+  },
+  "launcherDownload": "Baixar launcher",
+  "launcherAvailability": "Disponível em 1º de novembro, pela manhã."
 }

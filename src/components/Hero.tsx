@@ -5,6 +5,7 @@ import { ArrowRight, Heart, Swords } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { DISCORD_URL, DONATE_URL, PRE_LAUNCH, ACCOUNT_REGISTER_URL, ACCOUNT_RECOVER_URL, ALPHA_RELEASE_DATE } from "@/lib/site";
 import DiscordIcon from "./DiscordIcon";
+import LauncherDownload from "./LauncherDownload";
 
 const Hero = () => {
   const { t } = useTranslation();
@@ -114,6 +115,7 @@ const Hero = () => {
             </a>
           </div>
           <p className="mt-4 text-xs leading-relaxed text-muted-foreground">{t('hero.donateNote')}</p>
+          <LauncherDownload />
         </div>
 
         {/* Scroll cue */}
