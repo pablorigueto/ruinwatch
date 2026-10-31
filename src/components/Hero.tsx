@@ -59,7 +59,7 @@ const Hero = () => {
         </p>
 
         <h1
-          className="font-display text-5xl sm:text-6xl md:text-7xl lg:text-8xl text-bone tracking-[0.15em] uppercase mb-6 text-stone-carved animate-fade-up"
+          className="font-display text-4xl sm:text-6xl md:text-7xl lg:text-8xl text-bone tracking-[0.08em] sm:tracking-[0.15em] uppercase mb-6 text-stone-carved animate-fade-up"
           style={{ animationDelay: "0.15s" }}
         >
           {t('hero.title')}
