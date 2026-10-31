@@ -5,12 +5,12 @@ const translation = {
     "nav": "Support RuinWatch",
     "eyebrow": "KEPT ALIVE BY THE COMMUNITY",
     "title": "Keep the flame alive.",
-    "body": "Help us build the stable RuinWatch server version for people who will administer their own servers. Your support funds version updates, bug fixes, new features and simpler configuration.",
-    "voluntary": "Contribute now and receive twice your contribution as credit toward the stable server version’s monthly subscription at launch. For example, US$50 contributed becomes US$100 in subscription credit.",
+    "body": "Your donation helps keep RuinWatch online, covering hosting, maintenance, bug fixes and updates for the community.",
+    "voluntary": "Support is voluntary. Choose a one-time donation to help maintain the server.",
     "cta": "Support the project",
     "payment": "Secure payment with Stripe at donate.ruinwatch.com.",
-    "prelaunch": "The stable server version is in development. The launch date has not been set; your double credit will apply at launch.",
-    "pricing": "A monthly price of around US$70 is being considered, but is not yet final. The goal is to keep it affordable for server administrators while sustaining regular updates, ongoing improvements and a stable, reliable server. Today’s contribution is a one-time payment in USD and does not start a subscription."
+    "prelaunch": "Discord recognition and possible cosmetic rewards are being planned. Details and eligibility will be announced when ready; rewards are not guaranteed with a donation today.",
+    "pricing": "Donations are charged in USD. There is no recurring charge or subscription credit."
   },
   "nav": {
     "rates": "Rates & Tools",
@@ -392,6 +392,9 @@ const translation = {
     "noRelated": "No kindred relics recorded."
   },
   "hero": {
+    "alphaRelease": "Nov/01 · Alpha Release",
+    "createAccount": "Create account",
+    "recoverAccount": "Recover account",
     "anno": "— Free Diablo 3 Private Server —",
     "title": "Ruinwatch",
     "subtitle": "Canonical D3 · Rites of Sanctuary · Ethereal Weapons",

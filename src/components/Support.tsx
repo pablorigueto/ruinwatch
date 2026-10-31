@@ -1,6 +1,6 @@
 import { ArrowUpRight, Flame } from "lucide-react";
 import { useTranslation } from "react-i18next";
-import { DONATE_URL, PRE_LAUNCH } from "@/lib/site";
+import { DONATE_URL } from "@/lib/site";
 
 export default function Support() {
   const { t } = useTranslation();
@@ -17,7 +17,7 @@ export default function Support() {
           {t("support.cta")} <ArrowUpRight className="h-4 w-4" aria-hidden="true" />
         </a>
         <p className="text-xs text-muted-foreground mt-5">{t("support.payment")}</p>
-        {PRE_LAUNCH && <p className="text-xs text-muted-foreground/80 mt-2">{t("support.prelaunch")}</p>}
+        <p className="max-w-2xl mx-auto text-sm text-muted-foreground/80 mt-5">{t("support.prelaunch")}</p>
       </div>
     </section>
   );

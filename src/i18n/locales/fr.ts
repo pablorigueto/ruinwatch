@@ -5,12 +5,12 @@ const translation = {
     "nav": "Soutenir RuinWatch",
     "eyebrow": "PORTÉ PAR LA COMMUNAUTÉ",
     "title": "Gardez la flamme vivante.",
-    "body": "Aidez-nous à développer la version stable de RuinWatch pour les personnes qui administreront leurs propres serveurs. Votre soutien finance les mises à jour, les corrections de bugs, les nouveautés et une configuration plus simple.",
-    "voluntary": "Contribuez maintenant et recevez le double de votre contribution en crédit pour l’abonnement mensuel à la version stable lors de son lancement. Par exemple, 50 USD deviennent 100 USD de crédit.",
+    "body": "Votre don aide à maintenir RuinWatch en ligne et à financer l’hébergement, la maintenance, les corrections et les mises à jour pour la communauté.",
+    "voluntary": "Le soutien est volontaire. Choisissez un don ponctuel pour aider à maintenir le serveur.",
     "cta": "Soutenir le projet",
     "payment": "Paiement sécurisé avec Stripe sur donate.ruinwatch.com.",
-    "prelaunch": "La version stable est en développement, sans date de lancement définie. Votre crédit doublé sera applicable au lancement.",
-    "pricing": "Un tarif d’environ 70 USD par mois est envisagé, mais rien n’est fixé. Notre objectif est un prix abordable pour les administrateurs, permettant des mises à jour régulières, des améliorations continues et un serveur stable et fiable. La contribution d’aujourd’hui est un paiement unique en USD et ne démarre aucun abonnement."
+    "prelaunch": "Une reconnaissance sur Discord et d’éventuelles récompenses cosmétiques sont en préparation. Les détails et conditions seront annoncés une fois définis ; un don aujourd’hui ne garantit aucune récompense.",
+    "pricing": "Les dons sont facturés en USD, sans paiement récurrent ni crédit d’abonnement."
   },
   "nav": {
     "rates": "Taux et outils",
@@ -392,6 +392,9 @@ const translation = {
     "noRelated": "Aucune relique apparentée enregistrée."
   },
   "hero": {
+    "alphaRelease": "01/Nov · Lancement Alpha",
+    "createAccount": "Créer un compte",
+    "recoverAccount": "Récupérer le compte",
     "anno": "— Serveur Privé Gratuit de Diablo 3 —",
     "title": "Ruinwatch",
     "subtitle": "D3 Canonique · Rites of Sanctuary · Ethereal Weapons",

@@ -4,7 +4,7 @@ import LogoMark from "./LogoMark";
 import heroImg from "@/assets/hero-watchtower.webp";
 import { ArrowRight } from "lucide-react";
 import { useTranslation } from "react-i18next";
-import { DISCORD_URL, PRE_LAUNCH } from "@/lib/site";
+import { DISCORD_URL, PRE_LAUNCH, ACCOUNT_REGISTER_URL, ACCOUNT_RECOVER_URL, ALPHA_RELEASE_DATE } from "@/lib/site";
 import DiscordIcon from "./DiscordIcon";
 
 const Hero = () => {
@@ -50,7 +50,7 @@ const Hero = () => {
           <div className="flex justify-center mb-5 animate-fade-up">
             <span className="inline-flex items-center gap-2 px-4 py-1.5 border border-ember/50 bg-ember/10 text-ember font-mono text-[10px] md:text-xs uppercase tracking-[0.3em]">
               <span className="w-1.5 h-1.5 rounded-full bg-ember animate-pulse" />
-              {t('hero.comingSoon')}
+              <time dateTime={ALPHA_RELEASE_DATE}>{t('hero.alphaRelease')}</time>
             </span>
           </div>
         )}
@@ -89,21 +89,24 @@ const Hero = () => {
           style={{ animationDelay: "0.6s" }}
         >
           <a
-            href={DISCORD_URL}
-            target="_blank"
-            rel="noopener noreferrer"
+            href={ACCOUNT_REGISTER_URL}
             className="btn-ember group w-full sm:w-auto sm:min-w-[280px]"
           >
-            <DiscordIcon className="w-4 h-4" />
-            {PRE_LAUNCH ? t('hero.joinDiscord') : t('nav.joinBtn')}
+            {t('hero.createAccount')}
             <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" strokeWidth={1.75} />
           </a>
-          <Link
-            to="/builds"
+          <a
+            href={ACCOUNT_RECOVER_URL}
             className="inline-flex items-center justify-center gap-3 w-full sm:w-auto sm:min-w-[280px] px-8 py-4 border border-bone/30 text-bone font-display text-sm tracking-[0.3em] uppercase hover:border-ember hover:text-ember transition-all duration-500"
           >
-            {t('hero.browse')}
-          </Link>
+            {t('hero.recoverAccount')}
+          </a>
+        </div>
+        <div className="mt-5 flex flex-wrap gap-x-8 gap-y-3 justify-center items-center text-sm text-muted-foreground">
+          <a href={DISCORD_URL} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 hover:text-ember transition-colors">
+            <DiscordIcon className="w-4 h-4" />{t('hero.joinDiscord')}
+          </a>
+          <Link to="/builds" className="hover:text-ember transition-colors">{t('hero.browse')}</Link>
         </div>
 
         {/* Scroll cue */}
