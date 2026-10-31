@@ -55,7 +55,7 @@ const Join = () => {
                   </div>
                 </div>
 
-                <div className="flex-1 panel-stone p-6 md:p-7 group-hover:border-ember/40 transition-colors">
+                <div className="min-w-0 flex-1 break-words panel-stone p-6 md:p-7 group-hover:border-ember/40 transition-colors">
                   <h3 className="font-display text-lg md:text-xl text-bone uppercase tracking-[0.2em] mb-2">
                     {step.title}
                   </h3>

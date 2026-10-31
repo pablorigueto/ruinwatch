@@ -392,6 +392,8 @@ const translation = {
     "noRelated": "Nenhuma relíquia aparentada registrada."
   },
   "hero": {
+    "donate": "Doar",
+    "donateNote": "Doações opcionais ajudam com hospedagem e manutenção. Grátis para jogar, com os mesmos recursos para todos.",
     "alphaRelease": "01/Nov · Lançamento Alpha",
     "createAccount": "Criar conta",
     "recoverAccount": "Recuperar conta",

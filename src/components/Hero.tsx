@@ -1,10 +1,9 @@
 import { Link } from "react-router-dom";
 import EmberField from "./EmberField";
-import LogoMark from "./LogoMark";
 import heroImg from "@/assets/hero-watchtower.webp";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Heart, Swords } from "lucide-react";
 import { useTranslation } from "react-i18next";
-import { DISCORD_URL, PRE_LAUNCH, ACCOUNT_REGISTER_URL, ACCOUNT_RECOVER_URL, ALPHA_RELEASE_DATE } from "@/lib/site";
+import { DISCORD_URL, DONATE_URL, PRE_LAUNCH, ACCOUNT_REGISTER_URL, ACCOUNT_RECOVER_URL, ALPHA_RELEASE_DATE } from "@/lib/site";
 import DiscordIcon from "./DiscordIcon";
 
 const Hero = () => {
@@ -85,28 +84,36 @@ const Hero = () => {
         </p>
 
         <div
-          className="mt-10 flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-up"
+          className="hero-actions mt-10 mx-auto w-full max-w-2xl animate-fade-up"
           style={{ animationDelay: "0.6s" }}
         >
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
           <a
             href={ACCOUNT_REGISTER_URL}
-            className="btn-ember group w-full sm:w-auto sm:min-w-[280px]"
+            className="btn-ember group w-full min-h-14"
           >
             {t('hero.createAccount')}
             <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" strokeWidth={1.75} />
           </a>
           <a
             href={ACCOUNT_RECOVER_URL}
-            className="inline-flex items-center justify-center gap-3 w-full sm:w-auto sm:min-w-[280px] px-8 py-4 border border-bone/30 text-bone font-display text-sm tracking-[0.3em] uppercase hover:border-ember hover:text-ember transition-all duration-500"
+            className="inline-flex items-center justify-center gap-3 w-full min-h-14 px-5 py-4 border border-bone/30 text-bone font-display text-sm tracking-[0.2em] uppercase hover:border-ember hover:text-ember focus-visible:outline focus-visible:outline-2 focus-visible:outline-ember focus-visible:outline-offset-4 transition-colors"
           >
             {t('hero.recoverAccount')}
           </a>
-        </div>
-        <div className="mt-5 flex flex-wrap gap-x-8 gap-y-3 justify-center items-center text-sm text-muted-foreground">
-          <a href={DISCORD_URL} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 hover:text-ember transition-colors">
-            <DiscordIcon className="w-4 h-4" />{t('hero.joinDiscord')}
-          </a>
-          <Link to="/builds" className="hover:text-ember transition-colors">{t('hero.browse')}</Link>
+          </div>
+          <div className="hero-secondary-actions mt-3 grid grid-cols-1 sm:grid-cols-3 gap-3">
+            <a href={DISCORD_URL} target="_blank" rel="noopener noreferrer" className="hero-secondary-button">
+              <DiscordIcon className="w-4 h-4 shrink-0" /><span>{t('hero.joinDiscord')}</span>
+            </a>
+            <Link to="/builds" className="hero-secondary-button">
+              <Swords className="w-4 h-4 shrink-0" aria-hidden="true" /><span>{t('hero.browse')}</span>
+            </Link>
+            <a href={DONATE_URL} target="_blank" rel="noopener noreferrer" className="hero-secondary-button border-gold/50 text-gold">
+              <Heart className="w-4 h-4 shrink-0" aria-hidden="true" /><span>{t('hero.donate')}</span>
+            </a>
+          </div>
+          <p className="mt-4 text-xs leading-relaxed text-muted-foreground">{t('hero.donateNote')}</p>
         </div>
 
         {/* Scroll cue */}

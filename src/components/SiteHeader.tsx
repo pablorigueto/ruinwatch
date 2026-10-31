@@ -34,6 +34,7 @@ const SiteHeader = () => {
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
   const { t, i18n } = useTranslation();
+  const marketUrl = `https://market.ruinwatch.com/?lang=${encodeURIComponent(i18n.resolvedLanguage || "en")}`;
 
   const VIGIL_LINKS: NavLink[] = [
     { href: "/rates", label: t("nav.rates"), route: true },
@@ -50,7 +51,6 @@ const SiteHeader = () => {
   ];
 
   const MERCHANT_LINKS: NavLink[] = [
-    { href: `https://market.ruinwatch.com/?lang=${encodeURIComponent(i18n.resolvedLanguage || "en")}`, label: t("nav.market") },
     { href: "/kadala", label: t("nav.kadala"), route: true },
     { href: "/myriam", label: t("nav.myriam"), route: true },
     { href: "/shen", label: t("nav.shen"), route: true },
@@ -80,16 +80,17 @@ const SiteHeader = () => {
           </span>
         </Link>
 
-        <nav className="hidden lg:flex items-center gap-8">
+        <nav className="hidden xl:flex items-center gap-5 2xl:gap-8">
           <NavGroup label={t("nav.groupVigil")} links={VIGIL_LINKS} />
           <NavGroup label={t("nav.groupCodex")} links={CODEX_LINKS} />
           <NavGroup label={t("nav.groupMerchants")} links={MERCHANT_LINKS} />
           <NavRoute to="/builds" label={t("nav.builds")} />
+          <NavAnchor href={marketUrl} label={t("nav.market")} />
           <NavAnchor href="/#join" label={t("nav.join")} />
         </nav>
 
         <div className="flex items-center gap-4">
-          <SocialLinks className="hidden md:flex" iconClassName="w-9 h-9" />
+          <SocialLinks className="hidden 2xl:flex" iconClassName="w-9 h-9" />
           <LanguageSwitcher />
           <a
             href={PRE_LAUNCH ? DISCORD_URL : "/#join"}
@@ -102,7 +103,7 @@ const SiteHeader = () => {
           {/* Mobile menu (hamburger → slide-in drawer) */}
           <Sheet open={mobileOpen} onOpenChange={setMobileOpen}>
             <SheetTrigger
-              className="lg:hidden inline-flex items-center justify-center w-10 h-10 text-bone hover:text-ember transition-colors focus:outline-none"
+              className="xl:hidden inline-flex items-center justify-center w-10 h-10 text-bone hover:text-ember transition-colors focus:outline-none"
               aria-label="Open menu"
             >
               <Menu className="w-6 h-6" strokeWidth={1.75} />
@@ -122,6 +123,7 @@ const SiteHeader = () => {
               </div>
 
               <nav className="px-3 py-4 space-y-6">
+                <a href={marketUrl} onClick={() => setMobileOpen(false)} className="block mx-3 px-3 py-3 border border-gold/40 font-display text-sm tracking-[0.2em] uppercase text-gold hover:bg-gold/10 transition-colors">{t("nav.market")}</a>
                 <MobileSection title={t("nav.groupVigil")} links={VIGIL_LINKS} onNavigate={() => setMobileOpen(false)} />
                 <MobileSection title={t("nav.groupCodex")} links={CODEX_LINKS} onNavigate={() => setMobileOpen(false)} />
                 <MobileSection title={t("nav.groupMerchants")} links={MERCHANT_LINKS} onNavigate={() => setMobileOpen(false)} />

@@ -392,6 +392,8 @@ const translation = {
     "noRelated": "Aucune relique apparentée enregistrée."
   },
   "hero": {
+    "donate": "Faire un don",
+    "donateNote": "Les dons facultatifs financent l’hébergement et la maintenance. Le jeu est gratuit, avec les mêmes fonctionnalités pour tous.",
     "alphaRelease": "01/Nov · Lancement Alpha",
     "createAccount": "Créer un compte",
     "recoverAccount": "Récupérer le compte",

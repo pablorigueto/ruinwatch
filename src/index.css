@@ -193,6 +193,18 @@
   }
 
   /* Primary CTA — high-contrast ember button */
+  .hero-secondary-button {
+    @apply inline-flex min-h-12 items-center justify-center gap-2 border border-bone/25 bg-background/40 px-3 py-3 text-sm text-bone/85 transition-colors;
+  }
+
+  .hero-secondary-button:hover {
+    @apply border-ember/70 bg-ember/10 text-bone;
+  }
+
+  .hero-secondary-button:focus-visible {
+    @apply outline outline-2 outline-ember outline-offset-4;
+  }
+
   .btn-ember {
     position: relative;
     display: inline-flex;

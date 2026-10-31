@@ -392,6 +392,8 @@ const translation = {
     "noRelated": "기록된 관련 유물이 없습니다."
   },
   "hero": {
+    "donate": "후원하기",
+    "donateNote": "자발적인 후원은 서버 호스팅과 유지보수에 도움이 됩니다. 누구나 무료로 동일한 기능을 이용할 수 있습니다.",
     "alphaRelease": "11월 1일 · 알파 출시",
     "createAccount": "계정 만들기",
     "recoverAccount": "계정 복구",

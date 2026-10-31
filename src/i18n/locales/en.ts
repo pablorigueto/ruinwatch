@@ -392,6 +392,8 @@ const translation = {
     "noRelated": "No kindred relics recorded."
   },
   "hero": {
+    "donate": "Donate",
+    "donateNote": "Optional donations help cover hosting and maintenance. Free to play, with the same features for everyone.",
     "alphaRelease": "Nov/01 · Alpha Release",
     "createAccount": "Create account",
     "recoverAccount": "Recover account",

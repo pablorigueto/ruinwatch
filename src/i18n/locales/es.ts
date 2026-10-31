@@ -392,6 +392,8 @@ const translation = {
     "noRelated": "No hay reliquias hermanadas registradas."
   },
   "hero": {
+    "donate": "Donar",
+    "donateNote": "Las donaciones opcionales ayudan con el alojamiento y el mantenimiento. Jugar es gratis, con las mismas funciones para todos.",
     "alphaRelease": "01/Nov · Lanzamiento Alpha",
     "createAccount": "Crear cuenta",
     "recoverAccount": "Recuperar cuenta",

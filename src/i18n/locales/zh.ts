@@ -392,6 +392,8 @@ const translation = {
     "noRelated": "未记录相关遗物。"
   },
   "hero": {
+    "donate": "捐助",
+    "donateNote": "自愿捐助用于服务器托管和维护。游戏免费，所有玩家均可使用相同功能。",
     "alphaRelease": "11月1日 · Alpha 测试开启",
     "createAccount": "创建账号",
     "recoverAccount": "找回账号",
