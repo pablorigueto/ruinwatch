@@ -153,5 +153,15 @@
     "cube": "Other events opened through Kanai’s Cube remain available, following each event’s entry requirements. See the item and portal instructions below."
   },
   "launcherDownload": "Download launcher",
-  "launcherAvailability": "Available November 1, in the morning."
+  "launcherAvailability": "Windows · Diablo III 2.7.5. Place the launcher in the game root, alongside Data and x64.",
+  "launcherGuideTitle": "How to install & play",
+  "launcherFolderTitle": "Your extracted game folder should look like this:",
+  "launcherSteps": [
+    "Fully extract the Diablo III 2.7.5 client before starting. Do not run it from inside the ZIP.",
+    "Download RuinWatchLauncher.exe and move it into the extracted game's root folder: the folder containing Data and x64. Do not put it inside x64 or Data.",
+    "Open RuinWatchLauncher.exe from that folder. It finds x64/Diablo III64.exe automatically. If you chose another folder, select that executable in Settings.",
+    "Wait for updates and file verification. Missing or damaged supported data files are downloaded automatically; leave the launcher open until it finishes.",
+    "Create your RuinWatch account on this site, click Play in the launcher, then log in with that account."
+  ],
+  "launcherUpdates": "Keep this launcher in the game folder and use it every time you play. Future launcher and module updates download automatically."
 }

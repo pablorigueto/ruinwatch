@@ -1,8 +1,10 @@
+import creators from '../creators/ko.json';
 import events from '../events/ko.json';
 // Auto-generated: one file per language so the homepage only ships the
 // active language; the others are fetched on demand by src/i18n/index.ts.
 const translation = {
   events,
+  creators,
   "support": {
     "nav": "RuinWatch 후원",
     "eyebrow": "커뮤니티가 지켜 가는 세계",

@@ -4,6 +4,7 @@ import SiteHeader from "@/components/SiteHeader";
 import Hero from "@/components/Hero";
 import Story from "@/components/Story";
 import Features from "@/components/Features";
+import CreatorsShowcase from "@/components/CreatorsShowcase";
 import Stats from "@/components/Stats";
 import Join from "@/components/Join";
 import Support from "@/components/Support";
@@ -37,6 +38,7 @@ const Index = () => {
         <Story />
         <Features />
         <Stats />
+        <CreatorsShowcase />
         <Join />
         <Support />
       </main>

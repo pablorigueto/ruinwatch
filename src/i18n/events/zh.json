@@ -153,5 +153,15 @@
     "cube": "其他通过卡奈魔盒开启的事件仍然可用，并遵循各自的进入条件。所需物品与传送门的说明见下方指南。"
   },
   "launcherDownload": "下载启动器",
-  "launcherAvailability": "将于11月1日上午开放下载。"
+  "launcherAvailability": "Windows · 暗黑破坏神 III 2.7.5。请将启动器放在游戏根目录，与 Data 和 x64 文件夹同级。",
+  "launcherGuideTitle": "安装与游玩指南",
+  "launcherFolderTitle": "解压后的游戏目录应如下所示：",
+  "launcherSteps": [
+    "先完整解压暗黑破坏神 III 2.7.5 客户端。不要直接从 ZIP 压缩包运行。",
+    "下载 RuinWatchLauncher.exe，将其移到解压后的游戏根目录，即包含 Data 和 x64 的文件夹。不要放进 Data 或 x64 文件夹内。",
+    "从该目录打开 RuinWatchLauncher.exe。它会自动找到 x64/Diablo III64.exe。如果放在其他目录，请在 Settings 中选择这个可执行文件。",
+    "等待更新和文件校验完成。受支持的数据文件如有缺失或损坏，会自动下载修复；完成前请保持启动器开启。",
+    "在本站创建 RuinWatch 账号，在启动器中点击 Play，然后使用该账号登录游戏。"
+  ],
+  "launcherUpdates": "请保留游戏目录中的启动器，每次游玩都通过它启动。后续启动器和模块更新会自动下载。"
 }

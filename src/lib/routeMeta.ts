@@ -25,6 +25,7 @@ export function fullTitle(title: string): string {
 
 /** The shareable, navigationally-important routes worth prerendering. */
 export const ROUTE_META: RouteMeta[] = [
+  {path: "/creators", title: "Community creators", description: "Watch RuinWatch streams and original videos. Connect your channel and earn Platinum for approved gameplay, with a shared daily time limit."},
   {
     path: "/events",
     title: "Custom events",

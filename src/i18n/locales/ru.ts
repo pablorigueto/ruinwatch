@@ -1,8 +1,10 @@
+import creators from '../creators/ru.json';
 import events from '../events/ru.json';
 // Auto-generated: one file per language so the homepage only ships the
 // active language; the others are fetched on demand by src/i18n/index.ts.
 const translation = {
   events,
+  creators,
   "support": {
     "nav": "Поддержать RuinWatch",
     "eyebrow": "ПРИ ПОДДЕРЖКЕ СООБЩЕСТВА",

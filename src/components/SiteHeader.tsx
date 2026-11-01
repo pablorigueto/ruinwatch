@@ -37,6 +37,7 @@ const SiteHeader = () => {
   const marketUrl = `https://market.ruinwatch.com/?lang=${encodeURIComponent(i18n.resolvedLanguage || "en")}`;
 
   const VIGIL_LINKS: NavLink[] = [
+    { href: "/creators", label: t("creators.nav"), route: true },
     { href: "/rates", label: t("nav.rates"), route: true },
     { href: "/events", label: t("events.nav"), route: true },
     { href: "/#story", label: t("nav.vigil") },

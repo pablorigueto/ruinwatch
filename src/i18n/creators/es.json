@@ -1,0 +1,60 @@
+{
+  "nav": "Creadores de la comunidad",
+  "eyebrow": "SANTUARIO A TRAVÉS DE TUS OJOS",
+  "title": "Cada aventura",
+  "accent": "tiene quien la cuente.",
+  "intro": "Sigue directos, descubre guías y comparte tus aventuras en RuinWatch para recibir Platinum por contenido original.",
+  "join": "Abrir estudio del creador",
+  "browse": "Ver la comunidad",
+  "rewardTitle": "TU CREATIVIDAD, RECOMPENSADA",
+  "liveRate": "Platinum / minuto en directo",
+  "videoRate": "Platinum / minuto de vídeo",
+  "daily": "Hasta {{minutes}} minutos por cuenta al día, entre directos y vídeos.",
+  "reviewed": "Los minutos elegibles se revisan antes del pago. Las visitas, los me gusta y los seguidores no influyen en la recompensa.",
+  "showcaseEyebrow": "DE NUESTRA COMUNIDAD",
+  "showcaseTitle": "Historias de Santuario.",
+  "showcaseIntro": "Directos y vídeos originales de creadores aprobados de RuinWatch.",
+  "viewAll": "Explorar todos los creadores",
+  "filtersLabel": "Filtrar contenido",
+  "all": "Todos",
+  "live": "En directo",
+  "videos": "Vídeos",
+  "video": "Vídeo",
+  "loading": "Cargando contenido...",
+  "unavailable": "La galería no está disponible.",
+  "unavailableBody": "Inténtalo de nuevo en unos instantes.",
+  "empty": "Tu próxima aventura podría estar aquí.",
+  "emptyBody": "Conecta tu canal para participar. Aquí aparecerá el contenido aprobado.",
+  "watch": "Ver",
+  "openPlatform": "Ver en la plataforma",
+  "close": "Cerrar reproductor",
+  "embedNote": "Este reproductor se conecta a YouTube o Twitch. La reproducción empieza cuando tú lo eliges.",
+  "howEyebrow": "TRES PASOS PARA TU PRIMERA HISTORIA",
+  "howTitle": "Juega. Crea. Comparte.",
+  "rulesEyebrow": "UN ESPACIO PARA TODOS LOS CREADORES",
+  "rulesTitle": "Contenido original. Aventuras reales.",
+  "rulesIntro": "Todas las cuentas pueden participar. El servidor verifica la propiedad del canal, el tiempo elegible y la entrega.",
+  "endTitle": "Deja tu huella en Santuario.",
+  "privacy": "Privacidad y permisos",
+  "steps": [
+    {
+      "title": "Conecta tu canal",
+      "body": "Escribe !creator en el chat del juego y abre tu enlace privado. Conecta Twitch o YouTube para confirmar la propiedad del canal. Los canales nuevos requieren aprobación."
+    },
+    {
+      "title": "Comparte tus aventuras",
+      "body": "En Twitch, incluye RuinWatch en el título y selecciona Diablo III. En YouTube, envía la URL pública del vídeo o directo al estudio; envía los directos antes de empezar."
+    },
+    {
+      "title": "Recibe tu Platinum",
+      "body": "El equipo revisa los minutos de juego original. Las recompensas aprobadas llegan al entrar en el modo Normal o Hardcore vinculado, con la animación de Platinum del juego."
+    }
+  ],
+  "rules": [
+    "El límite es de 4 horas por cuenta al día entre directos de Twitch, directos de YouTube y vídeos. Se reserva al aprobar y se reinicia a las 00:00 UTC.",
+    "Solo cuentan los intervalos elegibles observados en directo. Se excluyen pausas, fallos y tiempo anterior al seguimiento. Los vídeos se revisan manualmente.",
+    "Los reenvíos, bucles y grabaciones ya premiadas no reciben otro pago. Los directos simultáneos no se premian dos veces.",
+    "Solo cuentan los minutos completos aprobados. Las visitas, los me gusta, los seguidores y las suscripciones no alteran la recompensa.",
+    "Desconecta tu canal en el estudio para revocar el acceso y retirarlo de la galería."
+  ]
+}

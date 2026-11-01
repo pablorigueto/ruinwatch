@@ -1,0 +1,60 @@
+{
+  "nav": "Community creators",
+  "eyebrow": "SANCTUARY, THROUGH YOUR EYES",
+  "title": "Every adventure",
+  "accent": "has a storyteller.",
+  "intro": "Meet the players bringing RuinWatch to life. Watch their streams, discover their guides, and share your own journey to earn Platinum for original content.",
+  "join": "Open creator studio",
+  "browse": "Watch the community",
+  "rewardTitle": "YOUR CREATIVITY, REWARDED",
+  "liveRate": "Platinum / live minute",
+  "videoRate": "Platinum / video minute",
+  "daily": "Up to {{minutes}} minutes per account, per day. Lives and videos share this limit.",
+  "reviewed": "Eligible minutes are reviewed before payment. No reward depends on views, likes or followers.",
+  "showcaseEyebrow": "FROM OUR COMMUNITY",
+  "showcaseTitle": "Stories from Sanctuary.",
+  "showcaseIntro": "Live adventures and original videos from approved RuinWatch creators.",
+  "viewAll": "Explore all creators",
+  "filtersLabel": "Filter content",
+  "all": "All",
+  "live": "Live",
+  "videos": "Videos",
+  "video": "Video",
+  "loading": "Loading community content...",
+  "unavailable": "The showcase is taking a moment.",
+  "unavailableBody": "Community content is temporarily unavailable. Try again shortly.",
+  "empty": "Your next adventure could be here.",
+  "emptyBody": "Approved creators and their content will appear here. Connect your channel to be part of the community.",
+  "watch": "Watch",
+  "openPlatform": "Watch on platform",
+  "close": "Close player",
+  "embedNote": "Opening this player connects to YouTube or Twitch. Playback starts only when you choose.",
+  "howEyebrow": "THREE STEPS TO YOUR FIRST STORY",
+  "howTitle": "Play. Create. Share.",
+  "steps": [
+    {
+      "title": "Connect your channel",
+      "body": "Type !creator in the game chat and open your private login link. Connect Twitch or YouTube to verify channel ownership. New channels require approval."
+    },
+    {
+      "title": "Share RuinWatch gameplay",
+      "body": "For Twitch lives, use RuinWatch in your title and select Diablo III. For YouTube, submit a public video or live URL in the studio; submit live URLs before going live."
+    },
+    {
+      "title": "Receive your Platinum",
+      "body": "The team reviews original gameplay minutes. Approved rewards are delivered when you enter the linked Normal or Hardcore mode, with the in-game Platinum animation."
+    }
+  ],
+  "rulesEyebrow": "A FAIR STAGE FOR EVERY CREATOR",
+  "rulesTitle": "Original work. Real adventures.",
+  "rulesIntro": "The same program is open to every account. Channel ownership, eligible time and reward delivery are checked on the server.",
+  "rules": [
+    "A shared limit of 4 hours per account each day covers Twitch lives, YouTube lives and videos. The allowance is reserved on approval and resets at 00:00 UTC.",
+    "Live rewards count observed eligible intervals only. Pauses, outages and time before monitoring do not count. Videos require manual review of eligible gameplay.",
+    "Reuploads, repeated footage, loops and a video of an already rewarded live do not earn a second payment. Simultaneous streams cannot be rewarded twice.",
+    "Only whole approved minutes count. Views, likes, follows and subscriptions have no influence on your reward.",
+    "You keep control of your channel. Disconnect it in the studio to revoke access and remove it from the showcase."
+  ],
+  "endTitle": "Make your mark on Sanctuary.",
+  "privacy": "Privacy & channel permissions"
+}

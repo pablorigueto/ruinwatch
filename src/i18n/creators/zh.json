@@ -1,0 +1,60 @@
+{
+  "nav": "社区创作者",
+  "eyebrow": "用你的视角看庇护之地",
+  "title": "每一段冒险",
+  "accent": "都有自己的讲述者。",
+  "intro": "观看直播、探索攻略，分享你的 RuinWatch 冒险，以原创内容获得 Platinum。",
+  "join": "打开创作者工作室",
+  "browse": "观看社区内容",
+  "rewardTitle": "创作值得奖励",
+  "liveRate": "Platinum / 直播分钟",
+  "videoRate": "Platinum / 视频分钟",
+  "daily": "每个账号每天最多 {{minutes}} 分钟，直播和视频共用此限额。",
+  "reviewed": "符合条件的时长须经审核后才能获得奖励。播放量、点赞和关注人数不影响奖励。",
+  "showcaseEyebrow": "来自我们的社区",
+  "showcaseTitle": "庇护之地的故事。",
+  "showcaseIntro": "已获批准的 RuinWatch 创作者带来的直播和原创视频。",
+  "viewAll": "查看全部创作者",
+  "filtersLabel": "筛选内容",
+  "all": "全部",
+  "live": "直播中",
+  "videos": "视频",
+  "video": "视频",
+  "loading": "正在加载内容...",
+  "unavailable": "展示区暂时不可用。",
+  "unavailableBody": "请稍后重试。",
+  "empty": "你的下一段冒险也可以出现在这里。",
+  "emptyBody": "连接频道即可参与，审核通过的内容将显示在这里。",
+  "watch": "观看",
+  "openPlatform": "前往平台观看",
+  "close": "关闭播放器",
+  "embedNote": "此播放器会连接 YouTube 或 Twitch，只有在你选择播放后才会开始。",
+  "howEyebrow": "三步开启你的第一段故事",
+  "howTitle": "游玩。创作。分享。",
+  "rulesEyebrow": "每位创作者都有机会",
+  "rulesTitle": "原创内容，真实冒险。",
+  "rulesIntro": "所有账号均可参加。服务器验证频道所有权、有效时长和奖励发放。",
+  "endTitle": "在庇护之地留下你的故事。",
+  "privacy": "隐私与频道权限",
+  "steps": [
+    {
+      "title": "连接频道",
+      "body": "在游戏聊天中输入 !creator，打开你的私人登录链接。连接 Twitch 或 YouTube 以验证频道所有权。新频道需要审核。"
+    },
+    {
+      "title": "分享游戏内容",
+      "body": "Twitch 直播标题需包含 RuinWatch，并选择 Diablo III 分类。YouTube 视频或直播需在工作室提交公开链接；直播请在开始前提交。"
+    },
+    {
+      "title": "领取 Platinum",
+      "body": "团队审核原创游戏内容的有效分钟数。审核通过后，进入绑定的 Normal 或 Hardcore 模式即可领取奖励，并显示游戏内 Platinum 动画。"
+    }
+  ],
+  "rules": [
+    "每个账号每天共用 4 小时限额，涵盖 Twitch 直播、YouTube 直播和视频。审核批准时占用额度，每天 00:00 UTC 重置。",
+    "直播仅计算监测到的有效时段。暂停、服务中断及监测开始前的时间不计入。视频须经人工审核。",
+    "重复上传、循环片段及已获得奖励的直播录像不能再次领奖。同时进行的直播不能重复计时。",
+    "只计算审核通过的完整分钟。播放量、点赞、关注和订阅不影响奖励。",
+    "在工作室断开频道连接即可撤销授权，并将频道从展示区移除。"
+  ]
+}

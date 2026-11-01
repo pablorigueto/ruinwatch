@@ -153,5 +153,15 @@
     "cube": "카나이의 함으로 여는 다른 이벤트도 각 이벤트의 입장 조건에 따라 정상적으로 이용할 수 있습니다. 필요한 아이템과 차원문은 아래 안내를 확인하세요."
   },
   "launcherDownload": "런처 다운로드",
-  "launcherAvailability": "11월 1일 오전에 공개됩니다."
+  "launcherAvailability": "Windows · 디아블로 III 2.7.5. 런처를 Data 및 x64 폴더와 같은 위치인 게임 최상위 폴더에 넣으세요.",
+  "launcherGuideTitle": "설치 및 플레이 방법",
+  "launcherFolderTitle": "압축을 푼 게임 폴더는 다음과 같아야 합니다:",
+  "launcherSteps": [
+    "먼저 디아블로 III 2.7.5 클라이언트의 압축을 완전히 푸세요. ZIP 파일 안에서 실행하지 마세요.",
+    "RuinWatchLauncher.exe를 다운로드한 뒤 Data와 x64가 들어 있는 게임 최상위 폴더로 옮기세요. Data나 x64 폴더 안에 넣지 마세요.",
+    "그 폴더에서 RuinWatchLauncher.exe를 실행하세요. x64/Diablo III64.exe를 자동으로 찾습니다. 다른 폴더를 선택했다면 Settings에서 해당 실행 파일을 지정하세요.",
+    "업데이트와 파일 검사가 끝날 때까지 기다리세요. 지원되는 데이터 파일이 없거나 손상된 경우 자동으로 다운로드합니다. 완료될 때까지 런처를 열어 두세요.",
+    "이 사이트에서 RuinWatch 계정을 만들고 런처의 Play를 누른 다음 해당 계정으로 로그인하세요."
+  ],
+  "launcherUpdates": "런처를 게임 폴더에 보관하고 게임을 시작할 때마다 사용하세요. 이후 런처 및 모듈 업데이트는 자동으로 다운로드됩니다."
 }
