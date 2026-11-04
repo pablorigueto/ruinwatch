@@ -1,8 +1,9 @@
-import { useState, type ReactNode } from 'react';
+import { useEffect, useState, type ReactNode } from 'react';
 import { useTranslation } from 'react-i18next';
 import { ArrowDown, ArrowUpRight, Check, Gem, Hammer, PackageOpen, ShieldCheck, Sparkles, Filter, ScanEye, Magnet } from 'lucide-react';
 import SiteHeader from '@/components/SiteHeader';
 import SiteFooter from '@/components/SiteFooter';
+import ItemBalance from '@/components/ItemBalance';
 import Seo from '@/components/Seo';
 import data from '@/data/server-rates.json';
 import { DONATE_URL } from '@/lib/site';
@@ -22,6 +23,14 @@ function Table({ headers, rows, caption }: { headers: string[]; rows: Row[]; cap
 }
 
 export default function Rates() {
+  useEffect(() => {
+    // This route is lazy-loaded, so the browser's initial fragment lookup can
+    // run before its headings exist. Resolve the anchor once content mounts.
+    const id = window.location.hash.slice(1);
+    if (!id) return;
+    const frame = requestAnimationFrame(() => document.getElementById(id)?.scrollIntoView({ behavior: 'instant' }));
+    return () => cancelAnimationFrame(frame);
+  }, []);
   const { i18n, t } = useTranslation();
   const pt = i18n.language.startsWith('pt');
   const c = (en: string, br: string) => pt ? br : en;
@@ -99,7 +108,7 @@ export default function Rates() {
           <div><span>{c('AUCTION FEE', 'TAXA NO LEILÃO')}</span><strong>{n(data.auction.FeePercent)}<i>%</i></strong><small>{c('Charged only when sold', 'Cobrada somente ao vender')}</small></div>
         </div>
       </section>
-      <nav className="rates-section-nav" aria-label={c('On this page', 'Nesta página')}><div className="container">{[['account-rules', c('Equal accounts', 'Contas iguais')], ['shortcuts', c('Inventory tools', 'Ferramentas de inventário')], ['server-rates', c('Server rates', 'Rates do servidor')], ['events', c('Events & rewards', 'Eventos e recompensas')], ['details', c('Good to know', 'Saiba mais')]].map(([id, title]) => <a key={id} href={`#${id}`}>{title}</a>)}</div></nav>
+      <nav className="rates-section-nav" aria-label={c('On this page', 'Nesta página')}><div className="container">{[['account-rules', c('Equal accounts', 'Contas iguais')], ['shortcuts', c('Inventory tools', 'Ferramentas de inventário')], ['server-rates', c('Server rates', 'Rates do servidor')], ['events', c('Events & rewards', 'Eventos e recompensas')], ['item-balance', c('2.7.6 balance', 'Balanceamento 2.7.6')], ['details', c('Good to know', 'Saiba mais')]].map(([id, title]) => <a key={id} href={`#${id}`}>{title}</a>)}</div></nav>
       <div className="container rates-content">
         <section aria-labelledby="account-rules">
           {sectionTitle('account-rules', '01', c('Your account, at a glance', 'Sua conta, em resumo'), c('Playing is free. All accounts include every tool below and follow the same rates and reward rules.', 'Jogar é gratuito. Todas as contas incluem as ferramentas abaixo e seguem os mesmos rates e regras de recompensa.'))}
@@ -266,8 +275,13 @@ export default function Rates() {
           {detail(c('Ranges show the configured T1, T10 and T16 reference values, not a promise for every drop. Eligibility, event context and intermediate difficulty scaling still apply.', 'As faixas mostram os valores de referência configurados para T1, T10 e T16, não uma promessa para cada drop. Elegibilidade, contexto do evento e escala das dificuldades intermediárias continuam valendo.'))}
         </section>
 
+        <section aria-labelledby="item-balance">
+          {sectionTitle('item-balance', '05', c('2.7.6 balance. More ways to play.', 'Balanceamento 2.7.6. Mais formas de jogar.'), c('Five items and sets, three classes. Compare the previous bonuses with the changes brought to RuinWatch.', 'Cinco itens e conjuntos, três classes. Compare os bônus anteriores com as mudanças trazidas para o RuinWatch.'))}
+          <ItemBalance pt={pt} />
+        </section>
+
         <section aria-labelledby="details">
-          {sectionTitle('details', '05', c('Good to know', 'Saiba mais'), c('A few small rules worth knowing before your next run.', 'Algumas regras úteis antes da próxima aventura.'))}
+          {sectionTitle('details', '06', c('Good to know', 'Saiba mais'), c('A few small rules worth knowing before your next run.', 'Algumas regras úteis antes da próxima aventura.'))}
           <Table caption="Other gameplay rules" headers={valueHeaders} rows={[
             ['Altar of Rites', c('Permanent progression through seals and potion powers', 'Progressão permanente por selos e poderes de poção')],
             [c('Ethereal weapons', 'Armas Ethereal'), c('Available to hunt for every class', 'Disponíveis para buscar em todas as classes')],

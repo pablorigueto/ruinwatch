@@ -113,3 +113,35 @@
 
 .rates-account-rules .rates-table tbody th { width: 48%; }
 .rates-account-rules .rates-table td { width: 52%; }
+
+.item-balance { padding:32px 36px; border:1px solid #40372e; background:linear-gradient(130deg,#201b1780,#131315); }
+.item-balance-intro { max-width:850px; color:#d5c9b7; font-size:16px; line-height:1.8; }
+.item-balance-scope { color:#b5ac9f; font-size:12px; line-height:1.8; margin-top:10px; }
+.item-balance-class { margin-top:36px; }
+.item-balance-class h3 { color:#8fcbe8; font-size:20px; border-bottom:1px solid #40372e; padding-bottom:12px; }
+.item-balance-item { margin-top:24px; }
+.item-balance-item + .item-balance-item { margin-top:32px; }
+.item-balance-item h4 { color:#ffb16d; font-size:18px; margin-bottom:16px; }
+.item-balance-item h4.item-balance-set { color:#94dc8e; }
+.item-balance-art { display:flex; flex-wrap:wrap; gap:10px; margin-bottom:20px; }
+.item-balance-art h4 { margin:0; }
+.item-balance-link { display:inline-flex; align-items:center; gap:16px; }
+.item-balance-link:hover > span:last-child { text-decoration:underline; text-underline-offset:4px; }
+.item-balance-sprite { display:flex; flex:none; align-items:center; justify-content:center; width:58px; height:82px; padding:5px; border:1px solid #8d622d; background:radial-gradient(ellipse at bottom,#75440e55,#0b0b0d); }
+.rarity-set .item-balance-sprite { border-color:#486e3e; background:radial-gradient(ellipse at bottom,#37682a55,#0b0b0d); }
+.item-balance-sprite img { max-width:100%; max-height:100%; width:auto; height:auto; object-fit:contain; }
+.item-balance-art > p { color:#b5ac9f; font-size:12px; }
+.item-balance-before,.item-balance-after { padding-left:18px; border-left:2px solid; }
+.item-balance-before { color:#ff9393; border-color:#b45c5c; }
+.item-balance-after { color:#84dfb6; border-color:#499b77; margin-top:16px; }
+.item-balance-item h5 { font-family:inherit; font-size:10px; font-weight:600; line-height:1.5; letter-spacing:.14em; text-transform:uppercase; margin-bottom:6px; }
+.item-balance-item ul { list-style:disc; padding-left:18px; font-size:14px; line-height:1.85; max-width:950px; }
+.item-balance-item li + li { margin-top:5px; }
+.item-balance-source { border-top:1px solid #40372e; margin-top:32px; padding-top:20px; color:#b5ac9f; font-size:12px; line-height:1.9; }
+.item-balance-source a { color:var(--rates-gold); text-decoration:underline; text-underline-offset:3px; }
+@media(max-width:640px) {
+  .item-balance { padding:24px 18px; }
+  .item-balance-intro { font-size:14px; }
+  .item-balance-before,.item-balance-after { padding-left:12px; }
+  .item-balance-item h4 { font-size:17px; }
+}
