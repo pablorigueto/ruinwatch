@@ -14,23 +14,8 @@ const itemSlugs = {
   manajuma: ['manajumas-carving-knife-Unique_CeremonialDagger_009_x1', 'manajumas-gory-fetch-Unique_Mojo_010_x1'],
 };
 
-// Reuse the Codex item and native tooltip. Only the backported power differs
-// from the catalog's 2.7.5 baseline; never mutate the shared query data.
-function balancePreview(item: Item, change: Change): Item {
-  const lines = change.after.map(text => text.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'));
-  if (item.item_set) return { ...item, item_set: { ...item.item_set, bonuses: [
-    `(2) Set:<br/>${lines.join('<br/>')}`, ...item.item_set.bonuses.slice(1),
-  ] } };
-  const secondary = [...item.secondary];
-  const index = secondary.findIndex(line => line.includes('d3-color-ffff8000'));
-  const power = `<span class="d3-color-ffff8000">${lines.join('<br/>')}</span>`;
-  if (index >= 0) secondary[index] = power;
-  else secondary.unshift(power);
-  return { ...item, secondary };
-}
-
 function BalanceArt({ item, change, showName }: { item: Item; change: Change; showName: boolean }) {
-  return <NativeItemHover content={<ItemTooltip item={balancePreview(item, change)} />}>
+  return <NativeItemHover content={<ItemTooltip item={item} />}>
     <Link className={`item-balance-link rarity-${item.rarity}`} to={`/items/${encodeURIComponent(item.slug)}`} aria-label={item.name}>
       <span className="item-balance-sprite"><img src={iconSrc(item)} alt="" loading="lazy" /></span>
       {showName && <span>{change.name}</span>}

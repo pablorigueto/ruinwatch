@@ -18,6 +18,7 @@
 import { readFileSync, writeFileSync, readdirSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
+import { applyPlannerBackports } from './lib/balance-backports.mjs';
 import {
   DATA, RESOURCES, evalFormula, gbid, i32, norm, readItems, readPowerNames, readProcPowers, readSetBonuses, readStl, round, toPlannerFormat, fixTpl,
 } from "./lib/casc.mjs";
@@ -267,7 +268,7 @@ function main() {
 
   if (!check) {
     planner.generatedFrom = "CASC Rites of Sanctuary (casc-tools/build-planner-casc.mjs): itens, poderes, sets, gemas comuns, Altar e nomes de skills; faixas de afixo/stats validadas por amostragem";
-    writeFileSync(PLANNER, JSON.stringify(planner));
+    writeFileSync(PLANNER, JSON.stringify(applyPlannerBackports(planner)));
   }
 }
 

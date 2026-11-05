@@ -5,6 +5,7 @@
   "license": "Apache-2.0",
   "type": "module",
   "scripts": {
+    "sync:balance": "node scripts/sync-item-balance.mjs",
     "sync:rates": "node scripts/sync-server-rates.mjs",
     "dev": "vite",
     "build": "node scripts/gen-sitemap.mjs && vite build && node scripts/prerender.mjs",

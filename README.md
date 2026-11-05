@@ -289,6 +289,12 @@ deployment instructions and infrastructure paths outside this public repository.
 
 ### Checks
 
+The item Codex and planner retain the 2.7.5 catalog identities with selected RuinWatch
+2.7.6 balance backports. `casc-tools/lib/balance-backports.mjs` applies those overrides
+after native extraction in both generators. Run `npm run sync:balance` to refresh the
+checked-in catalogs without game assets, then `node scripts/validate-item-balance.mjs`.
+The rates page uses the same Codex tooltips; its before/after copy is explanatory only.
+
 ```bash
 npm test                                   # unit tests (build files, Altar costs, SEO)
 npm run lint                               # ESLint

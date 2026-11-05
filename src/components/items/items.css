@@ -52,6 +52,8 @@
 } /* weapon damage label grey */
 
 /* Named Blizzard color classes (rarity-coded). */
+.d3-rich .d3-color-ffff8000 { color: #ff8000; }
+.d3-rich .d3-color-ffff0000 { color: #ff0000; }
 .d3-rich .d3-color-orange {
   color: hsl(var(--ember));
 }

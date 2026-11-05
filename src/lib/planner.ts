@@ -153,7 +153,7 @@ export interface AltarNode {
   final?: boolean;
 }
 
-const PLANNER_URL = "/planner/planner.json";
+const PLANNER_URL = "/planner/planner.json?v=balance-276-20261104";
 const SKILL_DAMAGE_URL = "/planner/skill-damage.json";
 const BUILDS_INDEX_URL = "/planner/builds/index.json";
 

@@ -14,6 +14,7 @@
 import { readFileSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
+import { applyCodexBackports } from './lib/balance-backports.mjs';
 import {
   RESOURCES, evalFormula, gbid, norm, readAffixes, readItems, readPowerNames, readProcPowers,
   readSetBonuses, readStl, toPlannerFormat, fixTpl,
@@ -307,7 +308,7 @@ function main() {
   console.log(`\ncorreções: ${f.powers.length} poderes, ${f.sets.length} bônus de set, ${f.remaps.length} itens trocados pela versão do CASC`);
   if (check) return;
   const { text: out2, slugMap } = apply(codex, f);
-  writeFileSync(CODEX, out2);
+  writeFileSync(CODEX, JSON.stringify(applyCodexBackports(JSON.parse(out2))));
   for (const [a, b] of slugMap) console.log(`  slug: ${a} -> ${b}`);
   console.log(`gravado ${CODEX}`);
 }

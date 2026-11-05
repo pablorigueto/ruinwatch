@@ -90,7 +90,7 @@ export interface Item {
   item_set: ItemSet | null;
 }
 
-const ITEMS_URL = "/items/items.json";
+const ITEMS_URL = "/items/items.json?v=balance-276-20261104";
 const ICON_BASE = "/items/icons/";
 
 export function iconSrc(item: Pick<Item, "icon_file">): string {
